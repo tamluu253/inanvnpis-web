@@ -24,21 +24,26 @@ for pdf in pdfs:
         text = page.get_text()
         
         for p in printers:
-            # We check if the model name is in the text.
-            # Example: HP-160A-CCD -> we can check 'HP-160A-CCD' or 'HP160A'
             model = p['model']
-            
-            # Simple heuristic: remove dashes and check
             if model in text or model.replace('-', '') in text.replace('-', '') or model.replace('-', ' ') in text.replace('-', ' '):
                 images = page.get_images()
                 if images:
-                    # Get the largest image on the page
-                    largest_img = max(images, key=lambda x: x[2] * x[3])
+                    valid_images = []
+                    for img in images:
+                        w, h = img[2], img[3]
+                        # Filter out very large background images (e.g. >1000px) 
+                        # and extremely wide banners (w/h > 2.5) which might be logos
+                        if w < 800 and h < 800 and (w / h) < 2.5 and (h / w) < 3 and w > 100 and h > 100:
+                            valid_images.append(img)
+                    
+                    if not valid_images:
+                        continue
+                        
+                    largest_img = max(valid_images, key=lambda x: x[2] * x[3])
                     xref = largest_img[0]
                     base_image = doc.extract_image(xref)
                     img_bytes = base_image['image']
                     
-                    # Save image
                     img_filename = f"{model.lower().replace('-', '_')}.png"
                     img_path = f"public/images/pad-printers/hj/{img_filename}"
                     with open(img_path, 'wb') as img_f:
