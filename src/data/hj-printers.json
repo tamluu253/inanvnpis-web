@@ -178,5 +178,15 @@
     "printArea": "220x570mm",
     "speed": "1200 nhịp/giờ",
     "image": "/images/pad-printers/hj/hp_300k.png"
+  },
+  {
+    "model": "HP-200YX",
+    "colors": 1,
+    "desc": "Máy in tampon 1 màu cốc mực, chuyên dùng cho các sản phẩm công nghiệp.",
+    "plateSize": "100x250mm",
+    "printArea": "Ф80mm",
+    "speed": "Liên hệ",
+    "image": "/images/pad-printers/hj/hp_200yx.png",
+    "video": "/media/machines/hp-200yx-1-mau.mp4"
   }
 ]
