@@ -110,6 +110,99 @@
     ]
   },
   {
+    "brandId": "henkey",
+    "brandName": "HENKEY",
+    "country": "Trung Quốc (China)",
+    "description": "Nhà sản xuất mực in công nghiệp Henkey cao cấp (Zhejiang Henkey Ink Technology Co., Ltd.), đạt chứng nhận an toàn xuất khẩu Châu Âu EU RoHS 10 & EU REACH 251 SVHC.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/20px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    "series": [
+      {
+        "id": "henkey-ppex-2",
+        "name": "PPEX-2 Series",
+        "type": "Mực in nhựa PP & PE",
+        "materials": [
+          "Nhựa PP",
+          "Nhựa PE",
+          "Bìa PP",
+          "Vỏ bình ắc quy"
+        ],
+        "desc": "Mực in lụa & tampon chuyên dụng cho nhựa Polypropylene (PP) và Polyethylene (PE) chưa qua hoặc đã qua xử lý. Độ bám dính cực cao, kháng cồn 100 lần lau, kháng nước 24h.",
+        "certs": [
+          "RoHS",
+          "REACH"
+        ],
+        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
+      },
+      {
+        "id": "henkey-sa-pvc",
+        "name": "SA-PVC Series",
+        "type": "Mực in nhựa PVC / ABS / PC",
+        "materials": [
+          "PVC",
+          "Nhựa ABS",
+          "Nhựa PS",
+          "Nhựa PC",
+          "Acrylic"
+        ],
+        "desc": "Dòng mực dung môi khô nhanh chuyên dụng cho nhựa PVC cứng/dẻo, ABS, PS, PC, Acrylic. Nét in sắc nét, màng mực bóng đẹp, màu sắc tươi sáng.",
+        "certs": [
+          "RoHS",
+          "REACH"
+        ],
+        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
+      },
+      {
+        "id": "henkey-pet-8000",
+        "name": "PET-8000 (Mực 2K)",
+        "type": "Mực 2K PET & Kim loại",
+        "materials": [
+          "Sơn tĩnh điện",
+          "Kim loại",
+          "Màng PET",
+          "Nhôm",
+          "Công tắc màng"
+        ],
+        "desc": "Mực đóng rắn 2 thành phần (2K) bám cực tốt lên bề mặt màng PET, nhôm, kim loại sơn tĩnh điện. Sử dụng kết hợp 10% chất cứng B-5 Hardener.",
+        "certs": [
+          "RoHS",
+          "REACH"
+        ],
+        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
+      },
+      {
+        "id": "henkey-uv-ppf",
+        "name": "UV-PPF Series",
+        "type": "Mực sấy UV & LED",
+        "materials": [
+          "Chai lọ PP/PE",
+          "Bao bì mỹ phẩm",
+          "Nhựa Acrylic"
+        ],
+        "desc": "Mực in lụa & tampon sấy UV/LED siêu tốc (1-3 giây dưới đèn UV >=80W/cm). Chuyên dụng cho chai lọ mỹ phẩm PP, PE (xử lý lửa) và Acrylic.",
+        "certs": [
+          "RoHS",
+          "REACH"
+        ],
+        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
+      },
+      {
+        "id": "henkey-sua",
+        "name": "SUA-Ink Series",
+        "type": "Mực in Pad / Screen đa dụng",
+        "materials": [
+          "Nhựa tổng hợp",
+          "Linh kiện nhựa"
+        ],
+        "desc": "Dòng mực in lụa và tampon chuyên dụng cho các linh kiện nhựa tổng hợp, chi tiết in nhỏ nét sắc nét.",
+        "certs": [
+          "RoHS",
+          "REACH"
+        ],
+        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
+      }
+    ]
+  },
+  {
     "brandId": "afford",
     "brandName": "AFFORD",
     "country": "Tây Ban Nha (Spain)",
@@ -200,58 +293,6 @@
           "GOTS",
           "Oeko-Tex",
           "REACH"
-        ],
-        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
-      }
-    ]
-  },
-  {
-    "brandId": "henkey",
-    "brandName": "HENKEY",
-    "country": "Trung Quốc (China)",
-    "description": "Nhà sản xuất mực in nội địa Trung cao cấp, giải pháp kinh tế với hiệu năng vô cùng ổn định.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/20px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-    "series": [
-      {
-        "id": "henkey-ppex-2",
-        "name": "PPEX-2",
-        "type": "Mực in PP",
-        "materials": [
-          "Nhựa PP",
-          "Nhựa PE"
-        ],
-        "desc": "Dòng mực in bám thẳng lên PP không qua xử lý. Thường dùng trong đồ gia dụng, linh kiện ô tô.",
-        "certs": [
-          "RoHS",
-          "REACH"
-        ],
-        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
-      },
-      {
-        "id": "henkey-pet-8000",
-        "name": "PET-8000",
-        "type": "Mực 2K cường độ cao",
-        "materials": [
-          "Sơn tĩnh điện",
-          "Kim loại",
-          "PET"
-        ],
-        "desc": "Mực đóng rắn 2 thành phần (2K) bám cực tốt lên bề mặt đã qua sơn tĩnh điện.",
-        "certs": [
-          "RoHS"
-        ],
-        "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
-      },
-      {
-        "id": "henkey-uv-ppf",
-        "name": "UV-PPF",
-        "type": "Mực UV Pad/Screen",
-        "materials": [
-          "Nhựa cứng đa dụng"
-        ],
-        "desc": "Mực UV tốc độ sấy cao, bề mặt bóng đẹp.",
-        "certs": [
-          "RoHS"
         ],
         "image": "https://cdn-icons-png.flaticon.com/512/3253/3253004.png"
       }
