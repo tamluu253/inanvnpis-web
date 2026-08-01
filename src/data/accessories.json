@@ -231,7 +231,7 @@
         "Tuổi thọ 1-2 triệu lần in",
         "Dành cho sản xuất hàng loạt"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/2920/2920110.png"
+      "image": "/images/products/plates/plate-steel-thick.jpg"
     },
     {
       "id": "plate-steel-thin",
@@ -242,7 +242,7 @@
         "Cần đế nam châm",
         "Tiết kiệm chi phí"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/2920/2920110.png"
+      "image": "/images/products/plates/plate-steel-thin.jpg"
     },
     {
       "id": "plate-polymer",
@@ -253,20 +253,25 @@
         "Tuổi thọ 10,000 - 50,000 lần",
         "Linh hoạt cho in mẫu"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/2920/2920110.png"
+      "image": "/images/products/plates/plate-polymer.jpg"
     }
   ],
   "accessories": [
     {
       "id": "acc-ink-cup",
       "name": "Cốc Mực (Sealed Ink Cup)",
-      "desc": "Đa dạng các loại cốc mực: Cốc nhựa, cốc nhôm nguyên khối, cốc có từ tính (nam châm) hoặc cốc không từ tính. Đặc biệt: Nhận gia công cốc mực theo bản vẽ hoặc mẫu thực tế của khách hàng.",
+      "desc": "Đa dạng các loại cốc mực: Cốc nhựa, cốc nhôm nguyên khối, cốc có từ tính (nam châm) hoặc cốc không từ tính. Nhận gia công theo bản vẽ.",
       "sizes": [
         "Ø60mm",
         "Ø90mm",
         "Ø130mm",
         "Ø150mm",
         "Gia công theo yêu cầu"
+      ],
+      "features": [
+        "Chống bay hơi dung môi",
+        "Kín khí tiết kiệm mực",
+        "Nhôm nguyên khối CNC"
       ],
       "image": "/images/products/accessories/ink-cups.jpg"
     },
@@ -280,7 +285,12 @@
         "Ø130mm",
         "Ø150mm"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/8654/8654716.png"
+      "features": [
+        "Gốm Zirconia siêu cứng",
+        "Độ bóng bề mặt lưỡi cực cao",
+        "Chống xước bản thép"
+      ],
+      "image": "/images/products/accessories/ceramic-ring.jpg"
     },
     {
       "id": "acc-tungsten-ring",
@@ -292,19 +302,29 @@
         "Ø130mm",
         "Ø150mm"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/8654/8654716.png"
+      "features": [
+        "Thép Tungsten Carbide",
+        "Chống va đập nứt vỡ",
+        "Bền bỉ cho ca sản xuất lớn"
+      ],
+      "image": "/images/products/accessories/tungsten-ring.jpg"
     },
     {
       "id": "acc-double-material-ring",
       "name": "Vòng Gạt Mực Kép (Double-Material Inlaid Ring)",
-      "desc": "Sản phẩm công nghệ mới: Vòng dao khảm 2 vật liệu. Phần viền ngoài bằng Inox (Stainless Steel) chống rỉ sét, phần lưỡi gạt bằng thép Tungsten siêu cứng. Đảm bảo độ bền cực cao, tối ưu chi phí.",
+      "desc": "Sản phẩm công nghệ mới: Vòng dao khảm 2 vật liệu. Phần viền ngoài bằng Inox (Stainless Steel) chống rỉ sét, phần lưỡi gạt bằng thép Tungsten siêu cứng.",
       "sizes": [
         "Ø60mm",
         "Ø90mm",
         "Ø130mm",
         "Ø150mm"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/8654/8654716.png"
+      "features": [
+        "Viền Inox chống rỉ",
+        "Lưỡi Tungsten gạt cực sạch",
+        "Tối ưu chi phí thay thế"
+      ],
+      "image": "/images/products/accessories/double-material-ring.jpg"
     },
     {
       "id": "acc-doctor-blade",
@@ -313,7 +333,12 @@
       "sizes": [
         "Cắt theo yêu cầu"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/619/619044.png"
+      "features": [
+        "Lưỡi dao vát chính xác",
+        "Thép Thụy Điển chống mài mòn",
+        "Gạt mực phẳng đều"
+      ],
+      "image": "/images/products/accessories/doctor-blade.jpg"
     },
     {
       "id": "acc-tray-liner",
@@ -322,7 +347,12 @@
       "sizes": [
         "Vừa khít mọi loại khay"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/10041/10041261.png"
+      "features": [
+        "Dùng 1 lần tiện lợi",
+        "Không tốn thời gian rửa khay",
+        "Chống rò rỉ dung môi"
+      ],
+      "image": "/images/products/accessories/tray-liners.jpg"
     }
   ],
   "additives": [
@@ -334,36 +364,56 @@
         "Can 1 Lít",
         "Can 5 Lít"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
+      "features": [
+        "Pha loãng mực chuẩn độ nhớt",
+        "Tốc độ khô linh hoạt",
+        "Không làm xỉn màu mực"
+      ],
+      "image": "/images/products/additives/solvent.jpg"
     },
     {
       "id": "add-primer",
-      "name": "Nước Xử Lý Bề Mặt (Primer / Promoter)",
-      "desc": "Chất quét lót giúp tăng cường độ bám dính của mực trên các vật liệu khó bám như PP, PE, Kim loại trơn hoặc Thủy tinh.",
+      "name": "Chất Trợ Bám (Adhesion Promoters / Primer)",
+      "desc": "Hóa chất xử lý bề mặt trước khi in đối với các vật liệu cực kỳ khó bám dính như nhựa PP, PE, Teflon, kim loại bóng hay kính.",
       "sizes": [
-        "Chai 1 Lít"
+        "Can 1 Lít",
+        "Can 5 Lít"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
+      "features": [
+        "Tăng bám dính gấp 5 lần",
+        "Thoa tạo màng siêu mỏng",
+        "Phù hợp tiêu chuẩn xuất khẩu"
+      ],
+      "image": "/images/products/additives/primer.jpg"
     },
     {
-      "id": "add-cleaner",
-      "name": "Nước Tẩy Rửa / Vệ Sinh (Cleaning Agents)",
-      "desc": "Dung dịch vệ sinh chuyên dụng giúp tẩy sạch khuôn in, cốc mực và lau chùi các sản phẩm in lỗi (in hỏng) mà không làm hại bề mặt vật liệu gốc.",
+      "id": "add-retarder",
+      "name": "Chất Làm Chậm Khô (Retarder)",
+      "desc": "Dung môi đặc biệt giúp kéo dài thời gian khô của mực trên bản khắc và đầu in silicone khi sản xuất trong mùa nóng hoặc tốc độ máy chậm.",
       "sizes": [
-        "Can 5 Lít",
-        "Can 20 Lít"
+        "Can 1 Lít"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
+      "features": [
+        "Chống bít bản in",
+        "Giữ màng mực dẻo mượt",
+        "Không gây biến đổi sắc màu"
+      ],
+      "image": "/images/products/additives/retarder.jpg"
     },
     {
       "id": "add-hardener",
-      "name": "Chất Đóng Rắn (Hardener / Catalyst)",
-      "desc": "Phụ gia xúc tác (Pha tỷ lệ 10%) dùng cho mực 2 thành phần, giúp mực chết cứng, chịu ma sát cao và kháng hóa chất tuyệt đối.",
+      "name": "Chất Tăng Cứng (Hardener 2K)",
+      "desc": "Phụ gia đóng rắn pha vào mực 2 thành phần (2K Ink) giúp tăng khả năng chịu mài mòn, chịu hóa chất, cồn, xà phòng và tẩy rửa mạnh.",
       "sizes": [
-        "Hũ 100g",
-        "Hũ 200g"
+        "Chai 100g",
+        "Chai 1kg"
       ],
-      "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
+      "features": [
+        "Kháng cồn & hóa chất mạnh",
+        "Chống trầy xước tuyệt đối",
+        "Bảo vệ màng mực siêu bền"
+      ],
+      "image": "/images/products/additives/hardener.jpg"
     }
   ]
 }

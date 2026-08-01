@@ -303,26 +303,42 @@ export default function ConsumablesPage() {
         {/* ===================== TAB: PLATES ===================== */}
         {activeTab === 'plates' && (
           <div className="animate-fade-in space-y-8">
-             <div className="bg-purple-50 border border-purple-100 rounded-2xl p-8 mb-8 text-purple-900">
-              <h2 className="text-2xl font-bold mb-3 flex items-center"><Layers className="w-6 h-6 mr-2 text-purple-600"/> Khuôn In Chế Bản (Cliche / Plates)</h2>
-              <p className="max-w-3xl">Khuôn in đóng vai trò quyết định đến độ sắc nét của hình ảnh. VNPIS cung cấp dịch vụ ăn mòn khuôn thép CNC và bán vật tư khuôn polymer tự phơi.</p>
+             <div className="bg-purple-900 rounded-3xl p-8 md:p-10 text-white shadow-xl relative overflow-hidden">
+              <div className="relative z-10 max-w-3xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-500/20 border border-purple-400/30 rounded-full text-purple-300 text-xs font-bold uppercase tracking-wider mb-4">
+                  VNPIS Cliche & Plate Manufacturing
+                </div>
+                <h2 className="text-3xl md:text-4xl font-black mb-4 flex items-center">
+                  <Layers className="w-8 h-8 mr-3 text-purple-400"/> Khuôn In Chế Bản (Cliche / Plates)
+                </h2>
+                <p className="text-purple-100 text-lg leading-relaxed">
+                  Khuôn in quyết định 90% độ sắc nét hình ảnh. VNPIS cung cấp dịch vụ gia công khắc laser / ăn mòn axit khuôn thép CNC 10mm siêu bền, khuôn thép mỏng 0.5mm và vật tư khuôn Polymer tự phơi UV tại nhà máy.
+                </p>
+              </div>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {accessoriesData.plates.map(item => (
-                <div key={item.id} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow group">
-                  <div className="w-20 h-20 bg-purple-50 rounded-2xl flex items-center justify-center border border-purple-100 mb-6">
-                    <img src={item.image} alt={item.name} className="w-12 h-12 object-contain group-hover:scale-110 transition-transform" />
+                <div key={item.id} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-xl transition-all group flex flex-col justify-between">
+                  <div>
+                    <div className="w-full h-52 bg-slate-50 rounded-xl overflow-hidden border border-slate-200 mb-6 p-4 flex items-center justify-center">
+                      <img src={item.image} alt={item.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                    </div>
+                    <h3 className="text-xl font-bold text-slate-900 mb-2">{item.name}</h3>
+                    <p className="text-slate-600 mb-6 text-sm leading-relaxed">{item.desc}</p>
+                    
+                    <div className="space-y-2 mb-6">
+                      {item.features.map((f, i) => (
+                        <div key={i} className="flex items-start text-xs font-bold text-slate-700 bg-purple-50 text-purple-900 border border-purple-100 p-2 rounded-lg">
+                          <CheckCircle2 className="w-4 h-4 text-purple-600 mr-2 shrink-0 mt-0.5"/> {f}
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{item.name}</h3>
-                  <p className="text-slate-600 mb-6 text-sm">{item.desc}</p>
-                  <ul className="space-y-2">
-                    {item.features.map((f, i) => (
-                      <li key={i} className="flex items-start text-sm font-medium text-slate-700">
-                        <CheckCircle2 className="w-4 h-4 text-purple-500 mr-2 shrink-0 mt-0.5"/> {f}
-                      </li>
-                    ))}
-                  </ul>
+
+                  <Link href="/contact" className="inline-flex items-center justify-center w-full py-3 bg-purple-700 hover:bg-purple-800 text-white font-bold rounded-xl transition-colors shadow-md text-sm">
+                    Báo Giá Khuôn In Này <ArrowRight className="w-4 h-4 ml-2"/>
+                  </Link>
                 </div>
               ))}
             </div>
@@ -332,27 +348,53 @@ export default function ConsumablesPage() {
         {/* ===================== TAB: ACCESSORIES ===================== */}
         {activeTab === 'accessories' && (
           <div className="animate-fade-in space-y-8">
-             <div className="bg-emerald-50 border border-emerald-100 rounded-2xl p-8 mb-8 text-emerald-900">
-              <h2 className="text-2xl font-bold mb-3 flex items-center"><Settings className="w-6 h-6 mr-2 text-emerald-600"/> Linh Kiện & Phụ Kiện Tiêu Hao</h2>
-              <p className="max-w-3xl">Đảm bảo máy in luôn hoạt động mượt mà với các linh kiện thay thế định kỳ chất lượng cao. Giảm thiểu thời gian downtime sản xuất.</p>
+             <div className="bg-emerald-900 rounded-3xl p-8 md:p-10 text-white shadow-xl relative overflow-hidden">
+              <div className="relative z-10 max-w-3xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/20 border border-emerald-400/30 rounded-full text-emerald-300 text-xs font-bold uppercase tracking-wider mb-4">
+                  VNPIS Premium Spare Parts
+                </div>
+                <h2 className="text-3xl md:text-4xl font-black mb-4 flex items-center">
+                  <Settings className="w-8 h-8 mr-3 text-emerald-400"/> Linh Kiện & Phụ Kiện Tiêu Hao
+                </h2>
+                <p className="text-emerald-100 text-lg leading-relaxed">
+                  Đảm bảo máy in luôn vận hành mượt mà với các phụ kiện thay thế chuẩn Châu Âu: Cốc mực sealed cup nhôm nguyên khối, Vòng gốm Zirconia, Vòng gạt thép Tungsten Carbide, Dao gạt Thụy Điển và Tấm lót khay mực dùng 1 lần.
+                </p>
+              </div>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {accessoriesData.accessories.map(item => (
-                <div key={item.id} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow group flex flex-col">
-                  <div className="w-20 h-20 bg-emerald-50 rounded-2xl flex items-center justify-center border border-emerald-100 mb-6">
-                    <img src={item.image} alt={item.name} className="w-12 h-12 object-contain group-hover:scale-110 transition-transform opacity-80" />
+                <div key={item.id} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-xl transition-all group flex flex-col justify-between">
+                  <div>
+                    <div className="w-full h-52 bg-slate-50 rounded-xl overflow-hidden border border-slate-200 mb-6 p-4 flex items-center justify-center">
+                      <img src={item.image} alt={item.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                    </div>
+                    <h3 className="text-xl font-bold text-slate-900 mb-2">{item.name}</h3>
+                    <p className="text-slate-600 mb-4 text-sm leading-relaxed">{item.desc}</p>
+                    
+                    {item.features && (
+                      <div className="space-y-1.5 mb-4">
+                        {item.features.map((f, i) => (
+                          <div key={i} className="flex items-center text-xs font-semibold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-md">
+                            <CheckCircle2 className="w-3.5 h-3.5 mr-1.5 text-emerald-600 shrink-0" /> {f}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    <div className="flex flex-wrap gap-1.5 pt-3 border-t border-slate-100 mb-6">
+                      <span className="text-xs font-bold text-slate-400 uppercase w-full mb-1">Quy cách phổ biến:</span>
+                      {item.sizes.map((sz, i) => (
+                        <span key={i} className="inline-block px-2.5 py-1 bg-slate-100 text-slate-800 text-xs font-bold rounded-lg border border-slate-200">
+                          {sz}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{item.name}</h3>
-                  <p className="text-slate-600 mb-6 text-sm flex-grow">{item.desc}</p>
-                  <div className="flex flex-wrap gap-2 pt-4 border-t border-slate-100">
-                    <span className="text-xs font-bold text-slate-400 uppercase mr-2 w-full">Quy cách phổ biến:</span>
-                    {item.sizes.map((sz, i) => (
-                      <span key={i} className="inline-block px-3 py-1 bg-slate-100 text-slate-700 text-sm font-bold rounded-lg border border-slate-200">
-                        {sz}
-                      </span>
-                    ))}
-                  </div>
+
+                  <Link href="/contact" className="inline-flex items-center justify-center w-full py-3 bg-emerald-700 hover:bg-emerald-800 text-white font-bold rounded-xl transition-colors shadow-md text-sm">
+                    Tư Vấn & Báo Giá Phụ Kiện Này <ArrowRight className="w-4 h-4 ml-2"/>
+                  </Link>
                 </div>
               ))}
             </div>
@@ -362,27 +404,53 @@ export default function ConsumablesPage() {
         {/* ===================== TAB: ADDITIVES ===================== */}
         {activeTab === 'additives' && (
           <div className="animate-fade-in space-y-8">
-             <div className="bg-amber-50 border border-amber-100 rounded-2xl p-8 mb-8 text-amber-900">
-              <h2 className="text-2xl font-bold mb-3 flex items-center"><Beaker className="w-6 h-6 mr-2 text-amber-600"/> Phụ Gia & Hóa Chất (Additives)</h2>
-              <p className="max-w-3xl">Các dung dịch phụ trợ thiết yếu trong quá trình in ấn: dung môi pha loãng mực, chất xử lý tăng độ bám bề mặt, chất đóng rắn và dung dịch vệ sinh khuôn in, vệ sinh sản phẩm lỗi.</p>
+             <div className="bg-amber-900 rounded-3xl p-8 md:p-10 text-white shadow-xl relative overflow-hidden">
+              <div className="relative z-10 max-w-3xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-amber-500/20 border border-amber-400/30 rounded-full text-amber-300 text-xs font-bold uppercase tracking-wider mb-4">
+                  VNPIS Industrial Solvents & Chemicals
+                </div>
+                <h2 className="text-3xl md:text-4xl font-black mb-4 flex items-center">
+                  <Beaker className="w-8 h-8 mr-3 text-amber-400"/> Phụ Gia & Dung Môi Hóa Chất (Additives)
+                </h2>
+                <p className="text-amber-100 text-lg leading-relaxed">
+                  Bộ giải pháp dung dịch phụ trợ tối ưu màng mực: Dung môi pha loãng nhanh/chậm khô, Chất xử lý bề mặt tăng bám dính gấp 5 lần (Primer), Dung dịch chống bít bản in (Retarder) và Chất đóng rắn tăng cứng chịu hóa chất cồn (Hardener 2K).
+                </p>
+              </div>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {accessoriesData.additives.map(item => (
-                <div key={item.id} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow group flex flex-col">
-                  <div className="w-20 h-20 bg-amber-50 rounded-2xl flex items-center justify-center border border-amber-100 mb-6">
-                    <img src={item.image} alt={item.name} className="w-12 h-12 object-contain group-hover:scale-110 transition-transform opacity-80" />
+                <div key={item.id} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-xl transition-all group flex flex-col justify-between">
+                  <div>
+                    <div className="w-full h-52 bg-slate-50 rounded-xl overflow-hidden border border-slate-200 mb-6 p-4 flex items-center justify-center">
+                      <img src={item.image} alt={item.name} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                    </div>
+                    <h3 className="text-xl font-bold text-slate-900 mb-2">{item.name}</h3>
+                    <p className="text-slate-600 mb-4 text-sm leading-relaxed">{item.desc}</p>
+                    
+                    {item.features && (
+                      <div className="space-y-1.5 mb-4">
+                        {item.features.map((f, i) => (
+                          <div key={i} className="flex items-center text-xs font-semibold text-amber-900 bg-amber-50 px-2.5 py-1 rounded-md border border-amber-100">
+                            <CheckCircle2 className="w-3.5 h-3.5 mr-1.5 text-amber-600 shrink-0" /> {f}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    <div className="flex flex-wrap gap-1.5 pt-3 border-t border-slate-100 mb-6">
+                      <span className="text-xs font-bold text-slate-400 uppercase w-full mb-1">Dung tích / Đóng gói:</span>
+                      {item.sizes.map((sz, i) => (
+                        <span key={i} className="inline-block px-2.5 py-1 bg-slate-100 text-slate-800 text-xs font-bold rounded-lg border border-slate-200">
+                          {sz}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{item.name}</h3>
-                  <p className="text-slate-600 mb-6 text-sm flex-grow">{item.desc}</p>
-                  <div className="flex flex-wrap gap-2 pt-4 border-t border-slate-100">
-                    <span className="text-xs font-bold text-slate-400 uppercase mr-2 w-full">Quy cách đóng gói:</span>
-                    {item.sizes.map((sz, i) => (
-                      <span key={i} className="inline-block px-3 py-1 bg-slate-100 text-slate-700 text-sm font-bold rounded-lg border border-slate-200">
-                        {sz}
-                      </span>
-                    ))}
-                  </div>
+
+                  <Link href="/contact" className="inline-flex items-center justify-center w-full py-3 bg-amber-700 hover:bg-amber-800 text-white font-bold rounded-xl transition-colors shadow-md text-sm">
+                    Báo Giá Dung Môi / Phụ Gia <ArrowRight className="w-4 h-4 ml-2"/>
+                  </Link>
                 </div>
               ))}
             </div>
