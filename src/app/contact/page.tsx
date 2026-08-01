@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, ShieldCheck, ArrowRight, Wrench, AlertTriangle, Cpu, CheckCircle2 } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, ShieldCheck, ArrowRight, Wrench, AlertTriangle, Cpu, Building2, Store } from 'lucide-react';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 
 export const metadata = {
-  title: 'Liên Hệ VNPIS | Giải Pháp In Công Nghiệp & Vật Tư Chính Hãng',
-  description: 'Liên hệ VNPIS để nhận tư vấn báo giá mực in Henkey, Dubuit, máy in tampon, máy in lụa, đầu in phun công nghiệp và hỗ trợ kỹ thuật tận nơi 24/7.',
+  title: 'Liên Hệ VNPIS | Trụ Sở Chính & Giải Pháp In Công Nghiệp',
+  description: 'Liên hệ VNPIS (Trụ sở: 202 Lê Lai, P. Bến Thành, TP.HCM) để nhận tư vấn báo giá mực in Henkey, Dubuit, máy in tampon, máy in lụa và hỗ trợ kỹ thuật tận nơi 24/7.',
 };
 
 export default function ContactPage() {
@@ -45,7 +45,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="text-xs font-semibold text-slate-400">Email Báo Giá</div>
-                  <div className="text-base font-bold text-white">sales@vnpis.com</div>
+                  <div className="text-base font-bold text-white">info@vnpis.com</div>
                 </div>
               </div>
 
@@ -144,33 +144,72 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* 3. VĂN PHÒNG & CHI NHÁNH VNPIS */}
+      {/* 3. TRỤ SỞ CHÍNH & ĐỊA ĐIỂM KINH DOANH VNPIS */}
       <section className="py-20 bg-slate-100 border-y border-slate-200">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Hệ Thống Văn Phòng & Kho Bãi</h2>
-            <p className="text-slate-600">VNPIS phục vụ khách hàng trên toàn quốc với 2 chi nhánh chính tại TP. Hồ Chí Minh và Hà Nội.</p>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Trụ Sở & Địa Điểm Kinh Doanh</h2>
+            <p className="text-slate-600">Hệ thống trụ sở chính pháp lý và các địa điểm kinh doanh kho bãi của VNPIS.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
-              <div className="inline-block px-3 py-1 bg-orange-100 text-orange-700 font-bold text-xs rounded-full mb-4">Trụ Sở Miền Nam</div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">VNPIS TP. Hồ Chí Minh</h3>
-              <ul className="space-y-3 text-slate-600 text-sm">
-                <li className="flex items-start"><MapPin className="w-5 h-5 text-orange-500 mr-3 shrink-0 mt-0.5"/> 18 Đường 4, Khu Dân Cư Đại Phúc, Bình Hưng, Bình Chánh, TP.HCM</li>
-                <li className="flex items-center"><Phone className="w-5 h-5 text-orange-500 mr-3 shrink-0"/> Hotline: 0987 453 866</li>
-                <li className="flex items-center"><Mail className="w-5 h-5 text-orange-500 mr-3 shrink-0"/> Email: sales@vnpis.com</li>
-              </ul>
+            {/* Trụ Sở Chính */}
+            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="inline-block px-3 py-1 bg-orange-100 text-orange-700 font-bold text-xs rounded-full">Trụ Sở Chính Pháp Lý</span>
+                  <Building2 className="w-6 h-6 text-orange-500" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Công Ty TNHH VNPIS</h3>
+                <ul className="space-y-4 text-slate-600 text-sm">
+                  <li className="flex items-start">
+                    <MapPin className="w-5 h-5 text-orange-500 mr-3 shrink-0 mt-0.5" />
+                    <div>
+                      <strong className="text-slate-800 block">Địa chỉ trụ sở chính:</strong>
+                      Tầng 1, 202 Lê Lai, Phường Bến Thành, Thành phố Hồ Chí Minh, Việt Nam.
+                    </div>
+                  </li>
+                  <li className="flex items-center">
+                    <Phone className="w-5 h-5 text-orange-500 mr-3 shrink-0" />
+                    <span>Hotline: <strong>0987 453 866</strong></span>
+                  </li>
+                  <li className="flex items-center">
+                    <Mail className="w-5 h-5 text-orange-500 mr-3 shrink-0" />
+                    <span>Email: <strong>info@vnpis.com</strong></span>
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
-              <div className="inline-block px-3 py-1 bg-blue-100 text-blue-700 font-bold text-xs rounded-full mb-4">Chi Nhánh Miền Bắc</div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-4">VNPIS Hà Nội & Thái Nguyên</h3>
-              <ul className="space-y-3 text-slate-600 text-sm">
-                <li className="flex items-start"><MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5"/> Phục vụ các KCN tại Hà Nội, Bắc Ninh, Thái Nguyên, Hải Phòng</li>
-                <li className="flex items-center"><Phone className="w-5 h-5 text-blue-500 mr-3 shrink-0"/> Hotline Kỹ Thuật: 0987 453 866</li>
-                <li className="flex items-center"><Mail className="w-5 h-5 text-blue-500 mr-3 shrink-0"/> Email: support@vnpis.com</li>
-              </ul>
+            {/* Địa Điểm Kinh Doanh & Kho Bãi */}
+            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 font-bold text-xs rounded-full">Địa Điểm Kinh Doanh & Kho Hàng</span>
+                  <Store className="w-6 h-6 text-blue-500" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Địa Điểm Hoạt Động & Kho Bãi</h3>
+                <ul className="space-y-4 text-slate-600 text-sm">
+                  <li className="flex items-start">
+                    <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
+                    <div>
+                      <strong className="text-slate-800 block">Địa điểm kinh doanh 1:</strong>
+                      18 Đường số 4, Khu Dân Cư Đại Phúc, Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh.
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
+                    <div>
+                      <strong className="text-slate-800 block">Địa điểm kinh doanh 2:</strong>
+                      62 Trần Thị Nơi, Phường 4, Quận 8, TP. Hồ Chí Minh.
+                    </div>
+                  </li>
+                  <li className="flex items-center">
+                    <Mail className="w-5 h-5 text-blue-500 mr-3 shrink-0" />
+                    <span>Email: <strong>info@vnpis.com</strong></span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
