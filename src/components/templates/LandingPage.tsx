@@ -52,17 +52,25 @@ export default function LandingPage({ title, subtitle, category, externalCtaUrl,
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Doanh nghiệp bạn đang gặp phải những vấn đề này?</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Các Thách Thức Sản Xuất Thường Gặp</h2>
             <div className="w-20 h-1 bg-orange-500 mx-auto rounded-full" />
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="p-8 rounded-2xl bg-slate-50 border border-slate-100">
-                <div className="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6 text-xl font-bold">0{i}</div>
-                <h3 className="text-xl font-bold mb-3 text-slate-900">Vấn đề số {i}</h3>
-                <p className="text-slate-600">Mô tả ngắn gọn nỗi đau hoặc khó khăn mà khách hàng gặp phải trong quá trình vận hành sản xuất thực tế.</p>
-              </div>
-            ))}
+            <div className="p-8 rounded-2xl bg-slate-50 border border-slate-200">
+              <div className="w-12 h-12 bg-red-100 text-red-600 rounded-xl flex items-center justify-center mb-6 text-xl font-bold">01</div>
+              <h3 className="text-xl font-bold mb-3 text-slate-900">Chất Lượng In Không Ổn Định</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">Mực in bị nhòe, bong tróc trên các vật liệu khó bám dính như nhựa PP/PE, PET, kim loại hay dệt may.</p>
+            </div>
+            <div className="p-8 rounded-2xl bg-slate-50 border border-slate-200">
+              <div className="w-12 h-12 bg-orange-100 text-orange-600 rounded-xl flex items-center justify-center mb-6 text-xl font-bold">02</div>
+              <h3 className="text-xl font-bold mb-3 text-slate-900">Chi Phí Vận Hành & Downtime</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">Máy móc hay hóc hỏng, thiếu phụ kiện thay thế làm dừng dây chuyền và kéo dài tiến độ sản xuất.</p>
+            </div>
+            <div className="p-8 rounded-2xl bg-slate-50 border border-slate-200">
+              <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6 text-xl font-bold">03</div>
+              <h3 className="text-xl font-bold mb-3 text-slate-900">Rào Cản Tiêu Chuẩn Xuất Khẩu</h3>
+              <p className="text-slate-600 text-sm leading-relaxed">Khách hàng yêu cầu kiểm nghiệm hóa chất nghiêm ngặt theo tiêu chuẩn an toàn EU RoHS 10 và REACH SVHC.</p>
+            </div>
           </div>
         </div>
       </section>
