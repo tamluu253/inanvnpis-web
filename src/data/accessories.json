@@ -1,25 +1,196 @@
 {
   "pads": [
     {
-      "id": "pad-round",
-      "name": "Cục Silicone Tròn (Round Pad)",
-      "desc": "Đầu in phổ biến nhất, lực ép đều từ tâm ra viền, giúp bọt khí dễ dàng thoát ra ngoài, chống biến dạng hình ảnh.",
-      "features": ["Thoát khí tốt", "In trên bề mặt cong hoặc lồi/lõm", "Hình ảnh sắc nét"],
-      "image": "https://cdn-icons-png.flaticon.com/512/9313/9313075.png"
+      "id": "pad-series-r",
+      "name": "Đầu In Silicone Tròn (R Series - Round Pads)",
+      "desc": "Thiết kế dạng khối nón / bán cầu với đỉnh tâm nổi. Giúp bọt khí thoát ra ngoài dễ dàng trong quá trình ép mực, hạn chế bọt khí (air bubble) làm thủng hình in. Phù hợp cho cả bề mặt phẳng và cong tròn lồi/lõm.",
+      "features": [
+        "Chống đọng bọt khí tuyệt đối",
+        "Độ đàn hồi & bật nảy mực nhanh",
+        "Ứng dụng in logo tròn, bề mặt lồi/lõm"
+      ],
+      "image": "/images/products/pads/pad_shape_1_p1.jpg",
+      "models": [
+        {
+          "code": "R01 / EN-R31",
+          "size": "80 x 80 x 60 mm",
+          "type": "Tròn nón lớn"
+        },
+        {
+          "code": "R04 / EN-R29",
+          "size": "70 x 70 x 60 mm",
+          "type": "Tròn nón trung"
+        },
+        {
+          "code": "R05 / R26",
+          "size": "60 x 60 x 50 mm",
+          "type": "Tròn nón tiêu chuẩn"
+        },
+        {
+          "code": "R06 / EN-R65",
+          "size": "60 x 60 x 40 mm",
+          "type": "Tròn thấp"
+        },
+        {
+          "code": "R07 / EN-R36",
+          "size": "120 x 120 x 70 mm",
+          "type": "Tròn nón siêu lớn"
+        },
+        {
+          "code": "EN-R27",
+          "size": "41 x 41 x 40 mm",
+          "type": "Tròn nón nhỏ (Mini)"
+        },
+        {
+          "code": "EN-R35",
+          "size": "140 x 140 x 80 mm",
+          "type": "Tròn nón đại industrial"
+        },
+        {
+          "code": "EN-R37 / R38",
+          "size": "35 x 35 x 40 mm",
+          "type": "Tròn siêu nhỏ nắp chai"
+        }
+      ]
     },
     {
-      "id": "pad-rectangular",
-      "name": "Cục Silicone Chữ Nhật (Rectangular)",
-      "desc": "Thiết kế với góc nghiêng (mái nhà) giúp lăn mực đều đặn. Phù hợp cho các thiết kế in dài hoặc logo hình chữ nhật.",
-      "features": ["In text dài", "In logo chữ nhật", "Chống méo biên"],
-      "image": "https://cdn-icons-png.flaticon.com/512/9313/9313075.png"
+      "id": "pad-series-q",
+      "name": "Đầu In Silicone Vuông & Chữ Nhật (Q Series - Rectangular Pads)",
+      "desc": "Thiết kế mặt cắt có mái nghiêng (Ridge roof) giúp vuốt mực đều đặn dọc theo chiều dài của ký tự. Phù hợp cho in bảng điều khiển, logo hình chữ nhật, khối hộp và dòng chữ dài.",
+      "features": [
+        "Góc vát thoát khí đường dài",
+        "Chống méo biên ký tự",
+        "Màng mực phủ đều trên vùng in chữ nhật"
+      ],
+      "image": "/images/products/pads/pad_shape_2_p1.jpg",
+      "models": [
+        {
+          "code": "Q01 / EN-Q23",
+          "size": "96 x 80 x 70 mm",
+          "type": "Chữ nhật tiêu chuẩn"
+        },
+        {
+          "code": "Q03 / EN-Q29",
+          "size": "133 x 91 x 70 mm",
+          "type": "Chữ nhật trung"
+        },
+        {
+          "code": "Q05 / Q06",
+          "size": "120 x 75 x 60 mm",
+          "type": "Chữ nhật mái nghiêng"
+        },
+        {
+          "code": "Q08 / EN-Q84",
+          "size": "140 x 100 x 60 mm",
+          "type": "Chữ nhật phẳng lớn"
+        },
+        {
+          "code": "Q12 / EN-Q26",
+          "size": "185 x 132 x 72 mm",
+          "type": "Chữ nhật đại"
+        },
+        {
+          "code": "Q18 / EN-Q44",
+          "size": "55 x 50 x 40 mm",
+          "type": "Chữ nhật mini nắp lọ"
+        },
+        {
+          "code": "EN-Q41",
+          "size": "160 x 95 x 70 mm",
+          "type": "Chữ nhật vát đôi"
+        },
+        {
+          "code": "EN-Q50",
+          "size": "115 x 80 x 60 mm",
+          "type": "Chữ nhật nẹp gỗ"
+        }
+      ]
     },
     {
-      "id": "pad-custom",
-      "name": "Cục Silicone Hình Thù Đặc Biệt",
-      "desc": "Được đúc theo khuôn mẫu đặc thù của sản phẩm khách hàng (Ví dụ: in mặt lõm sâu, in bậc thang).",
-      "features": ["Custom khuôn", "Độ cứng 30-70 shore tùy chọn", "Chống tĩnh điện"],
-      "image": "https://cdn-icons-png.flaticon.com/512/9313/9313075.png"
+      "id": "pad-series-l",
+      "name": "Đầu In Silicone Dạng Dải Dài (L Series - Long Bar Pads)",
+      "desc": "Đầu in dạng thanh dài chuyên dụng cho việc in thước kẻ, hoa văn chạy dọc thân sản phẩm, dãy số chữ dài, ống y tế, bàn phím và khung vỏ thiết bị điện tử.",
+      "features": [
+        "Thiết kế vát nón dọc thanh",
+        "Độ dẻo DAI không đứt gãy",
+        "In dải họa tiết dài không bị đứt đoạn"
+      ],
+      "image": "/images/products/pads/pad_shape_3_p2.jpg",
+      "models": [
+        {
+          "code": "L01",
+          "size": "125 x 97 x 70 mm",
+          "type": "Thanh ngắn lớn"
+        },
+        {
+          "code": "L02",
+          "size": "127 x 65 x 50 mm",
+          "type": "Thanh ngắn vát nón"
+        },
+        {
+          "code": "L03",
+          "size": "116 x 55 x 40 mm",
+          "type": "Thanh mini"
+        },
+        {
+          "code": "L05",
+          "size": "175 x 97 x 70 mm",
+          "type": "Thanh trung"
+        },
+        {
+          "code": "L06 / L12",
+          "size": "370 x 70 x 60 mm",
+          "type": "Thanh dài thước kẻ"
+        },
+        {
+          "code": "L07",
+          "size": "355 x 55 x 50 mm",
+          "type": "Thanh dài vát nhọn"
+        },
+        {
+          "code": "L08 / L09",
+          "size": "348 x 98 x 70 mm",
+          "type": "Thanh dài siêu phẳng"
+        },
+        {
+          "code": "L10",
+          "size": "340 x 90 x 70 mm",
+          "type": "Thanh dài khung máy"
+        }
+      ]
+    },
+    {
+      "id": "pad-series-custom",
+      "name": "Đầu In Silicone Hình Thù Đặc Biệt & Khuôn Nẹp Gỗ",
+      "desc": "VNPIS nhận tư vấn, thiết kế khuôn và đúc đầu in silicone theo mẫu sản phẩm thực tế của khách hàng (in trong lòng chén lõm sâu, in bậc thang, in cạnh nón, in sản phẩm hình cầu). Tùy chọn nẹp gỗ hoặc nẹp nhôm nguyên khối.",
+      "features": [
+        "Gia công đúc khuôn custom",
+        "Độ cứng linh hoạt 30° đến 70° Shore A",
+        "Lựa chọn nẹp Gỗ / Nhôm / Thép"
+      ],
+      "image": "/images/products/pads/pad_shape_72_p4.jpg",
+      "models": [
+        {
+          "code": "Shore A 30°-38°",
+          "size": "Mềm (Soft)",
+          "type": "In sản phẩm giòn, rỗng, nhựa mỏng"
+        },
+        {
+          "code": "Shore A 40°-48°",
+          "size": "Vừa (Medium Standard)",
+          "type": "Độ cứng chuẩn cho 80% ứng dụng in"
+        },
+        {
+          "code": "Shore A 50°-58°",
+          "size": "Cứng (Hard)",
+          "type": "In bề mặt nhám, thô, có nếp hằn"
+        },
+        {
+          "code": "Shore A 60°-70°",
+          "size": "Siêu Cứng (Extra Hard)",
+          "type": "In chi tiết siêu nhỏ, in kim loại ít biến dạng"
+        }
+      ]
     }
   ],
   "plates": [
@@ -27,21 +198,33 @@
       "id": "plate-steel-thick",
       "name": "Khuôn Thép Dày (10mm)",
       "desc": "Khuôn thép hợp kim siêu bền, được gia công CNC và khắc axit hoặc khắc laser chính xác. Tuổi thọ lên đến hàng triệu lần in.",
-      "features": ["Dày 10mm", "Tuổi thọ 1-2 triệu lần in", "Dành cho sản xuất hàng loạt"],
+      "features": [
+        "Dày 10mm",
+        "Tuổi thọ 1-2 triệu lần in",
+        "Dành cho sản xuất hàng loạt"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/2920/2920110.png"
     },
     {
       "id": "plate-steel-thin",
       "name": "Khuôn Thép Mỏng (0.5mm)",
       "desc": "Khuôn thép lá mỏng tiết kiệm chi phí, sử dụng kèm đế nam châm (Magnetic block). Dễ lưu trữ, phù hợp in đơn hàng trung bình.",
-      "features": ["Dày 0.25mm - 0.5mm", "Cần đế nam châm", "Tiết kiệm chi phí"],
+      "features": [
+        "Dày 0.25mm - 0.5mm",
+        "Cần đế nam châm",
+        "Tiết kiệm chi phí"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/2920/2920110.png"
     },
     {
       "id": "plate-polymer",
       "name": "Khuôn Polymer",
       "desc": "Khuôn gốc nhựa dễ phơi bản bằng tia UV tại nhà máy. Khắc phục sự phụ thuộc vào xưởng làm khuôn thép.",
-      "features": ["Có thể tự phơi bản", "Tuổi thọ 10,000 - 50,000 lần", "Linh hoạt cho in mẫu"],
+      "features": [
+        "Có thể tự phơi bản",
+        "Tuổi thọ 10,000 - 50,000 lần",
+        "Linh hoạt cho in mẫu"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/2920/2920110.png"
     }
   ],
@@ -50,42 +233,67 @@
       "id": "acc-ink-cup",
       "name": "Cốc Mực (Sealed Ink Cup)",
       "desc": "Đa dạng các loại cốc mực: Cốc nhựa, cốc nhôm nguyên khối, cốc có từ tính (nam châm) hoặc cốc không từ tính. Đặc biệt: Nhận gia công cốc mực theo bản vẽ hoặc mẫu thực tế của khách hàng.",
-      "sizes": ["Ø60mm", "Ø90mm", "Ø130mm", "Ø150mm", "Gia công theo yêu cầu"],
+      "sizes": [
+        "Ø60mm",
+        "Ø90mm",
+        "Ø130mm",
+        "Ø150mm",
+        "Gia công theo yêu cầu"
+      ],
       "image": "/images/products/accessories/ink-cups.jpg"
     },
     {
       "id": "acc-ceramic-ring",
       "name": "Vòng Gốm Gạt Mực (Ceramic Ring)",
       "desc": "Vòng gốm siêu cứng gắn trên cốc mực. Chịu mài mòn cực tốt, gạt sạch mực thừa trên bề mặt khuôn thép mà không làm xước khuôn.",
-      "sizes": ["Ø60mm", "Ø90mm", "Ø130mm", "Ø150mm"],
+      "sizes": [
+        "Ø60mm",
+        "Ø90mm",
+        "Ø130mm",
+        "Ø150mm"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/8654/8654716.png"
     },
     {
       "id": "acc-tungsten-ring",
       "name": "Vòng Thép Gạt Mực (Tungsten Ring)",
       "desc": "Làm từ thép Tungsten Carbide nguyên khối, chống mẻ vỡ khi va đập, tuổi thọ cao hơn gốm khi dùng với khuôn thép dày.",
-      "sizes": ["Ø60mm", "Ø90mm", "Ø130mm", "Ø150mm"],
+      "sizes": [
+        "Ø60mm",
+        "Ø90mm",
+        "Ø130mm",
+        "Ø150mm"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/8654/8654716.png"
     },
     {
       "id": "acc-double-material-ring",
       "name": "Vòng Gạt Mực Kép (Double-Material Inlaid Ring)",
       "desc": "Sản phẩm công nghệ mới: Vòng dao khảm 2 vật liệu. Phần viền ngoài bằng Inox (Stainless Steel) chống rỉ sét, phần lưỡi gạt bằng thép Tungsten siêu cứng. Đảm bảo độ bền cực cao, tối ưu chi phí.",
-      "sizes": ["Ø60mm", "Ø90mm", "Ø130mm", "Ø150mm"],
+      "sizes": [
+        "Ø60mm",
+        "Ø90mm",
+        "Ø130mm",
+        "Ø150mm"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/8654/8654716.png"
     },
     {
       "id": "acc-doctor-blade",
       "name": "Dao Gạt Mực (Doctor Blade)",
       "desc": "Dao gạt mực thép mỏng dùng cho máy in khay hở (Open-inkwell) hoặc dao gạt mực cao su (Squeegee) cho máy in lụa.",
-      "sizes": ["Cắt theo yêu cầu"],
+      "sizes": [
+        "Cắt theo yêu cầu"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/619/619044.png"
     },
     {
       "id": "acc-tray-liner",
       "name": "Tấm Lót Khay Mực (Ink Tray Liners)",
       "desc": "Tấm nhựa lót trong khay mực, dùng 1 lần. Khắc phục triệt để thời gian rửa khay mỗi lần thay màu mực.",
-      "sizes": ["Vừa khít mọi loại khay"],
+      "sizes": [
+        "Vừa khít mọi loại khay"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/10041/10041261.png"
     }
   ],
@@ -94,28 +302,39 @@
       "id": "add-solvent",
       "name": "Dung Môi Pha Mực (Solvents)",
       "desc": "Dung môi chuyên dụng pha loãng mực in, kiểm soát tốc độ khô (nhanh khô, chậm khô) phù hợp với tốc độ máy và nhiệt độ xưởng.",
-      "sizes": ["Can 1 Lít", "Can 5 Lít"],
+      "sizes": [
+        "Can 1 Lít",
+        "Can 5 Lít"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
     },
     {
       "id": "add-primer",
       "name": "Nước Xử Lý Bề Mặt (Primer / Promoter)",
       "desc": "Chất quét lót giúp tăng cường độ bám dính của mực trên các vật liệu khó bám như PP, PE, Kim loại trơn hoặc Thủy tinh.",
-      "sizes": ["Chai 1 Lít"],
+      "sizes": [
+        "Chai 1 Lít"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
     },
     {
       "id": "add-cleaner",
       "name": "Nước Tẩy Rửa / Vệ Sinh (Cleaning Agents)",
       "desc": "Dung dịch vệ sinh chuyên dụng giúp tẩy sạch khuôn in, cốc mực và lau chùi các sản phẩm in lỗi (in hỏng) mà không làm hại bề mặt vật liệu gốc.",
-      "sizes": ["Can 5 Lít", "Can 20 Lít"],
+      "sizes": [
+        "Can 5 Lít",
+        "Can 20 Lít"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
     },
     {
       "id": "add-hardener",
       "name": "Chất Đóng Rắn (Hardener / Catalyst)",
       "desc": "Phụ gia xúc tác (Pha tỷ lệ 10%) dùng cho mực 2 thành phần, giúp mực chết cứng, chịu ma sát cao và kháng hóa chất tuyệt đối.",
-      "sizes": ["Hũ 100g", "Hũ 200g"],
+      "sizes": [
+        "Hũ 100g",
+        "Hũ 200g"
+      ],
       "image": "https://cdn-icons-png.flaticon.com/512/882/882772.png"
     }
   ]

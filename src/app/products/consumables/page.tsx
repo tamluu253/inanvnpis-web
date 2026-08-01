@@ -210,26 +210,80 @@ export default function ConsumablesPage() {
         {/* ===================== TAB: PADS ===================== */}
         {activeTab === 'pads' && (
           <div className="animate-fade-in space-y-8">
-            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-8 mb-8 text-blue-900">
-              <h2 className="text-2xl font-bold mb-3 flex items-center"><CircleDot className="w-6 h-6 mr-2 text-blue-600"/> Đầu In Silicone (Pad) Cao Cấp</h2>
-              <p className="max-w-3xl">Silicone Pads nhập khẩu trực tiếp, đúc từ chất liệu silicone chống tĩnh điện, đàn hồi cao, truyền mực cực chuẩn. Đa dạng hình thù và độ cứng (từ 30 đến 70 shore) đáp ứng in trên mọi bề mặt lồi lõm.</p>
+            <div className="bg-gradient-to-r from-blue-900 to-slate-900 rounded-3xl p-8 md:p-10 text-white shadow-xl relative overflow-hidden">
+              <div className="absolute right-0 top-0 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+              <div className="relative z-10 max-w-3xl">
+                <div className="inline-flex items-center gap-2 px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full text-blue-300 text-xs font-bold uppercase tracking-wider mb-4">
+                  VNPIS Silicone Pad Center
+                </div>
+                <h2 className="text-3xl md:text-4xl font-black mb-4 flex items-center">
+                  <CircleDot className="w-8 h-8 mr-3 text-blue-400"/> Đầu In Silicone (Pad Printing Head)
+                </h2>
+                <p className="text-blue-100 text-lg leading-relaxed mb-6">
+                  Cung cấp giải pháp đầu in silicone công nghiệp chống tĩnh điện, độ đàn hồi cao, truyền mực sắc nét. Đa dạng hình thù (Tròn R Series, Chữ Nhật Q Series, Thanh Dài L Series) và độ cứng tùy chọn từ <strong className="text-white">30° đến 70° Shore A</strong>. Nhận đúc khuôn theo sản phẩm thực tế.
+                </p>
+                <div className="flex flex-wrap gap-4 text-sm font-semibold">
+                  <span className="bg-blue-800/60 px-4 py-2 rounded-xl border border-blue-700/50">✓ Chống biến dạng hình in</span>
+                  <span className="bg-blue-800/60 px-4 py-2 rounded-xl border border-blue-700/50">✓ Thoát bọt khí nhanh</span>
+                  <span className="bg-blue-800/60 px-4 py-2 rounded-xl border border-blue-700/50">✓ Gia công nẹp Gỗ / Nhôm</span>
+                </div>
+              </div>
             </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            {/* Grid of Pad Categories */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {accessoriesData.pads.map(item => (
-                <div key={item.id} className="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow group">
-                  <div className="w-20 h-20 bg-blue-50 rounded-2xl flex items-center justify-center border border-blue-100 mb-6">
-                    <img src={item.image} alt={item.name} className="w-12 h-12 object-contain group-hover:scale-110 transition-transform" />
+                <div key={item.id} className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-slate-200 hover:shadow-xl transition-all flex flex-col justify-between">
+                  <div>
+                    <div className="flex items-start gap-5 mb-6">
+                      <div className="w-24 h-24 shrink-0 bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 p-2 flex items-center justify-center">
+                        <img src={item.image} alt={item.name} className="w-full h-full object-contain" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">{item.name}</h3>
+                        <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+
+                    <div className="mb-6">
+                      <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Đặc tính nổi bật:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {item.features.map((f, i) => (
+                          <span key={i} className="inline-flex items-center text-xs font-bold bg-blue-50 text-blue-700 border border-blue-100 px-3 py-1 rounded-lg">
+                            <CheckCircle2 className="w-3.5 h-3.5 mr-1 text-blue-500"/> {f}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Table of Models & Dimensions */}
+                    {item.models && item.models.length > 0 && (
+                      <div className="mb-6 overflow-hidden rounded-xl border border-slate-200">
+                        <table className="w-full text-left text-xs">
+                          <thead className="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
+                            <tr>
+                              <th className="p-2.5">Mã Sản Phẩm</th>
+                              <th className="p-2.5">Kích Thước (LxWxH)</th>
+                              <th className="p-2.5">Phân Loại / Ứng Dụng</th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-slate-100">
+                            {item.models.map((m, idx) => (
+                              <tr key={idx} className="hover:bg-slate-50 transition-colors">
+                                <td className="p-2.5 font-bold text-slate-900">{m.code}</td>
+                                <td className="p-2.5 font-medium text-blue-600">{m.size}</td>
+                                <td className="p-2.5 text-slate-600">{m.type}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">{item.name}</h3>
-                  <p className="text-slate-600 mb-6 text-sm">{item.desc}</p>
-                  <ul className="space-y-2">
-                    {item.features.map((f, i) => (
-                      <li key={i} className="flex items-start text-sm font-medium text-slate-700">
-                        <CheckCircle2 className="w-4 h-4 text-blue-500 mr-2 shrink-0 mt-0.5"/> {f}
-                      </li>
-                    ))}
-                  </ul>
+
+                  <Link href="/contact" className="inline-flex items-center justify-center w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors shadow-md text-sm">
+                    Tư Vấn & Báo Giá Mã Đầu In Này <ArrowRight className="w-4 h-4 ml-2"/>
+                  </Link>
                 </div>
               ))}
             </div>
