@@ -14,42 +14,50 @@
         {
           "code": "R01 / EN-R31",
           "size": "80 x 80 x 60 mm",
-          "type": "Tròn nón lớn"
+          "type": "Tròn nón lớn",
+          "img": "/images/products/pads/pad_shape_5_p2.jpg"
         },
         {
           "code": "R04 / EN-R29",
           "size": "70 x 70 x 60 mm",
-          "type": "Tròn nón trung"
+          "type": "Tròn nón trung",
+          "img": "/images/products/pads/pad_shape_4_p2.jpg"
         },
         {
           "code": "R05 / R26",
           "size": "60 x 60 x 50 mm",
-          "type": "Tròn nón tiêu chuẩn"
+          "type": "Tròn nón tiêu chuẩn",
+          "img": "/images/products/pads/pad_shape_6_p2.jpg"
         },
         {
           "code": "R06 / EN-R65",
           "size": "60 x 60 x 40 mm",
-          "type": "Tròn thấp"
+          "type": "Tròn thấp",
+          "img": "/images/products/pads/pad_shape_7_p2.jpg"
         },
         {
           "code": "R07 / EN-R36",
           "size": "120 x 120 x 70 mm",
-          "type": "Tròn nón siêu lớn"
+          "type": "Tròn nón siêu lớn",
+          "img": "/images/products/pads/pad_shape_8_p2.jpg"
         },
         {
           "code": "EN-R27",
           "size": "41 x 41 x 40 mm",
-          "type": "Tròn nón nhỏ (Mini)"
+          "type": "Tròn nón nhỏ (Mini)",
+          "img": "/images/products/pads/pad_shape_9_p2.jpg"
         },
         {
           "code": "EN-R35",
           "size": "140 x 140 x 80 mm",
-          "type": "Tròn nón đại industrial"
+          "type": "Tròn nón đại industrial",
+          "img": "/images/products/pads/pad_shape_10_p2.jpg"
         },
         {
           "code": "EN-R37 / R38",
           "size": "35 x 35 x 40 mm",
-          "type": "Tròn siêu nhỏ nắp chai"
+          "type": "Tròn siêu nhỏ nắp chai",
+          "img": "/images/products/pads/pad_shape_11_p2.jpg"
         }
       ]
     },
@@ -67,42 +75,50 @@
         {
           "code": "Q01 / EN-Q23",
           "size": "96 x 80 x 70 mm",
-          "type": "Chữ nhật tiêu chuẩn"
+          "type": "Chữ nhật tiêu chuẩn",
+          "img": "/images/products/pads/pad_shape_12_p3.jpg"
         },
         {
           "code": "Q03 / EN-Q29",
           "size": "133 x 91 x 70 mm",
-          "type": "Chữ nhật trung"
+          "type": "Chữ nhật trung",
+          "img": "/images/products/pads/pad_shape_13_p3.jpg"
         },
         {
           "code": "Q05 / Q06",
           "size": "120 x 75 x 60 mm",
-          "type": "Chữ nhật mái nghiêng"
+          "type": "Chữ nhật mái nghiêng",
+          "img": "/images/products/pads/pad_shape_14_p3.jpg"
         },
         {
           "code": "Q08 / EN-Q84",
           "size": "140 x 100 x 60 mm",
-          "type": "Chữ nhật phẳng lớn"
+          "type": "Chữ nhật phẳng lớn",
+          "img": "/images/products/pads/pad_shape_15_p3.jpg"
         },
         {
           "code": "Q12 / EN-Q26",
           "size": "185 x 132 x 72 mm",
-          "type": "Chữ nhật đại"
+          "type": "Chữ nhật đại",
+          "img": "/images/products/pads/pad_shape_16_p3.jpg"
         },
         {
           "code": "Q18 / EN-Q44",
           "size": "55 x 50 x 40 mm",
-          "type": "Chữ nhật mini nắp lọ"
+          "type": "Chữ nhật mini nắp lọ",
+          "img": "/images/products/pads/pad_shape_17_p3.jpg"
         },
         {
           "code": "EN-Q41",
           "size": "160 x 95 x 70 mm",
-          "type": "Chữ nhật vát đôi"
+          "type": "Chữ nhật vát đôi",
+          "img": "/images/products/pads/pad_shape_18_p3.jpg"
         },
         {
           "code": "EN-Q50",
           "size": "115 x 80 x 60 mm",
-          "type": "Chữ nhật nẹp gỗ"
+          "type": "Chữ nhật nẹp gỗ",
+          "img": "/images/products/pads/pad_shape_19_p3.jpg"
         }
       ]
     },
@@ -120,42 +136,50 @@
         {
           "code": "L01",
           "size": "125 x 97 x 70 mm",
-          "type": "Thanh ngắn lớn"
+          "type": "Thanh ngắn lớn",
+          "img": "/images/products/pads/pad_shape_20_p3.jpg"
         },
         {
           "code": "L02",
           "size": "127 x 65 x 50 mm",
-          "type": "Thanh ngắn vát nón"
+          "type": "Thanh ngắn vát nón",
+          "img": "/images/products/pads/pad_shape_21_p3.jpg"
         },
         {
           "code": "L03",
           "size": "116 x 55 x 40 mm",
-          "type": "Thanh mini"
+          "type": "Thanh mini",
+          "img": "/images/products/pads/pad_shape_22_p3.jpg"
         },
         {
           "code": "L05",
           "size": "175 x 97 x 70 mm",
-          "type": "Thanh trung"
+          "type": "Thanh trung",
+          "img": "/images/products/pads/pad_shape_23_p3.jpg"
         },
         {
           "code": "L06 / L12",
           "size": "370 x 70 x 60 mm",
-          "type": "Thanh dài thước kẻ"
+          "type": "Thanh dài thước kẻ",
+          "img": "/images/products/pads/pad_shape_24_p3.jpg"
         },
         {
           "code": "L07",
           "size": "355 x 55 x 50 mm",
-          "type": "Thanh dài vát nhọn"
+          "type": "Thanh dài vát nhọn",
+          "img": "/images/products/pads/pad_shape_25_p3.jpg"
         },
         {
           "code": "L08 / L09",
           "size": "348 x 98 x 70 mm",
-          "type": "Thanh dài siêu phẳng"
+          "type": "Thanh dài siêu phẳng",
+          "img": "/images/products/pads/pad_shape_26_p3.jpg"
         },
         {
           "code": "L10",
           "size": "340 x 90 x 70 mm",
-          "type": "Thanh dài khung máy"
+          "type": "Thanh dài khung máy",
+          "img": "/images/products/pads/pad_shape_27_p3.jpg"
         }
       ]
     },
@@ -173,22 +197,26 @@
         {
           "code": "Shore A 30°-38°",
           "size": "Mềm (Soft)",
-          "type": "In sản phẩm giòn, rỗng, nhựa mỏng"
+          "type": "In sản phẩm giòn, rỗng, nhựa mỏng",
+          "img": "/images/products/pads/pad_shape_28_p3.jpg"
         },
         {
           "code": "Shore A 40°-48°",
           "size": "Vừa (Medium Standard)",
-          "type": "Độ cứng chuẩn cho 80% ứng dụng in"
+          "type": "Độ cứng chuẩn cho 80% ứng dụng in",
+          "img": "/images/products/pads/pad_shape_29_p3.jpg"
         },
         {
           "code": "Shore A 50°-58°",
           "size": "Cứng (Hard)",
-          "type": "In bề mặt nhám, thô, có nếp hằn"
+          "type": "In bề mặt nhám, thô, có nếp hằn",
+          "img": "/images/products/pads/pad_shape_30_p3.jpg"
         },
         {
           "code": "Shore A 60°-70°",
           "size": "Siêu Cứng (Extra Hard)",
-          "type": "In chi tiết siêu nhỏ, in kim loại ít biến dạng"
+          "type": "In chi tiết siêu nhỏ, in kim loại ít biến dạng",
+          "img": "/images/products/pads/pad_shape_31_p3.jpg"
         }
       ]
     }

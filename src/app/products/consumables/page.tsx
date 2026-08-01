@@ -262,14 +262,24 @@ export default function ConsumablesPage() {
                         <table className="w-full text-left text-xs">
                           <thead className="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
                             <tr>
+                              <th className="p-2.5 text-center">Hình Dáng</th>
                               <th className="p-2.5">Mã Sản Phẩm</th>
                               <th className="p-2.5">Kích Thước (LxWxH)</th>
                               <th className="p-2.5">Phân Loại / Ứng Dụng</th>
                             </tr>
                           </thead>
                           <tbody className="divide-y divide-slate-100">
-                            {item.models.map((m, idx) => (
+                            {item.models.map((m: any, idx: number) => (
                               <tr key={idx} className="hover:bg-slate-50 transition-colors">
+                                <td className="p-2 flex justify-center items-center">
+                                  {m.img ? (
+                                    <div className="w-12 h-12 bg-white rounded-lg border border-slate-200 p-1 flex items-center justify-center overflow-hidden group/img">
+                                      <img src={m.img} alt={m.code} className="w-full h-full object-contain group-hover/img:scale-125 transition-transform" />
+                                    </div>
+                                  ) : (
+                                    <span className="text-slate-300">-</span>
+                                  )}
+                                </td>
                                 <td className="p-2.5 font-bold text-slate-900">{m.code}</td>
                                 <td className="p-2.5 font-medium text-blue-600">{m.size}</td>
                                 <td className="p-2.5 text-slate-600">{m.type}</td>
