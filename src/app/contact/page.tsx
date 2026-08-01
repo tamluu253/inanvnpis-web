@@ -77,7 +77,7 @@ export default function ContactPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- Problem 1 -->
+            {/* Problem 1 */}
             <div className="p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-xl transition-all flex flex-col justify-between group">
               <div>
                 <div className="w-14 h-14 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mb-6 text-2xl font-black group-hover:scale-110 transition-transform">
@@ -98,7 +98,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <!-- Problem 2 -->
+            {/* Problem 2 */}
             <div className="p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-xl transition-all flex flex-col justify-between group">
               <div>
                 <div className="w-14 h-14 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mb-6 text-2xl font-black group-hover:scale-110 transition-transform">
@@ -119,7 +119,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <!-- Problem 3 -->
+            {/* Problem 3 */}
             <div className="p-8 rounded-2xl bg-slate-50 border border-slate-200 hover:shadow-xl transition-all flex flex-col justify-between group">
               <div>
                 <div className="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl font-black group-hover:scale-110 transition-transform">
