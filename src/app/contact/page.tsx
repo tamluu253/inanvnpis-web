@@ -194,14 +194,14 @@ export default function ContactPage() {
                     <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-slate-800 block">Địa điểm kinh doanh 1:</strong>
-                      18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+                      62 Trần Thị Nơi, Phường 4, Quận 8, TP. Hồ Chí Minh.
                     </div>
                   </li>
                   <li className="flex items-start">
                     <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
                     <div>
                       <strong className="text-slate-800 block">Địa điểm kinh doanh 2:</strong>
-                      62 Trần Thị Nơi, Phường 4, Quận 8, TP. Hồ Chí Minh.
+                      18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
                     </div>
                   </li>
                   <li className="flex items-center">
