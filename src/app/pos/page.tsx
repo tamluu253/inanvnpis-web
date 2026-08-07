@@ -160,16 +160,1082 @@ const INITIAL_CUSTOMERS: Customer[] = [
 ];
 
 const INITIAL_MB_TRANSACTIONS: MBTransaction[] = [
-  { id: "FT26029819506558", transDate: "29/01/2026 09:48:41", type: "IN", amount: 184766400, balance: 237732554, counterName: "Cty TNHH MTV XSKT TPHCM- XN In Tai Chinh", remark: "XN IN TAI CHINH CHI TIEN MUA TAM LO C KHI, DEN UV THEO HDON 2,3", matchedCustomerCode: "XSKT_HCM", matchedCustomerName: "Xí nghiệp In Tài Chính TP.HCM", matchedStatus: "MATCHED" },
-  { id: "FT26026612448032", transDate: "26/01/2026 11:50:39", type: "IN", amount: 7290000, balance: 53557913, counterName: "CHI NHANH CTY CP KY THUAT SO SBC", remark: "CN SBC TT TIEN NUOC PHU PRT HD 4 26 0126", matchedCustomerCode: "SBC", matchedCustomerName: "CHI NHÁNH CÔNG TY CỔ PHẦN KỸ THUẬT SỐ SBC", matchedStatus: "MATCHED" },
-  { id: "FT26014560748658", transDate: "14/01/2026 08:59:15", type: "OUT", amount: 54388800, balance: 54997716, counterName: "CHI NHANH CTY CP KY THUAT SO SBC", remark: "VNPIS thanh toan hoa don ngay 14 01 2026", matchedStatus: "EXPENSE" },
-  { id: "FT26013072845775", transDate: "13/01/2026 11:50:58", type: "IN", amount: 40068000, balance: 109386516, counterName: "CONG TY TNHH THUONG MAI GMK", remark: "CTY TM GMK THANH TOAN TIEN HANG HD 34 NGAY 25 12 25", matchedCustomerCode: "GMK", matchedCustomerName: "CÔNG TY TNHH THƯƠNG MẠI GMK", matchedStatus: "MATCHED" },
-  { id: "FT26012305280015", transDate: "12/01/2026 12:17:35", type: "IN", amount: 44010000, balance: 76446516, counterName: "CONG TY TNHH NATCO VIET NAM", remark: "NATCO CHUYEN KHOAN THANH TOAN TIEN MUC IN VA VAT TU", matchedCustomerCode: "NATCO", matchedCustomerName: "CÔNG TY TNHH NATCO (VIỆT NAM)", matchedStatus: "MATCHED" },
-  { id: "FT26006055178623", transDate: "06/01/2026 13:19:58", type: "IN", amount: 7290000, balance: 64413352, counterName: "CHI NHANH CTY CP KY THUAT SO SBC", remark: "CN SBC TT MUA NUOC PHU HD 1 060126", matchedCustomerCode: "SBC", matchedCustomerName: "CHI NHÁNH CÔNG TY CỔ PHẦN KỸ THUẬT SỐ SBC", matchedStatus: "MATCHED" },
-  { id: "FT26034891102941", transDate: "18/06/2026 14:10:00", type: "IN", amount: 30000000, balance: 345000000, counterName: "CONG TY TNHH THUONG MAI DICH VU BINH UYEN", remark: "BINH UYEN THANH TOAN MOT PHAN DICH VU MUC IN", matchedCustomerCode: "BINHUYEN", matchedCustomerName: "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ BÌNH UYÊN", matchedStatus: "MATCHED" },
-  { id: "FT26038902194883", transDate: "22/06/2026 10:25:12", type: "IN", amount: 50000000, balance: 412500000, counterName: "CONG TY TNHH SILICONE CAO GIA", remark: "SILICONE CAO GIA CHUYEN KHOAN dot 2 TIEN VAT TU", matchedCustomerCode: "SILICONECAOGIA", matchedCustomerName: "CÔNG TY TNHH SILICONE CAO GIA", matchedStatus: "MATCHED" },
-  { id: "FT26040182749102", transDate: "15/06/2026 16:40:00", type: "IN", amount: 25000000, balance: 289000000, counterName: "CONG TY TNHH ILJIN AUTRA VIET NAM", remark: "ILJIN AUTRA THANH TOAN DOT 1 PAC MUC IN", matchedCustomerCode: "ILJIN AUTRA", matchedCustomerName: "CÔNG TY TNHH ILJIN AUTRA VIỆT NAM", matchedStatus: "MATCHED" },
-  { id: "FT26041289401928", transDate: "08/06/2026 09:15:30", type: "IN", amount: 50000000, balance: 650000000, counterName: "CONG TY TNHH BAO BI MM VIDON", remark: "MM VIDON TT TIEN MUA VAT TU VA DUNG MOI", matchedCustomerCode: "MMV", matchedCustomerName: "CÔNG TY TNHH BAO BÌ MM VIDON", matchedStatus: "MATCHED" }
+  {
+    "id": "FT26181241069271",
+    "transDate": "30/06/2026 20:28:37",
+    "type": "OUT",
+    "amount": 23075956,
+    "balance": 732231185,
+    "counterName": "BUI TRIEU VI",
+    "remark": "VNPIS thanh toan luong Vi - thang 6   2026",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26181913109122",
+    "transDate": "30/06/2026 15:33:21",
+    "type": "OUT",
+    "amount": 9376020,
+    "balance": 755307141,
+    "counterName": "CTY TNHH HUY AN",
+    "remark": "MBCT VNpis thanh toan Huy An don so   8168 D2WATPNJ/708460",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26181083370119",
+    "transDate": "30/06/2026 14:49:47",
+    "type": "OUT",
+    "amount": 756000,
+    "balance": 764683161,
+    "counterName": "CT TNHH TIEP VAN VAN TAI QTE VO LUO  NG",
+    "remark": "Vnpis thanh toan Vo Luong hoa don s  o 3996",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26180036557434",
+    "transDate": "29/06/2026 11:21:58",
+    "type": "IN",
+    "amount": 2943000,
+    "balance": 765439161,
+    "counterName": "CHI NHANH CONG TY TRACH NHIEM HUU H  AN QUOC TE TRI - VIET",
+    "remark": "TRI VIET THANH TOAN TIEN CHAT XU LY   hW8VP9TQ/519279",
+    "matchedCustomerCode": "TRI-VIET",
+    "matchedCustomerName": "TRI-VIET",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26180200085488",
+    "transDate": "29/06/2026 07:42:50",
+    "type": "OUT",
+    "amount": 1275480,
+    "balance": 762496161,
+    "counterName": "CTCP GMO-Z.COM RUNSYSTEM",
+    "remark": "Cty VNPIS thanh toan ten mien inanv  npis.com 3 nam.",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26180797057163",
+    "transDate": "28/06/2026 12:16:10",
+    "type": "OUT",
+    "amount": 750600,
+    "balance": 763771641,
+    "counterName": "CTCP GMO-Z.COM RUNSYSTEM",
+    "remark": "cty VNPIS thanh toan tien ten mien  cuuhodauin.com thoi han 2 nam",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26178477283874",
+    "transDate": "26/06/2026 22:53:42",
+    "type": "IN",
+    "amount": 32221800,
+    "balance": 764522241,
+    "counterName": "VIET MAP JSC",
+    "remark": "EX260600400 vietmap thanh toan dot  1 hds 01-22062026 vm vnp - cty VNPI  S 0200970407062622534120261001943978",
+    "matchedCustomerCode": "VIETMAP",
+    "matchedCustomerName": "VIETMAP",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26176703523734",
+    "transDate": "25/06/2026 16:50:38",
+    "type": "IN",
+    "amount": 3450600,
+    "balance": 732300441,
+    "counterName": "CTY TNHH ILJIN AUTRA VIET NAM",
+    "remark": "TTHD 64 TTHD 64",
+    "matchedCustomerCode": "ILJIN AUTRA",
+    "matchedCustomerName": "ILJIN AUTRA",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26176689284270",
+    "transDate": "25/06/2026 11:02:08",
+    "type": "IN",
+    "amount": 44010000,
+    "balance": 728849841,
+    "counterName": "CONG TY TNHH NATCO VIET NAM NATCO V  N",
+    "remark": "Hoa don 54 ChargeDetails OUR Hoa don 54 ChargeDetails OUR",
+    "matchedCustomerCode": "NATCO",
+    "matchedCustomerName": "NATCO",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26175305374268",
+    "transDate": "24/06/2026 11:24:27",
+    "type": "OUT",
+    "amount": 19679567,
+    "balance": 684839841,
+    "counterName": "Bao Hiem Xa Hoi Co So Tan Dinh",
+    "remark": "VNPIS dong BHYT, BHTN, BHXH, BHTNLD   - BNN",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26175319701137",
+    "transDate": "24/06/2026 11:20:37",
+    "type": "OUT",
+    "amount": 660420,
+    "balance": 704519408,
+    "counterName": "CONG TY CO PHAN KHO VAN TAN CANG",
+    "remark": "Qajynk2074  KVTC1 4 TPGQR1514299 SI  SLSE26050263 HLHU83211",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26174923251990",
+    "transDate": "23/06/2026 10:39:34",
+    "type": "OUT",
+    "amount": 3000000,
+    "balance": 732231185,
+    "counterName": "CTY CO PHAN DAU TU CONG NGHE VA THU  ONG MAI SOFTDREAMS",
+    "remark": "HD 0318266611",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26174088090565",
+    "transDate": "23/06/2026 10:35:09",
+    "type": "OUT",
+    "amount": 2246400,
+    "balance": 708179828,
+    "counterName": "CONG TY TNHH THUONG MAI VERITEK",
+    "remark": "Vnpis thanh toan Veritek hoa don so   19.",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26174730897224",
+    "transDate": "23/06/2026 10:17:13",
+    "type": "IN",
+    "amount": 2246400,
+    "balance": 710426228,
+    "counterName": "NO USE",
+    "remark": "HOAN TRA LCT SHGD 10000805 NGAY 23.  06.2026 NHGUI 01311013.LY DO DO SAI   TAI KHOAN DVH FT26174135886504 HOAN TRA LCT SHGD  10000805 NGAY 23.06.2026 NHGUI 0131  1013.LY DO DO SAI TAI KHOAN DVH",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26174135886504",
+    "transDate": "23/06/2026 08:55:32",
+    "type": "OUT",
+    "amount": 2246400,
+    "balance": 708179828,
+    "counterName": "CONG TY TNHH THUONG MAI VERITEK",
+    "remark": "VNPIS thanh toan hoa don so 19 Veri  tek",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26173924894312",
+    "transDate": "22/06/2026 13:34:23",
+    "type": "OUT",
+    "amount": 9021931,
+    "balance": 710426228,
+    "counterName": "CTY TNHH HUY AN",
+    "remark": "MBCT VNPIS thanh toan Huy An so bil  l 8069 D24NU7ZD/474049",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26173475671454",
+    "transDate": "22/06/2026 10:39:22",
+    "type": "IN",
+    "amount": 3456000,
+    "balance": 719448159,
+    "counterName": "CONG TY TNHH INFINITY LOVE",
+    "remark": "THANH TOAN TIEN HANG CHO CONG TY TN  HH VNPIS 797246   Ma giao dich  Tra  ce797246 Trace 797246",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "660902840344-20260620",
+    "transDate": "21/06/2026 00:13:35",
+    "type": "IN",
+    "amount": 64538,
+    "balance": 715992159,
+    "counterName": "Khách hàng chuyển tiền",
+    "remark": "Tra lai tien gui, so TK: 660902840344-20260620",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26169649537219",
+    "transDate": "18/06/2026 15:19:04",
+    "type": "OUT",
+    "amount": 256846,
+    "balance": 715927621,
+    "counterName": "CONG TY CO PHAN UPS VIET NAM",
+    "remark": "VNPIS thanh toan phi luu kho UPS -   Ma giao dich/ Trace 059170",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26168066480223",
+    "transDate": "17/06/2026 17:01:23",
+    "type": "OUT",
+    "amount": 978480,
+    "balance": 716184467,
+    "counterName": "CTY TNHH TY PHUOC HUNG NAM",
+    "remark": "MBCT VNPIS thanh toan bill so 17062  6120 D24YSZGV/744282",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26167995021061",
+    "transDate": "16/06/2026 17:10:03",
+    "type": "OUT",
+    "amount": 20000,
+    "balance": 717162947,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT1606  2026+HQ06DS-06DS-2995431+TK10834387  584+NDK16062026+LHA11+NTK2+LT11+KB0  122+TKNS351102995431+VND TM12663+ST LP+T20000",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26167920004086",
+    "transDate": "16/06/2026 17:09:45",
+    "type": "OUT",
+    "amount": 5614924,
+    "balance": 717182947,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT1606  2026+HQ06DS-06DS-2995431+TK10834387  584+NDK16062026+LHA11+NTK1+LT1+KB01  22+TKNS711102995431+VND TM11901+STN K+T2152439 TM21702+STVA+T3462485",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26166023355113",
+    "transDate": "15/06/2026 11:11:22",
+    "type": "IN",
+    "amount": 42120000,
+    "balance": 722797871,
+    "counterName": "CONG TY TNHH NATCO VIET NAM NATCO V  N",
+    "remark": "Hoa don 519 ChargeDetails OUR Hoa don 519 ChargeDetails OUR",
+    "matchedCustomerCode": "NATCO",
+    "matchedCustomerName": "NATCO",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26162507274921",
+    "transDate": "11/06/2026 17:56:19",
+    "type": "OUT",
+    "amount": 11536,
+    "balance": 680677871,
+    "counterName": "KHO BAC NHA NUOC KHU VUC II - PHONG GIAO DICH SO 11",
+    "remark": "MST 0318266611   CONG TY TNHH VNPIS     MC   855  TM  4917  KT  11 06 20  26  ST  3510  MC   855  TM  4931  K  T  11 06 2026  ST  8026",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26162268722092",
+    "transDate": "11/06/2026 17:50:58",
+    "type": "OUT",
+    "amount": 20000,
+    "balance": 680689407,
+    "counterName": "KHO BAC NHA NUOC KHU VUC II-PHONG GIAO DICH SO 1",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT1106  2026+HQ02CI-02CI-2995342+TK10831882  520+NDK11062026+LHA11+NTK2+LT11+KB0  136+TKNS351102995342+VND TM12663+ST LP+T20000",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26162134640794",
+    "transDate": "11/06/2026 17:50:43",
+    "type": "OUT",
+    "amount": 3267327,
+    "balance": 680709407,
+    "counterName": "KHO BAC NHA NUOC KHU VUC II-PHONG GIAO DICH SO 1",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT1106  2026+HQ02CI-02CI-2995342+TK10831882  520+NDK11062026+LHA11+NTK1+LT1+KB01  36+TKNS711102995342+VND TM11702+STV A+T3267327",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26162120257770",
+    "transDate": "11/06/2026 16:55:34",
+    "type": "OUT",
+    "amount": 8413589,
+    "balance": 683976734,
+    "counterName": "PHAM THANH TAN",
+    "remark": "MBCT VNPIS thanh toan tien dien tha  ng 5  D2RLXZ71/018984",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26161002575570",
+    "transDate": "10/06/2026 15:35:50",
+    "type": "IN",
+    "amount": 5400000,
+    "balance": 692390323,
+    "counterName": "CONG TY TNHH POWER BEST VIET NAM",
+    "remark": "CONG TY TNHH POWER BEST VIET NAM TT   CHO VNPIS SUA MAY IN",
+    "matchedCustomerCode": "POWERBEST",
+    "matchedCustomerName": "POWERBEST",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26160574888278",
+    "transDate": "09/06/2026 14:40:28",
+    "type": "OUT",
+    "amount": 638746,
+    "balance": 686990323,
+    "counterName": "GUANGDONG GUANGCHEN SCIENCE  TECHNOLOGY CO, LTD. ADD: ROOM102,  BUILDING 4, NO.198, CHANGAN   SECTION GUANCHANG ROAD, CHANGAN",
+    "remark": "/RFB/PAYMENT FOR: GC20260608001VV  ADD: CHANGAN TOWN, DONGGUAN CITY,  GUANGDONG, CHINA",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FX2616038908",
+    "transDate": "09/06/2026 14:12:38",
+    "type": "OUT",
+    "amount": 225788400,
+    "balance": 687629069,
+    "counterName": "Chi phí doanh nghiệp",
+    "remark": "eTTR 202606090140722899 32267290",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26160443511393",
+    "transDate": "09/06/2026 11:59:42",
+    "type": "OUT",
+    "amount": 3132000,
+    "balance": 913417469,
+    "counterName": "CTCP TU DONG HOA TOAN CAU",
+    "remark": "MBCT cty VNPIS thanh toan hoa don s  o 5162 D2ZSQ4SU/530974",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26159939123890",
+    "transDate": "08/06/2026 10:48:49",
+    "type": "IN",
+    "amount": 42120000,
+    "balance": 916549469,
+    "counterName": "CONG TY TNHH NATCO VIET NAM NATCO V  N",
+    "remark": "Hoa don 45 ChargeDetails OUR Hoa don 45 ChargeDetails OUR",
+    "matchedCustomerCode": "NATCO",
+    "matchedCustomerName": "NATCO",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26159088023415",
+    "transDate": "08/06/2026 09:35:20",
+    "type": "IN",
+    "amount": 248865372,
+    "balance": 874429469,
+    "counterName": "CONG TY TNHH PHO IN VIET NAM",
+    "remark": "PI TT L1 VNPIS MUA MAY UV GC 9060UV   HD 06062026 HDMB VNPIS PI 080626 0  9 35 20 6159ASCB02MWUJLS   Ma giao   dich  Trace006723 Trace 006723",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26157116273810",
+    "transDate": "06/06/2026 14:14:32",
+    "type": "OUT",
+    "amount": 9763989,
+    "balance": 625564097,
+    "counterName": "CT TNHH TIEP VAN VAN TAI QTE VO LUO  NG",
+    "remark": "VNPIS thanh toan Vo Luong - Debit n  ote - D26060428",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26157647676534",
+    "transDate": "06/06/2026 14:14:18",
+    "type": "OUT",
+    "amount": 756000,
+    "balance": 635328086,
+    "counterName": "CT TNHH TIEP VAN VAN TAI QTE VO LUO  NG",
+    "remark": "VNPIS thanh toan Vo Luong - Debit n  ote - D26060429",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26156009267930",
+    "transDate": "05/06/2026 09:30:39",
+    "type": "IN",
+    "amount": 540000,
+    "balance": 636084086,
+    "counterName": "SACOMBANK",
+    "remark": "IBFT VAN THANH DAT chuyen tien H2BI  QHNN/894967",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26155349851920",
+    "transDate": "04/06/2026 21:08:29",
+    "type": "OUT",
+    "amount": 3240000,
+    "balance": 635544086,
+    "counterName": "CTY TNHH TM DV CONG NGHIEP IN DUC T  HINH",
+    "remark": "VNPIS tt hoa don so 245",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26153582364100",
+    "transDate": "02/06/2026 19:37:22",
+    "type": "OUT",
+    "amount": 3600000,
+    "balance": 638784086,
+    "counterName": "PHAM THI THANH THUY",
+    "remark": "MBCT tien thue TNCN di thue chi nha  nh van phong tu thang 6 2026 den th  ang 12 2026 D2TS4U6N/743342",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26153728240772",
+    "transDate": "02/06/2026 19:36:37",
+    "type": "OUT",
+    "amount": 12000000,
+    "balance": 642384086,
+    "counterName": "PHAM THI THANH THUY",
+    "remark": "MBCT VNPIS thanh toan tien thue nha   thang 6 2026 D2TS4T8M/733992",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26153849012892",
+    "transDate": "02/06/2026 14:33:34",
+    "type": "IN",
+    "amount": 17604000,
+    "balance": 654384086,
+    "counterName": "CONG TY TNHH CONG NGHIEP NHUA TINH DIEU VIET NAM",
+    "remark": "CTY TNHH CONG NGHIEP NHUA TINH DIEU   TT CONG NO MUC IN HD00043,00047,00  055",
+    "matchedCustomerCode": "TINHDIEU",
+    "matchedCustomerName": "TINHDIEU",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26152124063481",
+    "transDate": "01/06/2026 14:06:46",
+    "type": "IN",
+    "amount": 5130000,
+    "balance": 636780086,
+    "counterName": "CTY TNHH YOUI VINA",
+    "remark": "Youi TT tien HD 56",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26152529122498",
+    "transDate": "01/06/2026 11:35:15",
+    "type": "IN",
+    "amount": 15930000,
+    "balance": 631650086,
+    "counterName": "CONG TY TNHH THUONG MAI GMK",
+    "remark": "CTY TNHH TM GMK THANH TOAN TIEN HAN  G HD 52 NGAY 18 05 26 A2FHLME3/0194  57",
+    "matchedCustomerCode": "GMK",
+    "matchedCustomerName": "GMK",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26149500316950",
+    "transDate": "29/05/2026 22:32:33",
+    "type": "OUT",
+    "amount": 39372585,
+    "balance": 615720086,
+    "counterName": "BUI TRIEU VI",
+    "remark": "VNPIS TT Luong + Hoa hong thang 5/2  026 - Bui Trieu Vi",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26149215918261",
+    "transDate": "29/05/2026 11:02:01",
+    "type": "OUT",
+    "amount": 756000,
+    "balance": 655092671,
+    "counterName": "CTY TNHH DICH VU TU VAN ANPHA",
+    "remark": "DNTT28548 0318266611 TT ANPHA",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26146325741671",
+    "transDate": "26/05/2026 16:13:13",
+    "type": "IN",
+    "amount": 2268000,
+    "balance": 655848671,
+    "counterName": "CONG TY TNHH JITONG PRECISION HARDW  ARE V",
+    "remark": "CONG TY TNHH JITONG T/t Cty TNHH VN  PIS hoa don so 36- Ma GD ACSP/ aj04  1320",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26146902076332",
+    "transDate": "26/05/2026 13:59:56",
+    "type": "OUT",
+    "amount": 433530,
+    "balance": 653580671,
+    "counterName": "ZHUHAI PRINT-RITE NEW MATERIALS  CORPORATION LIMITED. ADD: 805,   806, UNIT 2, NO.2515, HUANDAO   NORTH RD, HENGQIN NEW AREA, ZHUHAI",
+    "remark": "/RFB/PAYMENT FOR: ESDPMZCSV250525Y",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FX2614670957",
+    "transDate": "26/05/2026 12:10:34",
+    "type": "OUT",
+    "amount": 41544156,
+    "balance": 654014201,
+    "counterName": "Chi phí doanh nghiệp",
+    "remark": "eTTR 202605250182224463 32267290",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26145980199320",
+    "transDate": "25/05/2026 17:39:32",
+    "type": "OUT",
+    "amount": 6800814,
+    "balance": 695558357,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT2505  2026+HQ02DS-02DS-2995431+TK10827369  572+NDK25052026+LHA11+NTK1+LT1+KB01  22+TKNS711102995431+VND TM11901+STN K+T2537617 TM21702+STVA+T4263197",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26145864833270",
+    "transDate": "25/05/2026 17:39:18",
+    "type": "OUT",
+    "amount": 20000,
+    "balance": 702359171,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT2505  2026+HQ02DS-02DS-2995431+TK10827369  572+NDK25052026+LHA11+NTK2+LT11+KB0  122+TKNS351102995431+VND TM12663+ST LP+T20000",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26145240517983",
+    "transDate": "25/05/2026 15:54:20",
+    "type": "IN",
+    "amount": 2052000,
+    "balance": 702379171,
+    "counterName": "CONG TY TNHH SAN XUAT THUONG MAI  SHINSUNG",
+    "remark": "CONG TY TNHH SAN XUAT THUONG MAI  S  HINSUNG TT HD 53 CHO CTY VNPIS   Ma   giao dich  Trace589374 Trace 58937",
+    "matchedCustomerCode": "SHINSUNG",
+    "matchedCustomerName": "SHINSUNG",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26142090210086",
+    "transDate": "22/05/2026 10:28:18",
+    "type": "IN",
+    "amount": 70660080,
+    "balance": 700327171,
+    "counterName": "CONG TY TNHH BAO BI MM VIDON MST 37  02185082",
+    "remark": "30RE202605220950 . BUY INK BLACK 35 30RE202605220950 . BUY INK BLACK 35",
+    "matchedCustomerCode": "MMV",
+    "matchedCustomerName": "MMV",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26141904174872",
+    "transDate": "21/05/2026 17:05:48",
+    "type": "OUT",
+    "amount": 9288000,
+    "balance": 629667091,
+    "counterName": "CTY TNHH DICH VU TU VAN ANPHA",
+    "remark": "DNTT26678 0318266611 VNPIS TT ANPHA",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "660902840344-20260516",
+    "transDate": "17/05/2026 00:00:59",
+    "type": "IN",
+    "amount": 32912,
+    "balance": 638955091,
+    "counterName": "Khách hàng chuyển tiền",
+    "remark": "Tra lai tien gui, so TK: 660902840344-20260516",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26136858594083",
+    "transDate": "16/05/2026 15:01:43",
+    "type": "IN",
+    "amount": 2635200,
+    "balance": 638922179,
+    "counterName": "CONG TY TNHH CONG NGHIEP NHUA TINH DIEU VIET NAM",
+    "remark": "CTY TNHH CONG NGHIEP NHUA TINH DIEU   TT CONG NO MUC IN HD00042",
+    "matchedCustomerCode": "TINHDIEU",
+    "matchedCustomerName": "TINHDIEU",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26135872994324",
+    "transDate": "15/05/2026 09:32:17",
+    "type": "IN",
+    "amount": 44010000,
+    "balance": 636286979,
+    "counterName": "CONG TY TNHH NATCO VIET NAM NATCO V  N",
+    "remark": "Hoa don 40 ChargeDetails OUR Hoa don 40 ChargeDetails OUR",
+    "matchedCustomerCode": "NATCO",
+    "matchedCustomerName": "NATCO",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26132228143009",
+    "transDate": "12/05/2026 12:30:40",
+    "type": "IN",
+    "amount": 46375200,
+    "balance": 592276979,
+    "counterName": "CONG TY TNHH NATCO VIET NAM NATCO V  N",
+    "remark": "Hoa don 21 ChargeDetails OUR Hoa don 21 ChargeDetails OUR",
+    "matchedCustomerCode": "NATCO",
+    "matchedCustomerName": "NATCO",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26131002264695",
+    "transDate": "11/05/2026 16:13:18",
+    "type": "OUT",
+    "amount": 432952,
+    "balance": 545901779,
+    "counterName": "ZHUHAI PRINT-RITE NEW MATERIALS  CORPORATION LIMITED. ADD: 805,   806, UNIT 2, NO.2515, HUANDAO   NORTH RD, HENGQIN NEW AREA, ZHUHAI",
+    "remark": "/RFB/PAYMENT FOR: ESDPMZCSV260508Y",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FX2613162730",
+    "transDate": "11/05/2026 16:00:05",
+    "type": "OUT",
+    "amount": 51163620,
+    "balance": 546334731,
+    "counterName": "Chi phí doanh nghiệp",
+    "remark": "eTTR 202605110155934482 32267290",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26131010010094",
+    "transDate": "11/05/2026 11:44:43",
+    "type": "OUT",
+    "amount": 7587756,
+    "balance": 597498351,
+    "counterName": "PHAM THI THANH THUY",
+    "remark": "MBCT VNPIS thanh toan tien dien nha   thue thang 4 2026 D28UDCKB/257455",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26128903163484",
+    "transDate": "08/05/2026 17:39:39",
+    "type": "IN",
+    "amount": 837000,
+    "balance": 605086107,
+    "counterName": "CT TNHH SILICONE CAO GIA",
+    "remark": "THANH TOAN HOA DON SO 46 NGAY 07.05  .2026. VNPIS- Ma GD ACSP/ Xj161808",
+    "matchedCustomerCode": "SILICONECAOGIA",
+    "matchedCustomerName": "SILICONECAOGIA",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26128001933662",
+    "transDate": "08/05/2026 16:07:38",
+    "type": "IN",
+    "amount": 3078000,
+    "balance": 604249107,
+    "counterName": "CTY TNHH TM DV CONG NGHIEP IN DUC T  HINH",
+    "remark": "IBBIZ6064897653.IBPS.CTY DUC THINH  thanh toan hoa don 1C26TVP44 CTY VN  PIS IBBIZ6064897653.IBPS.CTY DUC THINH  thanh toan hoa don 1C26TVP44 CTY VN  PIS",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26128257007211",
+    "transDate": "08/05/2026 10:16:50",
+    "type": "OUT",
+    "amount": 42987240,
+    "balance": 601171107,
+    "counterName": "CT TNHH DUBUIT INKS VIET NAM",
+    "remark": "VNPIS thanh toan hoa don so 2, 8, 5  8 - Dubuit Vietnam",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26127647861420",
+    "transDate": "07/05/2026 10:42:52",
+    "type": "IN",
+    "amount": 205278840,
+    "balance": 644158347,
+    "counterName": "Cty TNHH MTV XSKT TPHCM- XN In Tai  Chinh",
+    "remark": "CTY IN TAI CHINH CHI TIEN MUA TAM L  OC KHI DEN UV THEO HDON 37,39,41, 1  4,17,20/04/2026- Ma GD ACSP/ UK0116  33",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26126542801421",
+    "transDate": "06/05/2026 16:31:02",
+    "type": "OUT",
+    "amount": 1712826,
+    "balance": 438879507,
+    "counterName": "CTY TNHH HUY AN",
+    "remark": "MBCT vnpis thanh toan bill muc so 7  485 D2CIUS59/262223",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26126515160799",
+    "transDate": "06/05/2026 15:40:21",
+    "type": "OUT",
+    "amount": 3600000,
+    "balance": 440592333,
+    "counterName": "PHAM THI THANH THUY",
+    "remark": "MBCT VNPIS thanh toan tien thue GTG  T di thue chi nhanh van phong VNPIS   6 thang dau nam 2026 D2CICH9B/7248  13",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26126763099010",
+    "transDate": "06/05/2026 15:15:10",
+    "type": "OUT",
+    "amount": 26752313,
+    "balance": 444192333,
+    "counterName": "KHO BAC NHA NUOC KHU VUC II - PHONG GIAO DICH SO 11",
+    "remark": "NTDT+KB:0137-KBNN Khu vuc II - PGD   so 11 +NgayNT:06052026 +MST:0318266  611 +DBHC:26743+TKNS:7111 +CQT:1140  956+LThue:01 (C:855-TM:1701-KT:00/Q 1/2026-ST: 26752313-GChu:)",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26126733635094",
+    "transDate": "06/05/2026 15:14:34",
+    "type": "OUT",
+    "amount": 11699460,
+    "balance": 470944646,
+    "counterName": "KHO BAC NHA NUOC KHU VUC II - PHONG GIAO DICH SO 11",
+    "remark": "NTDT+KB:0137-KBNN Khu vuc II - PGD   so 11 +NgayNT:06052026 +MST:0318266  611 +DBHC:26743+TKNS:7111 +CQT:1140  956+LThue:01 (C:857-TM:1001-KT:00/Q 1/2026-ST: 11699460-GChu:)",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26126500057886",
+    "transDate": "06/05/2026 13:36:11",
+    "type": "IN",
+    "amount": 184858200,
+    "balance": 482644106,
+    "counterName": "CHI NHANH CONG TY TRACH NHIEM HUU H  AN QUOC TE TRI - VIET",
+    "remark": "TRI VIET THANH TOAN TIEN MUC IN UV  hW8WK3GF/948047",
+    "matchedCustomerCode": "TRI-VIET",
+    "matchedCustomerName": "TRI-VIET",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26125911644560",
+    "transDate": "05/05/2026 16:31:18",
+    "type": "OUT",
+    "amount": 9446036,
+    "balance": 297785906,
+    "counterName": "CT TNHH TIEP VAN VAN TAI QTE VO LUO  NG",
+    "remark": "cty VNPIS thanh toan debit note D26  050047",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26125334670021",
+    "transDate": "05/05/2026 09:52:48",
+    "type": "OUT",
+    "amount": 20000,
+    "balance": 307231942,
+    "counterName": "Kho Bac Nha Nuoc Khu vuc II- Phong Giao dich so 6",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT0505  2026+HQ02B1-02B1-2995081+TK10820480  194+NDK04052026+LHA11+NTK2+LT11+KB0  120+TKNS351102995081+VND TM12663+ST LP+T20000",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26125437803984",
+    "transDate": "05/05/2026 09:52:35",
+    "type": "OUT",
+    "amount": 3251115,
+    "balance": 307251942,
+    "counterName": "Kho Bac Nha Nuoc Khu vuc II- Phong Giao dich so 6",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT0505  2026+HQ02B1-02B1-2995081+TK10820480  194+NDK04052026+LHA11+NTK1+LT1+KB01  20+TKNS711102995081+VND TM11702+STV A+T3251115",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26124014865695",
+    "transDate": "04/05/2026 15:15:11",
+    "type": "OUT",
+    "amount": 12000000,
+    "balance": 310503057,
+    "counterName": "PHAM THI THANH THUY",
+    "remark": "MBCT VNPIS thanh toan tien thue nha   thang 5 2026 D2CGL5RG/211318",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26119010358816",
+    "transDate": "29/04/2026 17:39:02",
+    "type": "OUT",
+    "amount": 26466527,
+    "balance": 322503057,
+    "counterName": "BUI TRIEU VI",
+    "remark": "VNPIS chuyen khoan luong thang 4.20  26",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26115028252255",
+    "transDate": "25/04/2026 17:11:38",
+    "type": "IN",
+    "amount": 6890400,
+    "balance": 348969584,
+    "counterName": "CONG TY TNHH CONG NGHIEP NHUA TINH DIEU VIET NAM",
+    "remark": "CTY TNHH CONG NGHIEP NHUA TINH DIEU   TT TIEN MUA MUC IN HD00042",
+    "matchedCustomerCode": "TINHDIEU",
+    "matchedCustomerName": "TINHDIEU",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26114222134031",
+    "transDate": "24/04/2026 14:48:14",
+    "type": "IN",
+    "amount": 35103240,
+    "balance": 342079184,
+    "counterName": "CONG TY TNHH BAO BI MM VIDON MST 37  02185082",
+    "remark": "30RE202604242001 . BUY INK 15 30RE202604242001 . BUY INK 15",
+    "matchedCustomerCode": "MMV",
+    "matchedCustomerName": "MMV",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26111293932690",
+    "transDate": "21/04/2026 14:09:53",
+    "type": "OUT",
+    "amount": 756000,
+    "balance": 306975944,
+    "counterName": "CT TNHH TIEP VAN VAN TAI QTE VO LUO  NG",
+    "remark": "VNPIS thanh toan hoa don so 2093",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26110924335968",
+    "transDate": "20/04/2026 15:03:52",
+    "type": "OUT",
+    "amount": 20000,
+    "balance": 307731944,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT2004  2026+HQ02DS-02DS-2995431+TK10816643  240+NDK20042026+LHA11+NTK2+LT11+KB0  122+TKNS351102995431+VND TM12663+ST LP+T20000",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26110923100582",
+    "transDate": "20/04/2026 15:02:55",
+    "type": "OUT",
+    "amount": 2828823,
+    "balance": 307751944,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT2004  2026+HQ02DS-02DS-2995431+TK10816643  240+NDK20042026+LHA11+NTK1+LT1+KB01  22+TKNS711102995431+VND TM11901+STN K+T1055531 TM21702+STVA+T1773292",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26110779329115",
+    "transDate": "20/04/2026 09:01:43",
+    "type": "OUT",
+    "amount": 18906874,
+    "balance": 310580767,
+    "counterName": "CONG TY TNHH TIEP VAN VA VAN TAI QUOC TE LONG HOANG",
+    "remark": "VNPIS thanh toan theo debit note VN  BKKLGB0001 - Hd 1067-1068-2187-hd l  uu kho vnpis",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "660902840344-20260418",
+    "transDate": "18/04/2026 23:43:47",
+    "type": "IN",
+    "amount": 21394,
+    "balance": 329487641,
+    "counterName": "Khách hàng chuyển tiền",
+    "remark": "Tra lai tien gui, so TK: 660902840344-20260418",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26104893815360",
+    "transDate": "14/04/2026 16:06:05",
+    "type": "OUT",
+    "amount": 433175,
+    "balance": 329466247,
+    "counterName": "SUZHOU NATIONAL PURIFICATION  TECHNOLOGY CO., LTD. ADD: NO.2,  KERONG ROAD, XINZHUANG TOWN,  CHANGSHU, SUZHOU, JIANGSU, CHINA",
+    "remark": "/RFB/PAYMENT FOR: SNAF2026041001",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26104705401680",
+    "transDate": "14/04/2026 13:51:04",
+    "type": "OUT",
+    "amount": 2312053,
+    "balance": 329899422,
+    "counterName": "CTY TNHH HUY AN",
+    "remark": "MBCT VNPIS thanh toan bill so 7235  D21QY644/701929",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26103352168826",
+    "transDate": "13/04/2026 16:37:55",
+    "type": "OUT",
+    "amount": 11880000,
+    "balance": 332211475,
+    "counterName": "CONG TY TNHH LECI",
+    "remark": "VNPIS thanh toan hang theo bao gia  so BG04694",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26103679740581",
+    "transDate": "13/04/2026 16:01:57",
+    "type": "OUT",
+    "amount": 756000,
+    "balance": 344091475,
+    "counterName": "CT TNHH TIEP VAN VAN TAI QTE VO LUO  NG",
+    "remark": "VNPIS thanh toan hoa don so 1851",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26100065663820",
+    "transDate": "10/04/2026 17:06:14",
+    "type": "IN",
+    "amount": 83391552,
+    "balance": 344847475,
+    "counterName": "CT TNHH CONG NGHIEP PURITY VIET NAM",
+    "remark": "THANH TOAN HOA DON 27 CONG TY TNHH   VNPIS   Ma giao dich  Trace541044 T  race 541044",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26100284192172",
+    "transDate": "10/04/2026 16:43:43",
+    "type": "IN",
+    "amount": 4050000,
+    "balance": 261455923,
+    "counterName": "CONG TY CO PHAN SOLOMON PARAGON VIET NAM",
+    "remark": "CTY SPV MST 3603397720 TT PHI SUA C  HUA MAY IN HD 26 100426 16 43 42 61  00ASCB02YPISXX   Ma giao dich  Trac  e525429 Trace 525429",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26100400006264",
+    "transDate": "10/04/2026 12:17:05",
+    "type": "IN",
+    "amount": 8796600,
+    "balance": 257405923,
+    "counterName": "CT TNHH SILICONE CAO GIA",
+    "remark": "TT hoa don so 32 ngay 04/04/2026- M  a GD ACSP/ Dx612816",
+    "matchedCustomerCode": "SILICONECAOGIA",
+    "matchedCustomerName": "SILICONECAOGIA",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26099255840595",
+    "transDate": "09/04/2026 13:21:58",
+    "type": "IN",
+    "amount": 47509200,
+    "balance": 248609323,
+    "counterName": "CONG TY TNHH NATCO VIET NAM NATCO V  N",
+    "remark": "Hoa don 19 ChargeDetails OUR Hoa don 19 ChargeDetails OUR",
+    "matchedCustomerCode": "NATCO",
+    "matchedCustomerName": "NATCO",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26097650305353",
+    "transDate": "07/04/2026 10:30:51",
+    "type": "OUT",
+    "amount": 20000,
+    "balance": 201100123,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT0704  2026+HQ02DS-02DS-2995431+TK10812542  920+NDK07042026+LHA11+NTK2+LT11+KB0  122+TKNS351102995431+VND TM12663+ST LP+T20000",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26097102046098",
+    "transDate": "07/04/2026 10:30:37",
+    "type": "OUT",
+    "amount": 5027576,
+    "balance": 201120123,
+    "counterName": "KBNN KHU VUC II-PHONG GIAO DICH SO 7",
+    "remark": "HQDT+ID0+MST0318266611+C755+NNT0704  2026+HQ02DS-02DS-2995431+TK10812542  920+NDK07042026+LHA11+NTK1+LT1+KB01  22+TKNS711102995431+VND TM11901+STN K+T1803942 TM21702+STVA+T3223634",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26096485096519",
+    "transDate": "06/04/2026 14:28:26",
+    "type": "OUT",
+    "amount": 433134,
+    "balance": 206147699,
+    "counterName": "ZHUHAI PRINT-RITE NEW MATERIALS  CORPORATION LIMITED. ADD: 805,   806, UNIT 2, NO.2515, HUANDAO   NORTH RD, HENGQIN NEW AREA, ZHUHAI",
+    "remark": "/RFB/PAYMENT FOR: ESDPMZCSV260404Y",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26096984933678",
+    "transDate": "06/04/2026 11:03:04",
+    "type": "OUT",
+    "amount": 433134,
+    "balance": 206580833,
+    "counterName": "S.K. COLORANDCHEMICALS CO., LTD.  ADD: S.K. COLORCHEMICALS CO., LTD.  396, 396/1, 400 EKKACHAI ROAD,  KHLONG BANG",
+    "remark": "/RFB/PAYMENT FOR: 69010000007",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FX2609608584",
+    "transDate": "06/04/2026 10:55:22",
+    "type": "OUT",
+    "amount": 35060130,
+    "balance": 207013967,
+    "counterName": "Chi phí doanh nghiệp",
+    "remark": "eTTR 202604040110554538 32267290",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FX2609621185",
+    "transDate": "06/04/2026 10:54:55",
+    "type": "OUT",
+    "amount": 64921871,
+    "balance": 242074097,
+    "counterName": "Chi phí doanh nghiệp",
+    "remark": "eTTR 202604040017065138 32267290",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26093179400679",
+    "transDate": "03/04/2026 10:13:46",
+    "type": "OUT",
+    "amount": 963360,
+    "balance": 306995968,
+    "counterName": "CTY TNHH HUY AN",
+    "remark": "MBCT vnpis thanh toan bill 7091 D2A  W5HP1/869480",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26092069933800",
+    "transDate": "02/04/2026 18:33:20",
+    "type": "OUT",
+    "amount": 12000000,
+    "balance": 307959328,
+    "counterName": "PHAM THANH TAN",
+    "remark": "MBCT Cty VNPIS thanh toan tien thu  nha thang 4 2026 D2A4G9DX/762302",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "FT26092906666497",
+    "transDate": "02/04/2026 15:36:44",
+    "type": "IN",
+    "amount": 14580000,
+    "balance": 319959328,
+    "counterName": "CONG TY TNHH THUONG MAI GMK",
+    "remark": "CTY TNHH TM GMK THANH TOAN TIEN HAN  G HD 20 NGAY 11 03 26   Ma giao dic  h  Trace663714 Trace 663714",
+    "matchedCustomerCode": "GMK",
+    "matchedCustomerName": "GMK",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "CHG260918YQWL",
+    "transDate": "02/04/2026 15:27:50",
+    "type": "IN",
+    "amount": 20000,
+    "balance": 305379328,
+    "counterName": "Khách hàng chuyển tiền",
+    "remark": "THU PHI DICH VU GIAO DICH DIEN TU - NAM 2025",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "CHG260918YQWL",
+    "transDate": "02/04/2026 15:27:50",
+    "type": "IN",
+    "amount": 200000,
+    "balance": 305359328,
+    "counterName": "Khách hàng chuyển tiền",
+    "remark": "THU PHI DICH VU GIAO DICH DIEN TU - NAM 2025",
+    "matchedStatus": "PENDING"
+  },
+  {
+    "id": "FT26092244695545",
+    "transDate": "02/04/2026 13:16:27",
+    "type": "IN",
+    "amount": 74233800,
+    "balance": 305159328,
+    "counterName": "CHI NHANH CONG TY TRACH NHIEM HUU H  AN QUOC TE TRI - VIET",
+    "remark": "TRI VIET THANH TOAN TIEN MUC IN UV  hWIH2NJA/874034",
+    "matchedCustomerCode": "TRI-VIET",
+    "matchedCustomerName": "TRI-VIET",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "FT26091386220222",
+    "transDate": "01/04/2026 15:08:02",
+    "type": "IN",
+    "amount": 14580000,
+    "balance": 230925528,
+    "counterName": "CHI NHANH CTY CP KY THUAT SO SBC",
+    "remark": "CN SBC TT TIEN NUOC PHU HD 30 01042  6 15 08 02 6091ASCB02YFLE41   Ma gi  ao dich  Trace661167 Trace 661167",
+    "matchedCustomerCode": "SBC",
+    "matchedCustomerName": "SBC",
+    "matchedStatus": "MATCHED"
+  },
+  {
+    "id": "CHG260918YQWL",
+    "transDate": "01/04/2026 11:47:19",
+    "type": "OUT",
+    "amount": 200000,
+    "balance": 216345528,
+    "counterName": "Chi phí doanh nghiệp",
+    "remark": "THU PHI DICH VU GIAO DICH DIEN TU - NAM 2025",
+    "matchedStatus": "EXPENSE"
+  },
+  {
+    "id": "CHG260918YQWL",
+    "transDate": "01/04/2026 11:47:19",
+    "type": "OUT",
+    "amount": 20000,
+    "balance": 216545528,
+    "counterName": "Chi phí doanh nghiệp",
+    "remark": "THU PHI DICH VU GIAO DICH DIEN TU - NAM 2025",
+    "matchedStatus": "EXPENSE"
+  }
 ];
 
 export default function POSPage() {
@@ -449,7 +1515,7 @@ export default function POSPage() {
       transDate: new Date().toLocaleDateString('vi-VN') + ' ' + new Date().toLocaleTimeString('vi-VN'),
       type: 'IN',
       amount: amount,
-      balance: 705179828 + amount,
+      balance: 732231185 + amount,
       counterName: selectedDebtCustomer.name,
       remark: selectedDebtCustomer.code + " THANH TOAN CONG NO Q2 2026",
       matchedCustomerCode: selectedDebtCustomer.code,
@@ -1085,7 +2151,7 @@ export default function POSPage() {
                   <CheckCircle2 className="text-emerald-400" size={20} />
                 </div>
                 <div className="text-3xl font-bold text-emerald-400">{totalPaidSum.toLocaleString('vi-VN')} đ</div>
-                <div className="text-xs text-slate-500 mt-1">Số dư MB Bank hiện tại: 705,179,828 đ</div>
+                <div className="text-xs text-slate-500 mt-1">Số dư MB Bank hiện tại: 732,231,185 đ</div>
               </div>
             </div>
 
@@ -1224,7 +2290,7 @@ export default function POSPage() {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full md:w-auto">
                   <div className="bg-slate-950/80 border border-slate-800 p-4 rounded-2xl text-right flex-1 sm:flex-none min-w-[200px]">
                     <div className="text-xs text-slate-400 font-medium">Số dư khả dụng thực tế</div>
-                    <div className="text-2xl font-bold text-emerald-400">705,179,828 đ</div>
+                    <div className="text-2xl font-bold text-emerald-400">732,231,185 đ</div>
                   </div>
                   <button
                     onClick={handleSyncMBBank}
