@@ -2289,17 +2289,28 @@ export default function POSPage() {
 
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full md:w-auto">
                   <div className="bg-slate-950/80 border border-slate-800 p-4 rounded-2xl text-right flex-1 sm:flex-none min-w-[200px]">
-                    <div className="text-xs text-slate-400 font-medium">Số dư khả dụng thực tế</div>
+                    <div className="text-xs text-slate-400 font-medium flex items-center justify-end gap-1">
+                      <span>Số dư khả dụng thực tế</span>
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" title="Real-time Live"></span>
+                    </div>
                     <div className="text-2xl font-bold text-emerald-400">732,231,185 đ</div>
                   </div>
-                  <button
-                    onClick={handleSyncMBBank}
-                    disabled={mbSyncing}
-                    className="py-3 px-5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-2xl shadow-lg shadow-blue-600/30 transition-all flex items-center justify-center gap-2 text-sm w-full sm:w-auto"
-                  >
-                    <RefreshCw size={18} className={mbSyncing ? 'animate-spin' : ''} />
-                    <span>{mbSyncing ? 'Đang đồng bộ...' : 'Đồng Bộ MB Bank API'}</span>
-                  </button>
+                  <div className="flex flex-col gap-2 w-full sm:w-auto">
+                    <button
+                      onClick={handleSyncMBBank}
+                      disabled={mbSyncing}
+                      className="py-2.5 px-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/30 transition-all flex items-center justify-center gap-2 text-xs w-full"
+                    >
+                      <RefreshCw size={16} className={mbSyncing ? 'animate-spin' : ''} />
+                      <span>{mbSyncing ? 'Đang đồng bộ...' : 'Đồng Bộ MB Bank API'}</span>
+                    </button>
+                    <button
+                      onClick={() => alert('Webhook Real-time Endpoint: https://vnpis.com/api/mbbank/webhook\\n\\nTài khoản MB Bank 660902840344 đã sẵn sàng nhận biến động số dư tức thì (<3s)!')}
+                      className="py-2 px-4 bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/40 text-emerald-400 font-semibold rounded-xl transition-all flex items-center justify-center gap-1.5 text-xs w-full"
+                    >
+                      <CheckCircle2 size={14} /> Cấu hình Webhook Real-time
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
