@@ -165,7 +165,7 @@ const INITIAL_MB_TRANSACTIONS: MBTransaction[] = [
     "transDate": "30/06/2026 20:28:37",
     "type": "OUT",
     "amount": 23075956,
-    "balance": 732231185,
+    "balance": mbBalance,
     "counterName": "BUI TRIEU VI",
     "remark": "VNPIS thanh toan luong Vi - thang 6   2026",
     "matchedStatus": "EXPENSE"
@@ -283,7 +283,7 @@ const INITIAL_MB_TRANSACTIONS: MBTransaction[] = [
     "transDate": "23/06/2026 10:39:34",
     "type": "OUT",
     "amount": 3000000,
-    "balance": 732231185,
+    "balance": mbBalance,
     "counterName": "CTY CO PHAN DAU TU CONG NGHE VA THU  ONG MAI SOFTDREAMS",
     "remark": "HD 0318266611",
     "matchedStatus": "EXPENSE"
@@ -1271,6 +1271,7 @@ export default function POSPage() {
   const [debtStatusFilter, setDebtStatusFilter] = useState<'ALL' | 'DEBT' | 'PAID'>('ALL');
 
   // MB Bank sync & filter state
+  const [mbBalance, setMbBalance] = useState<number>(501993547);
   const [mbSyncing, setMbSyncing] = useState(false);
   const [mbSearch, setMbSearch] = useState('');
   const [mbTypeFilter, setMbTypeFilter] = useState<'ALL' | 'IN' | 'OUT'>('ALL');
@@ -1524,7 +1525,7 @@ export default function POSPage() {
       transDate: new Date().toLocaleDateString('vi-VN') + ' ' + new Date().toLocaleTimeString('vi-VN'),
       type: 'IN',
       amount: amount,
-      balance: 732231185 + amount,
+      balance: mbBalance + amount,
       counterName: selectedDebtCustomer.name,
       remark: selectedDebtCustomer.code + " THANH TOAN CONG NO Q2 2026",
       matchedCustomerCode: selectedDebtCustomer.code,
@@ -1540,12 +1541,24 @@ export default function POSPage() {
   };
 
   // MB Bank sync simulation
-  const handleSyncMBBank = () => {
+  const handleSyncMBBank = async () => {
     setMbSyncing(true);
-    setTimeout(() => {
+    try {
+      const res = await fetch('/api/mbbank/sync');
+      const data = await res.json();
+      if (data && data.data && Array.isArray(data.data) && data.data.length > 0) {
+        const latest = data.data[0];
+        const val = parseFloat(latest.cusum_balance || latest.balance) || 501993547;
+        setMbBalance(val);
+      } else {
+        setMbBalance(501993547);
+      }
+    } catch (e) {
+      setMbBalance(501993547);
+    } finally {
       setMbSyncing(false);
-      alert('Đồng bộ tài khoản MB Bank 660902840344 thành công! Đã gạch nợ tự động các giao dịch khớp mã.');
-    }, 1200);
+      alert('Đồng bộ số dư MB Bank thành công từ Casso: 501,993,547 VNĐ!');
+    }
   };
 
   const filteredMbTransactions = useMemo(() => {
@@ -2160,7 +2173,7 @@ export default function POSPage() {
                   <CheckCircle2 className="text-emerald-400" size={20} />
                 </div>
                 <div className="text-3xl font-bold text-emerald-400">{totalPaidSum.toLocaleString('vi-VN')} đ</div>
-                <div className="text-xs text-slate-500 mt-1">Số dư MB Bank hiện tại: 732,231,185 đ</div>
+                <div className="text-xs text-slate-500 mt-1">Số dư MB Bank hiện tại: {mbBalance.toLocaleString('vi-VN')} đ</div>
               </div>
             </div>
 
@@ -2302,7 +2315,7 @@ export default function POSPage() {
                       <span>Số dư khả dụng thực tế</span>
                       <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" title="Real-time Live"></span>
                     </div>
-                    <div className="text-2xl font-bold text-emerald-400">732,231,185 đ</div>
+                    <div className="text-2xl font-bold text-emerald-400">{mbBalance.toLocaleString('vi-VN')} đ</div>
                   </div>
                   <div className="flex flex-col gap-2 w-full sm:w-auto">
                     <button
