@@ -165,7 +165,7 @@ const INITIAL_MB_TRANSACTIONS: MBTransaction[] = [
     "transDate": "30/06/2026 20:28:37",
     "type": "OUT",
     "amount": 23075956,
-    "balance": mbBalance,
+    "balance": 501993547,
     "counterName": "BUI TRIEU VI",
     "remark": "VNPIS thanh toan luong Vi - thang 6   2026",
     "matchedStatus": "EXPENSE"
@@ -283,7 +283,7 @@ const INITIAL_MB_TRANSACTIONS: MBTransaction[] = [
     "transDate": "23/06/2026 10:39:34",
     "type": "OUT",
     "amount": 3000000,
-    "balance": mbBalance,
+    "balance": 501993547,
     "counterName": "CTY CO PHAN DAU TU CONG NGHE VA THU  ONG MAI SOFTDREAMS",
     "remark": "HD 0318266611",
     "matchedStatus": "EXPENSE"
