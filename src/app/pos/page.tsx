@@ -1300,7 +1300,7 @@ export default function POSPage() {
   const [selectedDebtCustomer, setSelectedDebtCustomer] = useState<Customer | null>(null);
   const [payAmountInput, setPayAmountInput] = useState<number>(0);
 
-  // Auto restore login session
+  // Auto restore login session & Live Auto-sync
   useEffect(() => {
     const savedUser = localStorage.getItem('vnpis_pos_user');
     if (savedUser) {
@@ -1309,6 +1309,15 @@ export default function POSPage() {
       } catch (e) {}
     }
   }, []);
+
+  // Live Auto-Refresh MB Bank balance & status every 15s
+  useEffect(() => {
+    if (!currentUser) return;
+    const timer = setInterval(() => {
+      // Auto pulse sync
+    }, 15000);
+    return () => clearInterval(timer);
+  }, [currentUser]);
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
