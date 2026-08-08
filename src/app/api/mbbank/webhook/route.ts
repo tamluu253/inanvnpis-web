@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
     console.log('[CASSO VNPIS POS WEBHOOK RECEIVED]:', JSON.stringify(body, null, 2));
-
-    const secretKey = process.env.CASSO_SECRET_KEY || '674b984b-92bd-11f1-b705-fa163e5398eb';
 
     const transList = Array.isArray(body.data) ? body.data : (Array.isArray(body) ? body : [body]);
 
