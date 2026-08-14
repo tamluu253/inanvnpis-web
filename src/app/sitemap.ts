@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllDocumentsMeta } from '@/lib/mdx';
 
-const DOMAIN = 'https://vnpis.com';
+const DOMAIN = 'https://inanvnpis.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllDocumentsMeta('articles');
@@ -12,42 +12,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const coreHubs = [
-    '/solutions/uv-single-pass-printing',
-    '/solutions/pad-printing',
-    '/solutions/screen-printing',
-    '/solutions/industrial-coding',
-    '/solutions/variable-data-printing',
-    '/products',
-    '/products/uv-printers',
-    '/products/pad-printers',
-    '/products/screen-printers',
-    '/products/screen-printers/sj',
-    '/products/hot-stamping',
-    '/products/hot-stamping/sj',
-    '/products/cij-ink',
-    '/products/tij-ink',
-    '/products/special-inks',
-    '/products/industrial-ink',
-    '/products/printheads',
-    '/products/consumables',
-    '/services',
-    '/services/variable-data-printing',
-    '/services/pad-printing-service',
-    '/services/screen-printing-service',
-    '/services/machine-rental',
-    '/services/machine-repair',
-    '/services/color-management',
+  const coreServices = [
+    '/in-tampon',
+    '/in-lua',
+    '/in-ky-thuat-so',
     '/about',
-    '/videos',
+    '/contact',
     '/faq'
   ];
 
-  const hubEntries: MetadataRoute.Sitemap = coreHubs.map((path) => ({
+  const serviceEntries: MetadataRoute.Sitemap = coreServices.map((path) => ({
     url: `${DOMAIN}${path}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
-    priority: 0.9, // high priority for hub pages
+    priority: 0.9,
   }));
 
   return [
@@ -63,13 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.8,
     },
-    {
-      url: `${DOMAIN}/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    ...hubEntries,
+    ...serviceEntries,
     ...blogEntries,
   ];
 }

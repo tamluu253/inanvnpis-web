@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/'],
     },
-    sitemap: 'https://vnpis.com/sitemap.xml',
+    sitemap: 'https://inanvnpis.com/sitemap.xml',
   };
 }
