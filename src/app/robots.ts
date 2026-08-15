@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/private/'],
+      disallow: ['/vnpis-analytics-dashboard', '/private/'],
     },
     sitemap: 'https://inanvnpis.com/sitemap.xml',
   };

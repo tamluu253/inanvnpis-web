@@ -1,4 +1,7 @@
 ---
+canonical: "https://vnpis.com/blog/may-in-uv-single-pass-in-the-nhua-qr-code"
+schema_type: "TechnicalArticle"
+publisher_mst: "0318266611"
 title: "Máy In UV Single Pass In Thẻ Nhựa, Dữ Liệu Biến Đổi Tốc Độ Siêu Tốc"
 description: "Đột phá tốc độ in với máy UV Single Pass. Chuyên in dữ liệu biến đổi (QR code, Barcode, Serial) lên thẻ nhựa, thẻ cào, vé xe với tốc độ 50m/phút."
 date: "2026-07-15"
@@ -12,3 +15,11 @@ Công nghệ in UV Single Pass đang thay đổi hoàn toàn cục diện ngành
 
 VNPIS tự hào là đơn vị tiên phong cung cấp hệ thống máy in UV Single Pass tích hợp kèm băng tải cấp liệu tự động (feeder). Mọi chi tiết xin liên hệ Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)).
 
+
+
+---
+
+## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
+* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Công Ty TNHH VNPIS](https://vnpis.com/articles)
+* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
+* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)

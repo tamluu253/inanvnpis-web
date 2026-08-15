@@ -1,4 +1,7 @@
 ---
+canonical: "https://vnpis.com/blog/dau-in-ricoh-gen5-mh5420-mh5440"
+schema_type: "TechnicalArticle"
+publisher_mst: "0318266611"
 title: "Đầu in Ricoh GEN5 (MH5420 / MH5440)"
 description: "Đầu in Ricoh GEN5 (MH5420/MH5440) chính hãng Nhật Bản – 1280 đầu phun, độ phân giải 600dpi, hỗ trợ mực UV, solvent, nước và dầu. Phù hợp cho máy in công nghiệp tốc độ cao, bền bỉ, chất lượng hình ảnh sắc nét. Giao hàng toàn quốc."
 slug: "dau-in-ricoh-gen5-mh5420-mh5440"
@@ -10,3 +13,10 @@ slug: "dau-in-ricoh-gen5-mh5420-mh5440"
 ### [Kyocera KJ4Aser](https://vnpis.com/mayin-phun-cong-nghiep/kyocera-kj4a.html)
 
 [Liên hệ](https://vnpis.com/lien-he.html "Kyocera KJ4Aser")
+
+---
+
+## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
+* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Công Ty TNHH VNPIS](https://vnpis.com/articles)
+* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
+* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)

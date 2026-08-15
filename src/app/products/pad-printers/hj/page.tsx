@@ -1,17 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
-import { Settings, PhoneCall, ArrowLeft, Filter } from 'lucide-react';
+import { Settings, PhoneCall, ArrowLeft } from 'lucide-react';
 import Image from 'next/image';
 import hjPrinters from '@/data/hj-printers.json';
 
 export const metadata = {
   title: 'Catalog Máy In Pad HJ | VNPIS',
-  description: 'Danh mục chi tiết toàn bộ các model máy in pad của hãng HJ (Từ 1 màu cơ bản đến 8 màu tự động)',
+  description: 'Danh mục chi tiết toàn bộ các model máy in pad công nghiệp chính hãng HJ chuẩn thông số kỹ thuật nhà máy.',
 };
 
 export default function HJPrintersCatalog() {
   return (
-    <main className="min-h-screen pt-24 pb-16 bg-slate-50">
+    <main className="min-h-screen pt-24 pb-16 bg-slate-50 font-sans">
       <div className="container mx-auto px-4 max-w-7xl">
         
         {/* Breadcrumb */}
@@ -27,11 +27,11 @@ export default function HJPrintersCatalog() {
           <div className="max-w-2xl mb-8 md:mb-0">
             <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6 font-semibold">
               <Settings className="w-5 h-5" />
-              <span>HJ Series Catalog</span>
+              <span>Catalog Máy In Pad HJ Chính Hãng</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Danh Mục Máy In Pad HJ</h1>
             <p className="text-lg text-slate-600">
-              Tổng hợp 20 model máy in pad chất lượng cao từ hãng HJ. Đáp ứng mọi nhu cầu từ xưởng gia công nhỏ đến dây chuyền sản xuất tự động hàng loạt.
+              Tổng hợp 21 model máy in pad (in tampon) chính hãng HJ. Đa dạng từ dòng máy bàn trượt Shuttle, mâm xoay Turntable, băng tải Conveyor đến máy in khổ ngang dài.
             </p>
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center md:text-right flex-shrink-0">
@@ -46,8 +46,8 @@ export default function HJPrintersCatalog() {
         {/* Catalog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {hjPrinters.map((machine) => (
-            <div key={machine.model} className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 flex flex-col overflow-hidden group">
-              <div className="aspect-[4/3] bg-slate-100 relative flex items-center justify-center border-b border-slate-50 overflow-hidden">
+            <div key={machine.model} className="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-200 flex flex-col overflow-hidden group p-4">
+              <div className="aspect-[4/3] bg-slate-50 relative flex items-center justify-center border border-slate-100 rounded-xl overflow-hidden mb-4">
                 {machine.video ? (
                   <video 
                     src={machine.video}
@@ -56,30 +56,30 @@ export default function HJPrintersCatalog() {
                   />
                 ) : (
                   <Image 
-                    src={machine.image || "/images/products/hj/HP-125AY.png"}
+                    src={machine.image}
                     alt={machine.model}
                     fill
-                    className="object-contain p-4 group-hover:scale-110 transition-transform duration-500"
+                    className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
                   />
                 )}
-                <div className="absolute top-3 left-3 bg-white px-2 py-1 rounded-md text-xs font-bold text-slate-800 shadow-sm border border-slate-200 z-10">
-                  {machine.colors} Màu
+                <div className="absolute top-2 left-2 bg-slate-900/90 text-white font-bold text-[11px] px-2.5 py-0.5 rounded-full shadow-sm backdrop-blur-sm z-10">
+                  {machine.model}
                 </div>
               </div>
-              <div className="p-5 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{machine.model}</h3>
-                <p className="text-slate-600 text-sm mb-4 line-clamp-2 min-h-[40px]">{machine.desc}</p>
+              <div className="flex flex-col flex-grow">
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{machine.name || machine.model}</h3>
+                <p className="text-slate-600 text-xs mb-4 line-clamp-2 min-h-[36px]">{machine.desc}</p>
                 
-                <div className="space-y-2 mt-auto pt-4 border-t border-slate-100">
-                  <div className="flex justify-between text-sm">
+                <div className="space-y-1.5 mt-auto pt-3 border-t border-slate-100 text-xs bg-slate-50/70 p-3 rounded-xl border">
+                  <div className="flex justify-between">
                     <span className="text-slate-500">Kích thước bản in:</span>
                     <span className="font-semibold text-slate-700">{machine.plateSize}</span>
                   </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-500">Kích thước hình in tối đa:</span>
+                  <div className="flex justify-between">
+                    <span className="text-slate-500">Khổ in tối đa:</span>
                     <span className="font-semibold text-slate-700">{machine.printArea}</span>
                   </div>
-                  <div className="flex justify-between text-sm">
+                  <div className="flex justify-between">
                     <span className="text-slate-500">Tốc độ in:</span>
                     <span className="font-semibold text-slate-700">{machine.speed}</span>
                   </div>

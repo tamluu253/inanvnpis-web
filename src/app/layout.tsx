@@ -25,21 +25,22 @@ export default function RootLayout({
   return (
     <html lang="vi" className="scroll-smooth">
       <head>
-        {/* Placeholder cho Google Analytics */}
+        {/* Google Analytics GA4 cho vnpis.com (G-HGXR16B0NE & G-PGSS2ZC0NZ) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-G9RTHLGQFS"
+          src="https://www.googletagmanager.com/gtag/js?id=G-HGXR16B0NE"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics-ga4" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-G9RTHLGQFS');
+            gtag('config', 'G-HGXR16B0NE');
+            gtag('config', 'G-PGSS2ZC0NZ');
           `}
         </Script>
 
-        {/* Placeholder cho Facebook Pixel */}
+        {/* Facebook Pixel */}
         <Script id="facebook-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)

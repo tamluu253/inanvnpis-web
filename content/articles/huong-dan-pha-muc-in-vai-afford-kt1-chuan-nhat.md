@@ -1,4 +1,7 @@
 ---
+canonical: "https://vnpis.com/blog/huong-dan-pha-muc-in-vai-afford-kt1-chuan-nhat"
+schema_type: "TechnicalArticle"
+publisher_mst: "0318266611"
 title: "Hướng Dẫn Pha Mực In Vải Afford KT1 Chuẩn Nhất Cho Máy Tampon"
 description: "Kỹ thuật pha mực in vải Afford KT1 với chất đóng rắn và dung môi chậm khô để đạt độ bám dính và độ bền giặt cao nhất."
 date: "2026-07-18T00:19:09.780Z"
@@ -19,3 +22,11 @@ Mực Afford KT1 là mực 2 thành phần (2K). Tỷ lệ khuyến nghị:
 - Trộn đều Hardener vào mực TRƯỚC KHI cho dung môi.
 - Tuổi thọ hỗn hợp (Pot life) sau khi pha Hardener là khoảng 6-8 tiếng. Chỉ nên pha lượng mực vừa đủ dùng trong ca làm việc.
 - Sau khi in, để mực khô tự nhiên hoặc sấy qua hầm nhiệt (100°C trong 1-2 phút) để tối ưu độ bám giặt (Wash fastness).
+
+
+---
+
+## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
+* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Công Ty TNHH VNPIS](https://vnpis.com/articles)
+* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
+* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)

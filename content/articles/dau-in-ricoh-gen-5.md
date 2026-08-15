@@ -1,4 +1,7 @@
 ---
+canonical: "https://vnpis.com/blog/dau-in-ricoh-gen-5"
+schema_type: "TechnicalArticle"
+publisher_mst: "0318266611"
 title: "Ricoh Gen5 Printhead"
 description: "Loại sản phẩm : Đầu in phun kỹ thuật số
 Thương hiêu: Ricoh Gen 5
@@ -20,3 +23,10 @@ slug: "dau-in-ricoh-gen-5"
 ### [Ricoh Gen6 Printhead](/blog/dau-in-ricoh-gen-6)
 
 [Liên hệ](https://vnpis.com/lien-he.html "Ricoh Gen6 Printhead")
+
+---
+
+## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
+* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Công Ty TNHH VNPIS](https://vnpis.com/articles)
+* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
+* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)
