@@ -59,7 +59,11 @@ export default function HJScreenPrintersCatalog() {
                 </div>
               </div>
 
-                <a href="tel:0901836344" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
+              <div className="flex flex-col flex-grow">
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{machine.name || machine.model}</h3>
+                <p className="text-slate-600 text-xs mb-4 line-clamp-2">{machine.desc}</p>
+                
+                <a href="tel:0901836344" className="mt-auto w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
                   Liên hệ 0901 836 344
                 </a>
               </div>
