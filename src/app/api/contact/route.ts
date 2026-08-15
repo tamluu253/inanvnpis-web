@@ -73,10 +73,10 @@ export async function POST(request: Request) {
       </div>
     `;
 
-    // Send mail to info@vnpis.com and CC tamluu253@gmail.com
+    // Send mail to info@inanvnpis.com and CC tamluu253@gmail.com
     await transporter.sendMail({
-      from: '"VNPIS Lead Notification" <info@vnpis.com>',
-      to: 'info@vnpis.com',
+      from: '"In An VNPIS Lead Notification" <info@vnpis.com>',
+      to: 'info@inanvnpis.com',
       cc: 'tamluu253@gmail.com',
       subject: `[VNPIS Web Lead] ${name} - ${phone} (${company || 'Khách Hàng Mới'})`,
       html: htmlContent,

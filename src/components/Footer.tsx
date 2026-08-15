@@ -69,7 +69,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0" />
-                <a href="mailto:info@vnpis.com" className="hover:text-blue-400 transition-colors text-sm text-slate-300">info@vnpis.com</a>
+                <a href="mailto:info@inanvnpis.com" className="hover:text-blue-400 transition-colors text-sm text-slate-300">info@inanvnpis.com</a>
               </li>
             </ul>
           </div>

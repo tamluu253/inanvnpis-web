@@ -45,7 +45,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="text-xs font-semibold text-slate-400">Email Báo Giá</div>
-                  <div className="text-base font-bold text-white">info@vnpis.com</div>
+                  <div className="text-base font-bold text-white">info@inanvnpis.com</div>
                 </div>
               </div>
 
@@ -175,7 +175,7 @@ export default function ContactPage() {
                   </li>
                   <li className="flex items-center">
                     <Mail className="w-5 h-5 text-orange-500 mr-3 shrink-0" />
-                    <span>Email: <strong>info@vnpis.com</strong></span>
+                    <span>Email: <strong>info@inanvnpis.com</strong></span>
                   </li>
                 </ul>
               </div>
@@ -206,7 +206,7 @@ export default function ContactPage() {
                   </li>
                   <li className="flex items-center">
                     <Mail className="w-5 h-5 text-blue-500 mr-3 shrink-0" />
-                    <span>Email: <strong>info@vnpis.com</strong></span>
+                    <span>Email: <strong>info@inanvnpis.com</strong></span>
                   </li>
                 </ul>
               </div>

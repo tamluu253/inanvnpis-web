@@ -112,7 +112,7 @@ export default function ConsultationForm({
           <div>
             <h3 className="text-2xl font-bold text-slate-900 mb-2">Đã Tiếp Nhận Thông Tin!</h3>
             <p className="text-slate-600 max-w-lg mx-auto">
-              Cảm ơn <span className="font-semibold text-slate-900">{formData.name}</span>. Thông tin của bạn đã được gửi tới email <span className="font-semibold text-blue-600">info@vnpis.com</span>.
+              Cảm ơn <span className="font-semibold text-slate-900">{formData.name}</span>. Thông tin của bạn đã được gửi tới email <span className="font-semibold text-blue-600">info@inanvnpis.com</span>.
             </p>
           </div>
 
