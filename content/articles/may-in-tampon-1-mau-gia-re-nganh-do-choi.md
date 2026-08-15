@@ -10,5 +10,5 @@ Ngành sản xuất đồ chơi trẻ em luôn đặt ra những yêu cầu kh�
 
 Kết hợp với các loại mực in đạt chuẩn an toàn không độc hại (RoHS, FDA), [**máy in tampon 1 màu**](/products/pad-printers/hj) giúp bản in bền màu, không bong tróc khi trẻ nhỏ tiếp xúc hoặc ngậm vào miệng. Thao tác vận hành máy cực kỳ đơn giản, không đòi hỏi nhân công tay nghề cao, giúp doanh nghiệp tiết kiệm tối đa chi phí nhân sự.
 
-Tại VNPIS, chúng tôi cung cấp các cấu hình máy in tampon 1 màu giá rẻ được tinh chỉnh riêng cho ngành đồ chơi, đảm bảo năng suất cao và tỷ lệ phế phẩm gần như bằng không. Gọi ngay 0987453866 để test mẫu miễn phí!
+Tại VNPIS, chúng tôi cung cấp các cấu hình máy in tampon 1 màu giá rẻ được tinh chỉnh riêng cho ngành đồ chơi, đảm bảo năng suất cao và tỷ lệ phế phẩm gần như bằng không. Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để test mẫu miễn phí!
 

@@ -10,5 +10,5 @@ Bản thép (Cliche) là linh hồn của phương pháp in tampon. Một bản 
 
 Bản thép của chúng tôi được nhập khẩu từ Nhật Bản, có độ cứng cao (Rockwell 60-62 HRC), chịu được sự ma sát liên tục của dao gạt mực bằng thép hoặc vòng hợp kim của cốc mực. Độ sâu vệt khắc được kiểm soát hoàn hảo từ 20 đến 30 micromet tùy theo độ nhớt của mực và tính chất vật liệu.
 
-Bạn chỉ cần gửi file vector (AI, Corel), VNPIS sẽ gia công và giao bản thép tận nơi trên toàn quốc. Đặt hàng ngay qua hotline 0987453866.
+Bạn chỉ cần gửi file vector (AI, Corel), VNPIS sẽ gia công và giao bản thép tận nơi trên toàn quốc. Đặt hàng ngay qua Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)).
 

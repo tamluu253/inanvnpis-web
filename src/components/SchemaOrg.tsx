@@ -8,7 +8,7 @@ export default function SchemaOrg() {
     "image": "https://vnpis.com/icon.png",
     "@id": "https://vnpis.com",
     "url": "https://vnpis.com",
-    "telephone": "0903333333", // placeholder for real phone
+    "telephone": "0901836344",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Vietnam",

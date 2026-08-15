@@ -138,10 +138,16 @@ export default function Header() {
         {/* Desktop Actions */}
         <div className="hidden lg:flex items-center space-x-4 flex-shrink-0">
           <div className="flex flex-col items-end">
-            <span className="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Hotline Xưởng In</span>
-            <a href="tel:0987453866" className="text-blue-600 font-black text-base lg:text-lg hover:text-blue-700 transition-colors whitespace-nowrap">
-              0987 453 866
-            </a>
+            <span className="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Hotline Tư Vấn Xưởng</span>
+            <div className="flex items-center space-x-2.5 text-xs lg:text-sm font-black">
+              <a href="tel:0901836344" className="text-blue-600 hover:text-blue-700 transition-colors whitespace-nowrap">
+                Mr. Tâm: 0901 836 344
+              </a>
+              <span className="text-slate-300">|</span>
+              <a href="tel:0901826344" className="text-blue-600 hover:text-blue-700 transition-colors whitespace-nowrap">
+                Mr. Giang: 0901 826 344
+              </a>
+            </div>
           </div>
           <Link
             href="/#quote"
@@ -191,11 +197,15 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-6 mt-4 border-t border-slate-200 flex flex-col space-y-3">
-              <a href="tel:0987453866" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-3 bg-slate-100 text-slate-800 rounded-xl font-bold border border-slate-200 text-sm">
-                <PhoneCall className="w-4 h-4 mr-2 text-blue-600" /> Hotline: 0987 453 866
+            <div className="pt-6 mt-4 border-t border-slate-200 flex flex-col space-y-2.5">
+              <div className="text-xs text-slate-500 font-bold uppercase tracking-wider text-center mb-1">Hotline Kỹ Thuật & Báo Giá</div>
+              <a href="tel:0901836344" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-2.5 bg-blue-50 text-blue-700 rounded-xl font-bold border border-blue-200 text-sm">
+                <PhoneCall className="w-4 h-4 mr-2 text-blue-600" /> Mr. Tâm: 0901 836 344
               </a>
-              <Link href="/#quote" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-3 bg-blue-600 text-white rounded-xl font-bold shadow-md text-sm">
+              <a href="tel:0901826344" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-2.5 bg-blue-50 text-blue-700 rounded-xl font-bold border border-blue-200 text-sm">
+                <PhoneCall className="w-4 h-4 mr-2 text-blue-600" /> Mr. Giang: 0901 826 344
+              </a>
+              <Link href="/#quote" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-3 bg-blue-600 text-white rounded-xl font-bold shadow-md text-sm mt-2">
                 Bảng Tính Báo Giá Tận Xưởng
               </Link>
             </div>

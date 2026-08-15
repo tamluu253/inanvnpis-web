@@ -10,5 +10,5 @@ Nhu cầu cá nhân hóa bao bì trong ngành F&B (trà sữa, cafe) đang bùng
 
 Khi chọn máy in tampon 1 màu cho ứng dụng này, bạn cần lưu ý chọn dòng máy có bàn kẹp (fixture) có thể điều chỉnh xoay đa góc độ để giữ chặt thân ly. Đồng thời, nên ưu tiên các dòng máy sử dụng cốc mực kín (closed ink cup) để hạn chế bay hơi dung môi, giúp môi trường quán luôn sạch sẽ và không có mùi hôi.
 
-Đến với VNPIS, bạn không chỉ mua được máy in tampon 1 màu giá rẻ mà còn được chuyển giao toàn bộ công nghệ làm bản thép, pha mực in bám siêu chắc trên nhựa PP/PET và thủy tinh. Hotline hỗ trợ 24/7: 0987453866.
+Đến với VNPIS, bạn không chỉ mua được máy in tampon 1 màu giá rẻ mà còn được chuyển giao toàn bộ công nghệ làm bản thép, pha mực in bám siêu chắc trên nhựa PP/PET và thủy tinh. Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)).
 

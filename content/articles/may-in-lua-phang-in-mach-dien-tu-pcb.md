@@ -10,5 +10,5 @@ Trong ngành công nghiệp điện tử và công nghệ cao, [**máy in lụa*
 
 Yêu cầu đối với máy in lụa trong lĩnh vực này là độ chính xác vi sai (chỉ tính bằng micromet). Các máy in lụa công nghiệp của VNPIS được trang bị hệ thống căn chỉnh bằng camera CCD tự động, bàn hút chân không chống xê dịch vật liệu, và động cơ servo điều khiển dao gạt mực mượt mà.
 
-Nếu bạn đang tìm kiếm giải pháp in lụa công nghệ cao cho dây chuyền sản xuất linh kiện, hãy nhấc máy gọi 0987453866. Chúng tôi có sẵn đội ngũ kỹ sư dày dạn kinh nghiệm hỗ trợ bạn.
+Nếu bạn đang tìm kiếm giải pháp in lụa công nghệ cao cho dây chuyền sản xuất linh kiện, hãy nhấc máy gọi **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)). Chúng tôi có sẵn đội ngũ kỹ sư dày dạn kinh nghiệm hỗ trợ bạn.
 

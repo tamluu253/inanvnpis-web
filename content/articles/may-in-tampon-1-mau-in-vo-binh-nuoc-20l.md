@@ -10,5 +10,5 @@ Các cơ sở sản xuất nước uống đóng bình 20L thường gặp khó 
 
 Với các model máy có hành trình in dài và cục silicone cỡ lớn, máy in tampon có thể ôm trọn biên dạng cong của bình nước 20L, ép chặt lớp mực xuống bề mặt nhựa. Sự kết hợp giữa máy in tampon và dòng mực bám dính đặc chủng giúp logo của bạn chống chịu hoàn toàn với nước và ma sát vật lý.
 
-VNPIS hiện đang phân phối các hệ thống máy in tampon (pad printer) 1 màu chuyên dụng cho ngành nước giải khát với chi phí cực kỳ hợp lý. Hãy gọi 0987453866 để được chúng tôi hỗ trợ lắp đặt tận xưởng.
+VNPIS hiện đang phân phối các hệ thống máy in tampon (pad printer) 1 màu chuyên dụng cho ngành nước giải khát với chi phí cực kỳ hợp lý. Hãy gọi **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để được chúng tôi hỗ trợ lắp đặt tận xưởng.
 

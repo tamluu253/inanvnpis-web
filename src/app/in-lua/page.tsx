@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle, ShieldCheck, Zap, Phone } from 'lucide-react';
 
 export const metadata = {
   title: 'Dịch Vụ In Lụa Gia Công | Xưởng In VNPIS TP.HCM',
-  description: 'Chuyên nhận in lụa gia công túi giấy, túi nilon, bao bì đóng gói, vải thun, áo đồng phục, màng nhựa phẳng. Hotline/Zalo: 0987 453 866.',
+  description: 'Chuyên nhận in lụa gia công túi giấy, túi nilon, bao bì đóng gói, vải thun, áo đồng phục, màng nhựa phẳng. Hotline/Zalo: 0901 836 344 (Mr. Tâm) - 0901 826 344 (Mr. Giang).',
 };
 
 export default function InLuaPage() {
@@ -78,9 +78,14 @@ export default function InLuaPage() {
         <div className="text-center bg-gradient-to-r from-teal-600 to-emerald-600 text-white p-10 rounded-3xl shadow-xl">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Bạn Cần Báo Giá Gia Công In Lụa?</h3>
           <p className="text-teal-100 text-base mb-8 max-w-xl mx-auto">Liên hệ xưởng VNPIS để nhận báo giá chi tiết tận xưởng và ưu đãi cho đơn hàng lớn.</p>
-          <a href="https://zalo.me/0987453866" target="_blank" rel="noreferrer" className="inline-flex items-center px-8 py-4 bg-white text-teal-700 hover:bg-slate-100 font-bold rounded-2xl shadow-lg transition-colors">
-            <Phone className="w-5 h-5 mr-2" /> Nhắn Zalo Báo Giá: 0987 453 866
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="https://zalo.me/0901836344" target="_blank" rel="noreferrer" className="inline-flex items-center px-6 py-3.5 bg-white text-teal-700 hover:bg-slate-100 font-bold rounded-2xl shadow-lg transition-colors text-sm">
+              <Phone className="w-4 h-4 mr-2" /> Zalo Mr. Tâm: 0901 836 344
+            </a>
+            <a href="https://zalo.me/0901826344" target="_blank" rel="noreferrer" className="inline-flex items-center px-6 py-3.5 bg-teal-900 text-white hover:bg-teal-950 font-bold rounded-2xl shadow-lg transition-colors text-sm">
+              <Phone className="w-4 h-4 mr-2" /> Zalo Mr. Giang: 0901 826 344
+            </a>
+          </div>
         </div>
       </div>
     </div>

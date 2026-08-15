@@ -10,5 +10,5 @@ Bên cạnh [**máy in tampon**](/products/pad-printers) in trên các mặt con
 
 Máy in lụa tròn hoạt động theo nguyên lý tịnh tiến: khung lụa di chuyển ngang trong khi chai lọ xoay tròn theo trục. Kỹ thuật này đòi hỏi khuôn gá (jig) phải được tiện CNC chính xác để chai không bị trượt. Kết hợp với mực in UV lụa, mực sẽ khô ngay lập tức khi đi qua buồng sấy.
 
-Liên hệ 0987453866 để đặt mua máy in lụa tròn giá tốt từ VNPIS. Chúng tôi hỗ trợ tiện khuôn gá miễn phí cho đơn hàng đầu tiên!
+Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để đặt mua máy in lụa tròn giá tốt từ VNPIS. Chúng tôi hỗ trợ tiện khuôn gá miễn phí cho đơn hàng đầu tiên!
 

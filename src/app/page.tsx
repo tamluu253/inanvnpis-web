@@ -27,7 +27,7 @@ export default function Home() {
 
   const handleZaloSubmit = () => {
     const text = `Chào Xưởng In VNPIS, tôi cần báo giá:\n- Dịch vụ: ${serviceType}\n- Số lượng: ${quantity.toLocaleString('vi-VN')} SP\n- Số màu: ${colors} màu\n- Dự toán: ${estimatedPrice.toLocaleString('vi-VN')} VNĐ`;
-    window.open(`https://zalo.me/0987453866?text=${encodeURIComponent(text)}`, '_blank');
+    window.open(`https://zalo.me/0901836344?text=${encodeURIComponent(text)}`, '_blank');
   };
 
   return (
@@ -313,11 +313,13 @@ export default function Home() {
                 ))}
               </div>
 
-              <div className="pt-4">
+              <div className="pt-4 space-y-2">
                 <div className="text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Hotline / Zalo tư vấn 24/7</div>
-                <a href="tel:0987453866" className="text-3xl font-black text-blue-600 hover:underline">
-                  0987 453 866
-                </a>
+                <div className="flex flex-col sm:flex-row gap-3 text-lg sm:text-xl font-black text-blue-600">
+                  <a href="tel:0901836344" className="hover:underline">Mr. Tâm: 0901 836 344</a>
+                  <span className="hidden sm:inline text-slate-300">|</span>
+                  <a href="tel:0901826344" className="hover:underline">Mr. Giang: 0901 826 344</a>
+                </div>
               </div>
             </div>
 
@@ -386,20 +388,20 @@ export default function Home() {
                   </button>
                   <div className="grid grid-cols-2 gap-3">
                     <a 
-                      href="https://zalo.me/0987453866" 
+                      href="https://zalo.me/0901836344" 
                       target="_blank" 
                       rel="noreferrer" 
                       className="py-3 bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold rounded-xl text-center border border-slate-200 block"
                     >
-                      Nhắn Zalo
+                      Zalo Mr. Tâm
                     </a>
                     <a 
-                      href="https://zalo.me/0987453866" 
+                      href="https://zalo.me/0901826344" 
                       target="_blank" 
                       rel="noreferrer" 
                       className="py-3 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-xl text-center block shadow-md"
                     >
-                      WhatsApp / Call
+                      Zalo Mr. Giang
                     </a>
                   </div>
                 </div>

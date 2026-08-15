@@ -10,5 +10,5 @@ Chất lượng của bản in tampon phụ thuộc đến 40% vào cục silico
 
 [**VNPIS**](/) cung cấp hàng trăm hình dáng silicone khác nhau để tương thích với mọi biên dạng sản phẩm (từ mặt phẳng, mặt cong, đến các hốc sâu). Vật liệu silicone được pha trộn với tỷ lệ dầu chuẩn xác, đảm bảo độ bền cơ học cao, không bị trương nở khi tiếp xúc với dung môi tẩy rửa mạnh. Độ cứng (Shore A) được điều chỉnh linh hoạt từ mềm (phù hợp vật liệu dễ vỡ) đến cứng (in các mảng màu lớn).
 
-Đừng để một cục silicone kém chất lượng làm hỏng cả đơn hàng của bạn. Liên hệ ngay 0987453866 để chúng tôi tư vấn mẫu silicone chuẩn xác nhất!
+Đừng để một cục silicone kém chất lượng làm hỏng cả đơn hàng của bạn. Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để chúng tôi tư vấn mẫu silicone chuẩn xác nhất!
 

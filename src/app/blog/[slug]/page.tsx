@@ -85,7 +85,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           )}
         </div>
 
-        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0987 453 866 / ZALO / WHATSAPP */}
+        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0901 836 344 / ZALO / WHATSAPP */}
         <ArticleContactCTA title={metadata.title} />
 
         <div className="mt-12 bg-blue-50/80 border border-blue-200 rounded-3xl p-8 mb-16">

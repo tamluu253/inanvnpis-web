@@ -10,5 +10,5 @@ Bóng đèn LED là sản phẩm tiêu dùng thiết yếu, đòi hỏi thông s
 
 Nhờ cơ chế truyền mực trung gian qua đầu silicone, máy in tampon có thể in dễ dàng lên độ cong của bầu bóng đèn mà không làm vỡ bóng. Tốc độ in của máy khí nén 1 màu có thể đạt 1200 - 1500 sản phẩm/giờ, hoàn toàn bắt kịp nhịp độ của các dây chuyền lắp ráp đèn LED công nghiệp.
 
-VNPIS cung cấp giải pháp trọn gói bao gồm máy in tampon 1 màu giá rẻ và dòng mực chuyên dụng chịu nhiệt cho ngành chiếu sáng. Để lại thông tin hoặc gọi ngay 0987453866 để nhận báo giá ưu đãi.
+VNPIS cung cấp giải pháp trọn gói bao gồm máy in tampon 1 màu giá rẻ và dòng mực chuyên dụng chịu nhiệt cho ngành chiếu sáng. Để lại thông tin hoặc Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để nhận báo giá ưu đãi.
 

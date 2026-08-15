@@ -84,9 +84,14 @@ export default function FAQPage() {
           <p className="text-xl text-blue-100 mb-8">
             Hãy liên hệ trực tiếp với đội ngũ kỹ sư của VNPIS. Chúng tôi luôn sẵn sàng hỗ trợ kỹ thuật 24/7.
           </p>
-          <Link href="tel:0987453866" className="inline-block px-8 py-4 bg-white text-blue-600 font-bold rounded-lg shadow-xl hover:bg-slate-50 transition-all">
-            Gọi Hotline: 098 745 3866
-          </Link>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="tel:0901836344" className="px-6 py-3.5 bg-white text-blue-600 font-bold rounded-xl shadow-xl hover:bg-slate-50 transition-all text-sm">
+              Mr. Tâm: 0901 836 344
+            </a>
+            <a href="tel:0901826344" className="px-6 py-3.5 bg-blue-900 text-white font-bold rounded-xl shadow-xl hover:bg-blue-950 transition-all text-sm">
+              Mr. Giang: 0901 826 344
+            </a>
+          </div>
         </div>
       </section>
     </div>

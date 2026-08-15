@@ -12,5 +12,5 @@ Công nghệ in lụa có tính ứng dụng đa dạng nhờ vào sự phong ph
 - **Mực Plastisol:** Dành riêng cho ngành dệt may, in áo thun. Không bị khô lưới, màu sắc tươi sáng và không nứt gãy khi giặt.
 - **Keo Ep Kim (Foil Transfer):** In lụa keo lót trước khi ép nhũ vàng/bạc, tạo hiệu ứng metallic rực rỡ cho thiệp cưới, bao bì hộp cứng.
 
-Tất cả mực in đều có đầy đủ chứng chỉ an toàn môi trường. Vui lòng gọi 0987453866 để nhận bảng test màu và MSDS chi tiết.
+Tất cả mực in đều có đầy đủ chứng chỉ an toàn môi trường. Vui lòng gọi **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để nhận bảng test màu và MSDS chi tiết.
 

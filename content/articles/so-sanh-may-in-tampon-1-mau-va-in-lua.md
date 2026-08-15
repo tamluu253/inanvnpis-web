@@ -10,5 +10,5 @@ Nhiều xưởng in mới thành lập thường phân vân giữa việc đầu
 
 [**Máy in lụa**](/products/screen-printers) (Screen Printing) phát huy thế mạnh trên các bề mặt phẳng hoàn toàn (như áo thun, thùng carton, tấm nhựa phẳng) với độ phủ mực dày. Ngược lại, máy in tampon (Pad Printer) lại là "vua" của các bề mặt cong, lồi lõm, không quy tắc (như bóng golf, chuột máy tính, đồ chơi, bút bi) nhờ sự biến dạng linh hoạt của đầu in silicone.
 
-Về chi phí, máy in tampon 1 màu giá rẻ hiện nay có giá thành rất dễ tiếp cận, thao tác pha mực và vệ sinh máy bằng cốc mực kín cũng sạch sẽ và tốn ít dung môi hơn in lụa. Để được khảo sát mẫu sản phẩm và chọn đúng công nghệ, hãy liên hệ đội ngũ chuyên gia của VNPIS qua hotline 0987453866.
+Về chi phí, máy in tampon 1 màu giá rẻ hiện nay có giá thành rất dễ tiếp cận, thao tác pha mực và vệ sinh máy bằng cốc mực kín cũng sạch sẽ và tốn ít dung môi hơn in lụa. Để được khảo sát mẫu sản phẩm và chọn đúng công nghệ, hãy liên hệ đội ngũ chuyên gia của VNPIS qua Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)).
 

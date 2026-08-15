@@ -29,7 +29,7 @@ In tampon (Pad Printing) là công nghệ truyền mực bằng đầu silicone 
 
 ## 3. Quy Trình Nhận In Gia Công Tận Xưởng VNPIS
 
-- **Bước 1**: Tiếp nhận mẫu sản phẩm & yêu cầu thiết kế logo từ khách hàng qua Zalo **0987 453 866**.
+- **Bước 1**: Tiếp nhận mẫu sản phẩm & yêu cầu thiết kế logo từ khách hàng qua Zalo **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344))**.
 - **Bước 2**: Tư vấn chọn dòng mực và ra bản phim khắc chìm Cliche chuẩn xác.
 - **Bước 3**: Tiến hành in sample test (mẫu thử) thực tế và gửi khách hàng nghiệm thu.
 - **Bước 4**: Sản xuất hàng loạt trên dây chuyền tự động, kiểm định KCS và giao hàng tận nơi đúng tiến độ.
@@ -37,5 +37,5 @@ In tampon (Pad Printing) là công nghệ truyền mực bằng đầu silicone 
 ---
 
 👉 [**Nhận Báo Giá In Tampon Gia Công Ngay Hơn**](https://inanvnpis.com/#quote)  
-Hotline / Zalo hỗ trợ 24/7: **0987 453 866**  
+Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344))**  
 Địa chỉ xưởng: **18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh**

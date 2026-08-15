@@ -10,5 +10,5 @@ Trong ngành mỹ phẩm, bao bì quyết định 50% sự thành công của s�
 
 Sự mềm dẻo của đầu in silicone trên máy in tampon 1 màu giá rẻ cho phép nó dễ dàng "luồn lách" và áp sát vào các đường cong của vỏ mỹ phẩm. Khả năng in các đường nét thanh mảnh (fine-line) của máy tampon vượt trội hoàn toàn so với in lụa hay ép kim truyền thống.
 
-Nếu bạn là đơn vị sản xuất hoặc sang chiết mỹ phẩm, đừng bỏ lỡ cơ hội sở hữu máy in tampon (pad printer) 1 màu từ VNPIS để tự chủ công nghệ in ấn. Liên hệ 0987453866 để nhận tư vấn kỹ thuật chuyên sâu.
+Nếu bạn là đơn vị sản xuất hoặc sang chiết mỹ phẩm, đừng bỏ lỡ cơ hội sở hữu máy in tampon (pad printer) 1 màu từ VNPIS để tự chủ công nghệ in ấn. Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để nhận tư vấn kỹ thuật chuyên sâu.
 

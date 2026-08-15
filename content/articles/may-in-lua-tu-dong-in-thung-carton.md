@@ -10,5 +10,5 @@ In lụa (Screen Printing) từ lâu đã là công nghệ không thể thay th�
 
 Ưu điểm lớn nhất của máy in lụa là khả năng tạo ra lớp mực rất dày, che phủ hoàn toàn màu nền tối của giấy kraft hay carton sóng. Tốc độ máy in lụa tự động hiện nay đã được cải thiện đáng kể, tích hợp hệ thống sấy hồng ngoại (IR) hoặc sấy UV ngay trên băng tải, giúp sản phẩm khô lập tức sau khi in.
 
-Đầu tư máy in lụa tự động từ VNPIS giúp xưởng của bạn chủ động hoàn toàn khâu in ấn bao bì. Vui lòng liên hệ 0987453866 để nhận tư vấn cấu hình máy phù hợp nhất.
+Đầu tư máy in lụa tự động từ VNPIS giúp xưởng của bạn chủ động hoàn toàn khâu in ấn bao bì. Vui lòng Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để nhận tư vấn cấu hình máy phù hợp nhất.
 

@@ -10,5 +10,5 @@ Công nghệ in UV Single Pass đang thay đổi hoàn toàn cục diện ngành
 
 Điều này mang lại tốc độ in khủng khiếp (lên đến 50 - 80 mét/phút). Đây là giải pháp hoàn hảo để in dữ liệu biến đổi (VDP - Variable Data Printing) như số serial nhảy tự động, mã QR code định danh độc nhất lên hàng triệu thẻ nhựa, thẻ cào, thẻ bảo hành mỗi ngày.
 
-VNPIS tự hào là đơn vị tiên phong cung cấp hệ thống máy in UV Single Pass tích hợp kèm băng tải cấp liệu tự động (feeder). Mọi chi tiết xin liên hệ hotline 0987453866.
+VNPIS tự hào là đơn vị tiên phong cung cấp hệ thống máy in UV Single Pass tích hợp kèm băng tải cấp liệu tự động (feeder). Mọi chi tiết xin liên hệ Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)).
 

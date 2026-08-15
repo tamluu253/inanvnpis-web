@@ -10,5 +10,5 @@ Trong ngành sản xuất đồ uống và nước đóng chai, việc in ấn t
 
 Được thiết kế với đầu in silicon mềm mại, máy in tampon dễ dàng tiếp xúc và truyền mực lên các bề mặt lồi lõm mà các loại máy in phẳng không thể làm được. Với chi phí đầu tư ban đầu cực thấp, [**máy in tampon 1 màu**](/products/pad-printers/hj) giúp các cơ sở sản xuất vừa và nhỏ tối ưu hóa lợi nhuận trong khi vẫn đảm bảo chất lượng bản in sắc nét, không bị bong tróc.
 
-VNPIS cung cấp các dòng máy in tampon 1 màu giá rẻ, vận hành bằng khí nén ổn định, dễ dàng thay thế khuôn in và nạp mực. Liên hệ 0987453866 để được tư vấn dòng máy phù hợp nhất cho xưởng của bạn!
+VNPIS cung cấp các dòng máy in tampon 1 màu giá rẻ, vận hành bằng khí nén ổn định, dễ dàng thay thế khuôn in và nạp mực. Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để được tư vấn dòng máy phù hợp nhất cho xưởng của bạn!
 

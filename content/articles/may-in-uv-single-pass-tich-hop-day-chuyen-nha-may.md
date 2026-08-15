@@ -10,5 +10,5 @@ Một trong những ưu điểm vĩ đại nhất của công nghệ in UV Singl
 
 Đội ngũ kỹ sư cơ điện tự động hóa của [**VNPIS**](/) sẽ khảo sát, thiết kế khung gá, lập trình PLC đồng bộ tốc độ đầu in với tốc độ băng tải của bạn. Dù là in date, in mã vạch lên vỉ thuốc, hay in logo màu lên vỏ thùng carton lướt qua, mọi thứ đều diễn ra hoàn toàn tự động không cần sự can thiệp của con người.
 
-Tiết kiệm không gian nhà xưởng, tối ưu luồng công việc (workflow). Liên hệ ngay chuyên gia tự động hóa của chúng tôi qua số 0987453866 để nhận tư vấn giải pháp.
+Tiết kiệm không gian nhà xưởng, tối ưu luồng công việc (workflow). Liên hệ ngay chuyên gia tự động hóa của chúng tôi qua số **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) để nhận tư vấn giải pháp.
 

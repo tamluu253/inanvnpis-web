@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle, ShieldCheck, Zap, Phone } from 'lucide-react';
 
 export const metadata = {
   title: 'Dịch Vụ In KTS & Dữ Liệu Biến Đổi (VDP) | Xưởng In VNPIS TP.HCM',
-  description: 'Chuyên nhận in gia công KTS, in mã QR Code biến đổi, Barcode, Serial nhảy chống hàng giả và truy xuất nguồn gốc. Hotline/Zalo: 0987 453 866.',
+  description: 'Chuyên nhận in gia công KTS, in mã QR Code biến đổi, Barcode, Serial nhảy chống hàng giả và truy xuất nguồn gốc. Hotline/Zalo: 0901 836 344 (Mr. Tâm) - 0901 826 344 (Mr. Giang).',
 };
 
 export default function InKyThuatSoPage() {
@@ -78,9 +78,14 @@ export default function InKyThuatSoPage() {
         <div className="text-center bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-10 rounded-3xl shadow-xl">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Bạn Cần Gia Công In Mã QR &amp; Serial Biến Đổi?</h3>
           <p className="text-purple-100 text-base mb-8 max-w-xl mx-auto">Liên hệ xưởng VNPIS để được tư vấn giải pháp in dữ liệu biến đổi tận nhà máy của bạn.</p>
-          <a href="https://zalo.me/0987453866" target="_blank" rel="noreferrer" className="inline-flex items-center px-8 py-4 bg-white text-purple-700 hover:bg-slate-100 font-bold rounded-2xl shadow-lg transition-colors">
-            <Phone className="w-5 h-5 mr-2" /> Nhắn Zalo Báo Giá: 0987 453 866
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="https://zalo.me/0901836344" target="_blank" rel="noreferrer" className="inline-flex items-center px-6 py-3.5 bg-white text-purple-700 hover:bg-slate-100 font-bold rounded-2xl shadow-lg transition-colors text-sm">
+              <Phone className="w-4 h-4 mr-2" /> Zalo Mr. Tâm: 0901 836 344
+            </a>
+            <a href="https://zalo.me/0901826344" target="_blank" rel="noreferrer" className="inline-flex items-center px-6 py-3.5 bg-purple-900 text-white hover:bg-purple-950 font-bold rounded-2xl shadow-lg transition-colors text-sm">
+              <Phone className="w-4 h-4 mr-2" /> Zalo Mr. Giang: 0901 826 344
+            </a>
+          </div>
         </div>
       </div>
     </div>

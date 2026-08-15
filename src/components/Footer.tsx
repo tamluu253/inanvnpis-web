@@ -15,13 +15,23 @@ export default function Footer() {
             <p className="mb-6 text-sm leading-relaxed text-slate-400">
               Xưởng gia công in ấn VNPIS Solutions chuyên nhận in gia công Tampon, In Lụa, In KTS &amp; QR Code dữ liệu biến đổi trên mọi chất liệu và bề mặt phức tạp tại TP.HCM.
             </p>
-            <div className="flex space-x-3">
-              <a href="https://zalo.me/0987453866" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-xs hover:bg-blue-500 transition-colors shadow-md">
-                Zalo
-              </a>
-              <a href="tel:0987453866" className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold text-xs hover:bg-emerald-500 transition-colors shadow-md">
-                Call
-              </a>
+            <div className="flex flex-col space-y-2">
+              <div className="flex space-x-2">
+                <a href="https://zalo.me/0901836344" target="_blank" rel="noreferrer" className="px-3 py-2 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-xs hover:bg-blue-500 transition-colors shadow-md">
+                  Zalo Mr. Tâm
+                </a>
+                <a href="tel:0901836344" className="px-3 py-2 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold text-xs hover:bg-emerald-500 transition-colors shadow-md">
+                  Call
+                </a>
+              </div>
+              <div className="flex space-x-2">
+                <a href="https://zalo.me/0901826344" target="_blank" rel="noreferrer" className="px-3 py-2 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-xs hover:bg-blue-500 transition-colors shadow-md">
+                  Zalo Mr. Giang
+                </a>
+                <a href="tel:0901826344" className="px-3 py-2 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold text-xs hover:bg-emerald-500 transition-colors shadow-md">
+                  Call
+                </a>
+              </div>
             </div>
           </div>
 
@@ -63,11 +73,18 @@ export default function Footer() {
                   <span className="text-slate-300 block">18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.</span>
                 </span>
               </li>
-              <li className="flex items-center">
-                <Phone className="w-5 h-5 text-blue-400 mr-3 flex-shrink-0" />
-                <div>
-                  <span className="text-xs text-slate-400 block">Zalo / Hotline Báo Giá</span>
-                  <a href="tel:0987453866" className="font-extrabold text-blue-400 text-lg hover:underline">0987 453 866</a>
+              <li className="flex items-start">
+                <Phone className="w-5 h-5 text-blue-400 mr-3 mt-1 flex-shrink-0" />
+                <div className="space-y-1">
+                  <span className="text-xs text-slate-400 block font-bold">Hotline / Zalo Báo Giá 24/7</span>
+                  <div className="text-sm">
+                    <span className="text-slate-300">Mr. Tâm: </span>
+                    <a href="tel:0901836344" className="font-extrabold text-blue-400 hover:underline">0901 836 344</a>
+                  </div>
+                  <div className="text-sm">
+                    <span className="text-slate-300">Mr. Giang: </span>
+                    <a href="tel:0901826344" className="font-extrabold text-blue-400 hover:underline">0901 826 344</a>
+                  </div>
                 </div>
               </li>
               <li className="flex items-center">

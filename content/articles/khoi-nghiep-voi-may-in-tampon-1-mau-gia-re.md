@@ -10,5 +10,5 @@ Nếu bạn đang tìm kiếm một mô hình khởi nghiệp với số vốn d
 
 Với một chiếc máy in tampon (pad printer) 1 màu loại nhỏ, bạn có thể nhận gia công in ấn cho hàng ngàn mặt hàng khác nhau: từ USB, sạc dự phòng, chuột máy tính, đến bình giữ nhiệt, hộp quẹt... Biên độ lợi nhuận của dịch vụ gia công in ấn thường lên tới 60-70% do chi phí vật tư (mực, dung môi, bản thép) trên mỗi sản phẩm là cực kỳ nhỏ (chưa tới 100 đồng).
 
-VNPIS không chỉ bán máy in tampon 1 màu giá rẻ mà còn đào tạo nghề in miễn phí cho người mới bắt đầu. Đồng hành cùng bạn trên con đường khởi nghiệp, hãy liên hệ 0987453866 ngay hôm nay!
+VNPIS không chỉ bán máy in tampon 1 màu giá rẻ mà còn đào tạo nghề in miễn phí cho người mới bắt đầu. Đồng hành cùng bạn trên con đường khởi nghiệp, hãy Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)) ngay hôm nay!
 

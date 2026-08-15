@@ -34,8 +34,11 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="text-xs font-semibold text-slate-400">Hotline Kỹ Thuật 24/7</div>
-                  <div className="text-lg font-bold text-white">0987 453 866</div>
+                  <div className="text-xs font-semibold text-slate-400">Hotline Kỹ Thuật & Báo Giá 24/7</div>
+                  <div className="text-sm font-bold text-white leading-tight">
+                    <div>Mr. Tâm: <a href="tel:0901836344" className="hover:text-orange-400">0901 836 344</a></div>
+                    <div>Mr. Giang: <a href="tel:0901826344" className="hover:text-orange-400">0901 826 344</a></div>
+                  </div>
                 </div>
               </div>
 
@@ -169,9 +172,13 @@ export default function ContactPage() {
                       Tầng 1, 202 Lê Lai, Phường Bến Thành, Thành phố Hồ Chí Minh, Việt Nam.
                     </div>
                   </li>
-                  <li className="flex items-center">
-                    <Phone className="w-5 h-5 text-orange-500 mr-3 shrink-0" />
-                    <span>Hotline: <strong>0987 453 866</strong></span>
+                  <li className="flex items-start">
+                    <Phone className="w-5 h-5 text-orange-500 mr-3 shrink-0 mt-0.5" />
+                    <div>
+                      <strong className="text-slate-800 block">Hotline / Zalo:</strong>
+                      <div>Mr. Tâm: <a href="tel:0901836344" className="font-bold text-blue-600 hover:underline">0901 836 344</a></div>
+                      <div>Mr. Giang: <a href="tel:0901826344" className="font-bold text-blue-600 hover:underline">0901 826 344</a></div>
+                    </div>
                   </li>
                   <li className="flex items-center">
                     <Mail className="w-5 h-5 text-orange-500 mr-3 shrink-0" />

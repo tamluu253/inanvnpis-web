@@ -10,5 +10,5 @@ code: "VT-04"
 
 VNPIS nhận căng khung lụa nhôm với lưới Polyester cường lực nhập khẩu từ Thụy Sĩ/Đài Loan. Số mắt lưới (mesh) đa dạng từ 40T đến 160T, phù hợp cho từ việc in keo hạt to đến in phủ UV vecni bóng. Dao gạt mực chất liệu Polyurethane (PU) chịu được ma sát mạnh, không bị trương nở trong dung môi, các cạnh dao được mài vát chuẩn góc 45 độ, 60 độ hoặc 90 độ.
 
-Chúng tôi cung cấp trọn gói vật tư cho các xưởng in mới mở với giá sỉ tốt nhất thị trường. Hotline đặt hàng giao ngay trong ngày: 0987453866.
+Chúng tôi cung cấp trọn gói vật tư cho các xưởng in mới mở với giá sỉ tốt nhất thị trường. Hotline đặt hàng giao ngay trong ngày: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344)).
 

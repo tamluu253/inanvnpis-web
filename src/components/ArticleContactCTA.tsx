@@ -18,28 +18,68 @@ export default function ArticleContactCTA({ title }: { title?: string }) {
         </h3>
 
         <p className="text-blue-100 text-base md:text-lg mb-8 leading-relaxed max-w-2xl mx-auto">
-          Liên hệ ngay xưởng in VNPIS qua <strong className="text-amber-300 font-extrabold">Hotline / Zalo / WhatsApp: 0987 453 866</strong> để được tư vấn kỹ thuật chọn mực, làm mẫu thử thực tế và nhận báo giá tận xưởng tốt nhất!
+          Liên hệ ngay xưởng in VNPIS qua đội ngũ kỹ sư hỗ trợ 24/7 để được tư vấn kỹ thuật chọn mực, test mẫu thực tế và nhận báo giá tốt nhất:
         </p>
 
-        {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="https://zalo.me/0987453866"
-            target="_blank"
-            rel="noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-white text-blue-700 hover:bg-blue-50 font-black rounded-2xl shadow-lg transition-all text-base group"
-          >
-            <MessageCircle className="w-5 h-5 mr-2 text-blue-600 group-hover:scale-110 transition-transform" />
-            Nhắn Zalo: 0987 453 866
-          </a>
+        {/* Contact Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto mb-6">
+          {/* Mr. Tâm */}
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-2xl flex flex-col items-center">
+            <span className="text-amber-300 font-extrabold text-sm mb-1">Mr. Tâm: 0901 836 344</span>
+            <div className="flex items-center justify-center gap-2 mt-2 w-full">
+              <a
+                href="https://zalo.me/0901836344"
+                target="_blank"
+                rel="noreferrer"
+                className="flex-1 py-2 px-3 bg-white text-blue-700 hover:bg-blue-50 font-bold rounded-xl text-xs flex items-center justify-center transition-colors shadow-md"
+              >
+                <MessageCircle className="w-4 h-4 mr-1 text-blue-600" /> Zalo
+              </a>
+              <a
+                href="https://wa.me/84901836344"
+                target="_blank"
+                rel="noreferrer"
+                className="flex-1 py-2 px-3 bg-emerald-500 hover:bg-emerald-400 text-white font-bold rounded-xl text-xs flex items-center justify-center transition-colors shadow-md"
+              >
+                <MessageSquare className="w-4 h-4 mr-1" /> WhatsApp
+              </a>
+              <a
+                href="tel:0901836344"
+                className="py-2 px-3 bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold rounded-xl text-xs flex items-center justify-center transition-colors shadow-md"
+              >
+                <Phone className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
 
-          <a
-            href="tel:0987453866"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 bg-amber-400 hover:bg-amber-300 text-slate-900 font-black rounded-2xl shadow-lg transition-all text-base"
-          >
-            <Phone className="w-5 h-5 mr-2 text-slate-900" />
-            Call Hotline / WhatsApp
-          </a>
+          {/* Mr. Giang */}
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-2xl flex flex-col items-center">
+            <span className="text-amber-300 font-extrabold text-sm mb-1">Mr. Giang: 0901 826 344</span>
+            <div className="flex items-center justify-center gap-2 mt-2 w-full">
+              <a
+                href="https://zalo.me/0901826344"
+                target="_blank"
+                rel="noreferrer"
+                className="flex-1 py-2 px-3 bg-white text-blue-700 hover:bg-blue-50 font-bold rounded-xl text-xs flex items-center justify-center transition-colors shadow-md"
+              >
+                <MessageCircle className="w-4 h-4 mr-1 text-blue-600" /> Zalo
+              </a>
+              <a
+                href="https://wa.me/84901826344"
+                target="_blank"
+                rel="noreferrer"
+                className="flex-1 py-2 px-3 bg-emerald-500 hover:bg-emerald-400 text-white font-bold rounded-xl text-xs flex items-center justify-center transition-colors shadow-md"
+              >
+                <MessageSquare className="w-4 h-4 mr-1" /> WhatsApp
+              </a>
+              <a
+                href="tel:0901826344"
+                className="py-2 px-3 bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold rounded-xl text-xs flex items-center justify-center transition-colors shadow-md"
+              >
+                <Phone className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Trust Badges */}
