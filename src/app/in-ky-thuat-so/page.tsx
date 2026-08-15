@@ -12,7 +12,7 @@ export default function InKyThuatSoPage() {
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans pt-28 pb-20">
       <div className="container mx-auto px-4 max-w-5xl">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <span className="inline-block py-2 px-4 rounded-full bg-purple-100/80 text-purple-700 text-xs font-bold uppercase tracking-wider mb-4 border border-purple-200">
             Dịch Vụ In Dữ Liệu Biến Đổi (VDP) &amp; KTS
           </span>
@@ -22,6 +22,15 @@ export default function InKyThuatSoPage() {
           <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
             In kỹ thuật số trực tiếp mã QR Code động, Barcode, mã vạch và số Serial biến đổi nhảy liên tục trên sản phẩm &amp; bao bì, phục vụ quản lý kho thông minh và chống hàng giả.
           </p>
+        </div>
+
+        {/* Generated Illustrative Image */}
+        <div className="mb-16 rounded-3xl overflow-hidden shadow-lg border border-slate-200 max-w-4xl mx-auto">
+          <img 
+            src="/images/qr-code-printing.jpg" 
+            alt="Dịch vụ in KTS và mã QR Code biến đổi VDP" 
+            className="w-full h-auto object-cover"
+          />
         </div>
 
         {/* Benefits Grid */}

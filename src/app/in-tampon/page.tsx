@@ -12,7 +12,7 @@ export default function InTamponPage() {
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans pt-28 pb-20">
       <div className="container mx-auto px-4 max-w-5xl">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <span className="inline-block py-2 px-4 rounded-full bg-blue-100/80 text-blue-700 text-xs font-bold uppercase tracking-wider mb-4 border border-blue-200">
             Dịch Vụ In Tampon Gia Công Chuyên Nghiệp
           </span>
@@ -22,6 +22,15 @@ export default function InTamponPage() {
           <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Giải pháp in sắc nét trên các bề mặt phức tạp, hình cầu, lõm, gồ ghề: Tô chén dĩa, ly nhựa, bình giữ nhiệt, nón bảo hiểm, linh kiện điện tử và đồ gia dụng.
           </p>
+        </div>
+
+        {/* Generated Illustrative Image */}
+        <div className="mb-16 rounded-3xl overflow-hidden shadow-lg border border-slate-200 max-w-4xl mx-auto">
+          <img 
+            src="/images/pad-printing-cups.jpg" 
+            alt="Dịch vụ in tampon gia công ly nhựa tô chén dĩa" 
+            className="w-full h-auto object-cover"
+          />
         </div>
 
         {/* Benefits Grid */}

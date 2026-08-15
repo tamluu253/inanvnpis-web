@@ -12,7 +12,7 @@ export default function InLuaPage() {
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans pt-28 pb-20">
       <div className="container mx-auto px-4 max-w-5xl">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <span className="inline-block py-2 px-4 rounded-full bg-teal-100/80 text-teal-700 text-xs font-bold uppercase tracking-wider mb-4 border border-teal-200">
             Dịch Vụ In Lụa Gia Công Chuyên Nghiệp
           </span>
@@ -22,6 +22,15 @@ export default function InLuaPage() {
           <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Chuyên gia công in lụa màng nhựa phẳng, túi giấy, túi nilon, bao bì đóng gói, vải thun, áo đồng phục với mực in cao cấp cho độ phủ đều, màu tươi sáng và cực kỳ bền màu.
           </p>
+        </div>
+
+        {/* Generated Illustrative Image */}
+        <div className="mb-16 rounded-3xl overflow-hidden shadow-lg border border-slate-200 max-w-4xl mx-auto">
+          <img 
+            src="/images/screen-printing-bags.jpg" 
+            alt="Dịch vụ in lụa gia công túi giấy túi nilon vải thun" 
+            className="w-full h-auto object-cover"
+          />
         </div>
 
         {/* Benefits Grid */}
