@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { MapPin, Phone, Mail, ArrowRight, ShieldCheck, CheckCircle, BookOpen } from 'lucide-react';
+import { MapPin, Phone, Mail, ArrowRight, BookOpen } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -33,7 +33,7 @@ export default function Footer() {
               <li><Link href="/in-lua" className="hover:text-blue-400 transition-colors flex items-center text-sm"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> Gia công in Lụa (Túi giấy, Nilon, Áo)</Link></li>
               <li><Link href="/in-ky-thuat-so" className="hover:text-blue-400 transition-colors flex items-center text-sm"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> Gia công in KTS &amp; Dữ liệu biến đổi</Link></li>
               <li><Link href="/in-ky-thuat-so" className="hover:text-blue-400 transition-colors flex items-center text-sm"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> In mã QR Code &amp; Serial nhảy</Link></li>
-              <li><Link href="/#quote" className="hover:text-blue-400 transition-colors flex items-center text-sm"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> Tính giá báo giá tự động 24/7</Link></li>
+              <li><Link href="/#quote" className="hover:text-blue-400 transition-colors flex items-center text-sm"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> Bảng tính báo giá tự động 24/7</Link></li>
             </ul>
           </div>
 
@@ -41,7 +41,11 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-bold mb-6">Kiến Thức &amp; Blog SEO</h3>
             <ul className="space-y-3">
-              <li><Link href="/blog" className="hover:text-blue-400 transition-colors flex items-center text-sm"><BookOpen className="w-3.5 h-3.5 mr-2 text-teal-400" /> Thư viện Kiến Thức In Ấn (`/blog`)</Link></li>
+              <li>
+                <Link href="/blog" className="hover:text-blue-400 transition-colors flex items-center text-sm font-semibold text-blue-400">
+                  <BookOpen className="w-4 h-4 mr-2 text-blue-400" /> Thư viện Kiến Thức In Ấn
+                </Link>
+              </li>
               <li><Link href="/blog/xuong-in-tampon-tphcm-gia-cong-ly-nhua-to-chen-dia" className="hover:text-blue-400 transition-colors flex items-center text-sm text-slate-300"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> In Tampon Ly Nhựa &amp; Tô Chén</Link></li>
               <li><Link href="/blog/so-sanh-in-lua-va-in-tampon-khi-nao-dung-cong-nghe-nao" className="hover:text-blue-400 transition-colors flex items-center text-sm text-slate-300"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> So sánh In Lụa &amp; In Tampon</Link></li>
               <li><Link href="/blog/bao-gia-may-in-tampon-tu-dong-moi-nhat" className="hover:text-blue-400 transition-colors flex items-center text-sm text-slate-300"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> Báo giá máy in tampon tự động</Link></li>
@@ -78,7 +82,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <p>&copy; {new Date().getFullYear()} Xưởng In Gia Công VNPIS Solutions. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/blog" className="hover:text-slate-300 font-semibold text-blue-400">Blog SEO</Link>
+            <Link href="/blog" className="hover:text-slate-300 font-semibold text-blue-400">Kiến Thức In Ấn</Link>
             <Link href="/privacy-policy" className="hover:text-slate-300">Chính sách bảo mật</Link>
             <Link href="/terms-of-service" className="hover:text-slate-300">Điều khoản dịch vụ</Link>
             <Link href="/sitemap.xml" className="hover:text-slate-300">Sitemap</Link>

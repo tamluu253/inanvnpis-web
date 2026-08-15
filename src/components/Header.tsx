@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, ChevronDown, PhoneCall, ExternalLink, BookOpen } from 'lucide-react';
+import { Menu, X, ChevronDown, PhoneCall, ExternalLink, BookOpen, Calculator, Award } from 'lucide-react';
 
 type NavigationItem = {
   name: string;
@@ -20,16 +20,16 @@ export default function Header() {
 
   const navigation: NavigationItem[] = [
     {
-      name: 'In Tampon Gia Công',
+      name: 'In Tampon',
       href: '/in-tampon',
       dropdown: [
-        { name: 'In Tô, Ly, Cốc Nhựa', href: '/in-tampon' },
+        { name: 'Gia Công In Ly, Tô, Chén Dĩa', href: '/in-tampon' },
         { name: 'In Linh Kiện & Đồ Gia Dụng', href: '/in-tampon' },
         { name: 'In Quà Tặng Doanh Nghiệp', href: '/in-tampon' },
       ],
     },
     {
-      name: 'In Lụa Gia Công',
+      name: 'In Lụa',
       href: '/in-lua',
       dropdown: [
         { name: 'In Lụa Túi Giấy & Túi Nilon', href: '/in-lua' },
@@ -38,31 +38,27 @@ export default function Header() {
       ],
     },
     {
-      name: 'In KTS & QR Code VDP',
+      name: 'In KTS & QR Code',
       href: '/in-ky-thuat-so',
       dropdown: [
-        { name: 'In Mã QR Code Biến Đổi', href: '/in-ky-thuat-so' },
+        { name: 'In Mã QR Code Biến Đổi (VDP)', href: '/in-ky-thuat-so' },
         { name: 'In Barcode / Serial Nhảy', href: '/in-ky-thuat-so' },
-        { name: 'Gia Công In VDP Tận Nhà Máy', href: '/in-ky-thuat-so' },
+        { name: 'In Dữ Liệu Biến Đổi Tận Nhà Máy', href: '/in-ky-thuat-so' },
       ],
     },
     {
       name: 'Kiến Thức In Ấn',
       href: '/blog',
       dropdown: [
+        { name: 'Thư Viện Bài Viết SEO', href: '/blog' },
         { name: 'Kinh Nghiệm In Tampon', href: '/blog' },
         { name: 'Kinh Nghiệm In Lụa', href: '/blog' },
-        { name: 'Ứng Dụng In KTS & VDP', href: '/blog' },
-        { name: 'Tất Cả Bài Viết SEO', href: '/blog' },
+        { name: 'Giải Pháp In KTS & VDP', href: '/blog' },
       ],
     },
     {
-      name: 'Năng Lực Xưởng In',
+      name: 'Năng Lực Xưởng',
       href: '/#capacity',
-    },
-    {
-      name: 'Báo Giá Tận Xưởng',
-      href: '/#quote',
     },
     {
       name: 'Giới Thiệu',
@@ -75,14 +71,14 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all font-sans text-slate-800">
-      <div className="container mx-auto px-4 h-20 lg:h-22 flex items-center justify-between">
+    <header className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm transition-all font-sans text-slate-800">
+      <div className="container mx-auto px-4 lg:px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0 flex items-center">
+        <Link href="/" className="flex-shrink-0 flex items-center mr-4">
           <img 
             src="/images/inanvnpis-logo.png" 
             alt="In Ấn VNPIS Logo" 
-            className="h-10 lg:h-12 w-auto object-contain transition-all" 
+            className="h-10 lg:h-11 w-auto object-contain transition-all" 
             onError={(e) => {
               const target = e.currentTarget;
               if (!target.src.endsWith('/images/inanvnpis-logo.png')) {
@@ -93,7 +89,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-6">
+        <nav className="hidden xl:flex items-center space-x-1 lg:space-x-2">
           {navigation.map((item) => (
             <div
               key={item.name}
@@ -103,16 +99,19 @@ export default function Header() {
             >
               <Link
                 href={item.href}
-                className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors flex items-center"
+                className="text-sm font-bold text-slate-700 hover:text-blue-600 transition-colors px-3 py-2 rounded-lg hover:bg-slate-50 flex items-center whitespace-nowrap"
               >
-                {item.name}
-                {item.dropdown && <ChevronDown className="ml-1 w-4 h-4 text-slate-400" />}
+                {item.name === 'Kiến Thức In Ấn' && (
+                  <BookOpen className="w-4 h-4 mr-1.5 text-blue-600 flex-shrink-0" />
+                )}
+                <span>{item.name}</span>
+                {item.dropdown && <ChevronDown className="ml-1 w-3.5 h-3.5 text-slate-400 flex-shrink-0" />}
               </Link>
 
               {/* Dropdown Menu */}
               {item.dropdown && (
                 <div
-                  className={`absolute top-16 left-0 w-64 bg-white border border-slate-200 shadow-xl rounded-xl py-3 transition-all duration-200 origin-top ${
+                  className={`absolute top-16 left-0 w-60 bg-white border border-slate-200/90 shadow-xl rounded-2xl py-2 transition-all duration-200 origin-top ${
                     activeMenu === item.name ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0 pointer-events-none'
                   }`}
                 >
@@ -122,7 +121,7 @@ export default function Header() {
                       href={subItem.href}
                       target={subItem.external ? "_blank" : undefined}
                       rel={subItem.external ? "noopener noreferrer" : undefined}
-                      className="block px-5 py-2.5 text-sm text-slate-600 hover:bg-slate-50 hover:text-blue-600 font-semibold transition-colors"
+                      className="block px-4 py-2.5 text-sm text-slate-600 hover:bg-blue-50/60 hover:text-blue-600 font-semibold transition-colors rounded-xl mx-1"
                     >
                       <span className="flex items-center">
                         {subItem.name}
@@ -137,24 +136,24 @@ export default function Header() {
         </nav>
 
         {/* Desktop Actions */}
-        <div className="hidden lg:flex items-center space-x-5">
+        <div className="hidden lg:flex items-center space-x-4 flex-shrink-0">
           <div className="flex flex-col items-end">
-            <span className="text-xs text-slate-500 font-medium">Hotline Xưởng In</span>
-            <a href="tel:0987453866" className="text-blue-600 font-extrabold text-lg hover:text-blue-700 transition-colors">
+            <span className="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Hotline Xưởng In</span>
+            <a href="tel:0987453866" className="text-blue-600 font-black text-base lg:text-lg hover:text-blue-700 transition-colors whitespace-nowrap">
               0987 453 866
             </a>
           </div>
           <Link
             href="/#quote"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold transition-all shadow-md hover:shadow-lg shadow-blue-600/20 text-sm"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 rounded-xl font-bold transition-all shadow-md hover:shadow-lg shadow-blue-600/20 text-xs lg:text-sm whitespace-nowrap flex items-center"
           >
-            Bảng Tính Báo Giá
+            <Calculator className="w-4 h-4 mr-1.5" /> Bảng Tính Báo Giá
           </Link>
         </div>
 
         {/* Mobile Menu Toggle */}
         <button
-          className="lg:hidden p-2 text-slate-700"
+          className="xl:hidden p-2 text-slate-700 rounded-lg hover:bg-slate-100"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -163,15 +162,19 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden bg-white border-t border-slate-200 px-4 py-6 shadow-xl h-[calc(100vh-80px)] overflow-y-auto">
+        <div className="xl:hidden bg-white border-t border-slate-200 px-4 py-6 shadow-xl h-[calc(100vh-80px)] overflow-y-auto">
           <div className="flex flex-col space-y-4">
             {navigation.map((item) => (
               <div key={item.name} className="flex flex-col space-y-2">
-                <Link href={item.href} onClick={() => setIsMobileMenuOpen(false)} className="font-bold text-slate-900 text-lg py-2 border-b border-slate-100">
-                  {item.name}
+                <Link href={item.href} onClick={() => setIsMobileMenuOpen(false)} className="font-bold text-slate-900 text-base py-2 border-b border-slate-100 flex items-center justify-between">
+                  <span className="flex items-center">
+                    {item.name === 'Kiến Thức In Ấn' && <BookOpen className="w-4 h-4 mr-2 text-blue-600" />}
+                    {item.name}
+                  </span>
+                  {item.dropdown && <ChevronDown className="w-4 h-4 text-slate-400" />}
                 </Link>
                 {item.dropdown && (
-                  <div className="pl-4 flex flex-col space-y-3 pt-2">
+                  <div className="pl-4 flex flex-col space-y-2 pt-1">
                     {item.dropdown.map((subItem) => (
                       <Link 
                         key={subItem.name} 
@@ -179,22 +182,21 @@ export default function Header() {
                         onClick={() => setIsMobileMenuOpen(false)}
                         target={subItem.external ? "_blank" : undefined}
                         rel={subItem.external ? "noopener noreferrer" : undefined} 
-                        className="text-slate-600 text-sm font-semibold flex items-center"
+                        className="text-slate-600 text-sm font-semibold py-1 flex items-center hover:text-blue-600"
                       >
                         {subItem.name}
-                        {subItem.external && <ExternalLink className="w-3 h-3 ml-1.5 opacity-70" />}
                       </Link>
                     ))}
                   </div>
                 )}
               </div>
             ))}
-            <div className="pt-6 mt-6 border-t border-slate-200 flex flex-col space-y-4">
-              <a href="tel:0987453866" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-3 bg-slate-100 text-slate-800 rounded-xl font-bold border border-slate-200">
-                <PhoneCall className="w-5 h-5 mr-2 text-blue-600" /> Hotline: 0987 453 866
+            <div className="pt-6 mt-4 border-t border-slate-200 flex flex-col space-y-3">
+              <a href="tel:0987453866" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-3 bg-slate-100 text-slate-800 rounded-xl font-bold border border-slate-200 text-sm">
+                <PhoneCall className="w-4 h-4 mr-2 text-blue-600" /> Hotline: 0987 453 866
               </a>
-              <Link href="/#quote" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-3 bg-blue-600 text-white rounded-xl font-bold shadow-md">
-                Yêu Cầu Báo Giá
+              <Link href="/#quote" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center justify-center w-full py-3 bg-blue-600 text-white rounded-xl font-bold shadow-md text-sm">
+                Bảng Tính Báo Giá Tận Xưởng
               </Link>
             </div>
           </div>
