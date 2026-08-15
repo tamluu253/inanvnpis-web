@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { MapPin, Phone, Mail, ArrowRight, ShieldCheck, CheckCircle } from 'lucide-react';
+import { MapPin, Phone, Mail, ArrowRight, ShieldCheck, CheckCircle, BookOpen } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -37,15 +37,14 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Quality Commitments */}
+          {/* Column 3: Kiến Thức SEO & Blog */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-6">Cam Kết Xưởng In</h3>
-            <ul className="space-y-3 text-sm text-slate-400">
-              <li className="flex items-center"><CheckCircle className="w-4 h-4 text-emerald-400 mr-2 flex-shrink-0" /> In test mẫu miễn phí trước sản xuất</li>
-              <li className="flex items-center"><CheckCircle className="w-4 h-4 text-emerald-400 mr-2 flex-shrink-0" /> Mực bám dính siêu cường (test 3M)</li>
-              <li className="flex items-center"><CheckCircle className="w-4 h-4 text-emerald-400 mr-2 flex-shrink-0" /> Công suất 50.000+ sản phẩm/ngày</li>
-              <li className="flex items-center"><CheckCircle className="w-4 h-4 text-emerald-400 mr-2 flex-shrink-0" /> Tiến độ chuẩn xác - Giao hàng tận nơi</li>
-              <li className="flex items-center"><CheckCircle className="w-4 h-4 text-emerald-400 mr-2 flex-shrink-0" /> Giá gia công trực tiếp không qua trung gian</li>
+            <h3 className="text-white text-lg font-bold mb-6">Kiến Thức &amp; Blog SEO</h3>
+            <ul className="space-y-3">
+              <li><Link href="/blog" className="hover:text-blue-400 transition-colors flex items-center text-sm"><BookOpen className="w-3.5 h-3.5 mr-2 text-teal-400" /> Thư viện Kiến Thức In Ấn (`/blog`)</Link></li>
+              <li><Link href="/blog/xuong-in-tampon-tphcm-gia-cong-ly-nhua-to-chen-dia" className="hover:text-blue-400 transition-colors flex items-center text-sm text-slate-300"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> In Tampon Ly Nhựa &amp; Tô Chén</Link></li>
+              <li><Link href="/blog/so-sanh-in-lua-va-in-tampon-khi-nao-dung-cong-nghe-nao" className="hover:text-blue-400 transition-colors flex items-center text-sm text-slate-300"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> So sánh In Lụa &amp; In Tampon</Link></li>
+              <li><Link href="/blog/bao-gia-may-in-tampon-tu-dong-moi-nhat" className="hover:text-blue-400 transition-colors flex items-center text-sm text-slate-300"><ArrowRight className="w-3 h-3 mr-2 text-blue-500" /> Báo giá máy in tampon tự động</Link></li>
             </ul>
           </div>
 
@@ -79,6 +78,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
           <p>&copy; {new Date().getFullYear()} Xưởng In Gia Công VNPIS Solutions. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
+            <Link href="/blog" className="hover:text-slate-300 font-semibold text-blue-400">Blog SEO</Link>
             <Link href="/privacy-policy" className="hover:text-slate-300">Chính sách bảo mật</Link>
             <Link href="/terms-of-service" className="hover:text-slate-300">Điều khoản dịch vụ</Link>
             <Link href="/sitemap.xml" className="hover:text-slate-300">Sitemap</Link>

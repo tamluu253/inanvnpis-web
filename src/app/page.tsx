@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ShieldCheck, CheckCircle2, Phone, Zap, CheckCircle, MessageSquare, Award, Clock, Sparkles } from 'lucide-react';
+import { ArrowRight, ShieldCheck, CheckCircle2, Phone, Zap, CheckCircle, MessageSquare, Award, Clock, Sparkles, BookOpen, Calendar } from 'lucide-react';
 
 export default function Home() {
   const [serviceType, setServiceType] = useState<string>('In Tampon Gia Công');
@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen font-sans bg-slate-50 text-slate-800">
-      {/* 1. HERO BANNER - LIGHT EYE-SOOTHING STYLE */}
+      {/* 1. HERO BANNER */}
       <section className="relative pt-28 pb-24 lg:pt-36 lg:pb-32 bg-gradient-to-b from-blue-50/60 via-slate-50 to-slate-50 overflow-hidden border-b border-slate-200/80">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-200/40 via-cyan-100/20 to-transparent pointer-events-none" />
         
@@ -201,7 +201,92 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. CALCULATOR & QUOTE SECTION */}
+      {/* 5. LATEST BLOG ARTICLES SECTION (Kinh Nghiệm & SEO) */}
+      <section className="py-24 bg-slate-50 border-b border-slate-200/80">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
+            <div>
+              <span className="inline-flex items-center py-1.5 px-3.5 rounded-full bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider mb-3">
+                <BookOpen className="w-4 h-4 mr-2" /> Kiến Thức &amp; Kinh Nghiệm In Gia Công
+              </span>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">Bài Viết Mới Nhất</h2>
+            </div>
+            <Link href="/blog" className="inline-flex items-center font-bold text-blue-600 hover:underline text-sm mt-4 md:mt-0">
+              Xem Tất Cả Bài Viết Thư Viện <ArrowRight className="ml-2 w-4 h-4" />
+            </Link>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Article 1 */}
+            <Link href="/blog/xuong-in-tampon-tphcm-gia-cong-ly-nhua-to-chen-dia" className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all group flex flex-col justify-between">
+              <div>
+                <div className="h-48 overflow-hidden bg-slate-100 relative">
+                  <img src="/images/pad-printing-cups.jpg" alt="In tampon ly nhựa tô chén" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <span className="absolute top-4 left-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">In Tampon Gia Công</span>
+                </div>
+                <div className="p-6">
+                  <h3 className="font-bold text-slate-900 text-lg mb-3 group-hover:text-blue-600 transition-colors leading-snug">
+                    Xưởng In Tampon TP.HCM Gia Công Ly Nhựa, Tô Chén Dĩa Uy Tín
+                  </h3>
+                  <p className="text-slate-600 text-sm line-clamp-3 leading-relaxed">
+                    Dịch vụ in tampon gia công chuyên nhận in logo thông tin lên ly nhựa PP, PET, tô chén dĩa, bình giữ nhiệt, linh kiện điện tử...
+                  </p>
+                </div>
+              </div>
+              <div className="px-6 pb-6 pt-0 text-xs text-slate-400 font-medium flex items-center justify-between border-t border-slate-100 mt-4">
+                <span className="flex items-center"><Calendar className="w-3.5 h-3.5 mr-1 text-slate-400" /> 15/08/2026</span>
+                <span className="text-blue-600 font-bold">Đọc tiếp &rarr;</span>
+              </div>
+            </Link>
+
+            {/* Article 2 */}
+            <Link href="/blog/so-sanh-in-lua-va-in-tampon-khi-nao-dung-cong-nghe-nao" className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all group flex flex-col justify-between">
+              <div>
+                <div className="h-48 overflow-hidden bg-slate-100 relative">
+                  <img src="/images/screen-printing-bags.jpg" alt="So sánh in lụa và in tampon" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <span className="absolute top-4 left-4 bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">So Sánh Công Nghệ</span>
+                </div>
+                <div className="p-6">
+                  <h3 className="font-bold text-slate-900 text-lg mb-3 group-hover:text-blue-600 transition-colors leading-snug">
+                    So Sánh In Lụa Và In Tampon: Khi Nào Nên Dùng Công Nghệ Nào?
+                  </h3>
+                  <p className="text-slate-600 text-sm line-clamp-3 leading-relaxed">
+                    Khám phá sự khác biệt cốt lõi giữa in lụa màng phẳng và in tampon silicone 3D để lựa chọn giải pháp tối ưu cho sản phẩm...
+                  </p>
+                </div>
+              </div>
+              <div className="px-6 pb-6 pt-0 text-xs text-slate-400 font-medium flex items-center justify-between border-t border-slate-100 mt-4">
+                <span className="flex items-center"><Calendar className="w-3.5 h-3.5 mr-1 text-slate-400" /> Thư viện VNPIS</span>
+                <span className="text-blue-600 font-bold">Đọc tiếp &rarr;</span>
+              </div>
+            </Link>
+
+            {/* Article 3 */}
+            <Link href="/blog/bao-gia-may-in-tampon-tu-dong-moi-nhat" className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all group flex flex-col justify-between">
+              <div>
+                <div className="h-48 overflow-hidden bg-slate-100 relative">
+                  <img src="/images/qr-code-printing.jpg" alt="Báo giá thiết bị và dịch vụ in gia công" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <span className="absolute top-4 left-4 bg-purple-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md">Báo Giá &amp; Thiết Bị</span>
+                </div>
+                <div className="p-6">
+                  <h3 className="font-bold text-slate-900 text-lg mb-3 group-hover:text-blue-600 transition-colors leading-snug">
+                    Báo Giá Máy In Tampon &amp; Dịch Vụ In Gia Công Tự Động Mới Nhất
+                  </h3>
+                  <p className="text-slate-600 text-sm line-clamp-3 leading-relaxed">
+                    Cập nhật chi phí gia công in tampon và giải pháp đầu tư dây chuyền in công nghiệp công suất cao cho doanh nghiệp...
+                  </p>
+                </div>
+              </div>
+              <div className="px-6 pb-6 pt-0 text-xs text-slate-400 font-medium flex items-center justify-between border-t border-slate-100 mt-4">
+                <span className="flex items-center"><Calendar className="w-3.5 h-3.5 mr-1 text-slate-400" /> Thư viện VNPIS</span>
+                <span className="text-blue-600 font-bold">Đọc tiếp &rarr;</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. CALCULATOR & QUOTE SECTION */}
       <section id="quote" className="py-24 bg-gradient-to-b from-blue-50/40 via-slate-50 to-slate-50">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid lg:grid-cols-12 gap-12 items-center">

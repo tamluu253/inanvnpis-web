@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, ChevronDown, PhoneCall, ExternalLink } from 'lucide-react';
+import { Menu, X, ChevronDown, PhoneCall, ExternalLink, BookOpen } from 'lucide-react';
 
 type NavigationItem = {
   name: string;
@@ -47,6 +47,16 @@ export default function Header() {
       ],
     },
     {
+      name: 'Kiến Thức In Ấn',
+      href: '/blog',
+      dropdown: [
+        { name: 'Kinh Nghiệm In Tampon', href: '/blog' },
+        { name: 'Kinh Nghiệm In Lụa', href: '/blog' },
+        { name: 'Ứng Dụng In KTS & VDP', href: '/blog' },
+        { name: 'Tất Cả Bài Viết SEO', href: '/blog' },
+      ],
+    },
+    {
       name: 'Năng Lực Xưởng In',
       href: '/#capacity',
     },
@@ -83,7 +93,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center space-x-7">
+        <nav className="hidden lg:flex items-center space-x-6">
           {navigation.map((item) => (
             <div
               key={item.name}
@@ -127,7 +137,7 @@ export default function Header() {
         </nav>
 
         {/* Desktop Actions */}
-        <div className="hidden lg:flex items-center space-x-6">
+        <div className="hidden lg:flex items-center space-x-5">
           <div className="flex flex-col items-end">
             <span className="text-xs text-slate-500 font-medium">Hotline Xưởng In</span>
             <a href="tel:0987453866" className="text-blue-600 font-extrabold text-lg hover:text-blue-700 transition-colors">
@@ -136,7 +146,7 @@ export default function Header() {
           </div>
           <Link
             href="/#quote"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-xl font-bold transition-all shadow-md hover:shadow-lg shadow-blue-600/20"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold transition-all shadow-md hover:shadow-lg shadow-blue-600/20 text-sm"
           >
             Bảng Tính Báo Giá
           </Link>
