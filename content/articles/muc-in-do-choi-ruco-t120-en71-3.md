@@ -1,7 +1,7 @@
 ---
-canonical: "https://vnpis.com/blog/muc-in-do-choi-ruco-t120-en71-3"
+canonical: "https://inanvnpis.com/blog/muc-in-do-choi-ruco-t120-en71-3"
 schema_type: "TechnicalArticle"
-publisher_mst: "0318266611"
+
 title: "Mực In Đồ Chơi Ruco T120 Đạt Chuẩn An Toàn EN71-3"
 description: "Ruco T120 là dòng mực 1 hoặc 2 thành phần (Đức) được thiết kế đặc biệt an toàn cho trẻ em. Vượt qua bài kiểm tra EN71-3 về độ thôi nhiễm kim loại nặng."
 date: "2026-07-17T03:34:04.877Z"
@@ -22,7 +22,10 @@ Chọn Ruco T120 là bạn đang chọn sự yên tâm tuyệt đối cho thươ
 
 ---
 
-## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
-* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Hộ Kinh Doanh VNPIS Solutions](https://vnpis.com/articles)
-* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
-* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)
+---
+
+## 📌 Xưởng Gia Công In Ấn VNPIS Solutions
+* 🏢 **Địa chỉ xưởng:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344)) | **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344))
+* 🌐 **Website chính thức:** [inanvnpis.com](https://inanvnpis.com) | [Dịch vụ In Tampon](https://inanvnpis.com/in-tampon) | [Dịch vụ In Lụa](https://inanvnpis.com/in-lua) | [In QR Code](https://inanvnpis.com/in-ky-thuat-so)
+* 🛒 *Cần mua máy in hoặc vật tư mực in B2B? Tham khảo tại:* [vnpis.com](https://vnpis.com)

@@ -1,7 +1,7 @@
 ---
-canonical: "https://vnpis.com/blog/muc-cij-k12-chiu-nhiet-121-do-luoc-soi"
+canonical: "https://inanvnpis.com/blog/muc-cij-k12-chiu-nhiet-121-do-luoc-soi"
 schema_type: "TechnicalArticle"
-publisher_mst: "0318266611"
+
 title: "Mực CIJ K12 Chịu Nhiệt 121°C: Giải Pháp Cho Ngành Đồ Hộp"
 description: "Mực K12 được thiết kế đặc biệt để in trên bao bì đồ hộp, túi màng nhôm. Chịu được quá trình hấp thanh trùng, luộc sôi ở 121 độ C lên tới 2 tiếng mà không bong tróc."
 date: "2026-07-08T08:40:08.098Z"
@@ -45,7 +45,10 @@ Với bề dày kinh nghiệm trong lĩnh vực giải pháp in phun công nghi�
 
 ---
 
-## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
-* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Hộ Kinh Doanh VNPIS Solutions](https://vnpis.com/articles)
-* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
-* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)
+---
+
+## 📌 Xưởng Gia Công In Ấn VNPIS Solutions
+* 🏢 **Địa chỉ xưởng:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344)) | **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344))
+* 🌐 **Website chính thức:** [inanvnpis.com](https://inanvnpis.com) | [Dịch vụ In Tampon](https://inanvnpis.com/in-tampon) | [Dịch vụ In Lụa](https://inanvnpis.com/in-lua) | [In QR Code](https://inanvnpis.com/in-ky-thuat-so)
+* 🛒 *Cần mua máy in hoặc vật tư mực in B2B? Tham khảo tại:* [vnpis.com](https://vnpis.com)

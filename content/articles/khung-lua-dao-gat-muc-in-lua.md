@@ -1,7 +1,7 @@
 ---
-canonical: "https://vnpis.com/blog/khung-lua-dao-gat-muc-in-lua"
+canonical: "https://inanvnpis.com/blog/khung-lua-dao-gat-muc-in-lua"
 schema_type: "TechnicalArticle"
-publisher_mst: "0318266611"
+
 title: "Vật Tư In Lụa Trọn Gói: Khung Nhôm, Lưới In, Dao Gạt Mực"
 description: "Cung cấp khung nhôm in lụa căng sẵn lưới polyester đủ mắt lưới (ngành giấy, nhựa, vải). Lưỡi dao gạt mực PU chịu dung môi siêu bền."
 date: "2026-07-15"
@@ -19,7 +19,10 @@ Chúng tôi cung cấp trọn gói vật tư cho các xưởng in mới mở v�
 
 ---
 
-## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
-* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Hộ Kinh Doanh VNPIS Solutions](https://vnpis.com/articles)
-* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
-* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)
+---
+
+## 📌 Xưởng Gia Công In Ấn VNPIS Solutions
+* 🏢 **Địa chỉ xưởng:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344)) | **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344))
+* 🌐 **Website chính thức:** [inanvnpis.com](https://inanvnpis.com) | [Dịch vụ In Tampon](https://inanvnpis.com/in-tampon) | [Dịch vụ In Lụa](https://inanvnpis.com/in-lua) | [In QR Code](https://inanvnpis.com/in-ky-thuat-so)
+* 🛒 *Cần mua máy in hoặc vật tư mực in B2B? Tham khảo tại:* [vnpis.com](https://vnpis.com)
