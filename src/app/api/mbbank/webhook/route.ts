@@ -36,7 +36,7 @@ export async function GET() {
     status: 'ACTIVE_REALTIME',
     clientId: '647acefd-abfe-4508-807f-b35551e9ab41',
     accountNumber: '660902840344',
-    accountName: 'CÔNG TY TNHH VNPIS',
+    accountName: 'Hộ Kinh Doanh VNPIS Solutions',
     bankName: 'MB Bank',
     webhookEndpoint: 'https://vnpis.com/api/mbbank/webhook',
     cassoIntegrationStatus: 'VERIFIED_CONNECTED'

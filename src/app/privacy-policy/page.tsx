@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Chính Sách Bảo Mật | VNPIS',
-  description: 'Chính sách bảo mật thông tin khách hàng và dữ liệu doanh nghiệp tại Công ty TNHH VNPIS.',
+  description: 'Chính sách bảo mật thông tin khách hàng và dữ liệu doanh nghiệp tại Hộ Kinh Doanh VNPIS Solutions.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
           <div className="prose prose-slate max-w-none space-y-6 leading-relaxed">
             <h2 className="text-xl font-bold text-slate-900 mt-6 mb-3">1. Thu Thập Thông Tin Khách Hàng</h2>
             <p>
-              Công ty TNHH VNPIS (MST: 0318266611) cam kết bảo mật tuyệt đối các thông tin cá nhân và dữ liệu doanh nghiệp do Quý khách hàng cung cấp khi truy cập website vnpis.com hoặc đăng ký nhận báo giá dịch vụ gia công in ấn và thiết bị công nghiệp.
+              Hộ Kinh Doanh VNPIS Solutions (MST: 0318266611) cam kết bảo mật tuyệt đối các thông tin cá nhân và dữ liệu doanh nghiệp do Quý khách hàng cung cấp khi truy cập website vnpis.com hoặc đăng ký nhận báo giá dịch vụ gia công in ấn và thiết bị công nghiệp.
             </p>
 
             <h2 className="text-xl font-bold text-slate-900 mt-6 mb-3">2. Mục Đích Sử Dụng Thông Tin</h2>
@@ -39,9 +39,9 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-xl font-bold text-slate-900 mt-6 mb-3">4. Thông Tin Liên Hệ Bảo Mật</h2>
             <p>Mọi thắc mắc liên quan đến dữ liệu cá nhân, Quý khách vui lòng liên hệ:</p>
             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 mt-4 space-y-2">
-              <p className="font-bold text-slate-900">CÔNG TY TNHH VNPIS</p>
-              <p>Mã số thuế: 0318266611</p>
-              <p>Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh</p>
+              <p className="font-bold text-slate-900">Hộ Kinh Doanh VNPIS Solutions</p>
+              <p></p>
+              <p>Trụ sở chính: 18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh</p>
               <p>Hotline/Zalo 24/7: 0987 453 866 | Email: info@vnpis.com</p>
             </div>
           </div>

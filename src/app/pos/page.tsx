@@ -883,7 +883,7 @@ export default function POSPage() {
               <Store size={32} />
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-              CÔNG TY TNHH VNPIS
+              Hộ Kinh Doanh VNPIS Solutions
             </h1>
             <p className="text-sm text-slate-400 mt-1">Hệ Thống POS & Quản Lý Công Nợ 2026</p>
           </div>
@@ -1597,7 +1597,7 @@ export default function POSPage() {
                   </div>
                   <div>
                     <div className="flex items-center gap-2">
-                      <h2 className="text-xl font-bold text-white">Tài Khoản MB BANK (CÔNG TY TNHH VNPIS)</h2>
+                      <h2 className="text-xl font-bold text-white">Tài Khoản MB BANK (Hộ Kinh Doanh VNPIS Solutions)</h2>
                       <span className="bg-emerald-500/20 text-emerald-400 text-xs px-2.5 py-0.5 rounded-full font-semibold border border-emerald-500/30 flex items-center gap-1">
                         <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> Live Connected
                       </span>
@@ -2025,7 +2025,7 @@ export default function POSPage() {
 
       {/* FOOTER */}
       <footer className="bg-slate-900 border-t border-slate-800 px-6 py-4 text-center text-xs text-slate-500">
-        CÔNG TY TNHH VNPIS - Tầng 1, 202 Lê Lai, P. Bến Thành, Q.1, TP. Hồ Chí Minh | Mã số thuế: 0318266611
+        Hộ Kinh Doanh VNPIS Solutions - Tầng 1, 202 Lê Lai, P. Bến Thành, Q.1, TP. Hồ Chí Minh | 
       </footer>
     </div>
   );

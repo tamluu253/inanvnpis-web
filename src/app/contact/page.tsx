@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, ArrowRight, ExternalLink, Building2, Store, Layers, Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, ArrowRight, ExternalLink, Building2, Layers, Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 
 export const metadata = {
-  title: 'Liên Hệ Xưởng Gia Công In Ấn VNPIS | Nhận Báo Giá In Tampon, In Lụa, In KTS',
-  description: 'Liên hệ Xưởng in gia công VNPIS (Trụ sở: 202 Lê Lai, P. Bến Thành, TP.HCM). Chuyên nhận gia công in Tampon ly tô chén nhựa, in lụa bao bì/vải, in QR Code biến đổi. Hỗ trợ in mẫu thử miễn phí & hotline 24/7.',
+  title: 'Liên Hệ Hộ Kinh Doanh VNPIS Solutions | Nhận Báo Giá In Tampon, In Lụa, In KTS',
+  description: 'Liên hệ Hộ Kinh Doanh VNPIS Solutions (Địa chỉ: 18 Đường số 4, KDC Đại Phúc Green Villas, Bình Hưng, TP.HCM). Chuyên gia công in Tampon ly tô chén nhựa, in lụa bao bì/vải, in QR Code biến đổi. Hỗ trợ in mẫu thử miễn phí & hotline 24/7.',
 };
 
 export default function ContactPage() {
@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-300 text-xs sm:text-sm font-bold tracking-wider mb-6 border border-blue-500/30 uppercase">
-              <Sparkles className="w-4 h-4 text-blue-400" /> Xưởng Gia Công In Ấn VNPIS
+              <Sparkles className="w-4 h-4 text-blue-400" /> Hộ Kinh Doanh VNPIS Solutions
             </span>
             <h1 className="text-4xl md:text-6xl font-black mb-6 tracking-tight text-white leading-tight">
               Liên Hệ Báo Giá In Gia Công Tận Xưởng
@@ -80,7 +80,7 @@ export default function ContactPage() {
               Doanh Nghiệp Của Bạn Đang Cần Gia Công Sản Phẩm Nào?
             </h2>
             <p className="text-slate-600 text-base md:text-lg">
-              Xưởng in VNPIS trang bị hệ thống máy in tự động công suất cao, sẵn sàng nhận các đơn hàng gia công phức tạp nhất.
+              Xưởng in VNPIS Solutions trang bị hệ thống máy in tự động công suất cao, sẵn sàng nhận các đơn hàng gia công phức tạp nhất.
             </p>
             <div className="w-20 h-1.5 bg-blue-600 mx-auto rounded-full mt-4" />
           </div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
                 Bạn Muốn Tự Mua Thiết Bị &amp; Mực In Để Chủ Động Sản Xuất Tại Nhà Máy?
               </h3>
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
-                Bên cạnh dịch vụ gia công in ấn tại xưởng, tập đoàn VNPIS còn là nhà phân phối chính hãng các dòng **Máy in tampon, Máy in lụa tự động, Mực in công nghiệp Henkey/Dubuit, Hộp mực TIJ &amp; Đầu in phun Ricoh/Epson**.
+                Bên cạnh dịch vụ gia công in ấn tại xưởng của **Hộ Kinh Doanh VNPIS Solutions**, cùng thuộc hệ sinh thái chủ sở hữu VNPIS là công ty chuyên cung cấp chính hãng các dòng **Máy in tampon, Máy in lụa tự động, Mực in công nghiệp Henkey/Dubuit, Hộp mực TIJ &amp; Đầu in phun Ricoh/Epson**.
               </p>
             </div>
             <div className="shrink-0 w-full lg:w-auto text-center">
@@ -183,77 +183,56 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* 4. TRỤ SỞ CHÍNH PHÁP LÝ & CÁC ĐỊA ĐIỂM XƯỞNG VNPIS */}
+      {/* 4. ĐỊA CHỈ XƯỞNG DUY NHẤT CỦA HỘ KINH DOANH VNPIS SOLUTIONS */}
       <section className="py-20 bg-slate-100 border-y border-slate-200">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center mb-16 max-w-3xl mx-auto">
-            <h2 className="text-3xl font-extrabold text-slate-900 mb-4">Trụ Sở &amp; Địa Điểm Xưởng Gia Công</h2>
-            <p className="text-slate-600 text-base">Hệ thống trụ sở chính pháp lý và địa điểm kho xưởng thực tế tiếp nhận sản phẩm in gia công của VNPIS.</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Trụ Sở Chính */}
-            <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <span className="inline-block px-3 py-1 bg-orange-100 text-orange-700 font-bold text-xs rounded-full">Trụ Sở Chính Pháp Lý</span>
-                  <Building2 className="w-6 h-6 text-orange-500" />
-                </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">CÔNG TY TNHH VNPIS</h3>
-                <ul className="space-y-4 text-slate-600 text-sm">
-                  <li className="flex items-start">
-                    <MapPin className="w-5 h-5 text-orange-500 mr-3 shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-slate-800 block">Địa chỉ văn phòng trụ sở:</strong>
-                      Tầng 1, 202 Lê Lai, Phường Bến Thành, Thành phố Hồ Chí Minh, Việt Nam.
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <Phone className="w-5 h-5 text-orange-500 mr-3 shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-slate-800 block">Hotline Kinh Doanh &amp; Kỹ Thuật:</strong>
-                      <div className="mt-1 space-y-1 font-bold text-blue-600">
-                        <div>Mr. Tâm: <a href="tel:0901836344" className="hover:underline">0901 836 344</a> ([Zalo](https://zalo.me/0901836344))</div>
-                        <div>Mr. Giang: <a href="tel:0901826344" className="hover:underline">0901 826 344</a> ([Zalo](https://zalo.me/0901826344))</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="flex items-center">
-                    <Mail className="w-5 h-5 text-orange-500 mr-3 shrink-0" />
-                    <span>Email: <strong className="text-slate-900">info@inanvnpis.com</strong></span>
-                  </li>
-                </ul>
-              </div>
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="bg-white p-8 md:p-12 rounded-3xl border border-slate-200 shadow-lg text-slate-900">
+            <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-100">
+              <span className="inline-block px-4 py-1.5 bg-blue-100 text-blue-700 font-bold text-xs uppercase tracking-wider rounded-full">
+                Địa Chỉ Tiếp Nhận Hàng In Gia Công
+              </span>
+              <Building2 className="w-8 h-8 text-blue-600" />
             </div>
-
-            {/* Địa Điểm Xưởng Gia Công & Kho Hàng */}
-            <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm flex flex-col justify-between">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 font-bold text-xs rounded-full">Địa Điểm Xưởng In &amp; Kho Hàng</span>
-                  <Store className="w-6 h-6 text-blue-500" />
+            <h2 className="text-3xl font-extrabold text-slate-900 mb-6">HỘ KINH DOANH VNPIS SOLUTIONS</h2>
+            
+            <div className="space-y-6 text-slate-700 text-base leading-relaxed">
+              <div className="flex items-start">
+                <MapPin className="w-6 h-6 text-blue-600 mr-4 shrink-0 mt-1" />
+                <div>
+                  <strong className="text-slate-900 block text-lg font-bold mb-1">Địa chỉ xưởng &amp; tiếp nhận hàng duy nhất:</strong>
+                  <span>18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh, Việt Nam.</span>
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-4">Hệ Thống Xưởng Tiếp Nhận Hàng</h3>
-                <ul className="space-y-4 text-slate-600 text-sm">
-                  <li className="flex items-start">
-                    <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-slate-800 block">Xưởng Gia Công 1:</strong>
-                      62 Trần Thị Nơi, Phường Chánh Hưng, TP. Hồ Chí Minh.
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <MapPin className="w-5 h-5 text-blue-500 mr-3 shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="text-slate-800 block">Xưởng Gia Công 2:</strong>
-                      18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
-                    </div>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle2 className="w-5 h-5 text-emerald-600 mr-3 shrink-0" />
-                    <span className="font-semibold text-slate-800">Tiếp nhận sản phẩm test mẫu và giao nhận hàng toàn quốc.</span>
-                  </li>
-                </ul>
+              </div>
+
+              <div className="flex items-start">
+                <Phone className="w-6 h-6 text-blue-600 mr-4 shrink-0 mt-1" />
+                <div>
+                  <strong className="text-slate-900 block text-lg font-bold mb-1">Hotline Kinh Doanh &amp; Tư Vấn Kỹ Thuật:</strong>
+                  <div className="flex flex-col sm:flex-row gap-4 font-bold text-blue-600 text-lg mt-2">
+                    <a href="tel:0901836344" className="hover:underline flex items-center gap-1">
+                      Mr. Tâm: 0901 836 344
+                    </a>
+                    <span className="hidden sm:inline text-slate-300">|</span>
+                    <a href="tel:0901826344" className="hover:underline flex items-center gap-1">
+                      Mr. Giang: 0901 826 344
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <Mail className="w-6 h-6 text-blue-600 mr-4 shrink-0" />
+                <div>
+                  <strong className="text-slate-900 text-base font-bold mr-2">Email báo giá &amp; tiếp nhận file thiết kế:</strong>
+                  <span className="text-blue-600 font-semibold">info@inanvnpis.com</span>
+                </div>
+              </div>
+
+              <div className="flex items-center pt-2">
+                <CheckCircle2 className="w-6 h-6 text-emerald-600 mr-4 shrink-0" />
+                <span className="font-semibold text-slate-800">
+                  Hỗ trợ in test mẫu sản phẩm (Sample testing) trực tiếp và giao nhận hàng gia công tận nơi trên toàn quốc.
+                </span>
               </div>
             </div>
           </div>
@@ -265,7 +244,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 max-w-4xl">
           <ConsultationForm
             title="Gửi Yêu Cầu Báo Giá In Gia Công &amp; Làm Mẫu Miễn Phí"
-            subtitle="Đội ngũ kỹ thuật xưởng in VNPIS sẽ tiếp nhận thông số sản phẩm, hỗ trợ in mẫu thử (sample test) thực tế và gửi bảng giá gia công tối ưu nhất cho doanh nghiệp."
+            subtitle="Đội ngũ kỹ thuật xưởng in VNPIS Solutions sẽ tiếp nhận thông số sản phẩm, hỗ trợ in mẫu thử (sample test) thực tế và gửi bảng giá gia công tối ưu nhất cho doanh nghiệp."
             pageTitle="In An VNPIS Contact Page"
           />
         </div>
