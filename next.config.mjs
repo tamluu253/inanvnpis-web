@@ -12,6 +12,16 @@ const nextConfig = {
         destination: '/products/tij-ink',
         permanent: true,
       },
+      {
+        source: '/bai-viet',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/tin-tuc',
+        destination: '/blog',
+        permanent: true,
+      },
     ];
   },
 };

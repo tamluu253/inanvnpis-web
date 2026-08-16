@@ -12,6 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const kienThucEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
+    url: `${DOMAIN}/kien-thuc/${post.slug}`,
+    lastModified: new Date(post.date || Date.now()),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
   const coreServices = [
     '/in-tampon',
     '/in-lua',
@@ -43,5 +50,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...serviceEntries,
     ...blogEntries,
+    ...kienThucEntries,
   ];
 }
