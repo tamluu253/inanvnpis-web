@@ -40,7 +40,10 @@ Quý khách hàng có nhu cầu tư vấn cấu hình và nhận báo giá máy 
 
 ---
 
-## 📌 Liên Kết Chủ Đề & Dịch Vụ Liên Quan (Topic Cluster Hub)
-* 🔗 **Xem chi tiết trang dịch vụ chính:** [Dịch vụ & Báo giá Công Ty TNHH VNPIS](https://vnpis.com/articles)
-* 🔗 **Hỗ trợ kỹ thuật & Tư vấn 24/7:** [Hotline / Zalo VNPIS: 0987 453 866](https://zalo.me/0987453866)
-* 🔗 **Trang chủ chính thức:** [vnpis.com](https://vnpis.com)
+---
+
+## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
+* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+* 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
+* 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)
