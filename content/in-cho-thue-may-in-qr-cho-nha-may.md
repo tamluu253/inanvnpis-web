@@ -90,7 +90,7 @@ Ngoài in gia công, **VNPIS cho thuê máy in UV kỹ thuật số chuyên in d
 
 ## Liên hệ dịch vụ in & cho thuê máy in UV
 
-* **Hotline:** 0902 840 344
+* **Hotline:** **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344))
 * **Email:** info@vnpis.com
 * **Website:** <https://vnpis.com>
 

@@ -98,7 +98,7 @@ export default function SpecialInksCatalog() {
                   {ink.desc}
                 </p>
                 <div className="mt-auto pt-4 border-t border-slate-100">
-                  <a href="tel:0987453866" className="block w-full text-center bg-slate-50 hover:bg-blue-50 text-blue-700 font-semibold py-2.5 rounded-xl border border-slate-200 hover:border-blue-200 transition-colors">
+                  <a href="tel:0901836344" className="block w-full text-center bg-slate-50 hover:bg-blue-50 text-blue-700 font-semibold py-2.5 rounded-xl border border-slate-200 hover:border-blue-200 transition-colors">
                     Nhận Mẫu Test & Báo Giá
                   </a>
                 </div>

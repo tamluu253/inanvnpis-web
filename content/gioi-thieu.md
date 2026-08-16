@@ -25,4 +25,4 @@ Thông qua website vnpis.com, khách hàng có thể dễ dàng tra cứu thông
 
 * Website: <https://vnpis.com>
 * Email: info@vnpis.com
-* Hotline: 0902 840 344 Mr. Tâm 0909718296 Mr. Kevin
+* Hotline: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344))

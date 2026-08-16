@@ -35,8 +35,8 @@ export default function TermsOfServicePage() {
 
             <h2 className="text-xl font-bold text-slate-900 mt-6 mb-3">4. Địa Chỉ Chi Nhánh Hoạt Động Cụ Thể</h2>
             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 mt-4 space-y-2">
-              <p className="font-bold text-slate-900">CÔNG TY TNHH VNPIS (MST: 0318266611)</p>
-              <p>🏢 <strong>Trụ sở chính:</strong> Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh</p>
+              <p className="font-bold text-slate-900">Hộ Kinh Doanh VNPIS Solutions (MST: 0318266611)</p>
+              <p>🏢 <strong>Trụ sở chính:</strong> 18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh</p>
               <p>🔬 <strong>Lab Center 1:</strong> 62 Trần Thị Nơi, Phường Chánh Hưng (P.4, Q.8), TP. Hồ Chí Minh</p>
               <p>🏭 <strong>Đội ngũ KD 2:</strong> 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh</p>
               <p className="pt-2 font-semibold text-blue-600">Hotline/Zalo hỗ trợ B2B: 0987 453 866 | Email: info@vnpis.com</p>

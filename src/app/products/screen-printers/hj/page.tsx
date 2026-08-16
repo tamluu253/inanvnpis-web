@@ -35,10 +35,10 @@ export default function HJScreenPrintersCatalog() {
             </p>
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center md:text-right flex-shrink-0">
-            <p className="text-sm text-slate-500 font-medium mb-2">Tư vấn cấu hình & Báo giá B2B</p>
-            <a href="tel:0987453866" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
+            <p className="text-sm text-slate-500 font-medium mb-2">Nhận báo giá & Tư vấn cấu hình</p>
+            <a href="tel:0901836344" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
               <PhoneCall className="w-5 h-5 mr-2" />
-              0987 453 866
+              0901 836 344
             </a>
           </div>
         </div>
@@ -60,40 +60,11 @@ export default function HJScreenPrintersCatalog() {
               </div>
 
               <div className="flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{machine.name || machine.model}</h3>
-                <p className="text-slate-600 text-sm mb-6 leading-relaxed min-h-[40px]">{machine.desc}</p>
+                <h3 className="text-lg font-bold text-slate-900 mb-2">{machine.name || machine.model}</h3>
+                <p className="text-slate-600 text-xs mb-4 line-clamp-2">{machine.desc}</p>
                 
-                {/* Full Specs Box */}
-                <div className="bg-slate-50 p-5 rounded-2xl border border-slate-100 space-y-2 text-sm mt-auto mb-6">
-                  <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider mb-3">Thông số kỹ thuật chi tiết</h4>
-                  <div className="flex justify-between py-1 border-b border-slate-200/60">
-                    <span className="text-slate-500">Kích thước khung bản:</span>
-                    <span className="font-semibold text-slate-800">{machine.plateSize}</span>
-                  </div>
-                  <div className="flex justify-between py-1 border-b border-slate-200/60">
-                    <span className="text-slate-500">Khổ in tối đa:</span>
-                    <span className="font-semibold text-slate-800">{machine.printArea}</span>
-                  </div>
-                  <div className="flex justify-between py-1 border-b border-slate-200/60">
-                    <span className="text-slate-500">Tốc độ in:</span>
-                    <span className="font-semibold text-slate-800">{machine.speed}</span>
-                  </div>
-                  <div className="flex justify-between py-1 border-b border-slate-200/60">
-                    <span className="text-slate-500">Áp suất khí nén:</span>
-                    <span className="font-semibold text-slate-800">{machine.airPressure}</span>
-                  </div>
-                  <div className="flex justify-between py-1 border-b border-slate-200/60">
-                    <span className="text-slate-500">Trọng lượng máy:</span>
-                    <span className="font-semibold text-slate-800">{machine.weight}</span>
-                  </div>
-                  <div className="flex justify-between py-1 pt-2">
-                    <span className="text-slate-500">Nguồn điện:</span>
-                    <span className="font-semibold text-slate-800">{machine.power}</span>
-                  </div>
-                </div>
-
-                <a href="tel:0987453866" className="w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-colors text-sm shadow-md shadow-blue-500/20">
-                  Tư Vấn & Báo Giá: 0987 453 866
+                <a href="tel:0901836344" className="mt-auto w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
+                  Liên hệ 0901 836 344
                 </a>
               </div>
             </div>

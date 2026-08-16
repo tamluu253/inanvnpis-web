@@ -43,8 +43,10 @@ export default function ConsultationForm({
   };
 
   const formattedMessage = `Xin chào VNPIS, tôi là ${formData.name} (${formData.company} - SĐT: ${formData.phone}). Tôi đang cần tư vấn: ${formData.message || 'Báo giá và cấu hình máy'}`;
-  const whatsappUrl = `https://wa.me/84987453866?text=${encodeURIComponent(formattedMessage)}`;
-  const zaloUrl = `https://zalo.me/0987453866`;
+  const zaloTamUrl = `https://zalo.me/0901836344`;
+  const zaloGiangUrl = `https://zalo.me/0901826344`;
+  const whatsappTamUrl = `https://wa.me/84901836344?text=${encodeURIComponent(formattedMessage)}`;
+  const whatsappGiangUrl = `https://wa.me/84901826344?text=${encodeURIComponent(formattedMessage)}`;
 
   return (
     <div className="bg-white rounded-3xl shadow-xl border border-slate-100 p-8 md:p-12 max-w-4xl mx-auto text-slate-900">
@@ -112,32 +114,61 @@ export default function ConsultationForm({
           <div>
             <h3 className="text-2xl font-bold text-slate-900 mb-2">Đã Tiếp Nhận Thông Tin!</h3>
             <p className="text-slate-600 max-w-lg mx-auto">
-              Cảm ơn <span className="font-semibold text-slate-900">{formData.name}</span>. Thông tin của bạn đã được gửi tới email <span className="font-semibold text-blue-600">info@vnpis.com</span>.
+              Cảm ơn <span className="font-semibold text-slate-900">{formData.name}</span>. Thông tin của bạn đã được gửi tới email <span className="font-semibold text-blue-600">info@inanvnpis.com</span>.
             </p>
           </div>
 
           <div className="pt-4 border-t border-slate-200">
-            <p className="text-sm font-semibold text-slate-700 mb-4">Để nhận phản hồi & báo giá tức thì, bạn có thể chọn gửi nhắn trực tiếp:</p>
+            <p className="text-sm font-semibold text-slate-700 mb-4">Để nhận phản hồi & báo giá tức thì, chọn nhắn Zalo / WhatsApp cho kỹ sư hỗ trợ:</p>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md mx-auto">
-              <a
-                href={zaloUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl transition-colors shadow-md"
-              >
-                <MessageSquare className="w-5 h-5" />
-                <span>Nhắn qua Zalo</span>
-              </a>
-              <a
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-xl transition-colors shadow-md"
-              >
-                <PhoneCall className="w-5 h-5" />
-                <span>Nhắn WhatsApp</span>
-              </a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto text-sm">
+              <div className="bg-slate-100 p-3 rounded-xl border border-slate-200 space-y-2">
+                <span className="font-bold text-slate-800 block text-xs">Mr. Tâm (0901 836 344)</span>
+                <div className="grid grid-cols-2 gap-2">
+                  <a
+                    href={zaloTamUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center space-x-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg text-xs transition-colors shadow-sm"
+                  >
+                    <MessageSquare className="w-3.5 h-3.5" />
+                    <span>Zalo</span>
+                  </a>
+                  <a
+                    href={whatsappTamUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center space-x-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-3 rounded-lg text-xs transition-colors shadow-sm"
+                  >
+                    <PhoneCall className="w-3.5 h-3.5" />
+                    <span>WhatsApp</span>
+                  </a>
+                </div>
+              </div>
+
+              <div className="bg-slate-100 p-3 rounded-xl border border-slate-200 space-y-2">
+                <span className="font-bold text-slate-800 block text-xs">Mr. Giang (0901 826 344)</span>
+                <div className="grid grid-cols-2 gap-2">
+                  <a
+                    href={zaloGiangUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center space-x-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg text-xs transition-colors shadow-sm"
+                  >
+                    <MessageSquare className="w-3.5 h-3.5" />
+                    <span>Zalo</span>
+                  </a>
+                  <a
+                    href={whatsappGiangUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center space-x-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-3 rounded-lg text-xs transition-colors shadow-sm"
+                  >
+                    <PhoneCall className="w-3.5 h-3.5" />
+                    <span>WhatsApp</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

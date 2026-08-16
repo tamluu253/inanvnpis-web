@@ -4,22 +4,22 @@ export default function SchemaOrg() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "VNPIS - Industrial Printing Solutions",
-    "image": "https://vnpis.com/icon.png",
-    "@id": "https://vnpis.com",
-    "url": "https://vnpis.com",
-    "telephone": "0903333333", // placeholder for real phone
+    "name": "Hộ Kinh Doanh VNPIS Solutions - Xưởng Gia Công In Ấn",
+    "image": "https://inanvnpis.com/images/inanvnpis-logo.png",
+    "@id": "https://inanvnpis.com",
+    "url": "https://inanvnpis.com",
+    "telephone": "0901836344",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Vietnam",
+      "streetAddress": "18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng",
       "addressLocality": "Ho Chi Minh City",
       "addressCountry": "VN"
     },
-    "description": "Chuyên gia hàng đầu về giải pháp in công nghiệp: UV Single Pass, Pad Printing, Screen Printing, CIJ, TIJ, và vật tư mực in.",
+    "description": "Xưởng gia công in ấn VNPIS Solutions chuyên nhận in gia công Tampon ly tô chén nhựa, in lụa màng nhựa/vải/túi giấy, và in QR Code dữ liệu biến đổi tại TP.HCM.",
     "priceRange": "$$",
     "sameAs": [
-      "https://youtube.com/vnpis",
-      "https://facebook.com/vnpis"
+      "https://zalo.me/0901836344",
+      "https://zalo.me/0901826344"
     ]
   };
 

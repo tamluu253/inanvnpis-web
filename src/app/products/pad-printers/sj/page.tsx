@@ -36,9 +36,9 @@ export default function HJPrintersCatalog() {
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center md:text-right flex-shrink-0">
             <p className="text-sm text-slate-500 font-medium mb-2">Nhận báo giá & Tư vấn cấu hình</p>
-            <a href="tel:0987453866" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
+            <a href="tel:0901836344" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
               <PhoneCall className="w-5 h-5 mr-2" />
-              0987 453 866
+              0901 836 344
             </a>
           </div>
         </div>
@@ -84,8 +84,8 @@ export default function HJPrintersCatalog() {
                   </div>
                 </div>
 
-                <a href="tel:0987453866" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
-                  Liên hệ 0987453866
+                <a href="tel:0901836344" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
+                  Liên hệ 0901 836 344
                 </a>
               </div>
             </div>

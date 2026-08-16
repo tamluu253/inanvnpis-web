@@ -25,4 +25,4 @@ def replace_text(directory, old_text, new_text):
     print(f"Total files updated: {count}")
 
 if __name__ == '__main__':
-    replace_text('src', r'Liên hệ Hotline', 'Liên hệ 0987453866')
+    replace_text('src', r'Liên hệ Hotline', 'Liên hệ 0901 836 344')
