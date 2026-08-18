@@ -13,7 +13,7 @@ publisher_mst: "0318266611"
 
 Trong ngành sản xuất và gia công in ấn công nghiệp 2026, bên cạnh thiết bị máy móc hiện đại, việc trang bị **Trọn bộ Combo Vật tư in Tampon (Pad Printing) và Vật tư in Lụa (Screen Printing)** chính hãng, đồng bộ đóng vai trò quyết định đến 90% chất lượng sản phẩm in và độ bền của dây chuyền.
 
-**Công ty TNHH VNPIS (vnpis.com)** tự hào là nhà phân phối trọn gói thiết bị & giải pháp **Giải Pháp Lưỡi Gạt Mực Ceramic Ring & Vòng Gốm Cốc Mực Kín Máy In Pad** hàng đầu tại Việt Nam.
+**CÔNG TY TNHH VNPIS (vnpis.com)** tự hào là nhà phân phối trọn gói thiết bị & giải pháp **Giải Pháp Lưỡi Gạt Mực Ceramic Ring & Vòng Gốm Cốc Mực Kín Máy In Pad** hàng đầu tại Việt Nam.
 
 ---
 
@@ -46,7 +46,7 @@ Trong ngành sản xuất và gia công in ấn công nghiệp 2026, bên cạnh
 Quý khách hàng xưởng in và nhà máy cần báo giá **Giải Pháp Lưỡi Gạt Mực Ceramic Ring & Vòng Gốm Cốc Mực Kín Máy In Pad**, xin vui lòng liên hệ trực tiếp:
 
 > **CÔNG TY TNHH VNPIS - THIẾT BỊ & GIẢI PHÁP MÃ HÓA** (MST: 0318266611)
-> * 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+> * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
 > * 🔬 **Lab Center 1 (Phòng Siêu Âm Cứu Hộ):** 62 Trần Thị Nơi, Phường Chánh Hưng (P.4, Q.8), TP. Hồ Chí Minh
 > * 🏭 **Địa điểm Kinh doanh 2:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh
 > * 📞 **Hotline/Zalo Tư vấn B2B 24/7:** 0987 453 866
@@ -59,8 +59,8 @@ Quý khách hàng xưởng in và nhà máy cần báo giá **Giải Pháp Lư�
 
 ---
 
-## 📌 Công ty TNHH VNPIS
-* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
+## 📌 CÔNG TY TNHH VNPIS
+* 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

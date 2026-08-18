@@ -26,8 +26,8 @@ Như đã biết, nhựa PP/PE cực kỳ khó bám mực và thường phải t
 
 ---
 
-## 📌 Công ty TNHH VNPIS
-* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
+## 📌 CÔNG TY TNHH VNPIS
+* 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

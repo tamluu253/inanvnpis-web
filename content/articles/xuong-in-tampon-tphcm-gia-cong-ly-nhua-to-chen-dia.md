@@ -37,7 +37,7 @@ In tampon (Pad Printing) là công nghệ truyền mực bằng đầu silicone 
 ---
 
 👉 [**Nhận Báo Giá In Tampon Gia Công Ngay Hơn**](https://inanvnpis.com/#quote)  
-Hotline / Zalo / WhatsApp: **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901826344))**  
+Hotline tư vấn thiết bị & báo giá vật tư 24/7: **Mr. Tâm: 0987 453 866**
 Địa chỉ xưởng: **18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh**
 
 
@@ -52,8 +52,8 @@ Hotline / Zalo / WhatsApp: **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/09
 
 ---
 
-## 📌 Công ty TNHH VNPIS
-* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
+## 📌 CÔNG TY TNHH VNPIS
+* 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)
