@@ -13,7 +13,7 @@ Chất lượng của bản in tampon phụ thuộc đến 40% vào cục silico
 
 [**VNPIS**](/) cung cấp hàng trăm hình dáng silicone khác nhau để tương thích với mọi biên dạng sản phẩm (từ mặt phẳng, mặt cong, đến các hốc sâu). Vật liệu silicone được pha trộn với tỷ lệ dầu chuẩn xác, đảm bảo độ bền cơ học cao, không bị trương nở khi tiếp xúc với dung môi tẩy rửa mạnh. Độ cứng (Shore A) được điều chỉnh linh hoạt từ mềm (phù hợp vật liệu dễ vỡ) đến cứng (in các mảng màu lớn).
 
-Đừng để một cục silicone kém chất lượng làm hỏng cả đơn hàng của bạn. Liên hệ ngay 0901 836 344 để chúng tôi tư vấn mẫu silicone chuẩn xác nhất!
+Đừng để một cục silicone kém chất lượng làm hỏng cả đơn hàng của bạn. Liên hệ ngay 0987 453 866 để chúng tôi tư vấn mẫu silicone chuẩn xác nhất!
 
 
 
@@ -23,8 +23,8 @@ Chất lượng của bản in tampon phụ thuộc đến 40% vào cục silico
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

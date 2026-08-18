@@ -2023,9 +2023,8 @@ export default function POSPage() {
         </div>
       )}
 
-      {/* FOOTER */}
       <footer className="bg-slate-900 border-t border-slate-800 px-6 py-4 text-center text-xs text-slate-500">
-        Hộ Kinh Doanh VNPIS Solutions - Tầng 1, 202 Lê Lai, P. Bến Thành, Q.1, TP. Hồ Chí Minh | 
+        Công Ty TNHH VNPIS - 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh
       </footer>
     </div>
   );

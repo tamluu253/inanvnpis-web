@@ -13,7 +13,7 @@ Trong ngành mỹ phẩm, bao bì quyết định 50% sự thành công của s�
 
 Sự mềm dẻo của đầu in silicone trên máy in tampon 1 màu giá rẻ cho phép nó dễ dàng "luồn lách" và áp sát vào các đường cong của vỏ mỹ phẩm. Khả năng in các đường nét thanh mảnh (fine-line) của máy tampon vượt trội hoàn toàn so với in lụa hay ép kim truyền thống.
 
-Nếu bạn là đơn vị sản xuất hoặc sang chiết mỹ phẩm, đừng bỏ lỡ cơ hội sở hữu máy in tampon (pad printer) 1 màu từ VNPIS để tự chủ công nghệ in ấn. Liên hệ 0901 836 344 để nhận tư vấn kỹ thuật chuyên sâu.
+Nếu bạn là đơn vị sản xuất hoặc sang chiết mỹ phẩm, đừng bỏ lỡ cơ hội sở hữu máy in tampon (pad printer) 1 màu từ VNPIS để tự chủ công nghệ in ấn. Liên hệ 0987 453 866 để nhận tư vấn kỹ thuật chuyên sâu.
 
 
 
@@ -23,8 +23,8 @@ Nếu bạn là đơn vị sản xuất hoặc sang chiết mỹ phẩm, đừng
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

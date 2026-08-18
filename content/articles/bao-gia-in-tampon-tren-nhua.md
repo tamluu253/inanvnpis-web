@@ -54,8 +54,8 @@ Quý khách hàng cần tư vấn báo giá in tampon trên nhựa giá rẻ vui
 - **VNPIS Industrial Equipment & Solutions**
 - 📍 **Địa chỉ xưởng:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
 - 📞 **Hotline / Zalo báo giá 24/7:**
-  - **Mr. Tâm:** [0901 836 344](tel:0901836344) ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344))
-  - **Mr. Giang:** [0901 826 344](tel:0901826344) ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344))
+  - **Mr. Tâm:** [0987 453 866](tel:0987453866) ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901836344))
+  - **Mr. Giang:** [0987 453 866](tel:0987453866) ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901826344))
 - 📧 **Email:** info@inanvnpis.com
 
 
@@ -63,15 +63,15 @@ Quý khách hàng cần tư vấn báo giá in tampon trên nhựa giá rẻ vui
 
 ## 📌 Xưởng Gia Công In Ấn VNPIS Solutions
 * 🏢 **Địa chỉ xưởng:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
-* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344)) | **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344))
+* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866)) | **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866))
 * 🌐 **Website chính thức:** [inanvnpis.com](https://inanvnpis.com) | [Dịch vụ In Tampon](https://inanvnpis.com/in-tampon) | [Dịch vụ In Lụa](https://inanvnpis.com/in-lua) | [In QR Code](https://inanvnpis.com/in-ky-thuat-so)
 * 🛒 *Cần mua máy in hoặc vật tư mực in B2B? Tham khảo tại:* [vnpis.com](https://vnpis.com)
 
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

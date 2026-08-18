@@ -46,10 +46,10 @@ Trong ngành sản xuất và gia công in ấn công nghiệp 2026, bên cạnh
 Quý khách hàng xưởng in và nhà máy cần báo giá **Full Combo Vật Tư In Tampon: Đầu Silicon, Bản Thép Cliché & Cốc Mực Kín VNPIS**, xin vui lòng liên hệ trực tiếp:
 
 > **CÔNG TY TNHH VNPIS - THIẾT BỊ & GIẢI PHÁP MÃ HÓA** (MST: 0318266611)
-> * 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh
+> * 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
 > * 🔬 **Lab Center 1 (Phòng Siêu Âm Cứu Hộ):** 62 Trần Thị Nơi, Phường Chánh Hưng (P.4, Q.8), TP. Hồ Chí Minh
 > * 🏭 **Địa điểm Kinh doanh 2:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh
-> * 📞 **Hotline/Zalo Tư vấn B2B 24/7:** 0901 836 344
+> * 📞 **Hotline/Zalo Tư vấn B2B 24/7:** 0987 453 866
 > * ✉️ **Email tiếp nhận báo giá:** info@vnpis.com
 > * 🌐 **Website chính thức:** [https://vnpis.com](https://vnpis.com)
 
@@ -59,8 +59,8 @@ Quý khách hàng xưởng in và nhà máy cần báo giá **Full Combo Vật T
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

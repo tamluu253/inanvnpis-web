@@ -13,7 +13,7 @@ Bản thép (Cliche) là linh hồn của phương pháp in tampon. Một bản 
 
 Bản thép của chúng tôi được nhập khẩu từ Nhật Bản, có độ cứng cao (Rockwell 60-62 HRC), chịu được sự ma sát liên tục của dao gạt mực bằng thép hoặc vòng hợp kim của cốc mực. Độ sâu vệt khắc được kiểm soát hoàn hảo từ 20 đến 30 micromet tùy theo độ nhớt của mực và tính chất vật liệu.
 
-Bạn chỉ cần gửi file vector (AI, Corel), VNPIS sẽ gia công và giao bản thép tận nơi trên toàn quốc. Đặt hàng ngay qua hotline 0901 836 344.
+Bạn chỉ cần gửi file vector (AI, Corel), VNPIS sẽ gia công và giao bản thép tận nơi trên toàn quốc. Đặt hàng ngay qua hotline 0987 453 866.
 
 
 
@@ -23,8 +23,8 @@ Bạn chỉ cần gửi file vector (AI, Corel), VNPIS sẽ gia công và giao b
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

@@ -13,7 +13,7 @@ Một trong những ưu điểm vĩ đại nhất của công nghệ in UV Singl
 
 Đội ngũ kỹ sư cơ điện tự động hóa của [**VNPIS**](/) sẽ khảo sát, thiết kế khung gá, lập trình PLC đồng bộ tốc độ đầu in với tốc độ băng tải của bạn. Dù là in date, in mã vạch lên vỉ thuốc, hay in logo màu lên vỏ thùng carton lướt qua, mọi thứ đều diễn ra hoàn toàn tự động không cần sự can thiệp của con người.
 
-Tiết kiệm không gian nhà xưởng, tối ưu luồng công việc (workflow). Liên hệ ngay chuyên gia tự động hóa của chúng tôi qua số 0901 836 344 để nhận tư vấn giải pháp.
+Tiết kiệm không gian nhà xưởng, tối ưu luồng công việc (workflow). Liên hệ ngay chuyên gia tự động hóa của chúng tôi qua số 0987 453 866 để nhận tư vấn giải pháp.
 
 
 
@@ -23,8 +23,8 @@ Tiết kiệm không gian nhà xưởng, tối ưu luồng công việc (workflo
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

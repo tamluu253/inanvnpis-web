@@ -13,7 +13,7 @@ Trong ngành công nghiệp điện tử và công nghệ cao, [**máy in lụa*
 
 Yêu cầu đối với máy in lụa trong lĩnh vực này là độ chính xác vi sai (chỉ tính bằng micromet). Các máy in lụa công nghiệp của VNPIS được trang bị hệ thống căn chỉnh bằng camera CCD tự động, bàn hút chân không chống xê dịch vật liệu, và động cơ servo điều khiển dao gạt mực mượt mà.
 
-Nếu bạn đang tìm kiếm giải pháp in lụa công nghệ cao cho dây chuyền sản xuất linh kiện, hãy nhấc máy gọi 0901 836 344. Chúng tôi có sẵn đội ngũ kỹ sư dày dạn kinh nghiệm hỗ trợ bạn.
+Nếu bạn đang tìm kiếm giải pháp in lụa công nghệ cao cho dây chuyền sản xuất linh kiện, hãy nhấc máy gọi 0987 453 866. Chúng tôi có sẵn đội ngũ kỹ sư dày dạn kinh nghiệm hỗ trợ bạn.
 
 
 
@@ -23,8 +23,8 @@ Nếu bạn đang tìm kiếm giải pháp in lụa công nghệ cao cho dây ch
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)

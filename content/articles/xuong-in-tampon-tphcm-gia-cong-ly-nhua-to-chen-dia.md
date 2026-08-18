@@ -29,7 +29,7 @@ In tampon (Pad Printing) là công nghệ truyền mực bằng đầu silicone 
 
 ## 3. Quy Trình Nhận In Gia Công Tận Xưởng VNPIS
 
-- **Bước 1**: Tiếp nhận mẫu sản phẩm & yêu cầu thiết kế logo từ khách hàng qua Zalo **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344))**.
+- **Bước 1**: Tiếp nhận mẫu sản phẩm & yêu cầu thiết kế logo từ khách hàng qua Zalo **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901826344))**.
 - **Bước 2**: Tư vấn chọn dòng mực và ra bản phim khắc chìm Cliche chuẩn xác.
 - **Bước 3**: Tiến hành in sample test (mẫu thử) thực tế và gửi khách hàng nghiệm thu.
 - **Bước 4**: Sản xuất hàng loạt trên dây chuyền tự động, kiểm định KCS và giao hàng tận nơi đúng tiến độ.
@@ -37,7 +37,7 @@ In tampon (Pad Printing) là công nghệ truyền mực bằng đầu silicone 
 ---
 
 👉 [**Nhận Báo Giá In Tampon Gia Công Ngay Hơn**](https://inanvnpis.com/#quote)  
-Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344) | [WhatsApp](https://wa.me/84901826344))**  
+Hotline / Zalo / WhatsApp: **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901836344)) - **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866) | [WhatsApp](https://wa.me/84901826344))**  
 Địa chỉ xưởng: **18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh**
 
 
@@ -45,15 +45,15 @@ Hotline / Zalo / WhatsApp: **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/09
 
 ## 📌 Xưởng Gia Công In Ấn VNPIS Solutions
 * 🏢 **Địa chỉ xưởng:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
-* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** **Mr. Tâm: 0901 836 344** ([Zalo](https://zalo.me/0901836344)) | **Mr. Giang: 0901 826 344** ([Zalo](https://zalo.me/0901826344))
+* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866)) | **Mr. Tâm: 0987 453 866** ([Zalo](https://zalo.me/0987453866))
 * 🌐 **Website chính thức:** [inanvnpis.com](https://inanvnpis.com) | [Dịch vụ In Tampon](https://inanvnpis.com/in-tampon) | [Dịch vụ In Lụa](https://inanvnpis.com/in-lua) | [In QR Code](https://inanvnpis.com/in-ky-thuat-so)
 * 🛒 *Cần mua máy in hoặc vật tư mực in B2B? Tham khảo tại:* [vnpis.com](https://vnpis.com)
 
 
 ---
 
-## 📌 Tập Đoàn Thiết Bị & Vật Tư In Công Nghiệp VNPIS
-* 🏢 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0901 836 344** | **Mr. Giang: 0901 826 344**
+## 📌 Công ty TNHH VNPIS
+* 🏢 **Trụ sở chính:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.
+* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866** | **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [inanvnpis.com](https://inanvnpis.com)
