@@ -105,7 +105,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           )}
         </div>
 
-        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0901 836 344 / ZALO / WHATSAPP */}
+        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0987 453 866 / ZALO / WHATSAPP */}
         <ArticleContactCTA title={metadata.title} />
 
         <div className="mt-12 bg-blue-50/90 border border-blue-200 rounded-3xl p-8 mb-16 shadow-sm">
@@ -123,7 +123,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <div className="max-w-4xl mx-auto">
           <ConsultationForm
             title="Nhận Báo Giá In Gia Công &amp; In Mẫu Thử Miễn Phí"
-            subtitle="Đội ngũ kỹ sư Hộ Kinh Doanh VNPIS Solutions sẽ tiếp nhận sản phẩm, in mẫu thử và báo giá tốt nhất cho anh/chị."
+            subtitle="Đội ngũ kỹ sư Công ty TNHH VNPIS sẽ tiếp nhận sản phẩm, in mẫu thử và báo giá tốt nhất cho anh/chị."
             pageTitle={`Blog: ${metadata.title}`}
           />
         </div>
@@ -141,11 +141,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             "image": bannerImg.startsWith('/') ? `https://inanvnpis.com${bannerImg}` : bannerImg,
             "author": {
               "@type": "Organization",
-              "name": "Hộ Kinh Doanh VNPIS Solutions"
+              "name": "Công ty TNHH VNPIS"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "Hộ Kinh Doanh VNPIS Solutions",
+              "name": "Công ty TNHH VNPIS",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://inanvnpis.com/images/inanvnpis-logo.png"

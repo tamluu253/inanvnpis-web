@@ -4,8 +4,8 @@ import { Phone, Mail, MapPin, Clock, ArrowRight, ExternalLink, Building2, Layers
 import ConsultationForm from '@/components/ui/ConsultationForm';
 
 export const metadata = {
-  title: 'Liên Hệ Hộ Kinh Doanh VNPIS Solutions | Nhận Báo Giá In Tampon, In Lụa, In KTS',
-  description: 'Liên hệ Hộ Kinh Doanh VNPIS Solutions (Địa chỉ: 18 Đường số 4, KDC Đại Phúc Green Villas, Bình Hưng, TP.HCM). Chuyên gia công in Tampon ly tô chén nhựa, in lụa bao bì/vải, in QR Code biến đổi. Hỗ trợ in mẫu thử miễn phí & hotline 24/7.',
+  title: 'Liên Hệ Công ty TNHH VNPIS | Nhận Báo Giá In Tampon, In Lụa, In KTS',
+  description: 'Liên hệ Công ty TNHH VNPIS (Địa chỉ: 18 Đường số 4, KDC Đại Phúc Green Villas, Bình Hưng, TP.HCM). Chuyên gia công in Tampon ly tô chén nhựa, in lụa bao bì/vải, in QR Code biến đổi. Hỗ trợ in mẫu thử miễn phí & hotline 24/7.',
 };
 
 export default function ContactPage() {
@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-blue-500/20 text-blue-300 text-xs sm:text-sm font-bold tracking-wider mb-6 border border-blue-500/30 uppercase">
-              <Sparkles className="w-4 h-4 text-blue-400" /> Hộ Kinh Doanh VNPIS Solutions
+              <Sparkles className="w-4 h-4 text-blue-400" /> Công ty TNHH VNPIS
             </span>
             <h1 className="text-4xl md:text-6xl font-black mb-6 tracking-tight text-white leading-tight">
               Liên Hệ Báo Giá In Gia Công Tận Xưởng
@@ -37,8 +37,8 @@ export default function ContactPage() {
                 <div>
                   <div className="text-xs font-semibold text-slate-400">Hotline Kỹ Thuật &amp; Báo Giá</div>
                   <div className="text-xs sm:text-sm font-bold text-white leading-snug mt-1 space-y-1">
-                    <div>Mr. Tâm: <a href="tel:0901836344" className="text-blue-400 hover:underline">0901 836 344</a></div>
-                    <div>Mr. Giang: <a href="tel:0901826344" className="text-blue-400 hover:underline">0901 826 344</a></div>
+                    <div>Mr. Tâm: <a href="tel:0987453866" className="text-blue-400 hover:underline">0987 453 866</a></div>
+                    <div>Mr. Giang: <a href="tel:0987453866" className="text-blue-400 hover:underline">0987 453 866</a></div>
                   </div>
                 </div>
               </div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
                 Bạn Muốn Tự Mua Thiết Bị &amp; Mực In Để Chủ Động Sản Xuất Tại Nhà Máy?
               </h3>
               <p className="text-slate-300 text-sm md:text-base leading-relaxed">
-                Bên cạnh dịch vụ gia công in ấn tại xưởng của **Hộ Kinh Doanh VNPIS Solutions**, cùng thuộc hệ sinh thái chủ sở hữu VNPIS là công ty chuyên cung cấp chính hãng các dòng **Máy in tampon, Máy in lụa tự động, Mực in công nghiệp Henkey/Dubuit, Hộp mực TIJ &amp; Đầu in phun Ricoh/Epson**.
+                Bên cạnh dịch vụ gia công in ấn tại xưởng của **Công ty TNHH VNPIS**, cùng thuộc hệ sinh thái chủ sở hữu VNPIS là công ty chuyên cung cấp chính hãng các dòng **Máy in tampon, Máy in lụa tự động, Mực in công nghiệp Henkey/Dubuit, Hộp mực TIJ &amp; Đầu in phun Ricoh/Epson**.
               </p>
             </div>
             <div className="shrink-0 w-full lg:w-auto text-center">
@@ -183,7 +183,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* 4. ĐỊA CHỈ XƯỞNG DUY NHẤT CỦA HỘ KINH DOANH VNPIS SOLUTIONS */}
+      {/* 4. ĐỊA CHỈ XƯỞNG DUY NHẤT CỦA Công ty TNHH VNPIS */}
       <section className="py-20 bg-slate-100 border-y border-slate-200">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="bg-white p-8 md:p-12 rounded-3xl border border-slate-200 shadow-lg text-slate-900">
@@ -193,7 +193,7 @@ export default function ContactPage() {
               </span>
               <Building2 className="w-8 h-8 text-blue-600" />
             </div>
-            <h2 className="text-3xl font-extrabold text-slate-900 mb-6">HỘ KINH DOANH VNPIS SOLUTIONS</h2>
+            <h2 className="text-3xl font-extrabold text-slate-900 mb-6">Công ty TNHH VNPIS</h2>
             
             <div className="space-y-6 text-slate-700 text-base leading-relaxed">
               <div className="flex items-start">
@@ -209,12 +209,12 @@ export default function ContactPage() {
                 <div>
                   <strong className="text-slate-900 block text-lg font-bold mb-1">Hotline Kinh Doanh &amp; Tư Vấn Kỹ Thuật:</strong>
                   <div className="flex flex-col sm:flex-row gap-4 font-bold text-blue-600 text-lg mt-2">
-                    <a href="tel:0901836344" className="hover:underline flex items-center gap-1">
-                      Mr. Tâm: 0901 836 344
+                    <a href="tel:0987453866" className="hover:underline flex items-center gap-1">
+                      Mr. Tâm: 0987 453 866
                     </a>
                     <span className="hidden sm:inline text-slate-300">|</span>
-                    <a href="tel:0901826344" className="hover:underline flex items-center gap-1">
-                      Mr. Giang: 0901 826 344
+                    <a href="tel:0987453866" className="hover:underline flex items-center gap-1">
+                      Mr. Tâm: 0987 453 866
                     </a>
                   </div>
                 </div>

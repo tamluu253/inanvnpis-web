@@ -883,7 +883,7 @@ export default function POSPage() {
               <Store size={32} />
             </div>
             <h1 className="text-2xl font-bold bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-              Hộ Kinh Doanh VNPIS Solutions
+              Công ty TNHH VNPIS
             </h1>
             <p className="text-sm text-slate-400 mt-1">Hệ Thống POS & Quản Lý Công Nợ 2026</p>
           </div>
@@ -1597,7 +1597,7 @@ export default function POSPage() {
                   </div>
                   <div>
                     <div className="flex items-center gap-2">
-                      <h2 className="text-xl font-bold text-white">Tài Khoản MB BANK (Hộ Kinh Doanh VNPIS Solutions)</h2>
+                      <h2 className="text-xl font-bold text-white">Tài Khoản MB BANK (Công ty TNHH VNPIS)</h2>
                       <span className="bg-emerald-500/20 text-emerald-400 text-xs px-2.5 py-0.5 rounded-full font-semibold border border-emerald-500/30 flex items-center gap-1">
                         <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> Live Connected
                       </span>

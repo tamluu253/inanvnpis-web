@@ -80,7 +80,7 @@ export default function UVSinglePassPrintingPage() {
             {/* Address Footer Box */}
             <div className="bg-slate-900 text-white p-8 rounded-2xl mt-12 not-prose">
               <h4 className="text-xl font-bold mb-4 text-orange-400">LIÊN HỆ KHẢO SÁT & IN MẪU MIỄN PHÍ</h4>
-              <p className="text-slate-300 text-sm mb-4">Hộ Kinh Doanh VNPIS Solutions ()</p>
+              <p className="text-slate-300 text-sm mb-4">Công ty TNHH VNPIS ()</p>
               <ul className="space-y-2 text-sm text-slate-300">
                 <li>🏢 <strong>Trụ sở chính:</strong> 18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh</li>
                 <li>🔬 <strong>Lab Center 1:</strong> 62 Trần Thị Nơi, Phường Chánh Hưng (P.4, Q.8), TP. Hồ Chí Minh</li>

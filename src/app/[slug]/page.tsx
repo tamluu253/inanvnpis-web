@@ -62,7 +62,7 @@ export default async function Post({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: content }} 
         />
 
-        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0901 836 344 / ZALO / WHATSAPP */}
+        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0987 453 866 / ZALO / WHATSAPP */}
         <ArticleContactCTA title={post.title} />
       </div>
     </article>

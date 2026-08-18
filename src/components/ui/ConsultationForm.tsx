@@ -43,8 +43,8 @@ export default function ConsultationForm({
   };
 
   const formattedMessage = `Xin chào VNPIS, tôi là ${formData.name} (${formData.company} - SĐT: ${formData.phone}). Tôi đang cần tư vấn: ${formData.message || 'Báo giá và cấu hình máy'}`;
-  const zaloTamUrl = `https://zalo.me/0901836344`;
-  const zaloGiangUrl = `https://zalo.me/0901826344`;
+  const zaloTamUrl = `https://zalo.me/0987453866`;
+  const zaloGiangUrl = `https://zalo.me/0987453866`;
   const whatsappTamUrl = `https://wa.me/84901836344?text=${encodeURIComponent(formattedMessage)}`;
   const whatsappGiangUrl = `https://wa.me/84901826344?text=${encodeURIComponent(formattedMessage)}`;
 
@@ -123,7 +123,7 @@ export default function ConsultationForm({
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto text-sm">
               <div className="bg-slate-100 p-3 rounded-xl border border-slate-200 space-y-2">
-                <span className="font-bold text-slate-800 block text-xs">Mr. Tâm (0901 836 344)</span>
+                <span className="font-bold text-slate-800 block text-xs">Mr. Tâm (0987 453 866)</span>
                 <div className="grid grid-cols-2 gap-2">
                   <a
                     href={zaloTamUrl}
@@ -147,7 +147,7 @@ export default function ConsultationForm({
               </div>
 
               <div className="bg-slate-100 p-3 rounded-xl border border-slate-200 space-y-2">
-                <span className="font-bold text-slate-800 block text-xs">Mr. Giang (0901 826 344)</span>
+                <span className="font-bold text-slate-800 block text-xs">Mr. Giang (0987 453 866)</span>
                 <div className="grid grid-cols-2 gap-2">
                   <a
                     href={zaloGiangUrl}

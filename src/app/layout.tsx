@@ -1,4 +1,4 @@
-// Updated hotlines: 0901836344 Mr. Tam & 0901826344 Mr. Giang
+// Updated hotlines: 0987453866 Mr. Tam & 0987453866 Mr. Giang
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
