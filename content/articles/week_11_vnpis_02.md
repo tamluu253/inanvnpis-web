@@ -46,7 +46,7 @@ Trong ngành sản xuất và gia công in ấn công nghiệp 2026, bên cạnh
 Quý khách hàng xưởng in và nhà máy cần báo giá **Dung Dịch Rửa & Ngâm Đầu Phun TIJ / CIJ VNPIS Flush Solution**, xin vui lòng liên hệ trực tiếp:
 
 > **CÔNG TY TNHH VNPIS - THIẾT BỊ & GIẢI PHÁP VẬT TƯ IN CÔNG NGHIỆP** (MST: 0318266611)
-> * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
+> * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
 > * 🔬 **Lab Center 1 (Phòng Siêu Âm Cứu Hộ):** 62 Trần Thị Nơi, Phường Chánh Hưng (P.4, Q.8), TP. Hồ Chí Minh
 > * 🏭 **Địa điểm Kinh doanh 2:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh
 > * 📞 **Hotline/Zalo Tư vấn B2B 24/7:** 0987 453 866
@@ -60,7 +60,7 @@ Quý khách hàng xưởng in và nhà máy cần báo giá **Dung Dịch Rửa 
 ---
 
 ## 📌 CÔNG TY TNHH VNPIS
-* 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
+* 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
 * 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)
