@@ -61,7 +61,7 @@ export default function Footer() {
                 <span className="text-sm leading-relaxed space-y-1 block">
                   <strong className="text-white block">CÔNG TY TNHH VNPIS</strong>
                   <span className="text-slate-400 block">Mã số thuế: 0318266611</span>
-                  <span className="block mt-2"><strong className="text-slate-200">Trụ sở chính:</strong> 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.</span>
+                  <span className="block mt-2"><strong className="text-slate-200">Trụ sở chính:</strong> Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.</span>
                   <span className="block mt-1"><strong className="text-slate-200">Địa điểm KD 1:</strong> 62 Trần Thị Nơi, Phường Chánh Hưng, TP. Hồ Chí Minh.</span>
                   <span className="block mt-1"><strong className="text-slate-200">Địa điểm KD 2:</strong> 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.</span>
                 </span>

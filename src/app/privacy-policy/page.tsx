@@ -41,7 +41,7 @@ export default function PrivacyPolicyPage() {
             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 mt-4 space-y-2">
               <p className="font-bold text-slate-900">Công ty TNHH VNPIS</p>
               <p></p>
-              <p>Trụ sở chính: 18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh</p>
+              <p>Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh</p>
               <p>Hotline/Zalo 24/7: 0987 453 866 | Email: info@vnpis.com</p>
             </div>
           </div>

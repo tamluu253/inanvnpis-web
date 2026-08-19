@@ -197,21 +197,21 @@ export default function ContactPage() {
             <div className="space-y-6 text-slate-700 text-base leading-relaxed">
               <div className="flex items-start">
                 <MapPin className="w-6 h-6 text-blue-600 mr-4 shrink-0 mt-1" />
-                <div>
-                  <strong className="text-slate-900 block text-lg font-bold mb-1">Địa chỉ xưởng &amp; tiếp nhận hàng duy nhất:</strong>
-                  <span>18 Đường số 4, Khu Dân Cư Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh, Việt Nam.</span>
+                <div className="space-y-1">
+                  <strong className="text-slate-900 block text-lg font-bold mb-2">Hệ thống địa chỉ Công ty TNHH VNPIS (MST: 0318266611):</strong>
+                  <div className="text-sm space-y-1">
+                    <p><strong className="text-slate-900">Trụ sở chính:</strong> Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.</p>
+                    <p><strong className="text-slate-900">Địa điểm KD 1:</strong> 62 Trần Thị Nơi, Phường Chánh Hưng, TP. Hồ Chí Minh.</p>
+                    <p><strong className="text-slate-900">Địa điểm KD 2:</strong> 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.</p>
+                  </div>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <Phone className="w-6 h-6 text-blue-600 mr-4 shrink-0 mt-1" />
                 <div>
-                  <strong className="text-slate-900 block text-lg font-bold mb-1">Hotline Kinh Doanh &amp; Tư Vấn Kỹ Thuật:</strong>
-                  <div className="flex flex-col sm:flex-row gap-4 font-bold text-blue-600 text-lg mt-2">
-                    <a href="tel:0987453866" className="hover:underline flex items-center gap-1">
-                      Mr. Tâm: 0987 453 866
-                    </a>
-                    <span className="hidden sm:inline text-slate-300">|</span>
+                  <strong className="text-slate-900 block text-lg font-bold mb-1">Hotline Kinh Doanh &amp; Tư Vấn Kỹ Thuật 24/7:</strong>
+                  <div className="font-bold text-blue-600 text-lg mt-1">
                     <a href="tel:0987453866" className="hover:underline flex items-center gap-1">
                       Mr. Tâm: 0987 453 866
                     </a>
