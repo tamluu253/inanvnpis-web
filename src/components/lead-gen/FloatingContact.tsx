@@ -23,41 +23,20 @@ export default function FloatingContact() {
 
           <div className="space-y-3">
             {/* Mr. Tâm */}
-            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700/80">
-              <div className="text-xs font-extrabold text-amber-300 mb-1.5">Mr. Tâm: 0987 453 866</div>
-              <div className="grid grid-cols-2 gap-1.5">
+            <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700/80 space-y-2">
+              <div className="text-xs font-extrabold text-amber-300">Mr. Tâm (Tư vấn B2B): 0987 453 866</div>
+              <div className="grid grid-cols-2 gap-2">
                 <a
                   href="https://zalo.me/0987453866"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="py-1.5 px-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors"
+                  className="py-2 px-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors shadow-sm"
                 >
-                  <MessageCircle className="w-3.5 h-3.5 mr-1" /> Zalo
+                  <MessageCircle className="w-3.5 h-3.5 mr-1" /> Zalo Chat
                 </a>
                 <a
                   href="tel:0987453866"
-                  className="py-1.5 px-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors"
-                >
-                  <Phone className="w-3.5 h-3.5 mr-1" /> Gọi ngay
-                </a>
-              </div>
-            </div>
-
-            {/* Mr. Giang */}
-            <div className="bg-slate-800/80 p-2.5 rounded-xl border border-slate-700/80">
-              <div className="text-xs font-extrabold text-amber-300 mb-1.5">Mr. Tâm: 0987 453 866</div>
-              <div className="grid grid-cols-2 gap-1.5">
-                <a
-                  href="https://zalo.me/0987453866"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="py-1.5 px-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors"
-                >
-                  <MessageCircle className="w-3.5 h-3.5 mr-1" /> Zalo
-                </a>
-                <a
-                  href="tel:0987453866"
-                  className="py-1.5 px-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors"
+                  className="py-2 px-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors shadow-sm"
                 >
                   <Phone className="w-3.5 h-3.5 mr-1" /> Gọi ngay
                 </a>

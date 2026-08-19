@@ -144,12 +144,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               "name": "Công ty TNHH VNPIS",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://inanvnpis.com/images/inanvnpis-logo.png"
+                "url": "https://vnpis.com/vnpis-logo.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": `https://inanvnpis.com/blog/${metadata.slug}`
+              "@id": `https://vnpis.com/blog/${metadata.slug}`
             }
           })
         }}

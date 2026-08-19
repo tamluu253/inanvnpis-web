@@ -1,10 +1,10 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, ShieldCheck, Zap, Phone } from 'lucide-react';
 
 export const metadata = {
   title: 'Dịch Vụ In Lụa Gia Công | Xưởng In VNPIS TP.HCM',
-  description: 'Chuyên nhận in lụa gia công túi giấy, túi nilon, bao bì đóng gói, vải thun, áo đồng phục, màng nhựa phẳng. Hotline/Zalo: 0987 453 866 (Mr. Tâm) - 0987 453 866 (Mr. Giang).',
+  description: 'Chuyên nhận in lụa gia công túi giấy, túi nilon, bao bì đóng gói, vải thun, áo đồng phục, màng nhựa phẳng. Hotline/Zalo: 0987 453 866 (Mr. Tâm) .',
 };
 
 export default function InLuaPage() {

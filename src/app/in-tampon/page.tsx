@@ -1,10 +1,10 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, ShieldCheck, Zap, Phone } from 'lucide-react';
 
 export const metadata = {
   title: 'Dịch Vụ In Tampon Gia Công | Xưởng In VNPIS TP.HCM',
-  description: 'Chuyên nhận in gia công in tampon trên bề mặt cong, lõm, ly nhựa, tô chén dĩa, linh kiện điện tử, quà tặng doanh nghiệp. Hotline/Zalo: 0987 453 866 (Mr. Tâm) - 0987 453 866 (Mr. Giang).',
+  description: 'Chuyên nhận in gia công in tampon trên bề mặt cong, lõm, ly nhựa, tô chén dĩa, linh kiện điện tử, quà tặng doanh nghiệp. Hotline/Zalo: 0987 453 866 (Mr. Tâm) .',
 };
 
 export default function InTamponPage() {

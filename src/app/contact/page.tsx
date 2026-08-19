@@ -35,10 +35,9 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="text-xs font-semibold text-slate-400">Hotline Kỹ Thuật &amp; Báo Giá</div>
-                  <div className="text-xs sm:text-sm font-bold text-white leading-snug mt-1 space-y-1">
-                    <div>Mr. Tâm: <a href="tel:0987453866" className="text-blue-400 hover:underline">0987 453 866</a></div>
-                    <div>Mr. Giang: <a href="tel:0987453866" className="text-blue-400 hover:underline">0987 453 866</a></div>
+                  <div className="text-xs font-semibold text-slate-400">Hotline Kỹ Thuật &amp; Báo Giá 24/7</div>
+                  <div className="text-sm font-extrabold text-white leading-snug mt-1">
+                    Mr. Tâm: <a href="tel:0987453866" className="text-blue-400 hover:underline">0987 453 866</a>
                   </div>
                 </div>
               </div>
@@ -49,8 +48,8 @@ export default function ContactPage() {
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="text-xs font-semibold text-slate-400">Email Tiếp Nhận File In</div>
-                  <div className="text-sm font-bold text-white mt-1">info@inanvnpis.com</div>
+                  <div className="text-xs font-semibold text-slate-400">Email Tiếp Nhận Báo Giá &amp; File In</div>
+                  <div className="text-sm font-bold text-white mt-1">info@vnpis.com</div>
                   <div className="text-[11px] text-slate-400">Phản hồi trong 30 phút</div>
                 </div>
               </div>
@@ -224,7 +223,7 @@ export default function ContactPage() {
                 <Mail className="w-6 h-6 text-blue-600 mr-4 shrink-0" />
                 <div>
                   <strong className="text-slate-900 text-base font-bold mr-2">Email báo giá &amp; tiếp nhận file thiết kế:</strong>
-                  <span className="text-blue-600 font-semibold">info@inanvnpis.com</span>
+                  <span className="text-blue-600 font-semibold">info@vnpis.com</span>
                 </div>
               </div>
 

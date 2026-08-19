@@ -1,4 +1,4 @@
-import LandingPage from '@/components/templates/LandingPage';
+﻿import LandingPage from '@/components/templates/LandingPage';
 
 export const metadata = {
   title: 'Industrial Printing | VNPIS Industrial Solutions',
@@ -10,8 +10,8 @@ export default function Page() {
     <LandingPage 
       title="Dịch Vụ In Công Nghiệp" 
       category="VNPIS Solutions"
-      externalCtaUrl="https://inanvnpis.com"
-      externalCtaText="Xem bảng giá & Đặt in tại inanvnpis.com"
+      externalCtaUrl="https://vnpis.com"
+      externalCtaText="Xem bảng giá & Đặt in tại vnpis.com"
     />
   );
 }

@@ -1,10 +1,10 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, ShieldCheck, Zap, Phone } from 'lucide-react';
 
 export const metadata = {
   title: 'Dịch Vụ In KTS & Dữ Liệu Biến Đổi (VDP) | Xưởng In VNPIS TP.HCM',
-  description: 'Chuyên nhận in gia công KTS, in mã QR Code biến đổi, Barcode, Serial nhảy chống hàng giả và truy xuất nguồn gốc. Hotline/Zalo: 0987 453 866 (Mr. Tâm) - 0987 453 866 (Mr. Giang).',
+  description: 'Chuyên nhận in gia công KTS, in mã QR Code biến đổi, Barcode, Serial nhảy chống hàng giả và truy xuất nguồn gốc. Hotline/Zalo: 0987 453 866 (Mr. Tâm) .',
 };
 
 export default function InKyThuatSoPage() {

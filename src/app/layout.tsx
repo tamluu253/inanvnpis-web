@@ -1,4 +1,4 @@
-// Updated hotlines: 0987453866 Mr. Tam & 0987453866 Mr. Giang
+// Official B2B Hotline: Mr. Tâm - 0987 453 866 | Email: info@vnpis.com
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';

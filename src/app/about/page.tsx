@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { ArrowRight, Printer, QrCode, ShieldCheck, Factory, CheckCircle2, ChevronRight, PhoneCall, RefreshCw, Cpu } from 'lucide-react';
 import Link from 'next/link';
 
@@ -165,7 +165,7 @@ export default function AboutPage() {
                 <Link href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-8 rounded-full transition-colors inline-flex items-center justify-center shadow-lg shadow-blue-600/30">
                   Liên Hệ Ngay <ArrowRight className="w-5 h-5 ml-2" />
                 </Link>
-                <a href="https://inanvnpis.com" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold py-3.5 px-8 rounded-full transition-colors inline-flex items-center justify-center">
+                <a href="https://vnpis.com" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 font-bold py-3.5 px-8 rounded-full transition-colors inline-flex items-center justify-center">
                   Xem Xưởng In Gia Công <ChevronRight className="w-5 h-5 ml-1 text-slate-500" />
                 </a>
               </div>
