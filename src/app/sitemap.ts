@@ -1,12 +1,28 @@
 import { MetadataRoute } from 'next';
 import { getAllDocumentsMeta } from '@/lib/mdx';
 
-const DOMAIN = 'https://inanvnpis.com';
+const DOMAIN = 'https://vnpis.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllDocumentsMeta('articles');
+  const pillars = getAllDocumentsMeta('pillars');
+  
+  const rootEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
+    url: `${DOMAIN}/${post.slug}`,
+    lastModified: new Date(post.date || Date.now()),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  }));
+
   const blogEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
     url: `${DOMAIN}/blog/${post.slug}`,
+    lastModified: new Date(post.date || Date.now()),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
+  const tinTucEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
+    url: `${DOMAIN}/tin-tuc/${post.slug}`,
     lastModified: new Date(post.date || Date.now()),
     changeFrequency: 'weekly',
     priority: 0.8,
@@ -17,6 +33,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.date || Date.now()),
     changeFrequency: 'weekly',
     priority: 0.8,
+  }));
+
+  const pillarEntries: MetadataRoute.Sitemap = pillars.map((post: any) => ({
+    url: `${DOMAIN}/${post.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
   }));
 
   const coreServices = [
@@ -49,7 +72,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...serviceEntries,
+    ...rootEntries,
+    ...pillarEntries,
     ...blogEntries,
+    ...tinTucEntries,
     ...kienThucEntries,
   ];
 }

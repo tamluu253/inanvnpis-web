@@ -7,15 +7,36 @@ import html from 'remark-html'
 const contentDirectory = path.join(process.cwd(), 'content')
 
 export function getPostSlugs() {
-  if (!fs.existsSync(contentDirectory)) return []
-  return fs.readdirSync(contentDirectory)
+  const slugs: string[] = [];
+  const dirs = ['articles', 'pillars', 'case-studies', ''];
+  dirs.forEach((d) => {
+    const p = path.join(contentDirectory, d);
+    if (fs.existsSync(p)) {
+      const files = fs.readdirSync(p);
+      files.forEach((f) => {
+        if (f.endsWith('.md')) {
+          slugs.push(f.replace(/\.md$/, ''));
+        }
+      });
+    }
+  });
+  return Array.from(new Set(slugs));
 }
 
 export function getPostBySlug(slug: string, fields: string[] = []) {
-  const realSlug = slug.replace(/\.md$/, '')
-  const fullPath = path.join(contentDirectory, `${realSlug}.md`)
+  const realSlug = slug.replace(/\.md$/, '').replace(/\.html$/, '');
   
-  if (!fs.existsSync(fullPath)) return null
+  let fullPath = path.join(contentDirectory, `${realSlug}.md`);
+  if (!fs.existsSync(fullPath)) {
+    const candidates = [
+      path.join(contentDirectory, 'articles', `${realSlug}.md`),
+      path.join(contentDirectory, 'pillars', `${realSlug}.md`),
+      path.join(contentDirectory, 'case-studies', `${realSlug}.md`),
+    ];
+    const found = candidates.find(c => fs.existsSync(c));
+    if (!found) return null;
+    fullPath = found;
+  }
 
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)

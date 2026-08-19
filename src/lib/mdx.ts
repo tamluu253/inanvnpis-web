@@ -47,10 +47,23 @@ export async function getDocumentBySlug<T = BaseMetadata>(
   contentType: string,
   slug: string
 ): Promise<MarkdownDocument<T> | null> {
-  const fullPath = path.join(contentDirectory, contentType, `${slug}.md`);
+  const cleanSlug = slug.replace(/\.md$/, '').replace(/\.html$/, '');
+  
+  let fullPath = path.join(contentDirectory, contentType, `${cleanSlug}.md`);
   
   if (!fs.existsSync(fullPath)) {
-    return null;
+    // Try fallbacks in articles, pillars, case-studies, root content
+    const candidates = [
+      path.join(contentDirectory, 'articles', `${cleanSlug}.md`),
+      path.join(contentDirectory, 'pillars', `${cleanSlug}.md`),
+      path.join(contentDirectory, 'case-studies', `${cleanSlug}.md`),
+      path.join(contentDirectory, `${cleanSlug}.md`),
+    ];
+    const found = candidates.find(c => fs.existsSync(c));
+    if (!found) {
+      return null;
+    }
+    fullPath = found;
   }
   
   const fileContents = fs.readFileSync(fullPath, 'utf8');

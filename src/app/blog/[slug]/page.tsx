@@ -8,10 +8,17 @@ import ArticleContactCTA from '@/components/ArticleContactCTA';
 
 // Generate static params for all posts at build time
 export function generateStaticParams() {
-  const slugs = getAllSlugs('articles');
-  return slugs.map((slug) => ({
-    slug: slug,
-  }));
+  const articlesSlugs = getAllSlugs('articles');
+  const pillarsSlugs = getAllSlugs('pillars');
+  const caseStudiesSlugs = getAllSlugs('case-studies');
+  const allSlugs = Array.from(new Set([...articlesSlugs, ...pillarsSlugs, ...caseStudiesSlugs]));
+  
+  const params: { slug: string }[] = [];
+  allSlugs.forEach((slug) => {
+    params.push({ slug: slug });
+    params.push({ slug: `${slug}.html` });
+  });
+  return params;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
