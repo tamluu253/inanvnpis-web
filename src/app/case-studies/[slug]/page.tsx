@@ -4,6 +4,8 @@ import { getAllSlugs, getDocumentBySlug } from '@/lib/mdx';
 import Link from 'next/link';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 
+export const dynamicParams = true;
+
 export function generateStaticParams() {
   const slugs = getAllSlugs('case-studies');
   return slugs.map((slug) => ({
