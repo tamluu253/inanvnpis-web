@@ -65,9 +65,16 @@ export async function getDocumentBySlug<T = BaseMetadata>(
     
   const contentHtml = processedContent.toString();
   
+  let mediaExt: string | null = null;
+  const mediaDir = path.join(process.cwd(), 'public', 'media', 'blog');
+  if (fs.existsSync(path.join(mediaDir, `${slug}.jpg`))) mediaExt = 'jpg';
+  else if (fs.existsSync(path.join(mediaDir, `${slug}.png`))) mediaExt = 'png';
+  else if (fs.existsSync(path.join(mediaDir, `${slug}.mp4`))) mediaExt = 'mp4';
+
   return {
     metadata: {
       slug,
+      mediaExt,
       ...(matterResult.data as Omit<T, 'slug'>),
     } as T,
     contentHtml,
@@ -86,8 +93,15 @@ export function getAllDocumentsMeta<T = BaseMetadata>(contentType: string): T[] 
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const matterResult = matter(fileContents);
     
+    let mediaExt: string | null = null;
+    const mediaDir = path.join(process.cwd(), 'public', 'media', 'blog');
+    if (fs.existsSync(path.join(mediaDir, `${slug}.jpg`))) mediaExt = 'jpg';
+    else if (fs.existsSync(path.join(mediaDir, `${slug}.png`))) mediaExt = 'png';
+    else if (fs.existsSync(path.join(mediaDir, `${slug}.mp4`))) mediaExt = 'mp4';
+
     return {
       slug,
+      mediaExt,
       ...(matterResult.data as Omit<T, 'slug'>),
     } as T;
   });

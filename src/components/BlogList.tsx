@@ -2,7 +2,59 @@
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowRight, Search, Filter, BookOpen, Sparkles, Layers, Tag, ChevronLeft, ChevronRight, Clock } from 'lucide-react';
+import { ArrowRight, Search, Filter, BookOpen, Sparkles, Layers, Tag, ChevronLeft, ChevronRight, Clock, Printer, Cpu, ShieldCheck, Box, Sliders } from 'lucide-react';
+
+function ArticleDynamicCover({ article }: { article: any }) {
+  const slug = (article.slug || '').toLowerCase();
+  const title = (article.title || '').toLowerCase();
+
+  let gradient = 'from-slate-950 via-slate-900 to-blue-950';
+  let accentColor = 'text-blue-400';
+  let glowColor = 'bg-blue-500/20';
+  let IconComponent = Printer;
+
+  if (slug.includes('tampon') || title.includes('tampon')) {
+    gradient = 'from-slate-950 via-blue-950 to-indigo-950';
+    accentColor = 'text-blue-400';
+    glowColor = 'bg-blue-500/20';
+    IconComponent = Printer;
+  } else if (slug.includes('lua') || title.includes('lụa')) {
+    gradient = 'from-slate-950 via-emerald-950 to-teal-950';
+    accentColor = 'text-emerald-400';
+    glowColor = 'bg-emerald-500/20';
+    IconComponent = Layers;
+  } else if (slug.includes('vat-tu') || title.includes('vật tư') || title.includes('đầu silicon') || title.includes('cliche') || title.includes('mực')) {
+    gradient = 'from-slate-950 via-amber-950 to-orange-950';
+    accentColor = 'text-amber-400';
+    glowColor = 'bg-amber-500/20';
+    IconComponent = Sliders;
+  } else if (slug.includes('qr') || slug.includes('kts') || slug.includes('tij') || slug.includes('cij') || title.includes('qr code')) {
+    gradient = 'from-slate-950 via-purple-950 to-violet-950';
+    accentColor = 'text-purple-400';
+    glowColor = 'bg-purple-500/20';
+    IconComponent = Cpu;
+  } else {
+    gradient = 'from-slate-950 via-slate-900 to-indigo-950';
+    accentColor = 'text-cyan-400';
+    glowColor = 'bg-cyan-500/20';
+    IconComponent = ShieldCheck;
+  }
+
+  return (
+    <div className={`w-full h-full bg-gradient-to-br ${gradient} relative flex items-center justify-center p-6 group-hover:scale-105 transition-transform duration-500 overflow-hidden`}>
+      <div className="absolute inset-0 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px] opacity-15" />
+      <div className={`absolute -top-12 -right-12 w-40 h-40 ${glowColor} rounded-full blur-2xl pointer-events-none`} />
+      <div className="relative z-10 text-center space-y-2">
+        <div className={`w-14 h-14 mx-auto rounded-2xl ${glowColor} border border-white/10 flex items-center justify-center backdrop-blur-md shadow-inner`}>
+          <IconComponent className={`w-7 h-7 ${accentColor}`} />
+        </div>
+        <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest pt-1">
+          VNPIS INDUSTRIAL TECH
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function BlogList({ initialData }: { initialData: any[] }) {
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -193,15 +245,17 @@ export default function BlogList({ initialData }: { initialData: any[] }) {
                     playsInline
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                ) : (
+                ) : article.mediaExt === 'jpg' || article.mediaExt === 'png' || article.image ? (
                   <div className="w-full h-full relative group-hover:scale-105 transition-transform duration-500">
                     <img
-                      src={bgImg}
+                      src={article.image || `/media/blog/${article.slug}.${article.mediaExt}`}
                       alt={article.title}
-                      className="w-full h-full object-cover opacity-85"
+                      className="w-full h-full object-cover opacity-90"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent" />
                   </div>
+                ) : (
+                  <ArticleDynamicCover article={article} />
                 )}
 
                 {/* Badge Overlay */}

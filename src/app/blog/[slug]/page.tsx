@@ -35,20 +35,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   const { metadata, contentHtml } = post;
 
-  // Determine logical banner image
-  const getBannerImage = () => {
-    if (metadata.mediaExt === 'jpg') return `/media/blog/${metadata.slug}.jpg`;
-    const title = (metadata.title || '').toLowerCase();
-    const slug = (metadata.slug || '').toLowerCase();
-
-    if (slug.includes('tampon') || title.includes('tampon')) return '/images/pad-printing-cups.jpg';
-    if (slug.includes('lua') || title.includes('lụa')) return '/images/screen-printing-bags.jpg';
-    if (slug.includes('qr') || slug.includes('kts') || title.includes('qr code')) return '/images/qr-code-printing.jpg';
-
-    return '/images/pad-printing-cups.jpg';
-  };
-
-  const bannerImg = getBannerImage();
+  const hasDedicatedMedia = Boolean(metadata.mediaExt || metadata.image);
 
   return (
     <main className="min-h-screen pt-28 pb-16 bg-slate-50 font-sans">
@@ -80,20 +67,22 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {metadata.description}
           </p>
 
-          <div className="w-full aspect-video bg-slate-900 rounded-3xl overflow-hidden mb-12 shadow-xl relative flex items-center justify-center border border-slate-200">
-            {metadata.mediaExt === 'mp4' && metadata.slug !== 'giai-phap-in-truc-tiep-len-vo-trung-ga-muc-he01' && metadata.slug !== 'muc-in-day-cap-trang-linx-videojet' ? (
-              <video src={`/media/blog/${metadata.slug}.mp4`} autoPlay loop muted playsInline className="w-full h-full object-cover" />
-            ) : (
-              <div className="w-full h-full relative">
-                <img 
-                  src={bannerImg} 
-                  alt={metadata.title} 
-                  className="w-full h-full object-cover opacity-90" 
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
-              </div>
-            )}
-          </div>
+          {hasDedicatedMedia && (
+            <div className="w-full aspect-video bg-slate-900 rounded-3xl overflow-hidden mb-12 shadow-xl relative flex items-center justify-center border border-slate-200">
+              {metadata.mediaExt === 'mp4' && metadata.slug !== 'giai-phap-in-truc-tiep-len-vo-trung-ga-muc-he01' && metadata.slug !== 'muc-in-day-cap-trang-linx-videojet' ? (
+                <video src={`/media/blog/${metadata.slug}.mp4`} autoPlay loop muted playsInline className="w-full h-full object-cover" />
+              ) : (
+                <div className="w-full h-full relative">
+                  <img 
+                    src={metadata.image || `/media/blog/${metadata.slug}.${metadata.mediaExt}`} 
+                    alt={metadata.title} 
+                    className="w-full h-full object-cover opacity-90" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* MAIN ARTICLE CONTENT */}
@@ -138,7 +127,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             "@type": "Article",
             "headline": metadata.title,
             "description": metadata.description,
-            "image": bannerImg.startsWith('/') ? `https://inanvnpis.com${bannerImg}` : bannerImg,
+            "image": metadata.image || (hasDedicatedMedia ? `https://vnpis.com/media/blog/${metadata.slug}.${metadata.mediaExt}` : 'https://vnpis.com/vnpis-logo.png'),
             "author": {
               "@type": "Organization",
               "name": "Công ty TNHH VNPIS"
