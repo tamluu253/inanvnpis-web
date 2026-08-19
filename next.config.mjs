@@ -3,6 +3,26 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/kien-thuc/index',
+        destination: '/kien-thuc',
+        permanent: true,
+      },
+      {
+        source: '/kien-thuc/index.html',
+        destination: '/kien-thuc',
+        permanent: true,
+      },
+      {
+        source: '/index.html',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/index',
+        destination: '/',
+        permanent: true,
+      },
+      {
         source: '/products/cij-printers',
         destination: '/products/cij-ink',
         permanent: true,
