@@ -80,6 +80,21 @@ const nextConfig = {
         destination: '/sitemap.xml',
         permanent: true,
       },
+      {
+        source: '/in-tampon-gia-re',
+        destination: '/services/pad-printing-service',
+        permanent: true,
+      },
+      {
+        source: '/in-lua-gia-re',
+        destination: '/services/screen-printing-service',
+        permanent: true,
+      },
+      {
+        source: '/in-uv-gia-re',
+        destination: '/services/uv-printing-service',
+        permanent: true,
+      },
     ];
   },
 };
