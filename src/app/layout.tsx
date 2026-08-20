@@ -1,4 +1,4 @@
-// Official B2B Hotline: Mr. Tâm - 0987 453 866 | Email: info@vnpis.com
+// Official B2B Hotline: Mr. Tâm - 0901 836 344 | Email: info@vnpis.com (vnpis-web clean production build)
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
