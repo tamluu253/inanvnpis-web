@@ -7,10 +7,7 @@ import { ArrowLeft, Phone } from 'lucide-react';
 export const dynamicParams = true;
 
 export function generateStaticParams() {
-  const slugs = getAllSlugs('pillars');
-  return slugs.map((slug) => ({
-    slug: slug,
-  }));
+  return [];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {

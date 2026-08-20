@@ -10,17 +10,7 @@ export const dynamicParams = true;
 
 // Generate static params for top posts at build time, remaining posts on-demand via ISR
 export function generateStaticParams() {
-  const articlesSlugs = getAllSlugs('articles');
-  const pillarsSlugs = getAllSlugs('pillars');
-  const caseStudiesSlugs = getAllSlugs('case-studies');
-  const allSlugs = Array.from(new Set([...articlesSlugs, ...pillarsSlugs, ...caseStudiesSlugs]));
-  
-  const params: { slug: string }[] = [];
-  allSlugs.slice(0, 10).forEach((slug) => {
-    params.push({ slug: slug });
-    params.push({ slug: `${slug}.html` });
-  });
-  return params;
+  return [];
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
