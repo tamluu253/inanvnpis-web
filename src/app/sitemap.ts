@@ -1,47 +1,42 @@
 import { MetadataRoute } from 'next';
-import { getAllDocumentsMeta } from '@/lib/mdx';
+import { getAllSlugs } from '@/lib/mdx';
 
 const DOMAIN = 'https://vnpis.com';
 
-const safeDate = (dateVal: any) => {
-  const parsed = dateVal ? new Date(dateVal) : new Date();
-  return isNaN(parsed.getTime()) ? new Date() : parsed;
-};
-
 export default function sitemap(): MetadataRoute.Sitemap {
-  const articles = getAllDocumentsMeta('articles');
-  const pillars = getAllDocumentsMeta('pillars');
+  const articleSlugs = getAllSlugs('articles');
+  const pillarSlugs = getAllSlugs('pillars');
   
-  const rootEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
-    url: `${DOMAIN}/${post.slug}`,
-    lastModified: safeDate(post.date),
+  const rootEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
+    url: `${DOMAIN}/${slug}`,
+    lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.9,
   }));
 
-  const blogEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
-    url: `${DOMAIN}/blog/${post.slug}`,
-    lastModified: safeDate(post.date),
+  const blogEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
+    url: `${DOMAIN}/blog/${slug}`,
+    lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));
 
-  const tinTucEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
-    url: `${DOMAIN}/tin-tuc/${post.slug}`,
-    lastModified: safeDate(post.date),
+  const tinTucEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
+    url: `${DOMAIN}/tin-tuc/${slug}`,
+    lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));
 
-  const kienThucEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
-    url: `${DOMAIN}/kien-thuc/${post.slug}`,
-    lastModified: safeDate(post.date),
+  const kienThucEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
+    url: `${DOMAIN}/kien-thuc/${slug}`,
+    lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));
 
-  const pillarEntries: MetadataRoute.Sitemap = pillars.map((post: any) => ({
-    url: `${DOMAIN}/${post.slug}`,
+  const pillarEntries: MetadataRoute.Sitemap = pillarSlugs.map((slug: string) => ({
+    url: `${DOMAIN}/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
     priority: 0.9,
