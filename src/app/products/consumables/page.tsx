@@ -1,5 +1,5 @@
-export const dynamicParams = true;
 "use client";
+export const dynamicParams = true;
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';

@@ -3,34 +3,39 @@ import { getAllDocumentsMeta } from '@/lib/mdx';
 
 const DOMAIN = 'https://vnpis.com';
 
+const safeDate = (dateVal: any) => {
+  const parsed = dateVal ? new Date(dateVal) : new Date();
+  return isNaN(parsed.getTime()) ? new Date() : parsed;
+};
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllDocumentsMeta('articles');
   const pillars = getAllDocumentsMeta('pillars');
   
   const rootEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
     url: `${DOMAIN}/${post.slug}`,
-    lastModified: new Date(post.date || Date.now()),
+    lastModified: safeDate(post.date),
     changeFrequency: 'weekly',
     priority: 0.9,
   }));
 
   const blogEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
     url: `${DOMAIN}/blog/${post.slug}`,
-    lastModified: new Date(post.date || Date.now()),
+    lastModified: safeDate(post.date),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));
 
   const tinTucEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
     url: `${DOMAIN}/tin-tuc/${post.slug}`,
-    lastModified: new Date(post.date || Date.now()),
+    lastModified: safeDate(post.date),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));
 
   const kienThucEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
     url: `${DOMAIN}/kien-thuc/${post.slug}`,
-    lastModified: new Date(post.date || Date.now()),
+    lastModified: safeDate(post.date),
     changeFrequency: 'weekly',
     priority: 0.8,
   }));

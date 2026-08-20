@@ -1,5 +1,5 @@
-export const dynamicParams = true;
 'use client';
+export const dynamicParams = true;
 
 import React, { useState } from 'react';
 import { FileText, Download, ShieldCheck, FileCheck, CheckCircle } from 'lucide-react';
