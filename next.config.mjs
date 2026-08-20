@@ -2,6 +2,7 @@ import path from 'path';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  turbopack: {},
   staticPageGenerationTimeout: 180,
   outputFileTracingIncludes: {
     '/**': ['./content/**/*'],
