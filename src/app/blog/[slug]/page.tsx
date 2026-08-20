@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return { title: 'Not Found' };
   
   return {
-    title: `${post.metadata.title} | Xưởng In VNPIS`,
+    title: `${post.metadata.title} | VNPIS - Industrial Printing Solutions`,
     description: post.metadata.description,
   };
 }
