@@ -40,6 +40,33 @@ export function getAllSlugs(contentType: string): string[] {
     .map((fileName) => fileName.replace(/\.md$/, ''));
 }
 
+export function getDocumentMetadataBySlug<T = BaseMetadata>(
+  contentType: string,
+  slug: string
+): T | null {
+  const cleanSlug = slug.replace(/\.md$/, '').replace(/\.html$/, '');
+  let fullPath = path.join(contentDirectory, contentType, `${cleanSlug}.md`);
+  
+  if (!fs.existsSync(fullPath)) {
+    const candidates = [
+      path.join(contentDirectory, 'articles', `${cleanSlug}.md`),
+      path.join(contentDirectory, 'pillars', `${cleanSlug}.md`),
+      path.join(contentDirectory, 'case-studies', `${cleanSlug}.md`),
+      path.join(contentDirectory, `${cleanSlug}.md`),
+    ];
+    const found = candidates.find(c => fs.existsSync(c));
+    if (!found) return null;
+    fullPath = found;
+  }
+  
+  const fileContents = fs.readFileSync(fullPath, 'utf8');
+  const matterResult = matter(fileContents);
+  return {
+    slug,
+    ...(matterResult.data as Omit<T, 'slug'>),
+  } as T;
+}
+
 /**
  * Đọc nội dung và metadata của một file markdown cụ thể
  */

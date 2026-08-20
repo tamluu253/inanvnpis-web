@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, CheckCircle2, Clock, Tag } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAllSlugs, getDocumentBySlug } from '@/lib/mdx';
+import { getAllSlugs, getDocumentBySlug, getDocumentMetadataBySlug } from '@/lib/mdx';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 import ArticleContactCTA from '@/components/ArticleContactCTA';
 
@@ -15,12 +15,12 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const post = await getDocumentBySlug('articles', resolvedParams.slug);
-  if (!post) return { title: 'Not Found' };
+  const meta = getDocumentMetadataBySlug('articles', resolvedParams.slug);
+  if (!meta) return { title: 'Not Found' };
   
   return {
-    title: `${post.metadata.title} | VNPIS - Industrial Printing Solutions`,
-    description: post.metadata.description,
+    title: `${meta.title} | VNPIS - Industrial Printing Solutions`,
+    description: meta.description,
   };
 }
 
