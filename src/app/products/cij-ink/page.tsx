@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import { ArrowRight, CheckCircle2, Factory, Droplets, ShieldCheck, Clock, Layers, Maximize } from 'lucide-react';
 import Link from 'next/link';

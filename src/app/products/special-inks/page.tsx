@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import { ArrowRight, ShieldCheck, Microscope, Thermometer, Droplets, Droplet } from 'lucide-react';
 import Link from 'next/link';

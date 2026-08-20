@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import Link from 'next/link';
 import { Package, ArrowRight, Printer, Droplet, ScanLine, Tag, Zap } from 'lucide-react';

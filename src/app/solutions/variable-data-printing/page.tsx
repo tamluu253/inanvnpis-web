@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, QrCode, Zap, CheckCircle2, Factory, Package, Barcode, ScanLine } from 'lucide-react';

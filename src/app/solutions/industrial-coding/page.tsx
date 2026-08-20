@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle2, BarChart3, Clock, Settings, Package, Cpu } from 'lucide-react';

@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import LandingPage from '@/components/templates/LandingPage';
 

@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import LandingPage from '@/components/templates/LandingPage';
 
 export const metadata = {

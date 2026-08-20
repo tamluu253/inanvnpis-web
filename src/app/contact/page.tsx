@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, ArrowRight, ExternalLink, Building2, Layers, Sparkles, CheckCircle2, ShieldCheck } from 'lucide-react';

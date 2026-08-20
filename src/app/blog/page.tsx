@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import { BookOpen, Sparkles, ShieldCheck, Printer, Tag } from 'lucide-react';
 import BlogList from '@/components/BlogList';

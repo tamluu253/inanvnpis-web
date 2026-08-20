@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 import React from 'react';
 import { Apple, Pill, Shirt, Package, Cpu, ArrowRight } from 'lucide-react';
 import Link from 'next/link';

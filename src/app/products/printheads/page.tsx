@@ -1,3 +1,4 @@
+export const dynamicParams = true;
 "use client";
 
 import React from 'react';
