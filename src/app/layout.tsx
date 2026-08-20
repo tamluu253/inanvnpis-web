@@ -38,6 +38,7 @@ export default function RootLayout({
             gtag('js', new Date());
             gtag('config', 'G-HGXR16B0NE');
             gtag('config', 'G-PGSS2ZC0NZ');
+            gtag('config', 'G-Y2MV182611');
           `}
         </Script>
 
