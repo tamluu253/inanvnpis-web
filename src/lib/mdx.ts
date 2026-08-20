@@ -22,7 +22,7 @@ export interface MarkdownDocument<T = BaseMetadata> {
   contentMarkdown: string;
 }
 
-const contentDirectory = path.join(process.cwd(), 'content');
+const contentDirectory = path.join(/*turbopackIgnore: true*/ process.cwd(), 'content');
 
 /**
  * Lấy tất cả các file markdown trong một thư mục cụ thể (vd: 'pillars', 'articles')

@@ -1,6 +1,12 @@
+import path from 'path';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   staticPageGenerationTimeout: 180,
+  outputFileTracingIncludes: {
+    '/**': ['./content/**/*'],
+  },
+  outputFileTracingRoot: path.join(process.cwd()),
   async redirects() {
     return [
       {
