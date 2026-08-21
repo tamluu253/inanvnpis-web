@@ -1,45 +1,15 @@
 import { MetadataRoute } from 'next';
-import { getAllSlugs } from '@/lib/mdx';
+import { getAllDocumentsMeta } from '@/lib/mdx';
 
-const DOMAIN = 'https://vnpis.com';
+const DOMAIN = 'https://inanvnpis.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const articleSlugs = getAllSlugs('articles');
-  const pillarSlugs = getAllSlugs('pillars');
-  
-  const rootEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
-    url: `${DOMAIN}/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.9,
-  }));
-
-  const blogEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
-    url: `${DOMAIN}/blog/${slug}`,
-    lastModified: new Date(),
+  const articles = getAllDocumentsMeta('articles');
+  const blogEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
+    url: `${DOMAIN}/blog/${post.slug}`,
+    lastModified: new Date(post.date || Date.now()),
     changeFrequency: 'weekly',
     priority: 0.8,
-  }));
-
-  const tinTucEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
-    url: `${DOMAIN}/tin-tuc/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }));
-
-  const kienThucEntries: MetadataRoute.Sitemap = articleSlugs.map((slug: string) => ({
-    url: `${DOMAIN}/kien-thuc/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }));
-
-  const pillarEntries: MetadataRoute.Sitemap = pillarSlugs.map((slug: string) => ({
-    url: `${DOMAIN}/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.9,
   }));
 
   const coreServices = [
@@ -72,10 +42,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...serviceEntries,
-    ...rootEntries,
-    ...pillarEntries,
     ...blogEntries,
-    ...tinTucEntries,
-    ...kienThucEntries,
   ];
 }
