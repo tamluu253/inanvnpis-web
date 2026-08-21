@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, ChevronDown, PhoneCall, Globe, ExternalLink } from 'lucide-react';
+import { Menu, X, ChevronDown, PhoneCall, Globe, ExternalLink, Check } from 'lucide-react';
 
 type NavigationItem = {
   name: string;
@@ -14,9 +14,41 @@ type NavigationItem = {
   }[];
 };
 
+const languages = [
+  { code: 'vi', name: 'Tiếng Việt', label: 'VI', flag: '🇻🇳' },
+  { code: 'en', name: 'English', label: 'EN', flag: '🇬🇧' },
+  { code: 'zh-CN', name: '中文 (Chinese)', label: 'ZH', flag: '🇨🇳' },
+  { code: 'ja', name: '日本語 (Japanese)', label: 'JA', flag: '🇯🇵' },
+  { code: 'ko', name: '한국어 (Korean)', label: 'KO', flag: '🇰🇷' },
+  { code: 'km', name: 'ភាសាខ្មែរ (Khmer)', label: 'KM', flag: '🇰🇭' },
+  { code: 'lo', name: 'ພາສາລາວ (Lao)', label: 'LO', flag: '🇱🇦' },
+  { code: 'th', name: 'ไทย (Thai)', label: 'TH', flag: '🇹🇭' },
+];
+
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobileLangOpen, setIsMobileLangOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
+  const [currentLang, setCurrentLang] = useState<string>('vi');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const match = document.cookie.match(/googtrans=\/vi\/([^;]+)/);
+      if (match && match[1]) {
+        setCurrentLang(match[1]);
+      }
+    }
+  }, []);
+
+  const changeLanguage = (langCode: string) => {
+    document.cookie = `googtrans=/vi/${langCode}; path=/; domain=${window.location.hostname}`;
+    document.cookie = `googtrans=/vi/${langCode}; path=/;`;
+    setCurrentLang(langCode);
+    setIsMobileLangOpen(false);
+    window.location.reload();
+  };
+
+  const selectedLangObj = languages.find((l) => l.code === currentLang) || languages[0];
 
   const navigation: NavigationItem[] = [
     {
@@ -134,33 +166,26 @@ export default function Header() {
         <div className="hidden lg:flex items-center space-x-6">
           <div className="relative group flex items-center h-20 z-50">
             <button className="flex items-center text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors bg-slate-50 px-3 py-1.5 rounded-md border border-slate-200">
-              <Globe className="w-4 h-4 mr-1.5" /> Select Language <ChevronDown className="ml-1 w-3 h-3" />
+              <Globe className="w-4 h-4 mr-1.5 text-blue-600" />
+              <span>{selectedLangObj.flag} {selectedLangObj.name}</span>
+              <ChevronDown className="ml-1 w-3 h-3" />
             </button>
-            <div className="absolute top-[60px] right-0 w-48 bg-white border border-slate-100 shadow-xl rounded-lg py-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200">
-              <button onClick={() => { document.cookie = `googtrans=/vi/vi; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                Tiếng Việt
-              </button>
-              <button onClick={() => { document.cookie = `googtrans=/vi/zh-CN; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                Chinese (Simplified)
-              </button>
-              <button onClick={() => { document.cookie = `googtrans=/vi/en; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                English
-              </button>
-              <button onClick={() => { document.cookie = `googtrans=/vi/ja; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                Japanese
-              </button>
-              <button onClick={() => { document.cookie = `googtrans=/vi/km; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                Khmer
-              </button>
-              <button onClick={() => { document.cookie = `googtrans=/vi/ko; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                Korean
-              </button>
-              <button onClick={() => { document.cookie = `googtrans=/vi/lo; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                Lao
-              </button>
-              <button onClick={() => { document.cookie = `googtrans=/vi/th; path=/;`; window.location.reload(); }} className="w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-blue-600 font-medium transition-colors">
-                Thai
-              </button>
+            <div className="absolute top-[60px] right-0 w-52 bg-white border border-slate-100 shadow-xl rounded-lg py-2 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => changeLanguage(lang.code)}
+                  className={`w-full text-left px-4 py-2 text-sm flex items-center justify-between hover:bg-slate-50 font-medium transition-colors ${
+                    currentLang === lang.code ? 'text-blue-600 bg-blue-50/50 font-bold' : 'text-slate-700'
+                  }`}
+                >
+                  <span className="flex items-center">
+                    <span className="mr-2 text-base">{lang.flag}</span>
+                    {lang.name}
+                  </span>
+                  {currentLang === lang.code && <Check className="w-4 h-4 text-blue-600" />}
+                </button>
+              ))}
             </div>
           </div>
           <div className="flex flex-col items-end">
@@ -177,18 +202,98 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Mobile Menu Toggle */}
-        <button
-          className="lg:hidden p-2 text-slate-600"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-        >
-          {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+        {/* Mobile Header Actions: Language Button & Menu Toggle */}
+        <div className="flex items-center space-x-2 lg:hidden">
+          {/* Mobile Quick Language Toggle Button */}
+          <button
+            onClick={() => {
+              setIsMobileLangOpen(!isMobileLangOpen);
+              if (isMobileMenuOpen) setIsMobileMenuOpen(false);
+            }}
+            className="flex items-center text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full border border-slate-300 transition-colors"
+            aria-label="Chọn ngôn ngữ"
+          >
+            <Globe className="w-4 h-4 mr-1 text-blue-600" />
+            <span>{selectedLangObj.flag} {selectedLangObj.label}</span>
+            <ChevronDown className="w-3 h-3 ml-1 text-slate-500" />
+          </button>
+
+          {/* Mobile Menu Toggle Button */}
+          <button
+            className="p-2 text-slate-700 rounded-lg hover:bg-slate-100"
+            onClick={() => {
+              setIsMobileMenuOpen(!isMobileMenuOpen);
+              if (isMobileLangOpen) setIsMobileLangOpen(false);
+            }}
+            aria-label="Menu"
+          >
+            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Language Picker Dropdown Modal */}
+      {isMobileLangOpen && (
+        <div className="lg:hidden bg-white border-t border-slate-200 px-4 py-4 shadow-2xl absolute top-20 left-0 w-full z-50">
+          <div className="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center">
+              <Globe className="w-4 h-4 mr-1.5 text-blue-600" /> Chọn Ngôn Ngữ / Select Language
+            </span>
+            <button onClick={() => setIsMobileLangOpen(false)} className="text-slate-400 p-1 hover:text-slate-600">
+              <X className="w-4 h-4" />
+            </button>
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            {languages.map((lang) => (
+              <button
+                key={lang.code}
+                onClick={() => changeLanguage(lang.code)}
+                className={`flex items-center justify-between px-3.5 py-2.5 rounded-xl border text-xs font-bold transition-all ${
+                  currentLang === lang.code
+                    ? 'border-blue-600 bg-blue-50 text-blue-700 shadow-sm'
+                    : 'border-slate-200 bg-slate-50/50 text-slate-700 hover:bg-slate-100'
+                }`}
+              >
+                <span className="flex items-center truncate">
+                  <span className="mr-2 text-sm">{lang.flag}</span>
+                  <span className="truncate">{lang.name}</span>
+                </span>
+                {currentLang === lang.code && <Check className="w-3.5 h-3.5 text-blue-600 shrink-0 ml-1" />}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Mobile Navigation Drawer */}
       {isMobileMenuOpen && (
         <div className="lg:hidden bg-white border-t border-slate-100 px-4 py-6 shadow-xl h-[calc(100vh-80px)] overflow-y-auto">
+          {/* Mobile Language Selector inside Menu Drawer */}
+          <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 mb-6">
+            <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2.5 flex items-center">
+              <Globe className="w-4 h-4 mr-1.5 text-blue-600" /> Đa Ngôn Ngữ / Languages
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  onClick={() => changeLanguage(lang.code)}
+                  className={`flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold transition-all ${
+                    currentLang === lang.code
+                      ? 'bg-blue-600 text-white shadow-sm'
+                      : 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-100'
+                  }`}
+                >
+                  <span className="flex items-center truncate">
+                    <span className="mr-1.5 text-sm">{lang.flag}</span>
+                    <span className="truncate">{lang.name}</span>
+                  </span>
+                  {currentLang === lang.code && <Check className="w-3.5 h-3.5 text-white shrink-0 ml-1" />}
+                </button>
+              ))}
+            </div>
+          </div>
+
           <div className="flex flex-col space-y-4">
             {navigation.map((item) => (
               <div key={item.name} className="flex flex-col space-y-2">
