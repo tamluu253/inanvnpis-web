@@ -7,7 +7,7 @@ description: "Dung dịch trợ bám (Surface Primer) chuyên dụng xử lý b�
 date: "2026-08-21T09:01:00.000Z"
 category: "Phụ Tùng & Vật Tư"
 code: "PRIMER-SURFACE"
-mediaExt: "null"
+mediaExt: "jpg"
 ---
 
 Trong ngành công nghiệp gia công in ấn (in Tampon, in Lụa, in UV, in Phun CIJ/TIJ), một trong những thách thức lớn nhất là in trên các chất liệu có năng lượng bề mặt cực thấp hoặc bề mặt kim loại trơn bóng khó bám mực như **nhựa PP, HDPE, EVA, inox (thép không gỉ), nhôm, đồng và các hợp kim**.
