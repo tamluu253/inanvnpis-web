@@ -8,9 +8,12 @@ import ArticleContactCTA from '@/components/ArticleContactCTA';
 
 export const dynamicParams = true;
 
-// Generate static params for top posts at build time, remaining posts on-demand via ISR
+// Generate static params for all posts at build time
 export function generateStaticParams() {
-  return [];
+  const slugs = getAllSlugs('articles');
+  return slugs.map((slug) => ({
+    slug: slug,
+  }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
