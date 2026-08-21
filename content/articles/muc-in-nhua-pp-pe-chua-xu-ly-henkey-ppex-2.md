@@ -1,4 +1,4 @@
-﻿---
+---
 canonical: "https://vnpis.com/blog/muc-in-nhua-pp-pe-chua-xu-ly-henkey-ppex-2"
 schema_type: "TechnicalArticle"
 publisher_mst: "0318266611"
@@ -30,4 +30,5 @@ Như đã biết, nhựa PP/PE cực kỳ khó bám mực và thường phải t
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
 * 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
+* 🏭 *Tham khảo giải pháp chi tiết cho từng loại nhựa:* [Mực In PP](/blog/muc-in-nhua-pp) | [Mực In ABS](/blog/muc-in-nhua-abs) | [Mực In HDPE](/blog/muc-in-nhua-hdpe) | [Bảng Giá Mực In Nhựa](/blog/muc-in-nhua-pp-pe-abs-hdpe)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)
