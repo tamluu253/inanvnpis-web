@@ -10,9 +10,40 @@ import Script from 'next/script';
 
 const fontMain = Outfit({ subsets: ['latin'], variable: '--font-sans' });
 
-export const metadata = {
-  title: 'VNPIS | Industrial Printing Solutions',
-  description: 'Enterprise B2B provider of QR Code Printing, Variable Data Printing, RFID, and Industrial Ink Solutions.',
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://inanvnpis.com'),
+  title: {
+    default: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
+    template: '%s | Xưởng In VNPIS Solutions',
+  },
+  description: 'VNPIS Solutions chuyên gia công in tampon (tô chén ly nhựa, linh kiện), in lụa màng nhựa/túi giấy/vải, in KTS QR code dữ liệu biến đổi & phân phối mực in gia công tại TP.HCM. Hotline/Zalo Báo Giá 24/7: 0901 836 344 (Mr. Tâm) - 0901 826 344 (Mr. Giang).',
+  keywords: [
+    'xưởng gia công in tampon tphcm',
+    'gia công in lụa',
+    'in tampon ly nhựa tô chén',
+    'in kỹ thuật số qr code',
+    'mực in tampon afford kt1',
+    'máy in tampon 1 màu',
+    'vật tư ngành in gia công',
+    'xưởng in vnpis solutions'
+  ],
+  alternates: {
+    canonical: './',
+  },
+  openGraph: {
+    title: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
+    description: 'Chuyên nhận in gia công Tampon, In Lụa, In KTS dữ liệu biến đổi trên mọi chất liệu tại TP.HCM. Hotline/Zalo Báo Giá: 0901 836 344.',
+    url: 'https://inanvnpis.com',
+    siteName: 'In Ấn VNPIS Solutions',
+    locale: 'vi_VN',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   verification: {
     google: 'xQz99KRkCepH0j7LgeoQ2hHqRA4YqEMOw4rP1nHBHH0',
   },

@@ -7,7 +7,7 @@ description: "So sánh chi tiết đặc tính năng lượng bề mặt, độ 
 date: "2026-08-21T08:58:00.000Z"
 category: "Kiến Thức In Ấn"
 code: "PLASTIC-INK-HUB"
-mediaExt: "null"
+mediaExt: "jpg"
 ---
 
 Trong ngành gia công in ấn phôi nhựa và bao bì công nghiệp, **ABS, PP, PE và HDPE** là 4 nhóm vật liệu nhựa chiếm hơn 85% tổng lượng sản xuất. Mỗi chất liệu nhựa sở hữu đặc tính hóa lý, cấu trúc chuỗi Polymer và năng lượng bề mặt (Surface Energy in Dyne/cm) hoàn toàn khác nhau. Việc dùng sai loại **mực in nhựa** sẽ dẫn đến hậu quả nghiêm trọng: mực bị bong tróc hàng loạt, sản phẩm bị trả về và thiệt hại kinh tế lớn cho xưởng in.

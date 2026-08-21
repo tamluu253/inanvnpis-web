@@ -7,7 +7,7 @@ description: "Báo giá mực in PP bám dính siêu bền cho nhựa Polypropyl
 date: "2026-08-21T08:58:00.000Z"
 category: "Mực in PP"
 code: "PP-INK"
-mediaExt: "null"
+mediaExt: "jpg"
 ---
 
 Nhựa PP (Polypropylene) là vật liệu được ứng dụng khổng lồ trong sản xuất bao bì thực phẩm, nắp chai, hộp nhựa dùng 1 lần, thùng rác công nghiệp, vỏ bình ắc quy, chai lọ mỹ phẩm và thiết bị y tế. Tuy nhiên, nhựa PP có đặc tính **năng lượng bề mặt rất thấp (chỉ 29 – 31 dyne/cm)**, cực kỳ trơn nhẵn và không phân cực (non-polar). Điều này khiến các loại mực thông thường **hoàn toàn không bám dính được** và lập tức bong tróc sau khi khô.

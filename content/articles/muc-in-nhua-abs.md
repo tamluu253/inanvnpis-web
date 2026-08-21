@@ -7,7 +7,7 @@ description: "Tổng hợp các dòng mực in ABS chuyên dụng (Pad Printing,
 date: "2026-08-21T08:58:00.000Z"
 category: "Mực in ABS"
 code: "ABS-INK"
-mediaExt: "null"
+mediaExt: "jpg"
 ---
 
 Nhựa ABS (Acrylonitrile Butadiene Styrene) là một trong những loại nhựa kỹ thuật phổ biến nhất hiện nay, được sử dụng rộng rãi trong chế tạo vỏ thiết bị điện tử, đồ chơi trẻ em, linh kiện ô tô, xe máy, mũ bảo hiểm và đồ gia dụng cao cấp. Mặc dù nhựa ABS có năng lượng bề mặt cao hơn Polyolefin (khoảng 35–42 dyne/cm) giúp mực bám dính dễ hơn so với PP hay PE, nhưng việc chọn đúng **mực in ABS** chuẩn kỹ thuật vẫn là yếu tố quyết định để hình in không bị tróc khi va quệt, không phai màu trước hóa chất mồ hôi và đạt các tiêu chuẩn xuất khẩu khắt khe (RoHS, REACH, EN71-3).
