@@ -1,7 +1,7 @@
 export const dynamicParams = true;
 import React from 'react';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle2, ShieldCheck, Factory, Phone, Award, Truck, Layers, Zap, Clock } from 'lucide-react';
+import { ArrowRight, CheckCircle2, ShieldCheck, Factory, Phone, Award, Truck, Layers, Zap, Clock, Printer } from 'lucide-react';
 
 export default function Home() {
   return (
