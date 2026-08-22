@@ -1,90 +1,82 @@
 import React from 'react';
 import Link from 'next/link';
-import { MapPin, Phone, Mail, ArrowRight } from 'lucide-react';
+import { MapPin, Phone, Mail, ArrowRight, ShieldCheck, CheckCircle2 } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 text-slate-300 pt-20 pb-10 border-t-4 border-blue-600 font-sans">
+    <footer className="bg-slate-950 text-slate-300 pt-16 pb-10 border-t-4 border-cyan-500 font-sans">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Column 1: Company Info */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block mb-6 bg-white p-2 rounded-lg">
-              <img src="/images/vnpis-logo.png" alt="VNPIS Logo" className="h-10 w-auto" />
+            <Link href="/" className="inline-block mb-4 bg-white p-2 rounded-xl shadow-sm">
+              <img src="/images/inanvnpis-logo.png" alt="In Ấn VNPIS Logo" className="h-12 w-auto" />
             </Link>
-            <p className="mb-6 text-sm leading-relaxed text-slate-400">
-              VNPIS là nhà cung cấp hàng đầu về Giải pháp In Công nghiệp, In Dữ liệu Biến đổi, Mã QR và Tự động hóa cho các nhà máy sản xuất tại Việt Nam.
+            <p className="mb-4 text-xs leading-relaxed text-slate-400">
+              <strong className="text-white">INANVNPIS.COM</strong> — Xưởng gia công in tampon, in lụa, in KTS dữ liệu biến đổi &amp; phân phối vật tư mực in công nghiệp hàng đầu TP.HCM. 
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors text-sm font-bold">
-                FB
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-red-600 hover:text-white transition-colors text-sm font-bold">
-                YT
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-500 hover:text-white transition-colors text-sm font-bold">
-                IN
-              </a>
+            <div className="flex items-center space-x-2 text-xs text-emerald-400 font-bold mb-4">
+              <CheckCircle2 className="w-4 h-4" />
+              <span>In Mẫu Test Miễn Phí 24h &amp; Test 3M Bám Dính</span>
             </div>
           </div>
 
-          {/* Column 2: Solutions */}
+          {/* Column 2: Core Printing Services */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-6">Giải Pháp & Dịch Vụ</h3>
-            <ul className="space-y-3">
-              <li><Link href="/solutions/uv-single-pass-printing" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> UV Single Pass Printing</Link></li>
-              <li><Link href="/solutions/variable-data-printing" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> Variable Data Printing</Link></li>
-              <li><Link href="/solutions/pad-printing" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> Pad Printing</Link></li>
-              <li><Link href="/solutions/screen-printing" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> Screen Printing</Link></li>
-              <li><Link href="/services/pad-printing-service" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> Dịch vụ in gia công</Link></li>
+            <h3 className="text-white text-base font-bold mb-4 text-cyan-400 uppercase tracking-wider">Dịch Vụ In Gia Công</h3>
+            <ul className="space-y-2.5 text-xs">
+              <li><Link href="/in-tampon" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In Tampon (Ly Nhựa, Tô Chén, Linh Kiện)</Link></li>
+              <li><Link href="/in-lua" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In Lụa (Màng Nhựa, Túi Giấy, Chai Lọ Tròn)</Link></li>
+              <li><Link href="/in-ky-thuat-so" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In KTS &amp; QR Code Dữ Liệu Biến Đổi</Link></li>
+              <li><Link href="/services/pad-printing-service" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Báo Giá In Gia Công Theo Đơn Hàng Hàng Loạt</Link></li>
             </ul>
           </div>
 
-          {/* Column 3: Products */}
+          {/* Column 3: Materials & Supplies */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-6">Sản Phẩm Cốt Lõi</h3>
-            <ul className="space-y-3">
-              <li><Link href="/products/uv-printers" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> UV Printer</Link></li>
-              <li><Link href="/products/cij-ink" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> CIJ Ink</Link></li>
-              <li><Link href="/products/tij-ink" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> TIJ Ink</Link></li>
-              <li><Link href="/products/industrial-ink" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> Special Inks</Link></li>
-              <li><Link href="/products/consumables" className="hover:text-blue-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2" /> Printing Consumables</Link></li>
+            <h3 className="text-white text-base font-bold mb-4 text-orange-400 uppercase tracking-wider">Vật Tư &amp; Mực In Gia Công</h3>
+            <ul className="space-y-2.5 text-xs">
+              <li><Link href="/products/pad-printing/inks" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Mực In Tampon Afford KT1 / Marabu / UV</Link></li>
+              <li><Link href="/products/pad-printing/plates" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Bản Thép In Tampon (Cliche Phủ Sơn / Thép Dày)</Link></li>
+              <li><Link href="/products/pad-printing/pads" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Cục In Silicone Đổ Khuôn Chuẩn Độ Cứng</Link></li>
+              <li><Link href="/products/cij-ink" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Mực In CIJ / TIJ Khô Nhanh Bám Dính Cao</Link></li>
             </ul>
           </div>
 
-          {/* Column 4: Contact */}
+          {/* Column 4: Dedicated Contact */}
           <div>
-            <h3 className="text-white text-lg font-bold mb-6">Liên Hệ</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start">
-                <MapPin className="w-5 h-5 text-orange-500 mr-3 mt-1 flex-shrink-0" />
-                <span className="text-sm leading-relaxed space-y-1 block">
-                  <strong className="text-white block">CÔNG TY TNHH VNPIS</strong>
-                  <span className="text-slate-400 block">Mã số thuế: 0318266611</span>
-                  <span className="block mt-2"><strong className="text-slate-200">Trụ sở chính:</strong> Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.</span>
-                  <span className="block mt-1"><strong className="text-slate-200">Địa điểm KD 1:</strong> 62 Trần Thị Nơi, Phường Chánh Hưng, TP. Hồ Chí Minh.</span>
-                  <span className="block mt-1"><strong className="text-slate-200">Địa điểm KD 2:</strong> 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh.</span>
+            <h3 className="text-white text-base font-bold mb-4 text-emerald-400 uppercase tracking-wider">Hotline Tư Vấn Xưởng In</h3>
+            <ul className="space-y-3 text-xs">
+              <li className="bg-slate-900 p-3 rounded-xl border border-slate-800">
+                <span className="text-slate-400 block font-medium">Tư vấn In Tampon &amp; In KTS:</span>
+                <a href="tel:0901836344" className="text-emerald-400 font-extrabold text-base hover:text-emerald-300 block mt-0.5">
+                  0901 836 344 (Mr. Tâm)
+                </a>
+              </li>
+              <li className="bg-slate-900 p-3 rounded-xl border border-slate-800">
+                <span className="text-slate-400 block font-medium">Tư vấn In Lụa Gia Công:</span>
+                <a href="tel:0901826344" className="text-cyan-400 font-extrabold text-base hover:text-cyan-300 block mt-0.5">
+                  0901 826 344 (Mr. Giang)
+                </a>
+              </li>
+              <li className="flex items-start pt-2">
+                <MapPin className="w-4 h-4 text-orange-500 mr-2 mt-0.5 flex-shrink-0" />
+                <span className="text-slate-400">
+                  <strong className="text-white block">Xưởng Gia Công VNPIS Solutions:</strong>
+                  18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP.HCM.
                 </span>
-              </li>
-              <li className="flex items-center">
-                <Phone className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
-                <span className="font-bold text-white text-lg">0987 453 866</span>
-              </li>
-              <li className="flex items-center">
-                <Mail className="w-5 h-5 text-orange-500 mr-3 flex-shrink-0" />
-                <a href="mailto:info@vnpis.com" className="hover:text-blue-400 transition-colors">info@vnpis.com</a>
               </li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} VNPIS Industrial Solutions. All rights reserved.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+        <div className="pt-6 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
+          <p>&copy; {new Date().getFullYear()} INANVNPIS.COM — Xưởng Gia Công In Tampon &amp; In Lụa Hàng Đầu TP.HCM.</p>
+          <div className="flex space-x-5 mt-3 md:mt-0">
             <Link href="/privacy-policy" className="hover:text-slate-300">Chính sách bảo mật</Link>
-            <Link href="/terms-of-service" className="hover:text-slate-300">Điều khoản dịch vụ</Link>
-            <Link href="/sitemap.xml" className="hover:text-slate-300">Sitemap</Link>
+            <Link href="/terms-of-service" className="hover:text-slate-300">Điều khoản gia công</Link>
+            <Link href="/sitemap.xml" className="hover:text-slate-300">Sitemap XML</Link>
           </div>
         </div>
       </div>
