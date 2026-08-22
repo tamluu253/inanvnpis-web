@@ -13,7 +13,7 @@ const fontMain = Outfit({ subsets: ['latin'], variable: '--font-sans' });
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://inanvnpis.com'),
+  metadataBase: new URL('https://www.inanvnpis.com'),
   title: {
     default: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
     template: '%s | Xưởng In VNPIS Solutions',

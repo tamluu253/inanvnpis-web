@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllDocumentsMeta } from '@/lib/mdx';
 
-const DOMAIN = 'https://inanvnpis.com';
+const DOMAIN = 'https://www.inanvnpis.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllDocumentsMeta('articles');
