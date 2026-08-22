@@ -97,7 +97,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         </div>
 
         {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0987 453 866 / ZALO / WHATSAPP */}
-        <ArticleContactCTA title={metadata.title} />
+        <ArticleContactCTA title={metadata.title} slug={metadata.slug} />
 
         <div className="mt-12 bg-blue-50/90 border border-blue-200 rounded-3xl p-8 mb-16 shadow-sm">
           <h3 className="text-2xl font-extrabold text-slate-900 mb-4 mt-0">Tại sao chọn dịch vụ gia công in ấn VNPIS?</h3>
