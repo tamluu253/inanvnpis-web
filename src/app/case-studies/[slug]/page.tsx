@@ -46,7 +46,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
       name: 'VNPIS - Industrial Printing Solutions',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://vnpis.com/icon.png',
+        url: 'https://inanvnpis.com/images/inanvnpis-logo.png',
       },
     },
     datePublished: metadata.date || '2026-07-08T00:00:00.000Z',
