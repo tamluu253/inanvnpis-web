@@ -6,7 +6,7 @@ keywords:
   - "xưởng in tampon vỏ nhựa abs pc pom tphcm"
   - "nhận in tampon linh kiện điện tử b2b"
 date: "2026-08-23"
-author: "Lưu Trọng Tâm - Kỹ Sư Trưởng VNPIS"
+author: "Tâm Lưu - Kỹ Sư Trưởng VNPIS"
 category: "Gia Công In Tampon Linh Kiện & Bề Mặt Cong 3D"
 canonical: "https://inanvnpis.com/blog/gia-cong-in-tampon-linh-kien-nhua-abs"
 schema_type: "TechnicalArticle"
