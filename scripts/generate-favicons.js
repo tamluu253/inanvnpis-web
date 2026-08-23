@@ -109,6 +109,8 @@ async function generateFavicons() {
     { path: path.join(__dirname, '../public/icon.png'), content: icon512 },
     { path: path.join(__dirname, '../public/apple-icon.png'), content: icon180 },
     { path: path.join(__dirname, '../public/favicon.ico'), content: icoBuffer },
+    { path: path.join(__dirname, '../public/VNPIS_logo.png'), content: icon512 },
+    { path: path.join(__dirname, '../public/images/vnpis-logo.png'), content: icon512 },
   ];
 
   for (const t of targets) {
