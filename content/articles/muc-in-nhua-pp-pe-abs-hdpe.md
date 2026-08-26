@@ -69,7 +69,7 @@ Dù in trên ABS, PP hay HDPE, mọi lô sản phẩm trước khi xuất xưở
 
 | Dòng Mực In | Quy Cách | Xuất Xứ | Ứng Dụng Chính | Đơn Giá Tham Khảo |
 | :--- | :--- | :--- | :--- | :--- |
-| **Dubuit D-PAD (ABS/PS/PC)** | Lon 1 Kg | Pháp | In Tampon vỏ nhựa ABS, remote, đồ chơi | **Liên hệ Zalo 0987 453 866** |
+| **Dubuit D-PAD (ABS/PS/PC)** | Lon 1 Kg | Pháp | In Tampon vỏ nhựa ABS, remote, đồ chơi | **Liên hệ Zalo: Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344** |
 | **Henkey PPEX-2 (PP chưa xử lý)** | Lon 1 Kg | Đài Loan | In trực tiếp nhựa PP không khò lửa | **Giá cực tốt tận xưởng** |
 | **Henkey PE/HDPE-Special** | Lon 1 Kg | Đài Loan | In nắp bình 20L, can chai nhựa HDPE | **Hỗ trợ test mẫu miễn phí** |
 | **VNPIS Surface Primer** | Chai 1 Liter | Nhập Khẩu | Nước xử lý PP, HDPE, EVA, INOX | **Sẵn kho số lượng lớn** |
@@ -86,5 +86,5 @@ Quý khách hàng là xưởng gia công in ấn, nhà máy sản xuất linh ki
 
 * 🏢 **Công Ty TNHH VNPIS (Vật Tư In Ấn VNPIS)**
 * 📍 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline/Zalo tư vấn kỹ thuật & báo giá 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** Mr. Giang (In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Website:** [inanvnpis.com](https://inanvnpis.com) | [vnpis.com](https://vnpis.com) | [Mực In Công Nghiệp](https://inanvnpis.com/products/industrial-ink)

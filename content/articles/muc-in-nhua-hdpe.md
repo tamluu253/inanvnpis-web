@@ -89,5 +89,5 @@ Dành cho các máy in phun date liên tục (CIJ Printer) in mã vạch, số m
 
 * 🏢 **Công Ty TNHH VNPIS (In Ấn VNPIS)**
 * 📍 **Trụ sở chính:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh.
-* 📞 **Hotline/Zalo tư vấn kỹ thuật & báo giá 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline / Zalo tư vấn & báo giá 24/7:** Mr. Giang (In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Website:** [inanvnpis.com](https://inanvnpis.com) | [vnpis.com](https://vnpis.com) | [Mực In Công Nghiệp](https://inanvnpis.com/products/industrial-ink)

@@ -13,7 +13,7 @@ Các cơ sở sản xuất nước uống đóng bình 20L thường gặp khó 
 
 Với các model máy có hành trình in dài và cục silicone cỡ lớn, máy in tampon có thể ôm trọn biên dạng cong của bình nước 20L, ép chặt lớp mực xuống bề mặt nhựa. Sự kết hợp giữa máy in tampon và dòng mực bám dính đặc chủng giúp logo của bạn chống chịu hoàn toàn với nước và ma sát vật lý.
 
-VNPIS hiện đang phân phối các hệ thống máy in tampon (pad printer) 1 màu chuyên dụng cho ngành nước giải khát với chi phí cực kỳ hợp lý. Hãy gọi 0987 453 866 để được chúng tôi hỗ trợ lắp đặt tận xưởng.
+VNPIS hiện đang phân phối các hệ thống máy in tampon (pad printer) 1 màu chuyên dụng cho ngành nước giải khát với chi phí cực kỳ hợp lý. Hãy gọi Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344 để được chúng tôi hỗ trợ lắp đặt tận xưởng.
 
 
 
@@ -25,6 +25,6 @@ VNPIS hiện đang phân phối các hệ thống máy in tampon (pad printer) 1
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)

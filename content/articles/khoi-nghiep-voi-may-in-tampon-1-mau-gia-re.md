@@ -13,7 +13,7 @@ Nếu bạn đang tìm kiếm một mô hình khởi nghiệp với số vốn d
 
 Với một chiếc máy in tampon (pad printer) 1 màu loại nhỏ, bạn có thể nhận gia công in ấn cho hàng ngàn mặt hàng khác nhau: từ USB, sạc dự phòng, chuột máy tính, đến bình giữ nhiệt, hộp quẹt... Biên độ lợi nhuận của dịch vụ gia công in ấn thường lên tới 60-70% do chi phí vật tư (mực, dung môi, bản thép) trên mỗi sản phẩm là cực kỳ nhỏ (chưa tới 100 đồng).
 
-VNPIS không chỉ bán máy in tampon 1 màu giá rẻ mà còn đào tạo nghề in miễn phí cho người mới bắt đầu. Đồng hành cùng bạn trên con đường khởi nghiệp, hãy liên hệ 0987 453 866 ngay hôm nay!
+VNPIS không chỉ bán máy in tampon 1 màu giá rẻ mà còn đào tạo nghề in miễn phí cho người mới bắt đầu. Đồng hành cùng bạn trên con đường khởi nghiệp, hãy liên hệ Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344 ngay hôm nay!
 
 
 
@@ -25,6 +25,6 @@ VNPIS không chỉ bán máy in tampon 1 màu giá rẻ mà còn đào tạo ngh
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)

@@ -13,7 +13,7 @@ code: "VT-04"
 
 VNPIS nhận căng khung lụa nhôm với lưới Polyester cường lực nhập khẩu từ Thụy Sĩ/Đài Loan. Số mắt lưới (mesh) đa dạng từ 40T đến 160T, phù hợp cho từ việc in keo hạt to đến in phủ UV vecni bóng. Dao gạt mực chất liệu Polyurethane (PU) chịu được ma sát mạnh, không bị trương nở trong dung môi, các cạnh dao được mài vát chuẩn góc 45 độ, 60 độ hoặc 90 độ.
 
-Chúng tôi cung cấp trọn gói vật tư cho các xưởng in mới mở với giá sỉ tốt nhất thị trường. Hotline đặt hàng giao ngay trong ngày: 0987 453 866.
+Chúng tôi cung cấp trọn gói vật tư cho các xưởng in mới mở với giá sỉ tốt nhất thị trường. Hotline đặt hàng giao ngay trong ngày: Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344.
 
 
 
@@ -25,6 +25,6 @@ Chúng tôi cung cấp trọn gói vật tư cho các xưởng in mới mở v�
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)

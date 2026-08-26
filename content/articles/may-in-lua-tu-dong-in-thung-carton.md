@@ -13,7 +13,7 @@ In lụa (Screen Printing) từ lâu đã là công nghệ không thể thay th�
 
 Ưu điểm lớn nhất của máy in lụa là khả năng tạo ra lớp mực rất dày, che phủ hoàn toàn màu nền tối của giấy kraft hay carton sóng. Tốc độ máy in lụa tự động hiện nay đã được cải thiện đáng kể, tích hợp hệ thống sấy hồng ngoại (IR) hoặc sấy UV ngay trên băng tải, giúp sản phẩm khô lập tức sau khi in.
 
-Đầu tư máy in lụa tự động từ VNPIS giúp xưởng của bạn chủ động hoàn toàn khâu in ấn bao bì. Vui lòng liên hệ 0987 453 866 để nhận tư vấn cấu hình máy phù hợp nhất.
+Đầu tư máy in lụa tự động từ VNPIS giúp xưởng của bạn chủ động hoàn toàn khâu in ấn bao bì. Vui lòng liên hệ Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344 để nhận tư vấn cấu hình máy phù hợp nhất.
 
 
 
@@ -25,6 +25,6 @@ In lụa (Screen Printing) từ lâu đã là công nghệ không thể thay th�
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)

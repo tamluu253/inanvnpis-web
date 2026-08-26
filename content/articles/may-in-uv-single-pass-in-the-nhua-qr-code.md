@@ -13,7 +13,7 @@ Công nghệ in UV Single Pass đang thay đổi hoàn toàn cục diện ngành
 
 Điều này mang lại tốc độ in khủng khiếp (lên đến 50 - 80 mét/phút). Đây là giải pháp hoàn hảo để in dữ liệu biến đổi (VDP - Variable Data Printing) như số serial nhảy tự động, mã QR code định danh độc nhất lên hàng triệu thẻ nhựa, thẻ cào, thẻ bảo hành mỗi ngày.
 
-VNPIS tự hào là đơn vị tiên phong cung cấp hệ thống máy in UV Single Pass tích hợp kèm băng tải cấp liệu tự động (feeder). Mọi chi tiết xin liên hệ hotline 0987 453 866.
+VNPIS tự hào là đơn vị tiên phong cung cấp hệ thống máy in UV Single Pass tích hợp kèm băng tải cấp liệu tự động (feeder). Mọi chi tiết xin liên hệ hotline Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344.
 
 
 
@@ -25,6 +25,6 @@ VNPIS tự hào là đơn vị tiên phong cung cấp hệ thống máy in UV Si
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)

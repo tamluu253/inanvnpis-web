@@ -13,7 +13,7 @@ Ngành sản xuất đồ chơi trẻ em luôn đặt ra những yêu cầu kh�
 
 Kết hợp với các loại mực in đạt chuẩn an toàn không độc hại (RoHS, FDA), [**máy in tampon 1 màu**](/products/pad-printers/hj) giúp bản in bền màu, không bong tróc khi trẻ nhỏ tiếp xúc hoặc ngậm vào miệng. Thao tác vận hành máy cực kỳ đơn giản, không đòi hỏi nhân công tay nghề cao, giúp doanh nghiệp tiết kiệm tối đa chi phí nhân sự.
 
-Tại VNPIS, chúng tôi cung cấp các cấu hình máy in tampon 1 màu giá rẻ được tinh chỉnh riêng cho ngành đồ chơi, đảm bảo năng suất cao và tỷ lệ phế phẩm gần như bằng không. Gọi ngay 0987 453 866 để test mẫu miễn phí!
+Tại VNPIS, chúng tôi cung cấp các cấu hình máy in tampon 1 màu giá rẻ được tinh chỉnh riêng cho ngành đồ chơi, đảm bảo năng suất cao và tỷ lệ phế phẩm gần như bằng không. Gọi ngay Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344 để test mẫu miễn phí!
 
 
 
@@ -25,6 +25,6 @@ Tại VNPIS, chúng tôi cung cấp các cấu hình máy in tampon 1 màu giá 
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)

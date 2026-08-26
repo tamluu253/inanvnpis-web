@@ -13,7 +13,7 @@ Thị trường quà tặng doanh nghiệp đang phát triển mạnh mẽ, tron
 
 So với phương pháp in lụa truyền thống tốn nhiều thời gian phơi bản và độ chính xác không cao trên bề mặt trụ tròn của bút, máy in tampon (pad printer) cho phép in liên tục với tốc độ lên đến hàng ngàn nhịp mỗi giờ. Cục silicone đặc chế giúp mực in bám chặt vào thân bút nhựa hoặc kim loại, tái tạo hoàn hảo các chi tiết logo nhỏ nhất.
 
-Nếu bạn đang muốn khởi nghiệp ngành quà tặng với số vốn mỏng, đầu tư một chiếc [**máy in tampon 1 màu**](/products/pad-printers/hj) từ VNPIS sẽ giúp bạn thu hồi vốn chỉ sau vài đơn hàng. Liên hệ 0987 453 866 để nhận báo giá chi tiết.
+Nếu bạn đang muốn khởi nghiệp ngành quà tặng với số vốn mỏng, đầu tư một chiếc [**máy in tampon 1 màu**](/products/pad-printers/hj) từ VNPIS sẽ giúp bạn thu hồi vốn chỉ sau vài đơn hàng. Liên hệ Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344 để nhận báo giá chi tiết.
 
 
 
@@ -25,6 +25,6 @@ Nếu bạn đang muốn khởi nghiệp ngành quà tặng với số vốn m�
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)

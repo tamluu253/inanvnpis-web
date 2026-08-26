@@ -13,7 +13,7 @@ Trong ngành F&B, việc nhập ly giấy, hộp bã mía, hộp xốp in sẵn 
 
 Máy in UV Single Pass có thể in trực tiếp hình ảnh full màu (CMYK) sắc nét lên bề mặt ly giấy đã thành phẩm hoặc nắp hộp xốp. Mực UV thực phẩm khô ngay lập tức nhờ hệ thống đèn LED UV lạnh, không làm biến dạng vật liệu mỏng.
 
-Không cần làm bản kẽm, không lo tồn kho bao bì. Đầu tư một máy UV Single Pass từ [**VNPIS**](/) giúp bạn nhận gia công in ấn cho hàng trăm quán ăn trong khu vực. Gọi 0987 453 866 để xem video vận hành máy!
+Không cần làm bản kẽm, không lo tồn kho bao bì. Đầu tư một máy UV Single Pass từ [**VNPIS**](/) giúp bạn nhận gia công in ấn cho hàng trăm quán ăn trong khu vực. Gọi Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344 để xem video vận hành máy!
 
 
 
@@ -25,6 +25,6 @@ Không cần làm bản kẽm, không lo tồn kho bao bì. Đầu tư một má
 
 ## 📌 CÔNG TY TNHH VNPIS
 * 🏢 **Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh.
-* 📞 **Hotline tư vấn thiết bị & báo giá vật tư 24/7:** **Mr. Tâm: 0987 453 866**
+* 📞 **Hotline tư vấn & báo giá B2B 24/7:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))
 * 🌐 **Hệ sinh thái B2B:** [vnpis.com](https://vnpis.com) | [Máy in Tampon](https://vnpis.com/products/pad-printers) | [Máy in Lụa](https://vnpis.com/products/screen-printers) | [Mực in Công Nghiệp](https://vnpis.com/products/industrial-ink)
 * 🏭 *Cần dịch vụ gia công in ấn phôi nhựa/bao bì? Tham khảo tại:* [vnpis.com](https://vnpis.com)
