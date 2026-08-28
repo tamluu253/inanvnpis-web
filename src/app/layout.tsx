@@ -14,6 +14,9 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.inanvnpis.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
     template: '%s | Xưởng In VNPIS Solutions',
@@ -29,9 +32,6 @@ export const metadata: Metadata = {
     'vật tư ngành in gia công',
     'xưởng in vnpis solutions'
   ],
-  alternates: {
-    canonical: './',
-  },
   openGraph: {
     title: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
     description: 'Chuyên nhận in gia công Tampon, In Lụa, In KTS dữ liệu biến đổi trên mọi chất liệu tại TP.HCM. Hotline/Zalo Báo Giá: 0901 836 344.',

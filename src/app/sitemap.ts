@@ -5,12 +5,14 @@ const DOMAIN = 'https://www.inanvnpis.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllDocumentsMeta('articles');
-  const blogEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
-    url: `${DOMAIN}/blog/${post.slug}`,
-    lastModified: new Date(post.date || Date.now()),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }));
+  const blogEntries: MetadataRoute.Sitemap = articles
+    .filter((post: any) => post.draft !== true && post.status !== 'draft')
+    .map((post: any) => ({
+      url: `${DOMAIN}/blog/${post.slug}`,
+      lastModified: new Date(post.date || Date.now()),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    }));
 
   const coreServices = [
     '/in-tampon',

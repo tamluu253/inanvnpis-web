@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, CheckCircle2, Clock, Tag } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Clock } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllSlugs, getDocumentBySlug, getDocumentMetadataBySlug } from '@/lib/mdx';
@@ -18,38 +18,64 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
+  const slugs = getAllSlugs('articles');
+  if (!slugs.includes(resolvedParams.slug)) {
+    return { title: 'Not Found' };
+  }
+  
   const meta = getDocumentMetadataBySlug('articles', resolvedParams.slug);
   if (!meta) return { title: 'Not Found' };
   
+  const isDraft = meta.draft === true || meta.status === 'draft';
+  
   return {
-    title: `${meta.title} | VNPIS - Industrial Printing Solutions`,
+    title: `${meta.title} | Xưởng In VNPIS Solutions`,
     description: meta.description,
+    alternates: {
+      canonical: meta.canonical || `https://www.inanvnpis.com/blog/${resolvedParams.slug}`,
+    },
+    ...(isDraft ? { robots: { index: false, follow: false } } : {}),
   };
 }
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const post = await getDocumentBySlug('articles', resolvedParams.slug);
-  
+  return <BlogPostContainer slug={resolvedParams.slug} contentType="articles" />;
+}
+
+export async function BlogPostContainer({ 
+  slug, 
+  contentType 
+}: { 
+  slug: string; 
+  contentType: 'articles' | 'pillars'; 
+}) {
+  const slugs = getAllSlugs(contentType);
+  if (!slugs.includes(slug)) {
+    notFound();
+  }
+
+  const post = await getDocumentBySlug(contentType, slug);
   if (!post) {
     notFound();
   }
 
   const { metadata, contentHtml } = post;
-
   const hasDedicatedMedia = Boolean(metadata.mediaExt || metadata.image);
+  
+  const pageUrl = contentType === 'articles' ? `https://www.inanvnpis.com/blog/${slug}` : `https://www.inanvnpis.com/${slug}`;
 
   return (
     <main className="min-h-screen pt-28 pb-16 bg-slate-50 font-sans">
       <article className="container mx-auto px-4 max-w-4xl">
-        <Link href="/blog" className="inline-flex items-center text-blue-600 hover:text-blue-800 font-extrabold mb-8 transition-colors text-sm">
-          <ArrowLeft className="w-4 h-4 mr-2" /> Quay lại thư viện bài viết
+        <Link href={contentType === 'articles' ? '/blog' : '/'} className="inline-flex items-center text-blue-600 hover:text-blue-800 font-extrabold mb-8 transition-colors text-sm">
+          <ArrowLeft className="w-4 h-4 mr-2" /> {contentType === 'articles' ? 'Quay lại thư viện bài viết' : 'Quay lại trang chủ'}
         </Link>
         
         <div className="mb-10">
           <div className="flex flex-wrap gap-2.5 mb-6">
             <span className="bg-blue-600 text-white px-3.5 py-1.5 rounded-xl text-xs font-extrabold shadow-sm uppercase tracking-wider">
-              {metadata.category || 'KIẾN THỨC IN ẤN'}
+              {metadata.category || (contentType === 'articles' ? 'KIẾN THỨC IN ẤN' : 'GIẢI PHÁP IN')}
             </span>
             {metadata.code && !metadata.code.startsWith('WEEK') && (
               <span className="bg-slate-200 text-slate-700 px-3.5 py-1.5 rounded-xl text-xs font-bold border border-slate-300">
@@ -115,7 +141,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           <ConsultationForm
             title="Nhận Báo Giá In Gia Công &amp; In Mẫu Thử Miễn Phí"
             subtitle="Đội ngũ kỹ sư Công ty TNHH VNPIS sẽ tiếp nhận sản phẩm, in mẫu thử và báo giá tốt nhất cho anh/chị."
-            pageTitle={`Blog: ${metadata.title}`}
+            pageTitle={`${contentType === 'articles' ? 'Blog' : 'Pillar'}: ${metadata.title}`}
           />
         </div>
       </article>
@@ -129,7 +155,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             "@type": "Article",
             "headline": metadata.title,
             "description": metadata.description,
-            "image": metadata.image || (hasDedicatedMedia ? `https://vnpis.com/media/blog/${metadata.slug}.${metadata.mediaExt}` : 'https://vnpis.com/vnpis-logo.png'),
+            "image": metadata.image || (hasDedicatedMedia ? `https://www.inanvnpis.com/media/blog/${metadata.slug}.${metadata.mediaExt}` : 'https://www.inanvnpis.com/icon.png'),
             "author": {
               "@type": "Organization",
               "name": "Công ty TNHH VNPIS"
@@ -139,12 +165,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               "name": "Công ty TNHH VNPIS",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vnpis.com/vnpis-logo.png"
+                "url": "https://www.inanvnpis.com/icon.png"
               }
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": `https://vnpis.com/blog/${metadata.slug}`
+              "@id": pageUrl
             }
           })
         }}

@@ -7,6 +7,9 @@ import { getAllDocumentsMeta } from '@/lib/mdx';
 export const metadata = {
   title: 'Thư Viện Bài Viết SEO & Kiến Thức In Ấn | In Tampon Giá Rẻ, In Lụa Giá Rẻ VNPIS',
   description: 'Tổng hợp kiến thức kỹ thuật & báo giá gia công in tampon giá rẻ, in lụa giá rẻ, vật tư in tampon, vật tư in lụa chính hãng tại TP.HCM. Công ty TNHH VNPIS.',
+  alternates: {
+    canonical: 'https://www.inanvnpis.com/blog',
+  },
 };
 
 export default function BlogIndex() {
