@@ -245,7 +245,7 @@ export default function ContactPage() {
 
               <div className="pt-6 mt-6 border-t border-slate-100">
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=10.7289,106.6663"
+                  href="https://www.google.com/maps/search/?api=1&query=PM9J%2BRC+B%C3%ACnh+H%C6%B0ng,+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 bg-blue-600 hover:bg-blue-700 text-white font-extrabold rounded-2xl shadow-md transition-all text-sm uppercase tracking-wider"
@@ -264,7 +264,7 @@ export default function ContactPage() {
                   <MapPin className="w-4 h-4 text-blue-600" /> Bản Đồ Vị Trí VNPIS (Bình Hưng, TP.HCM)
                 </span>
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=10.7289,106.6663"
+                  href="https://www.google.com/maps/search/?api=1&query=PM9J%2BRC+B%C3%ACnh+H%C6%B0ng,+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs text-blue-600 hover:text-blue-800 font-extrabold flex items-center gap-1"
@@ -276,7 +276,7 @@ export default function ContactPage() {
               <div className="w-full h-full min-h-[380px] rounded-2xl overflow-hidden border border-slate-200 relative flex-grow">
                 <iframe
                   title="Bản đồ chỉ đường Google Maps Công ty TNHH VNPIS"
-                  src="https://maps.google.com/maps?q=10.7289,106.6663&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=PM9J%2BRC+B%C3%ACnh+H%C6%B0ng,+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam&t=&z=17&ie=UTF8&iwloc=&output=embed"
                   className="w-full h-full min-h-[380px] border-0"
                   allowFullScreen
                   loading="lazy"
