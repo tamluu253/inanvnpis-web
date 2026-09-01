@@ -245,7 +245,7 @@ export default function ContactPage() {
 
               <div className="pt-6 mt-6 border-t border-slate-100">
                 <a
-                  href="https://share.google/N6YpipmVmhVDnLSBA"
+                  href="https://www.google.com/maps/search/?api=1&query=18+Đường+số+4,+KDC+Đại+Phúc+Green+Villas,+Xã+Bình+Hưng,+TP.+Hồ+Chí+Minh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 bg-blue-600 hover:bg-blue-700 text-white font-extrabold rounded-2xl shadow-md transition-all text-sm uppercase tracking-wider"
@@ -264,7 +264,7 @@ export default function ContactPage() {
                   <MapPin className="w-4 h-4 text-blue-600" /> Bản Đồ Vị Trí VNPIS (Bình Hưng, TP.HCM)
                 </span>
                 <a
-                  href="https://share.google/N6YpipmVmhVDnLSBA"
+                  href="https://www.google.com/maps/search/?api=1&query=18+Đường+số+4,+KDC+Đại+Phúc+Green+Villas,+Xã+Bình+Hưng,+TP.+Hồ+Chí+Minh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs text-blue-600 hover:text-blue-800 font-extrabold flex items-center gap-1"
