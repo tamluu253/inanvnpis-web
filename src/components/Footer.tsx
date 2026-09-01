@@ -65,7 +65,7 @@ export default function Footer() {
                   <strong className="text-white block">Xưởng Gia Công VNPIS Solutions:</strong>
                   <span>18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP.HCM.</span>
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=18+Đường+số+4,+KDC+Đại+Phúc+Green+Villas,+Xã+Bình+Hưng,+TP.+Hồ+Chí+Minh"
+                    href="https://www.google.com/maps/search/?api=1&query=10.7289,106.6663"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-[11px] font-bold text-cyan-400 hover:text-cyan-300 mt-1.5 bg-slate-900 px-2.5 py-1 rounded-md border border-slate-800"
