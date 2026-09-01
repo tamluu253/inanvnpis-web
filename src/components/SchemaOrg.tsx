@@ -26,6 +26,7 @@ export default function SchemaOrg() {
           "latitude": 10.7258,
           "longitude": 106.6667
         },
+        "hasMap": "https://share.google/N6YpipmVmhVDnLSBA",
         "description": "Xưởng gia công in ấn VNPIS Solutions chuyên nhận in gia công Tampon ly tô chén nhựa, in lụa màng nhựa/vải/túi giấy, và in QR Code dữ liệu biến đổi tại Xã Bình Hưng, TP. Hồ Chí Minh.",
         "sameAs": [
           "https://zalo.me/0901836344",

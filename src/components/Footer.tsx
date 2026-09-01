@@ -61,10 +61,18 @@ export default function Footer() {
               </li>
               <li className="flex items-start pt-2">
                 <MapPin className="w-4 h-4 text-orange-500 mr-2 mt-0.5 flex-shrink-0" />
-                <span className="text-slate-400">
+                <div className="text-slate-400">
                   <strong className="text-white block">Xưởng Gia Công VNPIS Solutions:</strong>
-                  18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP.HCM.
-                </span>
+                  <span>18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP.HCM.</span>
+                  <a
+                    href="https://share.google/N6YpipmVmhVDnLSBA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-[11px] font-bold text-cyan-400 hover:text-cyan-300 mt-1.5 bg-slate-900 px-2.5 py-1 rounded-md border border-slate-800"
+                  >
+                    📍 Mở Google Maps chỉ đường &rarr;
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
