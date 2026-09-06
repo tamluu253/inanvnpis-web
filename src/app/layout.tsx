@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
     description: 'Chuyên nhận in gia công Tampon, In Lụa, In KTS dữ liệu biến đổi trên mọi chất liệu tại TP.HCM. Hotline/Zalo Báo Giá: 0901 836 344.',
-    url: 'https://inanvnpis.com',
+    url: 'https://www.inanvnpis.com',
     siteName: 'In Ấn VNPIS Solutions',
     locale: 'vi_VN',
     type: 'website',
