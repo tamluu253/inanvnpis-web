@@ -43,8 +43,8 @@ export default function ConsultationForm({
   };
 
   const formattedMessage = `Xin chào VNPIS, tôi là ${formData.name} (${formData.company} - SĐT: ${formData.phone}). Tôi đang cần tư vấn: ${formData.message || 'Báo giá và cấu hình máy'}`;
-  const zaloTamUrl = `https://zalo.me/0987453866`;
-  const whatsappTamUrl = `https://wa.me/84987453866?text=${encodeURIComponent(formattedMessage)}`;
+  const zaloTamUrl = `https://zalo.me/0901836344`;
+  const whatsappTamUrl = `https://wa.me/84901836344?text=${encodeURIComponent(formattedMessage)}`;
 
   return (
     <div className="bg-white rounded-3xl shadow-xl border border-slate-100 p-8 md:p-12 max-w-4xl mx-auto text-slate-900">
@@ -121,7 +121,7 @@ export default function ConsultationForm({
             
             <div className="max-w-md mx-auto text-sm">
               <div className="bg-slate-100 p-4 rounded-2xl border border-slate-200 space-y-3">
-                <span className="font-extrabold text-slate-900 block text-sm">Mr. Tâm - Hotline B2B: 0987 453 866</span>
+                <span className="font-extrabold text-slate-900 block text-sm">Mr. Tâm - Hotline B2B: 0901 836 344</span>
                 <div className="grid grid-cols-2 gap-3">
                   <a
                     href={zaloTamUrl}

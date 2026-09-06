@@ -24,10 +24,10 @@ export default function FloatingContact() {
           <div className="space-y-3">
             {/* Mr. Tâm */}
             <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700/80 space-y-2">
-              <div className="text-xs font-extrabold text-amber-300">Mr. Tâm (Tư vấn B2B): 0987 453 866</div>
+              <div className="text-xs font-extrabold text-amber-300">In Tampon & KTS: 0901 836 344 (Mr. Tâm)</div>
               <div className="grid grid-cols-2 gap-2">
                 <a
-                  href="https://zalo.me/0987453866"
+                  href="https://zalo.me/0901836344"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="py-2 px-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors shadow-sm"
@@ -35,8 +35,29 @@ export default function FloatingContact() {
                   <MessageCircle className="w-3.5 h-3.5 mr-1" /> Zalo Chat
                 </a>
                 <a
-                  href="tel:0987453866"
+                  href="tel:0901836344"
                   className="py-2 px-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors shadow-sm"
+                >
+                  <Phone className="w-3.5 h-3.5 mr-1" /> Gọi ngay
+                </a>
+              </div>
+            </div>
+
+            {/* Mr. Giang */}
+            <div className="bg-slate-800/80 p-3 rounded-xl border border-slate-700/80 space-y-2">
+              <div className="text-xs font-extrabold text-cyan-300">In Lụa Gia Công: 0901 826 344 (Mr. Giang)</div>
+              <div className="grid grid-cols-2 gap-2">
+                <a
+                  href="https://zalo.me/0901826344"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="py-2 px-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors shadow-sm"
+                >
+                  <MessageCircle className="w-3.5 h-3.5 mr-1" /> Zalo Chat
+                </a>
+                <a
+                  href="tel:0901826344"
+                  className="py-2 px-2 bg-teal-600 hover:bg-teal-500 text-white font-bold rounded-lg text-xs flex items-center justify-center transition-colors shadow-sm"
                 >
                   <Phone className="w-3.5 h-3.5 mr-1" /> Gọi ngay
                 </a>
@@ -60,7 +81,7 @@ export default function FloatingContact() {
         </button>
 
         <a
-          href="https://zalo.me/0987453866"
+          href="https://zalo.me/0901836344"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-xl hover:scale-105 transition-all duration-300 relative group overflow-hidden border border-slate-200"
@@ -68,7 +89,7 @@ export default function FloatingContact() {
         >
           <img src="/images/zalo-icon.svg" alt="Zalo" className="w-9 h-9 object-contain" />
           <span className="absolute right-16 bg-slate-900 text-white px-3 py-1.5 rounded-xl text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none shadow-lg">
-            Chat Zalo
+            Chat Zalo Mr. Tâm
           </span>
         </a>
       </div>
