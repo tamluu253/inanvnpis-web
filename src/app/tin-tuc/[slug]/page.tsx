@@ -1,6 +1,7 @@
-export const dynamicParams = true;
-import BlogPost, { generateMetadata as baseGenerateMetadata } from '@/app/blog/[slug]/page';
+import { redirect } from 'next/navigation';
 
-export const generateMetadata = baseGenerateMetadata;
+export default async function TinTucRedirect({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
+  redirect(`/blog/${resolvedParams.slug}`);
+}
 
-export default BlogPost;
