@@ -218,7 +218,7 @@ export default function TIJInkPage() {
                 "category": "Industrial Printing Ink",
                 "offers": {
                   "@type": "Offer",
-                  "url": "https://vnpis.com/products/tij-ink",
+                  "url": "https://www.inanvnpis.com/products/tij-ink",
                   "priceCurrency": "VND",
                   "price": "0",
                   "availability": "https://schema.org/InStock",

@@ -256,7 +256,7 @@ export default function CIJInkPage() {
                 "category": "Industrial Printing Ink",
                 "offers": {
                   "@type": "Offer",
-                  "url": "https://vnpis.com/products/cij-ink",
+                  "url": "https://www.inanvnpis.com/products/cij-ink",
                   "priceCurrency": "VND",
                   "price": "0",
                   "availability": "https://schema.org/InStock",
