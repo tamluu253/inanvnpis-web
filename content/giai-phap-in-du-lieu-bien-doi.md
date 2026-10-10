@@ -71,6 +71,6 @@ Nếu nhà máy của bạn đang cần **in QR code truy xuất nguồn gốc*
 
 **VNPIS Co., Ltd**  
 📞 **Hotline / Zalo tư vấn B2B:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))  
-📧 **Email:** info@vnpis.com
+📧 **Email:** [info@inanvnpis.com](mailto:info@inanvnpis.com)
 
 Chúng tôi sẽ tư vấn chi tiết **cách triển khai, chi phí, tiến độ và phương án phù hợp nhất cho chuyền sản xuất của bạn**.

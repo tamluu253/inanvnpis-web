@@ -56,7 +56,7 @@ Quý khách hàng cần tư vấn báo giá in tampon trên nhựa giá rẻ vui
 - 📞 **Hotline / Zalo báo giá 24/7:**
   - **Mr. Giang (Tư vấn In Lụa):** [0901 826 344](tel:0901826344) ([Zalo](https://zalo.me/0901826344))
   - **Mr. Tâm (Tư vấn In Pad & In KTS):** [0901 836 344](tel:0901836344) ([Zalo](https://zalo.me/0901836344))
-- 📧 **Email:** info@vnpis.com
+- 📧 **Email:** [info@inanvnpis.com](mailto:info@inanvnpis.com)
 
 
 ---

@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
               <p className="font-bold text-slate-900">Công ty TNHH VNPIS</p>
               <p></p>
               <p>Trụ sở chính: Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh</p>
-              <p>Hotline/Zalo 24/7: 0987 453 866 | Email: info@vnpis.com</p>
+              <p>Hotline/Zalo 24/7: 0987 453 866 | Email: <a href="mailto:info@inanvnpis.com" className="text-blue-600 font-semibold hover:underline">info@inanvnpis.com</a></p>
             </div>
           </div>
 

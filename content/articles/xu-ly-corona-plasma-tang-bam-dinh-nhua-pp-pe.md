@@ -276,7 +276,7 @@ Quý khách hàng, xưởng in và đối tác OEM vui lòng để lại thông 
   "url": "https://inanvnpis.com",
   "logo": "https://inanvnpis.com/images/logo-vnpis.png",
   "telephone": "0901836344",
-  "email": "info@vnpis.com",
+  "email": "info@inanvnpis.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "18 Đường số 4, KDC Đại Phúc Green Villas",
@@ -315,7 +315,7 @@ Quý khách hàng, xưởng in và đối tác OEM vui lòng để lại thông 
     "url": "https://inanvnpis.com",
     "logo": "https://inanvnpis.com/images/logo-vnpis.png",
     "telephone": "0901836344",
-    "email": "info@vnpis.com",
+    "email": "info@inanvnpis.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "18 Đường số 4, KDC Đại Phúc Green Villas",

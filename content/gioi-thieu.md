@@ -24,5 +24,5 @@ Thông qua website vnpis.com, khách hàng có thể dễ dàng tra cứu thông
 **Thông tin liên hệ:**
 
 * Website: <https://vnpis.com>
-* Email: info@vnpis.com
+* Email: [info@inanvnpis.com](mailto:info@inanvnpis.com)
 * Hotline tư vấn & báo giá 24/7: Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))

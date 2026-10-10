@@ -50,7 +50,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <div className="text-xs font-semibold text-slate-400">Email Tiếp Nhận Báo Giá &amp; File In</div>
-                  <div className="text-sm font-bold text-white mt-1">info@vnpis.com</div>
+                  <a href="mailto:info@inanvnpis.com" className="text-sm font-bold text-white hover:text-cyan-400 underline decoration-cyan-400 mt-1 block transition-colors">
+                    info@inanvnpis.com
+                  </a>
                   <div className="text-[11px] text-slate-400">Phản hồi trong 30 phút</div>
                 </div>
               </div>
@@ -250,7 +252,9 @@ export default function ContactPage() {
                     <Mail className="w-6 h-6 text-blue-600 mr-4 shrink-0" />
                     <div>
                       <strong className="text-slate-900 text-base font-bold mr-2">Email báo giá &amp; tiếp nhận file thiết kế:</strong>
-                      <span className="text-blue-600 font-semibold">info@vnpis.com</span>
+                      <a href="mailto:info@inanvnpis.com" className="text-blue-600 font-semibold hover:underline">
+                        info@inanvnpis.com
+                      </a>
                     </div>
                   </div>
 

@@ -40,7 +40,7 @@ export default function TermsOfServicePage() {
               <p>🏢 <strong>Trụ sở chính:</strong> Tầng 1, 202 Lê Lai, Phường Bến Thành, TP. Hồ Chí Minh</p>
               <p>🔬 <strong>Lab Center 1:</strong> 62 Trần Thị Nơi, Phường Chánh Hưng (P.4, Q.8), TP. Hồ Chí Minh</p>
               <p>🏭 <strong>Đội ngũ KD 2:</strong> 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh</p>
-              <p className="pt-2 font-semibold text-blue-600">Hotline/Zalo hỗ trợ B2B: 0987 453 866 | Email: info@vnpis.com</p>
+              <p className="pt-2 font-semibold text-blue-600">Hotline/Zalo hỗ trợ B2B: 0987 453 866 | Email: <a href="mailto:info@inanvnpis.com" className="hover:underline">info@inanvnpis.com</a></p>
             </div>
           </div>
 

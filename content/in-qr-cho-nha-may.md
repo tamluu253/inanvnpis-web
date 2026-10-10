@@ -114,6 +114,6 @@ Nếu doanh nghiệp của bạn đang cần **gia công in QR số lượng l�
 
 **VNPIS Co., Ltd**  
 📞 **Hotline / Zalo tư vấn B2B:** Mr. Giang (Tư vấn In Lụa): **0901 826 344** ([Zalo](https://zalo.me/0901826344)) | Mr. Tâm (Tư vấn In Pad & In KTS): **0901 836 344** ([Zalo](https://zalo.me/0901836344))  
-📧 **Email:** info@vnpis.com
+📧 **Email:** [info@inanvnpis.com](mailto:info@inanvnpis.com)
 
 Chúng tôi sẽ tư vấn **phương án triển khai, chi phí, tiến độ** phù hợp nhất với thực tế chuyền sản xuất của bạn.

@@ -73,16 +73,16 @@ export async function POST(request: Request) {
       </div>
     `;
 
-    // Send mail to info@vnpis.com and CC tamluu253@gmail.com
+    // Send mail to info@inanvnpis.com and CC tamluu253@gmail.com, info@vnpis.com
     await transporter.sendMail({
       from: '"VNPIS Lead Notification" <info@vnpis.com>',
-      to: 'info@vnpis.com',
-      cc: 'tamluu253@gmail.com',
+      to: 'info@inanvnpis.com',
+      cc: ['tamluu253@gmail.com', 'info@vnpis.com'],
       subject: `[VNPIS Web Lead] ${name} - ${phone} (${company || 'Khách Hàng Mới'})`,
       html: htmlContent,
     });
 
-    console.log('Email sent successfully via info@vnpis.com SMTP!');
+    console.log('Email sent successfully to info@inanvnpis.com!');
 
     return NextResponse.json({ success: true, message: 'Đã tiếp nhận yêu cầu tư vấn' });
   } catch (error) {
