@@ -4,8 +4,19 @@ import Link from 'next/link';
 import { ArrowRight, Wrench, Settings, Cog, CheckCircle2, ShieldCheck, Phone } from 'lucide-react';
 
 export const metadata = {
-  title: 'Bảo Trì & Sửa Chữa Máy In (Machine Repair) | VNPIS',
-  description: 'Dịch vụ sửa chữa, bảo trì máy in phun công nghiệp CIJ (Videojet, Domino, Linx), máy in lụa, máy in tampon. Đội ngũ kỹ sư >10 năm kinh nghiệm xử lý sự cố.',
+  title: 'Dịch Vụ Bảo Trì & Sửa Chữa Máy In Công Nghiệp Tận Nơi 24/7',
+  description:
+    'Dịch vụ sửa chữa, bảo trì định kỳ máy in phun date công nghiệp CIJ (Videojet, Domino, Hitachi, Linx), máy in lụa, máy in tampon và hệ thống in UV. Hỗ trợ cho mượn máy backup.',
+  keywords: [
+    'sửa chữa máy in công nghiệp',
+    'bảo trì máy in phun date videojet domino hitachi',
+    'sửa máy in tampon in lụa',
+    'in ấn gia công',
+    'xưởng in ấn gia công VNPIS',
+  ],
+  alternates: {
+    canonical: '/services/machine-repair',
+  },
 };
 
 export default function MachineRepairPage() {

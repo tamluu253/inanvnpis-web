@@ -6,8 +6,11 @@ import SpecialInksCatalog from '@/components/products/SpecialInksCatalog';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 
 export const metadata = {
-  title: 'Mực In Phun Công Nghiệp CIJ | Tương Thích & Tiết Kiệm | VNPIS',
-  description: 'Giải pháp mực in CIJ tương thích hoàn hảo cho Videojet, Domino, Linx, Markem-Imaje. Khô nhanh, bám dính siêu việt, chống chịu nhiệt độ cao.',
+  title: 'Mực In Phun Công Nghiệp CIJ Tương Thích Videojet, Domino, Linx',
+  description: 'Giải pháp mực in CIJ tương thích hoàn hảo cho Videojet, Domino, Linx, Markem-Imaje. Khô nhanh dưới 1 giây, bám dính siêu việt, chịu nhiệt thanh trùng 121°C.',
+  alternates: {
+    canonical: '/products/cij-ink',
+  },
 };
 
 export default function CIJInkPage() {
@@ -15,8 +18,7 @@ export default function CIJInkPage() {
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
       {/* 1. HERO SECTION */}
       <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden bg-slate-900 text-white">
-        <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-20" />
-        <div className="absolute inset-0 bg-blue-900/40 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/50 to-slate-900" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <span className="inline-block py-1 px-3 rounded-full bg-blue-500/20 text-blue-300 text-sm font-semibold tracking-wider mb-6 border border-blue-500/30">
@@ -258,7 +260,7 @@ export default function CIJInkPage() {
                   "@type": "Offer",
                   "url": "https://www.inanvnpis.com/products/cij-ink",
                   "priceCurrency": "VND",
-                  "price": "0",
+                  "price": "850000",
                   "availability": "https://schema.org/InStock",
                   "itemCondition": "https://schema.org/NewCondition"
                 }

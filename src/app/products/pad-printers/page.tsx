@@ -40,13 +40,51 @@ const padPrinters = [
 ];
 
 export const metadata = {
-  title: 'Máy In Pad (Tampography) Công Nghiệp | SJ, MC, HJ, DL',
-  description: 'Tổng hợp các model máy in Pad 1 màu, 2 màu, 4 màu tự động từ các nhà cung cấp uy tín: SJ, MC, HJ, DL.',
+  title: 'Máy In Tampon (Pad Printer) Công Nghiệp Chính Hãng HJ, SJ, MC',
+  description: 'Tổng hợp các model máy in Tampon (in Pad) công nghiệp 1 màu, 2 màu, 4 màu, 6 màu tự động từ các thương hiệu uy tín: HJ, Sanjin (SJ), Meichao (MC).',
+  alternates: {
+    canonical: '/products/pad-printers',
+  },
+  openGraph: {
+    title: 'Máy In Tampon (Pad Printer) Công Nghiệp Chính Hãng HJ, SJ, MC | VNPIS',
+    description: 'Giải pháp máy in pad công nghiệp cốc mực kín, bàn trượt Shuttle, mâm xoay Turntable tự động.',
+    url: 'https://www.inanvnpis.com/products/pad-printers',
+    type: 'website',
+  },
 };
 
 export default function PadPrintersPage() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Trang chủ',
+        item: 'https://www.inanvnpis.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sản phẩm',
+        item: 'https://www.inanvnpis.com/products',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: 'Máy In Tampon (Pad Printer)',
+        item: 'https://www.inanvnpis.com/products/pad-printers',
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen pt-24 pb-16 bg-slate-50">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="container mx-auto px-4 max-w-6xl">
         
         <div className="text-center mb-16">
@@ -54,16 +92,19 @@ export default function PadPrintersPage() {
             <Settings className="w-5 h-5" />
             <span>Tampography System</span>
           </div>
-          <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">Hệ Thống Máy In Pad Công Nghiệp</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">Hệ Thống Máy In Pad (In Tampon) Công Nghiệp</h1>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto mb-8">
-            Giải pháp in ấn hoàn hảo trên các bề mặt cong, lồi lõm hoặc không bằng phẳng. Phân phối chính hãng các dòng máy in Pad từ các thương hiệu: SJ, MC, HJ và DL.
+            Giải pháp in ấn hoàn hảo trên các bề mặt cong, lồi lõm hoặc không bằng phẳng. Phân phối chính hãng các dòng máy in Pad từ các thương hiệu: HJ, Sanjin (SJ) và Meichao (MC).
           </p>
-          <div className="flex justify-center mt-4 space-x-4">
-            <Link href="/products/pad-printers/hj" className="inline-flex items-center bg-blue-600 text-white hover:bg-blue-700 font-bold text-lg px-10 py-5 rounded-full shadow-xl shadow-blue-600/20 transition-all transform hover:-translate-y-1">
-              Catalog HJ (20 Models) <ArrowRight className="w-5 h-5 ml-2" />
+          <div className="flex flex-wrap justify-center mt-4 gap-4">
+            <Link href="/products/pad-printers/hj" className="inline-flex items-center bg-blue-600 text-white hover:bg-blue-700 font-bold text-lg px-8 py-4 rounded-full shadow-xl shadow-blue-600/20 transition-all transform hover:-translate-y-1">
+              Catalog HJ (21 Models) <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
-            <Link href="/products/pad-printers/sj" className="inline-flex items-center bg-emerald-600 text-white hover:bg-emerald-700 font-bold text-lg px-10 py-5 rounded-full shadow-xl shadow-emerald-600/20 transition-all transform hover:-translate-y-1">
-              Catalog SJ (58 Models) <ArrowRight className="w-5 h-5 ml-2" />
+            <Link href="/products/pad-printers/sj" className="inline-flex items-center bg-emerald-600 text-white hover:bg-emerald-700 font-bold text-lg px-8 py-4 rounded-full shadow-xl shadow-emerald-600/20 transition-all transform hover:-translate-y-1">
+              Catalog SJ (56 Models) <ArrowRight className="w-5 h-5 ml-2" />
+            </Link>
+            <Link href="/products/pad-printers/mc" className="inline-flex items-center bg-indigo-600 text-white hover:bg-indigo-700 font-bold text-lg px-8 py-4 rounded-full shadow-xl shadow-indigo-600/20 transition-all transform hover:-translate-y-1">
+              Catalog Meichao MC (12 Models) <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
           </div>
         </div>
@@ -84,7 +125,7 @@ export default function PadPrintersPage() {
                 </div>
               </div>
               <div className="p-8 flex flex-col flex-grow">
-                <h3 className="text-2xl font-bold text-slate-900 mb-3">{machine.name}</h3>
+                <h2 className="text-2xl font-bold text-slate-900 mb-3">{machine.name}</h2>
                 <p className="text-slate-600 mb-6 leading-relaxed flex-grow">{machine.desc}</p>
                 
                 <ul className="space-y-2 mb-8">

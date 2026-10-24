@@ -4,8 +4,19 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2, Clock, Wrench, PiggyBank, Settings, Phone } from 'lucide-react';
 
 export const metadata = {
-  title: 'Cho Thuê Máy In Công Nghiệp | Machine Rental | VNPIS',
-  description: 'Dịch vụ cho thuê máy in công nghiệp (CIJ, TIJ, UV, Máy in Pad) theo tháng/quý/năm. Không cần lo bảo trì, tiết kiệm chi phí đầu tư ban đầu.',
+  title: 'Dịch Vụ Cho Thuê Máy In Công Nghiệp CIJ, TIJ, UV & Máy In Tampon',
+  description:
+    'Dịch vụ cho thuê máy in phun date công nghiệp (CIJ, TIJ), hệ thống in UV và máy in Tampon theo tháng/năm. Miễn phí bảo trì 100%, không tốn vốn đầu tư ban đầu CapEx.',
+  keywords: [
+    'cho thuê máy in công nghiệp',
+    'thuê máy in phun date code',
+    'cho thuê máy in tampon',
+    'in ấn gia công',
+    'xưởng in ấn gia công VNPIS',
+  ],
+  alternates: {
+    canonical: '/services/machine-rental',
+  },
 };
 
 export default function MachineRentalPage() {

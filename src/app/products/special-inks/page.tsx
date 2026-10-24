@@ -7,8 +7,11 @@ import ConsultationForm from '@/components/ui/ConsultationForm';
 
 
 export const metadata = {
-  title: 'Mực In CIJ, TIJ Đặc Biệt | VNPIS - Giải Pháp In Phun Công Nghiệp',
-  description: 'Chuyên cung cấp các dòng mực in CIJ, TIJ đặc biệt: mực tàng hình, mực chịu nhiệt, mực thực phẩm in trứng, mực kháng cồn, kháng lưu hóa.',
+  title: 'Mực In CIJ, TIJ Đặc Biệt: Chịu Nhiệt, Kháng Cồn, UV Tàng Hình, In Trứng',
+  description: 'Chuyên cung cấp các dòng mực in CIJ, TIJ đặc biệt: mực tàng hình UV chống giả, mực chịu nhiệt 300°C, mực thực phẩm in trứng, mực kháng cồn IPA, kháng lưu hóa.',
+  alternates: {
+    canonical: '/products/special-inks',
+  },
 };
 
 export default function SpecialInksPage() {
@@ -17,7 +20,6 @@ export default function SpecialInksPage() {
       {/* 1. HERO SECTION */}
       <section className="relative py-24 lg:py-32 overflow-hidden bg-slate-900">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 to-slate-900 z-0" />
-        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-10 z-0" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">

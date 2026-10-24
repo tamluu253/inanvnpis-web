@@ -1,34 +1,32 @@
 import { MetadataRoute } from 'next';
-import { getAllDocumentsMeta, getAllSlugs } from '@/lib/mdx';
+import { getAllDocumentsMeta } from '@/lib/mdx';
 
 const DOMAIN = 'https://www.inanvnpis.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // 1. Articles (Blog posts)
+  // 1. Articles (Non-draft blog posts)
   const articles = getAllDocumentsMeta('articles');
-  const blogEntries: MetadataRoute.Sitemap = articles
-    .filter((post: any) => post.draft !== true && post.status !== 'draft')
-    .map((post: any) => ({
-      url: `${DOMAIN}/blog/${post.slug}`,
-      lastModified: new Date(post.date || Date.now()),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    }));
+  const blogEntries: MetadataRoute.Sitemap = articles.map((post: any) => ({
+    url: `${DOMAIN}/blog/${post.slug}`,
+    lastModified: new Date(post.date || Date.now()),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
 
-  // 2. Pillars (Strategic Solution Pages)
-  const pillarSlugs = getAllSlugs('pillars');
-  const pillarEntries: MetadataRoute.Sitemap = pillarSlugs.map((slug) => ({
-    url: `${DOMAIN}/${slug}`,
-    lastModified: new Date(),
+  // 2. Pillars (Non-draft Strategic Solution Pages)
+  const pillars = getAllDocumentsMeta('pillars');
+  const pillarEntries: MetadataRoute.Sitemap = pillars.map((pillar: any) => ({
+    url: `${DOMAIN}/${pillar.slug}`,
+    lastModified: new Date(pillar.date || Date.now()),
     changeFrequency: 'weekly',
     priority: 0.9,
   }));
 
-  // 3. Case Studies
-  const caseStudySlugs = getAllSlugs('case-studies');
-  const caseStudyEntries: MetadataRoute.Sitemap = caseStudySlugs.map((slug) => ({
-    url: `${DOMAIN}/case-studies/${slug}`,
-    lastModified: new Date(),
+  // 3. Case Studies (Non-draft Case Studies)
+  const caseStudies = getAllDocumentsMeta('case-studies');
+  const caseStudyEntries: MetadataRoute.Sitemap = caseStudies.map((cs: any) => ({
+    url: `${DOMAIN}/case-studies/${cs.slug}`,
+    lastModified: new Date(cs.date || Date.now()),
     changeFrequency: 'monthly',
     priority: 0.85,
   }));
@@ -41,10 +39,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about',
     '/contact',
     '/faq',
-    '/products',
+    '/industries',
+    '/documents',
+    '/du-an',
+    '/videos',
+    '/services',
+    '/services/industrial-printing',
+    '/services/pad-printing-service',
+    '/services/screen-printing-service',
+    '/services/uv-printing-service',
+    '/services/qr-printing',
+    '/services/qr-printing-service',
+    '/services/variable-data-printing',
+    '/services/variable-data-service',
+    '/services/color-management',
+    '/services/machine-rental',
+    '/services/machine-repair',
+    '/services/consulting',
+    '/solutions',
+    '/solutions/pad-printing',
+    '/solutions/screen-printing',
+    '/solutions/industrial-coding',
+    '/solutions/uv-single-pass-printing',
+    '/solutions/variable-data-printing',
+    '/resources',
+    '/resources/download',
+    '/resources/msds',
+    '/resources/software',
     '/case-studies',
     '/privacy-policy',
-    '/terms-of-service'
+    '/terms-of-service',
   ];
 
   const serviceEntries: MetadataRoute.Sitemap = coreServices.map((path) => ({
@@ -54,30 +78,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // 5. Product Categories & Product Pages
+  // 5. Real Indexable Product Categories & Product Pages
   const productPaths = [
-    '/products/special-inks',
-    '/products/rfid-warehouse-sme',
-    '/products/printheads',
-    '/products/cij-ink',
-    '/products/pad-printers',
-    '/products/laser-printers',
+    '/products',
+    '/products/consumables',
     '/products/pad-printing',
+    '/products/pad-printing/machines',
+    '/products/pad-printing/inks',
+    '/products/pad-printing/pads',
+    '/products/pad-printing/plates',
+    '/products/pad-screen-machines',
+    '/products/pad-screen-supplies',
+    '/products/pad-printers',
+    '/products/pad-printers/hj',
+    '/products/pad-printers/sj',
+    '/products/pad-printers/mc',
     '/products/screen-printers',
+    '/products/screen-printers/hj',
+    '/products/screen-printers/sj',
+    '/products/hot-stamping',
+    '/products/hot-stamping/sj',
     '/products/uv-printers',
-    '/products/tij-printers',
-    '/products/cij-printers',
-    '/products/tij-inks',
+    '/products/uv-printers/ct11',
+    '/products/uv-printers/ct21',
+    '/products/cij-ink',
     '/products/cij-inks',
+    '/products/cij-inks/domino',
+    '/products/cij-inks/hitachi',
+    '/products/cij-inks/videojet',
+    '/products/tij-ink',
+    '/products/tij-inks',
+    '/products/industrial-ink',
+    '/products/special-inks',
+    '/products/printheads',
+    '/products/printheads/ricoh-gen5',
+    '/products/printheads/ricoh-gen6',
+    '/products/printheads/epson-i3200',
+    '/products/printheads/kodak-s5',
+    '/products/printheads/kodak-s10',
     '/products/ricoh-printheads',
     '/products/epson-printheads',
-    '/products/hot-stamping',
-    '/products/pad-screen-supplies',
-    '/products/industrial-ink',
-    '/products/consumables',
-    '/products/pad-screen-machines',
-    '/products/tij-ink',
-    '/products/barcode-readers'
+    '/products/laser-printers',
+    '/products/barcode-readers',
   ];
 
   const productEntries: MetadataRoute.Sitemap = productPaths.map((path) => ({
@@ -98,7 +140,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${DOMAIN}/blog`,
       lastModified: new Date(),
       changeFrequency: 'daily',
-      priority: 0.8,
+      priority: 0.85,
     },
     ...serviceEntries,
     ...pillarEntries,
@@ -107,4 +149,3 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogEntries,
   ];
 }
-

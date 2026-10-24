@@ -4,8 +4,19 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2, BarChart3, Clock, Settings, Package, Cpu } from 'lucide-react';
 
 export const metadata = {
-  title: 'Industrial Coding | In Date, Lô, Barcode Công Nghiệp | VNPIS',
-  description: 'Giải pháp in phun công nghiệp (Industrial Coding & Marking) cho dây chuyền sản xuất: In Date, Số Lô, Barcode bằng công nghệ CIJ và TIJ.',
+  title: 'Giải Pháp In Date Code, Số Lô & Barcode Công Nghiệp (CIJ & TIJ)',
+  description:
+    'Giải pháp in phun công nghiệp (Industrial Coding & Marking) cho dây chuyền sản xuất: In Date, Số Lô, Barcode, QR Code bằng công nghệ CIJ và TIJ tiết kiệm 40% chi phí.',
+  keywords: [
+    'industrial coding marking',
+    'giải pháp in date code công nghiệp',
+    'máy in phun cij tij',
+    'in ấn gia công',
+    'xưởng in ấn gia công VNPIS',
+  ],
+  alternates: {
+    canonical: '/solutions/industrial-coding',
+  },
 };
 
 export default function IndustrialCodingPage() {
@@ -67,7 +78,7 @@ export default function IndustrialCodingPage() {
                   <span className="text-slate-700">Khô siêu tốc với hệ dung môi mạnh (Solvent-based).</span>
                 </li>
               </ul>
-              <Link href="/products/cij-ink" className="inline-flex items-center text-red-600 font-bold hover:text-red-700 mt-auto">
+              <Link href="/products/cij-inks" className="inline-flex items-center text-red-600 font-bold hover:text-red-700 mt-auto">
                 Mực In CIJ Tương Thích <ArrowRight className="w-4 h-4 ml-1" />
               </Link>
             </div>
@@ -97,7 +108,7 @@ export default function IndustrialCodingPage() {
                   <span className="text-slate-700">Máy cực nhỏ gọn, dễ dàng lắp đặt mọi vị trí.</span>
                 </li>
               </ul>
-              <Link href="/products/tij-ink" className="inline-flex items-center text-green-600 font-bold hover:text-green-700 mt-auto">
+              <Link href="/products/tij-inks" className="inline-flex items-center text-green-600 font-bold hover:text-green-700 mt-auto">
                 Hộp Mực TIJ Công Nghiệp <ArrowRight className="w-4 h-4 ml-1" />
               </Link>
             </div>
@@ -139,7 +150,7 @@ export default function IndustrialCodingPage() {
                  <p className="text-slate-300 leading-relaxed">
                    Nếu nhà máy bạn đã có sẵn máy in (Videojet, Domino, Linx), hãy chuyển sang sử dụng hệ thống mực in tương thích của VNPIS để tiết kiệm 30-40% chi phí vận hành hàng năm (OPEX) mà không làm giảm chất lượng bản in.
                  </p>
-                 <Link href="/products/industrial-ink" className="mt-6 inline-block text-blue-400 font-bold hover:text-blue-300 transition-colors">
+                 <Link href="/products/consumables" className="mt-6 inline-block text-blue-400 font-bold hover:text-blue-300 transition-colors">
                    Khám phá Mực In Công Nghiệp &rarr;
                  </Link>
                </div>

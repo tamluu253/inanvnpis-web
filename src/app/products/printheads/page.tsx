@@ -7,8 +7,37 @@ import { ArrowLeft, ArrowRight, Printer, Cpu, Droplet, Activity } from 'lucide-r
 import printheadsData from '@/data/printheads.json';
 
 export default function PrintheadsPage() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Trang chủ',
+        item: 'https://www.inanvnpis.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sản phẩm',
+        item: 'https://www.inanvnpis.com/products',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: 'Đầu Phun Công Nghiệp',
+        item: 'https://www.inanvnpis.com/products/printheads',
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       {/* Header & Navigation */}
       <div className="bg-slate-900 text-white pt-24 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
@@ -47,7 +76,7 @@ export default function PrintheadsPage() {
               {/* Brand Header */}
               <div className="flex items-center justify-between border-b-2 border-slate-200 pb-4 mb-8">
                 <div className="flex items-center gap-4">
-                  <img src={brand.logo} alt={brand.country} className="h-6 w-auto rounded-sm shadow-sm" />
+                  <img src={brand.logo} alt={`Logo thương hiệu đầu phun ${(brand as any).brand || brand.brandName} (${brand.country})`} className="h-6 w-auto rounded-sm shadow-sm" />
                   <h2 className="text-3xl font-black text-slate-800 tracking-tight">{brand.brandName}</h2>
                 </div>
                 <span className="text-sm font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full">{brand.country}</span>
@@ -68,7 +97,7 @@ export default function PrintheadsPage() {
                           </span>
                         </div>
                         <div className="w-16 h-16 bg-slate-50 rounded-2xl flex items-center justify-center p-3 border border-slate-100 shadow-inner">
-                          <img src={product.image} alt="Printhead icon" className="w-full h-full object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+                          <img src={product.image} alt={`Đầu phun công nghiệp ${product.name}`} className="w-full h-full object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
                         </div>
                       </div>
 

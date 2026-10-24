@@ -14,31 +14,47 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.inanvnpis.com'),
-  alternates: {
-    canonical: '/',
-  },
   title: {
-    default: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
-    template: '%s | Xưởng In VNPIS Solutions',
+    default: 'Xưởng In Ấn Gia Công VNPIS TP.HCM — In Tampon, In Lụa, Bao Bì & Sau In',
+    template: '%s | Xưởng In Ấn Gia Công VNPIS',
   },
-  description: 'VNPIS Solutions chuyên gia công in tampon (tô chén ly nhựa, linh kiện), in lụa màng nhựa/túi giấy/vải, in KTS QR code dữ liệu biến đổi & phân phối mực in gia công tại TP.HCM. Hotline/Zalo Báo Giá 24/7: 0901 836 344 (Mr. Tâm) - 0901 826 344 (Mr. Giang).',
+  description: 'Xưởng in ấn gia công VNPIS TP.HCM chuyên gia công in ấn trọn gói: gia công in tampon (tô chén ly nhựa, linh kiện), gia công in lụa, in bao bì hộp giấy, in túi giấy, in tem nhãn decal, gia công sau in & phân phối vật tư in công nghiệp. Hotline/Zalo Báo Giá 24/7: 0901 836 344 (Mr. Tâm) - 0901 826 344 (Mr. Giang).',
   keywords: [
-    'xưởng gia công in tampon tphcm',
+    'in ấn gia công',
+    'xưởng in ấn gia công',
+    'gia công in ấn',
+    'in ấn VNPIS',
+    'gia công in tampon',
     'gia công in lụa',
-    'in tampon ly nhựa tô chén',
+    'in bao bì hộp giấy',
+    'in túi giấy',
+    'in tem nhãn decal',
+    'gia công sau in',
+    'xưởng gia công in tampon tphcm',
     'in kỹ thuật số qr code',
-    'mực in tampon afford kt1',
-    'máy in tampon 1 màu',
     'vật tư ngành in gia công',
-    'xưởng in vnpis solutions'
   ],
   openGraph: {
-    title: 'Xưởng Gia Công In Tampon, In Lụa & Vật Tư Ngành In VNPIS TP.HCM',
-    description: 'Chuyên nhận in gia công Tampon, In Lụa, In KTS dữ liệu biến đổi trên mọi chất liệu tại TP.HCM. Hotline/Zalo Báo Giá: 0901 836 344.',
+    title: 'Xưởng In Ấn Gia Công VNPIS TP.HCM — In Tampon, In Lụa, Bao Bì & Sau In',
+    description: 'Chuyên gia công in ấn trọn gói: In Tampon, In Lụa, In Bao Bì Hộp Giấy, Túi Giấy, Tem Nhãn Decal, Gia Công Sau In & In KTS QR Code tại TP.HCM. Hotline/Zalo Báo Giá: 0901 836 344.',
     url: 'https://www.inanvnpis.com',
-    siteName: 'In Ấn VNPIS Solutions',
+    siteName: 'Xưởng In Ấn Gia Công VNPIS',
     locale: 'vi_VN',
     type: 'website',
+    images: [
+      {
+        url: '/images/pad-printing-cups.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Xưởng In Ấn Gia Công VNPIS TP.HCM',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Xưởng In Ấn Gia Công VNPIS TP.HCM — In Tampon, In Lụa, Bao Bì & Sau In',
+    description: 'Chuyên gia công in ấn trọn gói: In Tampon, In Lụa, In Bao Bì Hộp Giấy, Túi Giấy, Tem Nhãn Decal, Gia Công Sau In & In KTS QR Code tại TP.HCM. Hotline: 0901 836 344.',
+    images: ['/images/pad-printing-cups.jpg'],
   },
   robots: {
     index: true,

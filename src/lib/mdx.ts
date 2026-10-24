@@ -103,7 +103,17 @@ export async function getDocumentBySlug<T = BaseMetadata>(
     .use(html, { sanitize: false }) // Disable sanitize để cho phép render HTML nhúng nếu cần
     .process(matterResult.content);
     
-  const contentHtml = processedContent.toString();
+  let contentHtml = processedContent.toString();
+
+  // Demote any <h1> in markdown content to <h2> (or strip leading <h1> if it duplicates frontmatter title)
+  const rawTitle = String(matterResult.data?.title || '').trim().toLowerCase();
+  contentHtml = contentHtml.replace(/<h1([^>]*)>([\s\S]*?)<\/h1>/gi, (_match, attrs, inner, offset) => {
+    const plainInner = String(inner).replace(/<[^>]+>/g, '').trim().toLowerCase();
+    if (offset < 50 && rawTitle && (plainInner === rawTitle || rawTitle.includes(plainInner))) {
+      return '';
+    }
+    return `<h2${attrs}>${inner}</h2>`;
+  });
   
   let mediaExt: string | null = null;
   const mediaDir = path.join(process.cwd(), 'public', 'media', 'blog');
@@ -128,23 +138,30 @@ export async function getDocumentBySlug<T = BaseMetadata>(
 export function getAllDocumentsMeta<T = BaseMetadata>(contentType: string): T[] {
   const slugs = getAllSlugs(contentType);
   
-  const documents = slugs.map((slug) => {
-    const fullPath = path.join(contentDirectory, contentType, `${slug}.md`);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-    const matterResult = matter(fileContents);
-    
-    let mediaExt: string | null = null;
-    const mediaDir = path.join(process.cwd(), 'public', 'media', 'blog');
-    if (fs.existsSync(path.join(mediaDir, `${slug}.jpg`))) mediaExt = 'jpg';
-    else if (fs.existsSync(path.join(mediaDir, `${slug}.png`))) mediaExt = 'png';
-    else if (fs.existsSync(path.join(mediaDir, `${slug}.mp4`))) mediaExt = 'mp4';
+  const documents = slugs
+    .map((slug) => {
+      const fullPath = path.join(contentDirectory, contentType, `${slug}.md`);
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const matterResult = matter(fileContents);
+      const data = matterResult.data as Record<string, any>;
 
-    return {
-      slug,
-      mediaExt,
-      ...(matterResult.data as Omit<T, 'slug'>),
-    } as T;
-  });
+      if (data.draft === true || data.status === 'draft') {
+        return null;
+      }
+      
+      let mediaExt: string | null = null;
+      const mediaDir = path.join(process.cwd(), 'public', 'media', 'blog');
+      if (fs.existsSync(path.join(mediaDir, `${slug}.jpg`))) mediaExt = 'jpg';
+      else if (fs.existsSync(path.join(mediaDir, `${slug}.png`))) mediaExt = 'png';
+      else if (fs.existsSync(path.join(mediaDir, `${slug}.mp4`))) mediaExt = 'mp4';
+
+      return {
+        slug,
+        mediaExt,
+        ...(data as Omit<T, 'slug'>),
+      } as T;
+    })
+    .filter((doc): doc is T => doc !== null);
   
   // Sắp xếp theo ngày giảm dần (mới nhất lên trước)
   return documents.sort((a, b) => {

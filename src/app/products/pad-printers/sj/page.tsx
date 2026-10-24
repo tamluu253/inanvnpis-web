@@ -1,18 +1,56 @@
 export const dynamicParams = true;
 import React from 'react';
 import Link from 'next/link';
-import { Settings, PhoneCall, ArrowLeft, Filter, ImageOff } from 'lucide-react';
+import { Settings, PhoneCall, ArrowLeft, ImageOff } from 'lucide-react';
 import Image from 'next/image';
 import sjPrinters from '@/data/sj-printers.json';
 
 export const metadata = {
-  title: 'Catalog Máy In Pad SJ | VNPIS',
-  description: 'Danh mục chi tiết toàn bộ các model máy in pad của hãng SJ (SanJin) (Từ 1 màu cơ bản đến 8 màu tự động)',
+  title: 'Catalog Máy In Tampon (In Pad) Sanjin SJ Chính Hãng (56 Models)',
+  description: 'Danh mục chi tiết 56 model máy in tampon (in pad) của hãng Sanjin (SJ): Từ máy 1 màu cốc mực kín, máy tự động lau keo, máy in lăn tròn 360 độ đến máy 4 màu tự động.',
+  alternates: {
+    canonical: '/products/pad-printers/sj',
+  },
 };
 
-export default function HJPrintersCatalog() {
+export default function SJPrintersCatalog() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Trang chủ',
+        item: 'https://www.inanvnpis.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sản phẩm',
+        item: 'https://www.inanvnpis.com/products',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: 'Máy In Tampon',
+        item: 'https://www.inanvnpis.com/products/pad-printers',
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: 'Catalog Máy In Pad SJ',
+        item: 'https://www.inanvnpis.com/products/pad-printers/sj',
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen pt-24 pb-16 bg-slate-50">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="container mx-auto px-4 max-w-7xl">
         
         {/* Breadcrumb */}
@@ -30,16 +68,16 @@ export default function HJPrintersCatalog() {
               <Settings className="w-5 h-5" />
               <span>SJ Series Catalog</span>
             </div>
-            <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Danh Mục Máy In Pad SJ</h1>
+            <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Danh Mục Máy In Pad Sanjin (SJ)</h1>
             <p className="text-lg text-slate-600">
-              Tổng hợp gần 30 model máy in pad chất lượng cao từ hãng SJ (SanJin). Đáp ứng mọi nhu cầu từ xưởng gia công nhỏ đến dây chuyền sản xuất tự động hàng loạt.
+              Tổng hợp 56 model máy in pad (in tampon) chất lượng cao từ hãng Sanjin (SJ). Đáp ứng mọi nhu cầu từ xưởng gia công nhỏ đến dây chuyền sản xuất tự động hàng loạt.
             </p>
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center md:text-right flex-shrink-0">
             <p className="text-sm text-slate-500 font-medium mb-2">Nhận báo giá & Tư vấn cấu hình</p>
-            <a href="tel:0987453866" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
+            <a href="tel:0901836344" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
               <PhoneCall className="w-5 h-5 mr-2" />
-              0987 453 866
+              0901 836 344
             </a>
           </div>
         </div>
@@ -52,7 +90,7 @@ export default function HJPrintersCatalog() {
                 {machine.image ? (
                   <Image 
                     src={machine.image}
-                    alt={machine.model}
+                    alt={`Máy in tampon công nghiệp ${machine.model} - ${machine.desc}`}
                     fill
                     className="object-contain p-2 group-hover:scale-110 transition-transform duration-500 mix-blend-multiply"
                   />
@@ -67,7 +105,7 @@ export default function HJPrintersCatalog() {
                 </div>
               </div>
               <div className="p-5 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{machine.model}</h3>
+                <h2 className="text-xl font-bold text-slate-900 mb-2">{machine.model}</h2>
                 <p className="text-slate-600 text-sm mb-4 line-clamp-2 min-h-[40px]">{machine.desc}</p>
                 
                 <div className="space-y-2 mt-auto pt-4 border-t border-slate-100">
@@ -85,8 +123,8 @@ export default function HJPrintersCatalog() {
                   </div>
                 </div>
 
-                <a href="tel:0987453866" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
-                  Liên hệ 0987 453 866
+                <a href="tel:0901836344" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
+                  Liên hệ 0901 836 344
                 </a>
               </div>
             </div>

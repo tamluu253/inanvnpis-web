@@ -38,20 +38,58 @@ const screenPrinters = [
 ];
 
 export const metadata = {
-  title: 'Máy In Lụa (Screen Printing) Công Nghiệp | SJ, HJ',
-  description: 'Tổng hợp danh mục máy in lụa công nghiệp chính hãng SJ, HJ. Bán tự động, in lụa tròn 360 độ chai lọ, bàn hút chân không.',
+  title: 'Máy In Lụa Công Nghiệp (Screen Printer): In Lụa Tròn 360° & Phẳng SJ, HJ',
+  description: 'Tổng hợp danh mục máy in lụa (in lưới) công nghiệp chính hãng Sanjin (SJ), HJ. Bán tự động, tự động, in lụa tròn 360 độ chai lọ mỹ phẩm, bàn hút chân không.',
+  alternates: {
+    canonical: '/products/screen-printers',
+  },
+  openGraph: {
+    title: 'Máy In Lụa Công Nghiệp (Screen Printer): In Lụa Tròn 360° & Phẳng | VNPIS',
+    description: 'Giải pháp máy in lụa phẳng bàn hút chân không và máy in lụa xoay tròn 360 độ chai lọ mỹ phẩm chính hãng SJ & HJ.',
+    url: 'https://www.inanvnpis.com/products/screen-printers',
+    type: 'website',
+  },
 };
 
 export default function ScreenPrintersPage() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Trang chủ',
+        item: 'https://www.inanvnpis.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sản phẩm',
+        item: 'https://www.inanvnpis.com/products',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: 'Máy In Lụa Công Nghiệp',
+        item: 'https://www.inanvnpis.com/products/screen-printers',
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen pt-24 pb-16 bg-slate-50 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="container mx-auto px-4 max-w-6xl">
         
         {/* Header Hero */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full mb-6 font-semibold">
             <Layers className="w-5 h-5" />
-            <span>HỆ THỐNG MÁY IN LỰA CHÍNH HÃNG SJ & HJ</span>
+            <span>HỆ THỐNG MÁY IN LỤA CHÍNH HÃNG SJ & HJ</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">Máy In Lụa (Screen Printer) Công Nghiệp</h1>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
@@ -79,7 +117,7 @@ export default function ScreenPrintersPage() {
               </div>
               
               <div className="p-8 flex flex-col flex-grow">
-                <h3 className="text-2xl font-bold text-slate-900 mb-3">{machine.name}</h3>
+                <h2 className="text-2xl font-bold text-slate-900 mb-3">{machine.name}</h2>
                 <p className="text-slate-600 mb-6 text-base leading-relaxed">{machine.desc}</p>
                 
                 <ul className="space-y-2.5 mb-6">
@@ -93,7 +131,7 @@ export default function ScreenPrintersPage() {
 
                 {/* Specs Box */}
                 <div className="bg-slate-50 p-5 rounded-2xl border border-slate-100 mb-6">
-                  <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider mb-3">Thông số kỹ thuật chuẩn</h4>
+                  <h3 className="font-bold text-slate-900 text-xs uppercase tracking-wider mb-3">Thông số kỹ thuật chuẩn</h3>
                   <div className="grid grid-cols-2 gap-y-2 text-xs">
                     <div>
                       <span className="text-slate-500 block">Kích thước khung:</span>

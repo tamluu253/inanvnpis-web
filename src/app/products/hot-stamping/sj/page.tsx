@@ -6,13 +6,58 @@ import Image from 'next/image';
 import sjHotStamping from '@/data/sj-hotstamping.json';
 
 export const metadata = {
-  title: 'Catalog Máy Ép Nhũ SJ | VNPIS',
-  description: 'Danh mục chi tiết toàn bộ các model máy ép nhũ (Hot Stamping) của hãng SJ.',
+  title: 'Catalog Máy Ép Nhũ Nóng, Ép Kim Sanjin (SJ) Chính Hãng',
+  description: 'Danh mục chi tiết các model máy ép nhũ nóng, máy ép kim (Hot Stamping) phẳng và lăn tròn của hãng Sanjin (SJ) phục vụ gia công sau in bao bì hộp giấy, nhựa, mỹ phẩm.',
+  keywords: [
+    'catalog máy ép nhũ SJ',
+    'máy ép kim Sanjin',
+    'gia công sau in',
+    'ép nhũ nóng bao bì hộp giấy',
+    'máy ép nhũ lăn tròn',
+  ],
+  alternates: {
+    canonical: '/products/hot-stamping/sj',
+  },
 };
 
 export default function SJHotStampingCatalog() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Trang chủ',
+        item: 'https://www.inanvnpis.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sản phẩm',
+        item: 'https://www.inanvnpis.com/products',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: 'Máy Ép Nhũ Nóng & Gia Công Sau In',
+        item: 'https://www.inanvnpis.com/products/hot-stamping',
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: 'Catalog Máy Ép Nhũ SJ',
+        item: 'https://www.inanvnpis.com/products/hot-stamping/sj',
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen pt-24 pb-16 bg-slate-50">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="container mx-auto px-4 max-w-7xl">
         
         {/* Breadcrumb */}
@@ -30,16 +75,16 @@ export default function SJHotStampingCatalog() {
               <Settings className="w-5 h-5" />
               <span>SJ Series Catalog</span>
             </div>
-            <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Danh Mục Máy Ép Nhũ SJ</h1>
+            <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Danh Mục Máy Ép Nhũ Nóng & Ép Kim SJ</h1>
             <p className="text-lg text-slate-600">
-              Tổng hợp các model máy ép nhũ (Hot Stamping) chất lượng cao từ hãng SJ. Giải pháp hoàn hảo cho việc in ép kim, ép nhiệt bề mặt sản phẩm.
+              Tổng hợp các model máy ép nhũ nóng (Hot Stamping) chất lượng cao từ hãng Sanjin (SJ). Giải pháp hoàn hảo cho gia công sau in, ép kim bao bì hộp giấy, nhựa và nắp mỹ phẩm.
             </p>
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center md:text-right flex-shrink-0">
             <p className="text-sm text-slate-500 font-medium mb-2">Nhận báo giá & Tư vấn cấu hình</p>
-            <a href="tel:0987453866" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
+            <a href="tel:0901836344" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
               <PhoneCall className="w-5 h-5 mr-2" />
-              0987 453 866
+              0901 836 344
             </a>
           </div>
         </div>
@@ -56,14 +101,14 @@ export default function SJHotStampingCatalog() {
                 ) : (
                   <Image 
                     src={machine.image}
-                    alt={machine.model}
+                    alt={`Máy ép nhũ nóng ép kim công nghiệp ${machine.model} - ${machine.desc}`}
                     fill
                     className="object-contain p-4 group-hover:scale-110 transition-transform duration-500"
                   />
                 )}
               </div>
               <div className="p-5 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{machine.model}</h3>
+                <h2 className="text-xl font-bold text-slate-900 mb-2">{machine.model}</h2>
                 <p className="text-slate-600 text-sm mb-4 line-clamp-2 min-h-[40px]">{machine.desc}</p>
                 
                 {(machine.plateSize || machine.printArea || machine.speed) && (
@@ -89,8 +134,8 @@ export default function SJHotStampingCatalog() {
                   </div>
                 )}
 
-                <a href="tel:0987453866" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
-                  Liên hệ 0987 453 866
+                <a href="tel:0901836344" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
+                  Liên hệ 0901 836 344
                 </a>
               </div>
             </div>

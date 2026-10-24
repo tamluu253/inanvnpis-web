@@ -21,12 +21,27 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!meta) return { title: 'Not Found' };
   
   const isDraft = meta.draft === true || meta.status === 'draft';
+  const canonicalUrl = meta.canonical || `https://www.inanvnpis.com/${resolvedParams.slug}`;
+  const ogImage = meta.image || '/images/pad-printing-cups.jpg';
   
   return {
-    title: `${meta.title} | Xưởng In VNPIS Solutions`,
+    title: meta.title,
     description: meta.description,
     alternates: {
-      canonical: meta.canonical || `https://www.inanvnpis.com/${resolvedParams.slug}`,
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: canonicalUrl,
+      type: 'article',
+      images: [{ url: ogImage, alt: meta.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [ogImage],
     },
     ...(isDraft ? { robots: { index: false, follow: false } } : {}),
   };

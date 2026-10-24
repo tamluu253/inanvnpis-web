@@ -6,13 +6,51 @@ import Image from 'next/image';
 import hjPrinters from '@/data/hj-printers.json';
 
 export const metadata = {
-  title: 'Catalog Máy In Pad HJ | VNPIS',
-  description: 'Danh mục chi tiết toàn bộ các model máy in pad công nghiệp chính hãng HJ chuẩn thông số kỹ thuật nhà máy.',
+  title: 'Catalog Máy In Tampon (In Pad) HJ Chính Hãng (21 Models)',
+  description: 'Danh mục chi tiết 21 model máy in tampon (in pad) công nghiệp chính hãng HJ: dòng cốc mực kín, bàn trượt Shuttle, mâm xoay Turntable và băng tải tự động.',
+  alternates: {
+    canonical: '/products/pad-printers/hj',
+  },
 };
 
 export default function HJPrintersCatalog() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Trang chủ',
+        item: 'https://www.inanvnpis.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sản phẩm',
+        item: 'https://www.inanvnpis.com/products',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: 'Máy In Tampon',
+        item: 'https://www.inanvnpis.com/products/pad-printers',
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: 'Catalog Máy In Pad HJ',
+        item: 'https://www.inanvnpis.com/products/pad-printers/hj',
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen pt-24 pb-16 bg-slate-50 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="container mx-auto px-4 max-w-7xl">
         
         {/* Breadcrumb */}
@@ -37,9 +75,9 @@ export default function HJPrintersCatalog() {
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center md:text-right flex-shrink-0">
             <p className="text-sm text-slate-500 font-medium mb-2">Nhận báo giá & Tư vấn cấu hình</p>
-            <a href="tel:0987453866" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
+            <a href="tel:0901836344" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
               <PhoneCall className="w-5 h-5 mr-2" />
-              0987 453 866
+              0901 836 344
             </a>
           </div>
         </div>
@@ -58,7 +96,7 @@ export default function HJPrintersCatalog() {
                 ) : (
                   <Image 
                     src={machine.image}
-                    alt={machine.model}
+                    alt={`Máy in tampon công nghiệp ${machine.model} - ${machine.name || machine.desc}`}
                     fill
                     className="object-contain p-3 group-hover:scale-105 transition-transform duration-500"
                   />
@@ -68,7 +106,7 @@ export default function HJPrintersCatalog() {
                 </div>
               </div>
               <div className="flex flex-col flex-grow">
-                <h3 className="text-lg font-bold text-slate-900 mb-2">{machine.name || machine.model}</h3>
+                <h2 className="text-lg font-bold text-slate-900 mb-2">{machine.name || machine.model}</h2>
                 <p className="text-slate-600 text-xs mb-4 line-clamp-2 min-h-[36px]">{machine.desc}</p>
                 
                 <div className="space-y-1.5 mt-auto pt-3 border-t border-slate-100 text-xs bg-slate-50/70 p-3 rounded-xl border">
@@ -86,8 +124,8 @@ export default function HJPrintersCatalog() {
                   </div>
                 </div>
 
-                <a href="tel:0987453866" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
-                  Liên hệ 0987 453 866
+                <a href="tel:0901836344" className="mt-6 w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
+                  Liên hệ 0901 836 344
                 </a>
               </div>
             </div>

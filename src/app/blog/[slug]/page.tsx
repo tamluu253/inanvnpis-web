@@ -27,12 +27,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!meta) return { title: 'Not Found' };
   
   const isDraft = meta.draft === true || meta.status === 'draft';
+  const canonicalUrl = meta.canonical || `https://www.inanvnpis.com/blog/${resolvedParams.slug}`;
+  const ogImage = meta.image || '/images/pad-printing-cups.jpg';
   
   return {
-    title: `${meta.title} | Xưởng In VNPIS Solutions`,
+    title: meta.title,
     description: meta.description,
     alternates: {
-      canonical: meta.canonical || `https://www.inanvnpis.com/blog/${resolvedParams.slug}`,
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: canonicalUrl,
+      type: 'article',
+      publishedTime: meta.date || '2026-07-08T00:00:00.000Z',
+      images: [{ url: ogImage, alt: meta.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [ogImage],
     },
     ...(isDraft ? { robots: { index: false, follow: false } } : {}),
   };
@@ -64,6 +80,8 @@ export async function BlogPostContainer({
   const hasDedicatedMedia = Boolean(metadata.mediaExt || metadata.image);
   
   const pageUrl = contentType === 'articles' ? `https://www.inanvnpis.com/blog/${slug}` : `https://www.inanvnpis.com/${slug}`;
+  const publishedDate = metadata.date || '2026-07-08T00:00:00.000Z';
+  const modifiedDate = metadata.updatedAt || metadata.date || '2026-07-08T00:00:00.000Z';
 
   return (
     <main className="min-h-screen pt-28 pb-16 bg-slate-50 font-sans">
@@ -122,7 +140,7 @@ export async function BlogPostContainer({
           )}
         </div>
 
-        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0987 453 866 / ZALO / WHATSAPP */}
+        {/* MID/END ARTICLE CTA BANNER FOR HOTLINE 0901 836 344 / ZALO / WHATSAPP */}
         <ArticleContactCTA title={metadata.title} slug={metadata.slug} />
 
         <div className="mt-12 bg-blue-50/90 border border-blue-200 rounded-3xl p-8 mb-16 shadow-sm">
@@ -146,32 +164,77 @@ export async function BlogPostContainer({
         </div>
       </article>
 
-      {/* SCHEMA MARKUP */}
+      {/* SCHEMA MARKUP: Article + BreadcrumbList */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": metadata.title,
-            "description": metadata.description,
-            "image": metadata.image || (hasDedicatedMedia ? `https://www.inanvnpis.com/media/blog/${metadata.slug}.${metadata.mediaExt}` : 'https://www.inanvnpis.com/icon.png'),
-            "author": {
-              "@type": "Organization",
-              "name": "Công ty TNHH VNPIS"
-            },
-            "publisher": {
-              "@type": "Organization",
-              "name": "Công ty TNHH VNPIS",
-              "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.inanvnpis.com/icon.png"
+            "@graph": [
+              {
+                "@type": "Article",
+                "headline": metadata.title,
+                "description": metadata.description,
+                "datePublished": publishedDate,
+                "dateModified": modifiedDate,
+                "image": metadata.image || (hasDedicatedMedia ? `https://www.inanvnpis.com/media/blog/${metadata.slug}.${metadata.mediaExt}` : 'https://www.inanvnpis.com/icon.png'),
+                "author": {
+                  "@type": "Organization",
+                  "name": "Công ty TNHH VNPIS",
+                  "url": "https://www.inanvnpis.com"
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.inanvnpis.com/icon.png"
+                  }
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": pageUrl
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": contentType === 'articles'
+                  ? [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Trang chủ",
+                        "item": "https://www.inanvnpis.com"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Kiến thức in ấn",
+                        "item": "https://www.inanvnpis.com/blog"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": metadata.title,
+                        "item": pageUrl
+                      }
+                    ]
+                  : [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Trang chủ",
+                        "item": "https://www.inanvnpis.com"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": metadata.title,
+                        "item": pageUrl
+                      }
+                    ]
               }
-            },
-            "mainEntityOfPage": {
-              "@type": "WebPage",
-              "@id": pageUrl
-            }
+            ]
           })
         }}
       />

@@ -15,9 +15,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = await getDocumentBySlug('pillars', resolvedParams.slug);
   if (!post) return { title: 'Not Found' };
   
+  const canonicalUrl = `https://www.inanvnpis.com/${resolvedParams.slug}`;
+  const ogImage = post.metadata.image || '/images/pad-printing-cups.jpg';
+
   return {
-    title: `${post.metadata.title} | Giải Pháp VNPIS`,
+    title: post.metadata.title,
     description: post.metadata.description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: post.metadata.title,
+      description: post.metadata.description,
+      url: canonicalUrl,
+      type: 'article',
+      images: [{ url: ogImage, alt: post.metadata.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.metadata.title,
+      description: post.metadata.description,
+      images: [ogImage],
+    },
   };
 }
 
@@ -39,14 +58,14 @@ export default async function PillarPage({ params }: { params: Promise<{ slug: s
     articleSection: metadata.category,
     author: {
       '@type': 'Organization',
-      name: 'VNPIS',
+      name: 'Công ty TNHH VNPIS',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'VNPIS - Industrial Printing Solutions',
+      name: 'Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://inanvnpis.com/images/inanvnpis-logo.png',
+        url: 'https://www.inanvnpis.com/images/inanvnpis-logo.png',
       },
     },
     datePublished: metadata.date || '2026-07-08T00:00:00.000Z',
@@ -99,18 +118,14 @@ export default async function PillarPage({ params }: { params: Promise<{ slug: s
             {/* SIDEBAR */}
             <aside className="lg:w-1/4">
               <div className="sticky top-24 bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
-                <h3 className="font-bold text-slate-900 text-lg mb-4">Mục lục</h3>
-                {/* Note: In a real app we'd parse the markdown to generate this ToC dynamically.
-                    For now, it's a placeholder or we can leave it empty. */}
-                <p className="text-sm text-slate-500 italic mb-6">Mục lục đang được cập nhật tự động...</p>
-                
-                <hr className="border-slate-100 mb-6" />
-                
                 <h3 className="font-bold text-slate-900 text-lg mb-4">Cần Tư Vấn Nhanh?</h3>
-                <p className="text-slate-600 text-sm mb-6">Kỹ sư VNPIS luôn sẵn sàng giải đáp thắc mắc về công nghệ {metadata.category}.</p>
-                <Link href="tel:0987453866" className="w-full inline-flex items-center justify-center px-4 py-3 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-colors">
-                  <Phone className="w-4 h-4 mr-2" /> Gọi: 098 745 3866
-                </Link>
+                <p className="text-slate-600 text-sm mb-6">Kỹ sư VNPIS luôn sẵn sàng giải đáp thắc mắc và nhận in mẫu thử miễn phí về công nghệ {metadata.category}.</p>
+                <a href="tel:0901836344" className="w-full inline-flex items-center justify-center px-4 py-3 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-colors">
+                  <Phone className="w-4 h-4 mr-2" /> Mr. Tâm: 0901 836 344
+                </a>
+                <a href="tel:0901826344" className="w-full inline-flex items-center justify-center px-4 py-3 bg-emerald-600 text-white rounded-lg font-bold mt-2.5 hover:bg-emerald-700 transition-colors">
+                  <Phone className="w-4 h-4 mr-2" /> Mr. Giang: 0901 826 344
+                </a>
                 <Link href="/solutions" className="w-full inline-flex items-center justify-center px-4 py-3 bg-slate-100 text-slate-700 rounded-lg font-semibold mt-3 hover:bg-slate-200 transition-colors">
                   <ArrowLeft className="w-4 h-4 mr-2" /> Xem giải pháp khác
                 </Link>

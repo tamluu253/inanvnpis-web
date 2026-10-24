@@ -6,12 +6,31 @@ export default function SchemaOrg() {
     "@graph": [
       {
         "@type": ["LocalBusiness", "PrintShop"],
-        "@id": "https://inanvnpis.com/#organization",
-        "name": "Hộ Kinh Doanh VNPIS Solutions - Xưởng Gia Công In Ấn",
-        "alternateName": "Xưởng In VNPIS Solutions",
-        "image": "https://inanvnpis.com/images/inanvnpis-logo.png",
-        "url": "https://inanvnpis.com",
-        "telephone": "+84901836344",
+        "@id": "https://www.inanvnpis.com/#organization",
+        "name": "Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions",
+        "alternateName": ["Xưởng In Ấn Gia Công VNPIS", "In Ấn VNPIS", "Xưởng In VNPIS Solutions"],
+        "taxID": "0318266611",
+        "email": "info@inanvnpis.com",
+        "image": "https://www.inanvnpis.com/images/inanvnpis-logo.png",
+        "logo": "https://www.inanvnpis.com/images/inanvnpis-logo.png",
+        "url": "https://www.inanvnpis.com",
+        "telephone": ["+84-901-836-344", "+84-901-826-344"],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+84-901-836-344",
+            "contactType": "customer service",
+            "areaServed": "VN",
+            "availableLanguage": ["Vietnamese", "English"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+84-901-826-344",
+            "contactType": "sales",
+            "areaServed": "VN",
+            "availableLanguage": ["Vietnamese"]
+          }
+        ],
         "priceRange": "$$",
         "address": {
           "@type": "PostalAddress",
@@ -23,11 +42,11 @@ export default function SchemaOrg() {
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 10.7258,
-          "longitude": 106.6667
+          "latitude": 10.719361,
+          "longitude": 106.680972
         },
         "hasMap": "https://share.google/N6YpipmVmhVDnLSBA",
-        "description": "Xưởng gia công in ấn VNPIS Solutions chuyên nhận in gia công Tampon ly tô chén nhựa, in lụa màng nhựa/vải/túi giấy, và in QR Code dữ liệu biến đổi tại Xã Bình Hưng, TP. Hồ Chí Minh.",
+        "description": "Công ty TNHH VNPIS - Xưởng in ấn gia công VNPIS Solutions chuyên dịch vụ in ấn gia công trọn gói: gia công in tampon ly tô chén nhựa & linh kiện, gia công in lụa phẳng & tròn, in bao bì hộp giấy, in túi giấy, in tem nhãn decal, gia công sau in ép kim phủ UV, và in QR Code dữ liệu biến đổi tại TP. Hồ Chí Minh.",
         "sameAs": [
           "https://zalo.me/0901836344",
           "https://zalo.me/0901826344"
@@ -42,22 +61,70 @@ export default function SchemaOrg() {
         ]
       },
       {
-        "@type": "Service",
-        "@id": "https://inanvnpis.com/#service-tampon",
-        "name": "Gia Công In Tampon Chuyên Nghiệp",
-        "provider": { "@id": "https://inanvnpis.com/#organization" },
-        "serviceType": "In Tampon Gia Công",
-        "areaServed": "TP. Hồ Chí Minh & Toàn Quốc",
-        "description": "Dịch vụ in gia công Tampon sắc nét trên các bề mặt cong, lõm, ly nhựa, tô chén dĩa, linh kiện điện tử tại TP. Hồ Chí Minh."
+        "@type": "WebSite",
+        "@id": "https://www.inanvnpis.com/#website",
+        "url": "https://www.inanvnpis.com",
+        "name": "Xưởng In Ấn Gia Công VNPIS",
+        "publisher": { "@id": "https://www.inanvnpis.com/#organization" },
+        "inLanguage": "vi-VN",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.inanvnpis.com/blog?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "Service",
-        "@id": "https://inanvnpis.com/#service-in-lua",
-        "name": "Gia Công In Lụa Đa Chất Liệu",
-        "provider": { "@id": "https://inanvnpis.com/#organization" },
-        "serviceType": "In Lụa Gia Công",
+        "@id": "https://www.inanvnpis.com/#service-in-an-gia-cong",
+        "name": "Dịch Vụ In Ấn Gia Công Trọn Gói Theo Yêu Cầu",
+        "provider": { "@id": "https://www.inanvnpis.com/#organization" },
+        "serviceType": "In Ấn Gia Công",
         "areaServed": "TP. Hồ Chí Minh & Toàn Quốc",
-        "description": "Gia công in lụa túi giấy, túi nilon, màng nhựa phẳng, áo đồng phục số lượng lớn tại TP. Hồ Chí Minh."
+        "url": "https://www.inanvnpis.com/dich-vu-in-gia-cong",
+        "description": "Xưởng in ấn gia công trọn gói theo yêu cầu cho doanh nghiệp B2B & nhà máy: gia công in tampon, in lụa, in bao bì hộp giấy, túi giấy, tem nhãn decal và gia công sau in tại TP. Hồ Chí Minh."
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.inanvnpis.com/#service-tampon",
+        "name": "Gia Công In Tampon - Pad Printing",
+        "provider": { "@id": "https://www.inanvnpis.com/#organization" },
+        "serviceType": "Gia Công In Tampon",
+        "areaServed": "TP. Hồ Chí Minh & Toàn Quốc",
+        "url": "https://www.inanvnpis.com/in-tampon",
+        "description": "Dịch vụ gia công in Tampon (Pad Printing) sắc nét trên các bề mặt cong, lõm, ly nhựa, tô chén dĩa, nắp chai, linh kiện điện tử và thiết bị y tế tại TP. Hồ Chí Minh."
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.inanvnpis.com/#service-in-lua",
+        "name": "Gia Công In Lụa Phẳng & Tròn - Screen Printing",
+        "provider": { "@id": "https://www.inanvnpis.com/#organization" },
+        "serviceType": "Gia Công In Lụa",
+        "areaServed": "TP. Hồ Chí Minh & Toàn Quốc",
+        "url": "https://www.inanvnpis.com/in-lua",
+        "description": "Gia công in lụa phẳng và tròn trên bao bì túi giấy, hộp giấy, túi nilon, màng nhựa phẳng, chai lọ mỹ phẩm, thùng sơn công nghiệp số lượng lớn tại TP. Hồ Chí Minh."
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.inanvnpis.com/#service-in-kts",
+        "name": "Gia Công In Kỹ Thuật Số & QR Code Biến Đổi VDP",
+        "provider": { "@id": "https://www.inanvnpis.com/#organization" },
+        "serviceType": "Gia Công In Kỹ Thuật Số & QR Code",
+        "areaServed": "TP. Hồ Chí Minh & Toàn Quốc",
+        "url": "https://www.inanvnpis.com/in-ky-thuat-so",
+        "description": "Gia công in kỹ thuật số UV Single Pass, TIJ/CIJ và in mã QR Code dữ liệu biến đổi (VDP), số nhảy serial chống giả tốc độ cao tại TP. Hồ Chí Minh."
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.inanvnpis.com/#service-bao-bi-sau-in",
+        "name": "In Bao Bì Hộp Giấy, Túi Giấy, Tem Nhãn Decal & Gia Công Sau In Ép Kim, Phủ UV",
+        "provider": { "@id": "https://www.inanvnpis.com/#organization" },
+        "serviceType": "In Bao Bì & Gia Công Sau In",
+        "areaServed": "TP. Hồ Chí Minh & Toàn Quốc",
+        "url": "https://www.inanvnpis.com/dich-vu-in-gia-cong",
+        "description": "Dịch vụ in bao bì hộp giấy, in túi giấy thương hiệu, in tem nhãn decal cuộn/tờ và gia công sau in chuyên nghiệp: ép kim nhũ vàng/bạc, phủ UV định hình, cán màng, bế nổi tại TP. Hồ Chí Minh."
       }
     ]
   };

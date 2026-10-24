@@ -4,8 +4,12 @@ import { Home, PhoneCall, ArrowRight, Printer, Wrench, Layers } from 'lucide-rea
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '404 - Trang Không Tồn Tại | VNPIS Industrial Solutions',
-  description: 'Trang bạn đang tìm kiếm có thể đã thay đổi địa chỉ hoặc không còn tồn tại trên VNPIS. Vui lòng quay về trang chủ hoặc liên hệ Hotline 0987 453 866.',
+  title: '404 - Trang Không Tồn Tại',
+  description: 'Trang bạn đang tìm kiếm có thể đã thay đổi địa chỉ hoặc không còn tồn tại trên VNPIS. Vui lòng quay về trang chủ hoặc liên hệ Hotline 0901 836 344.',
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 export default function NotFound() {

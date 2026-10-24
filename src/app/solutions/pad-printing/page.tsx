@@ -4,8 +4,19 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2, Factory, ShieldCheck, Cog, Droplet, Users, Phone } from 'lucide-react';
 
 export const metadata = {
-  title: 'Pad Printing | Giải Pháp In Tampon Trọn Gói | VNPIS',
-  description: 'Hệ sinh thái Pad Printing (In Tampon) toàn diện từ VNPIS: Máy in, mực in chuyên dụng, silicone pad, bản in thép/polymer, hóa chất và dịch vụ chuyển giao.',
+  title: 'Giải Pháp In Tampon (Pad Printing) Trọn Gói Từ Thiết Bị Đến Vật Tư',
+  description:
+    'Hệ sinh thái Pad Printing (In Tampon) toàn diện từ VNPIS: Máy in Tampon tự động, mực in đạt chuẩn RoHS, quả tăm bông Silicone, bản khắc thép Cliché và dịch vụ gia công.',
+  keywords: [
+    'giải pháp in tampon',
+    'pad printing solutions',
+    'hệ sinh thái in tampon',
+    'in ấn gia công',
+    'xưởng in ấn gia công VNPIS',
+  ],
+  alternates: {
+    canonical: '/solutions/pad-printing',
+  },
 };
 
 export default function PadPrintingPage() {

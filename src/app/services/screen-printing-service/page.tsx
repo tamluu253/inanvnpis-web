@@ -4,8 +4,19 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2, Factory, PackageCheck, Truck, Droplet } from 'lucide-react';
 
 export const metadata = {
-  title: 'Dịch Vụ In Gia Công Lụa (Screen Printing Service) | VNPIS',
-  description: 'Nhận gia công in lụa công nghiệp số lượng lớn. In trên mọi bề mặt: nhựa, thủy tinh, kim loại. Chất lượng cao, cam kết độ bám dính, đáp ứng tiến độ khắt khe.',
+  title: 'Dịch Vụ Gia Công In Lụa Công Nghiệp Phẳng & Tròn Số Lượng Lớn',
+  description:
+    'Xưởng VNPIS nhận gia công in lụa công nghiệp phẳng và tròn tự động số lượng lớn trên nhựa, thủy tinh, kim loại, chai lọ mỹ phẩm. Cam kết độ bám dính 5B, đúng tiến độ.',
+  keywords: [
+    'dịch vụ in lụa',
+    'gia công in lụa công nghiệp',
+    'in lụa tròn chai lọ',
+    'in ấn gia công',
+    'xưởng in ấn gia công VNPIS',
+  ],
+  alternates: {
+    canonical: '/services/screen-printing-service',
+  },
 };
 
 export default function ScreenPrintingServicePage() {

@@ -5,10 +5,16 @@ import BlogList from '@/components/BlogList';
 import { getAllDocumentsMeta } from '@/lib/mdx';
 
 export const metadata = {
-  title: 'Thư Viện Bài Viết SEO & Kiến Thức In Ấn | In Tampon Giá Rẻ, In Lụa Giá Rẻ VNPIS',
-  description: 'Tổng hợp kiến thức kỹ thuật & báo giá gia công in tampon giá rẻ, in lụa giá rẻ, vật tư in tampon, vật tư in lụa chính hãng tại TP.HCM. Công ty TNHH VNPIS.',
+  title: 'Kiến Thức Kỹ Thuật In Ấn Gia Công, In Tampon, In Lụa & Bao Bì',
+  description: 'Tổng hợp kiến thức kỹ thuật & báo giá in ấn gia công, gia công in tampon, in lụa, in bao bì hộp giấy, túi giấy, tem nhãn decal & vật tư in công nghiệp tại TP.HCM. Công ty TNHH VNPIS.',
   alternates: {
     canonical: 'https://www.inanvnpis.com/blog',
+  },
+  openGraph: {
+    title: 'Kiến Thức Kỹ Thuật In Ấn Gia Công, In Tampon, In Lụa & Bao Bì | VNPIS',
+    description: 'Tổng hợp kiến thức kỹ thuật & báo giá in ấn gia công, gia công in tampon, in lụa, in bao bì hộp giấy, túi giấy, tem nhãn decal & vật tư in công nghiệp tại TP.HCM.',
+    url: 'https://www.inanvnpis.com/blog',
+    type: 'website',
   },
 };
 

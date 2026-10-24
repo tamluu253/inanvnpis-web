@@ -6,13 +6,51 @@ import Image from 'next/image';
 import sjScreenPrinters from '@/data/sj-screen-printers.json';
 
 export const metadata = {
-  title: 'Catalog Máy In Lụa Sanjin SJ (Full Video Xưởng & Specs) | VNPIS',
-  description: 'Catalog 14 model máy in lụa Sanjin SJ chính hãng. Tích hợp video quay thực tế xưởng vận hành in 360 độ chai lọ, nắp hộp, cốc giấy, thước phẳng.',
+  title: 'Catalog Máy In Lụa Sanjin SJ Chính Hãng (14 Models & Video Thực Tế)',
+  description: 'Catalog 14 model máy in lụa Sanjin (SJ) chính hãng. Tích hợp video quay thực tế xưởng vận hành in 360 độ chai lọ mỹ phẩm, nắp hộp, cốc giấy, thước phẳng.',
+  alternates: {
+    canonical: '/products/screen-printers/sj',
+  },
 };
 
 export default function SJScreenPrintersCatalog() {
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Trang chủ',
+        item: 'https://www.inanvnpis.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Sản phẩm',
+        item: 'https://www.inanvnpis.com/products',
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: 'Máy In Lụa Công Nghiệp',
+        item: 'https://www.inanvnpis.com/products/screen-printers',
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: 'Catalog Máy In Lụa Sanjin (SJ)',
+        item: 'https://www.inanvnpis.com/products/screen-printers/sj',
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen pt-24 pb-16 bg-slate-50 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="container mx-auto px-4 max-w-7xl">
         
         {/* Breadcrumb */}
@@ -32,14 +70,14 @@ export default function SJScreenPrintersCatalog() {
             </div>
             <h1 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">Danh Mục Máy In Lụa Sanjin (SJ)</h1>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Tổng hợp 14 model máy in lụa Sanjin (SJ) chính hãng đi kèm **video quay thực tế xưởng vận hành** in chai lọ 360 độ, cốc giấy, thỏi son, nắp chai và thước thủy.
+              Tổng hợp 14 model máy in lụa Sanjin (SJ) chính hãng đi kèm <strong>video quay thực tế xưởng vận hành</strong> in chai lọ 360 độ, cốc giấy, thỏi son, nắp chai và thước thủy.
             </p>
           </div>
           <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 text-center md:text-right flex-shrink-0">
             <p className="text-sm text-slate-500 font-medium mb-2">Nhận báo giá & Tư vấn cấu hình</p>
-            <a href="tel:0987453866" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
+            <a href="tel:0901836344" className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl transition-colors text-lg shadow-lg shadow-blue-500/30">
               <PhoneCall className="w-5 h-5 mr-2" />
-              0987 453 866
+              0901 836 344
             </a>
           </div>
         </div>
@@ -71,7 +109,7 @@ export default function SJScreenPrintersCatalog() {
                 ) : (
                   <Image 
                     src={machine.image}
-                    alt={machine.name || machine.model}
+                    alt={`Máy in lụa công nghiệp ${machine.model} - ${machine.name || machine.desc}`}
                     fill
                     className="object-contain p-4 group-hover:scale-105 transition-transform duration-500 bg-slate-100"
                   />
@@ -82,11 +120,11 @@ export default function SJScreenPrintersCatalog() {
               </div>
 
               <div className="flex flex-col flex-grow">
-                <h3 className="text-lg font-bold text-slate-900 mb-2">{machine.name || machine.model}</h3>
+                <h2 className="text-lg font-bold text-slate-900 mb-2">{machine.name || machine.model}</h2>
                 <p className="text-slate-600 text-xs mb-4 line-clamp-2">{machine.desc}</p>
                 
-                <a href="tel:0987453866" className="mt-auto w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
-                  Liên hệ 0987 453 866
+                <a href="tel:0901836344" className="mt-auto w-full text-center bg-slate-50 hover:bg-slate-100 text-blue-600 font-semibold py-2.5 rounded-lg transition-colors border border-slate-200 text-sm">
+                  Liên hệ 0901 836 344
                 </a>
               </div>
             </div>

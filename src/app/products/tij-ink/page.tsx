@@ -6,8 +6,11 @@ import SpecialInksCatalog from '@/components/products/SpecialInksCatalog';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 
 export const metadata = {
-  title: 'Mực In Nhiệt TIJ (Thermal Inkjet) | Độ Phân Giải Cao | VNPIS',
-  description: 'Mực in TIJ chất lượng cao dùng cho hộp mực 12.7mm, 25.4mm. In barcode, QR code siêu nét 600dpi, bám chắc trên thùng carton, bao bì màng, hộp giấy.',
+  title: 'Hộp Mực In Phun Nhiệt TIJ (HP 45A): In QR Code, Barcode 600dpi',
+  description: 'Mực in TIJ gốc dung môi & gốc nước chất lượng cao dùng cho hộp mực 12.7mm, 25.4mm. In barcode, QR code siêu nét 600dpi, bám chắc trên nhựa PP, PE, carton.',
+  alternates: {
+    canonical: '/products/tij-ink',
+  },
 };
 
 export default function TIJInkPage() {
@@ -220,7 +223,7 @@ export default function TIJInkPage() {
                   "@type": "Offer",
                   "url": "https://www.inanvnpis.com/products/tij-ink",
                   "priceCurrency": "VND",
-                  "price": "0",
+                  "price": "850000",
                   "availability": "https://schema.org/InStock",
                   "itemCondition": "https://schema.org/NewCondition"
                 }

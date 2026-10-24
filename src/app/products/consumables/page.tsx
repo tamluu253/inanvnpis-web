@@ -44,8 +44,87 @@ export default function ConsumablesPage() {
   }, [selectedMaterial]);
 
 
+  const consumablesJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Trang chủ',
+            item: 'https://www.inanvnpis.com',
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Sản phẩm',
+            item: 'https://www.inanvnpis.com/products',
+          },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            name: 'Vật Tư In Tampon & In Lụa',
+            item: 'https://www.inanvnpis.com/products/consumables',
+          },
+        ],
+      },
+      {
+        '@type': 'ItemList',
+        name: 'Danh Mục Vật Tư In Tampon & In Lụa Công Nghiệp VNPIS',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            item: {
+              '@type': 'Product',
+              name: 'Mực In Tampon & In Lụa Công Nghiệp (Marabu, RUCO, Seiko, Coates)',
+              description: 'Mực in công nghiệp đạt chuẩn RoHS, REACH, EN71-3 chuyên dụng cho nhựa ABS, PP, PE, kim loại, thủy tinh, vải dệt.',
+              brand: { '@type': 'Brand', name: 'VNPIS' },
+            },
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            item: {
+              '@type': 'Product',
+              name: 'Đầu In Silicone Công Nghiệp (Silicone Pads)',
+              description: 'Đầu in tampon silicone chống tĩnh điện độ cứng 30-70 Shore A, truyền mực sắc nét.',
+              brand: { '@type': 'Brand', name: 'VNPIS' },
+            },
+          },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            item: {
+              '@type': 'Product',
+              name: 'Khuôn Bản Thép In Tampon & Bản Polymer (Cliche Plates)',
+              description: 'Gia công khắc laser và ăn mòn khuôn thép dày 10mm, thép mỏng 0.5mm và bản polymer.',
+              brand: { '@type': 'Brand', name: 'VNPIS' },
+            },
+          },
+          {
+            '@type': 'ListItem',
+            position: 4,
+            item: {
+              '@type': 'Product',
+              name: 'Cốc Mực Kín, Vòng Gốm Zirconia & Phụ Gia Dung Môi In Tampon',
+              description: 'Linh kiện cốc mực kín, vòng gốm Zirconia, dao gạt mực Thụy Điển, dung môi pha mực, chất đóng rắn Hardener 2K và Primer.',
+              brand: { '@type': 'Brand', name: 'VNPIS' },
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(consumablesJsonLd) }}
+      />
       {/* Header & Navigation */}
       <div className="bg-white text-slate-900 pt-24 pb-12 relative overflow-hidden border-b border-slate-200">
         <div className="absolute inset-0 z-0 opacity-10">

@@ -49,45 +49,66 @@ export default function Header() {
 
   const navigation: NavigationItem[] = [
     {
-      name: 'In Tampon',
-      href: '/in-tampon',
+      name: 'In Ấn Gia Công',
+      href: '/dich-vu-in-gia-cong',
       dropdown: [
-        { name: 'In Tampon Ly Nhựa, Tô Chén, Nắp Chai', href: '/in-tampon' },
-        { name: 'In Tampon Linh Kiện Điện Tử & Nhựa ABS/PP', href: '/in-tampon' },
-        { name: 'Mực In Tampon Afford KT1 / Marabu', href: '/products/pad-printing/inks' },
-        { name: 'Bản Thép In Tampon & Cliche Thép', href: '/products/pad-printing/plates' },
+        { name: 'Dịch Vụ In Ấn Gia Công Trọn Gói Theo Yêu Cầu', href: '/dich-vu-in-gia-cong' },
+        { name: 'Gia Công In Tampon (Ly Nhựa, Tô Chén, Linh Kiện)', href: '/in-tampon' },
+        { name: 'Gia Công In Lụa (Bao Bì Hộp Giấy, Túi Giấy, Chai Lọ)', href: '/in-lua' },
+        { name: 'Gia Công In KTS & QR Code Biến Đổi Chống Giả', href: '/in-ky-thuat-so' },
+        { name: 'Dịch Vụ Kỹ Thuật & Pha Màu Pantone Chuẩn', href: '/services' },
       ],
     },
     {
-      name: 'In Lụa',
+      name: 'In Tampon',
+      href: '/in-tampon',
+      dropdown: [
+        { name: 'Gia Công In Tampon Ly Nhựa, Tô Chén, Nắp Chai', href: '/in-tampon' },
+        { name: 'In Tampon Linh Kiện Điện Tử, Y Tế & Nhựa ABS/PP', href: '/solutions/pad-printing' },
+        { name: 'Máy In Tampon Công Nghiệp 1–6 Màu', href: '/products/pad-printers' },
+        { name: 'Siêu Thị Vật Tư In Tampon (Cục Silicon, Bản Thép)', href: '/products/consumables' },
+      ],
+    },
+    {
+      name: 'In Lụa & Bao Bì',
       href: '/in-lua',
       dropdown: [
-        { name: 'In Lụa Màng Nhựa, Túi Giấy & Bao Bì', href: '/in-lua' },
-        { name: 'In Lụa Chai Lọ Tròn & Thùng Sơn', href: '/in-lua' },
-        { name: 'Khung In Lụa & Dung Môi Pha Mực', href: '/products/screen-printers' },
+        { name: 'Gia Công In Lụa Túi Giấy, Hộp Giấy & Màng Nhựa', href: '/in-lua' },
+        { name: 'In Lụa Tròn Chai Lọ Mỹ Phẩm & Thùng Sơn', href: '/solutions/screen-printing' },
+        { name: 'Dịch Vụ Gia Công In Lụa Công Nghiệp', href: '/services/screen-printing-service' },
+        { name: 'Máy In Lụa Phẳng, Tròn & Máy Ép Kim Sau In', href: '/products/screen-printers' },
       ],
     },
     {
       name: 'In KTS & QR Code',
       href: '/in-ky-thuat-so',
       dropdown: [
-        { name: 'In QR Code Dữ Liệu Biến Đổi & Số Nhảy', href: '/in-ky-thuat-so' },
-        { name: 'Single Pass UV & TIJ Khô Nhanh', href: '/in-ky-thuat-so' },
-        { name: 'Camera Inspection Kiểm Tra Mã QR', href: '/in-ky-thuat-so' },
+        { name: 'In QR Code Dữ Liệu Biến Đổi (VDP) & Tem Nhãn', href: '/in-ky-thuat-so' },
+        { name: 'Giải Pháp In UV Single Pass Bao Bì Hộp Giấy', href: '/solutions/uv-single-pass-printing' },
+        { name: 'Giải Pháp In Dữ Liệu Biến Đổi & Mã Vạch', href: '/solutions/variable-data-printing' },
+        { name: 'In Phun Công Nghiệp Date Code TIJ / CIJ', href: '/solutions/industrial-coding' },
       ],
     },
     {
       name: 'Vật Tư Ngành In',
-      href: '/products',
+      href: '/products/consumables',
       dropdown: [
-        { name: 'Mực In Tampon & In Lụa UV', href: '/products/pad-printing/inks' },
-        { name: 'Bản Thép & Cục In Silicone', href: '/products/pad-printing/pads' },
-        { name: 'Mực In CIJ / TIJ Công Nghiệp', href: '/products/cij-ink' },
+        { name: 'Siêu Thị Vật Tư In Công Nghiệp (Pad, Bản Thép, Dao Gạt)', href: '/products/consumables' },
+        { name: 'Mực In Tampon & In Lụa Chuyên Dụng (PP, PE, Kim Loại)', href: '/products/special-inks' },
+        { name: 'Mực In Công Nghiệp & Dung Môi Pha Mực', href: '/products/industrial-ink' },
+        { name: 'Mực In Phun CIJ / TIJ & Đầu In Công Nghiệp', href: '/products/cij-ink' },
+        { name: 'Tất Cả Máy In & Thiết Bị Gia Công Sau In', href: '/products' },
       ],
     },
     {
       name: 'Kiến Thức In Ấn',
       href: '/blog',
+      dropdown: [
+        { name: 'Thư Viện Kiến Thức Kỹ Thuật & Báo Giá In Ấn', href: '/blog' },
+        { name: 'Dự Án Thực Tế Tại Xưởng In VNPIS', href: '/du-an' },
+        { name: 'Case Studies Khách Hàng Doanh Nghiệp', href: '/case-studies' },
+        { name: 'Câu Hỏi Thường Gặp (FAQ)', href: '/faq' },
+      ],
     },
     {
       name: 'Năng Lực Xưởng',
@@ -104,7 +125,13 @@ export default function Header() {
       <div className="container mx-auto px-4 h-20 lg:h-22 flex items-center justify-between">
         {/* Logo INANVNPIS */}
         <Link href="/" className="flex-shrink-0">
-          <img src="/images/inanvnpis-logo.png" alt="In Ấn VNPIS Logo" className="h-12 lg:h-14 w-auto transition-all" />
+          <img
+            src="/images/inanvnpis-logo.png"
+            alt="In Ấn VNPIS - Xưởng In Ấn Gia Công Tampon, In Lụa & Bao Bì TP.HCM"
+            width={180}
+            height={56}
+            className="h-12 lg:h-14 w-auto transition-all"
+          />
         </Link>
 
         {/* Desktop Navigation */}

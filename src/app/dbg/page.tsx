@@ -2,8 +2,17 @@ export const dynamicParams = true;
 export const dynamic = 'force-dynamic';
 import React from 'react';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { BetaAnalyticsDataClient } from '@google-analytics/data';
 import { getTopKeywords } from './gsc';
+
+export const metadata: Metadata = {
+  title: 'Internal System',
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 const analyticsDataClient = new BetaAnalyticsDataClient({
   credentials: {

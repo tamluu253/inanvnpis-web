@@ -4,8 +4,19 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2, Factory, Palette, Settings, Droplet, Cog, Phone } from 'lucide-react';
 
 export const metadata = {
-  title: 'Screen Printing | Giải Pháp In Lụa Công Nghiệp | VNPIS',
-  description: 'Hệ sinh thái in lụa (Screen Printing) công nghiệp VNPIS. Cung cấp máy in lụa tự động, bán tự động, mực in lụa UV/Solvent cao cấp và dịch vụ gia công.',
+  title: 'Giải Pháp In Lụa Công Nghiệp (Screen Printing) Tự Động Hóa',
+  description:
+    'Hệ sinh thái in lụa (Screen Printing) công nghiệp VNPIS: cung cấp máy in lụa phẳng/tròn tự động, mực in lụa UV/Solvent bám dính cao, vật tư khung lưới và dịch vụ gia công.',
+  keywords: [
+    'giải pháp in lụa công nghiệp',
+    'screen printing solutions',
+    'máy in lụa tự động',
+    'in ấn gia công',
+    'xưởng in ấn gia công VNPIS',
+  ],
+  alternates: {
+    canonical: '/solutions/screen-printing',
+  },
 };
 
 export default function ScreenPrintingPage() {

@@ -4,8 +4,20 @@ import Link from 'next/link';
 import { ArrowRight, Palette, CheckCircle2, Sliders, Target, Eye } from 'lucide-react';
 
 export const metadata = {
-  title: 'Quản Trị Màu Sắc (Color Management) | VNPIS',
-  description: 'Dịch vụ cân chỉnh màu sắc chuyên nghiệp. Tạo ICC Profile cho máy in phun, máy in UV. Đảm bảo đồng nhất màu sắc Delta E < 2.',
+  title: 'Dịch Vụ Quản Trị Màu Sắc (Color Management) & Tạo ICC Profile',
+  description:
+    'Dịch vụ cân chỉnh màu sắc chuyên nghiệp tại nhà máy: tạo ICC Profile cho máy in phun, máy in UV và chuẩn hóa màn hình thiết kế. Đảm bảo đồng nhất màu sắc Delta E < 2.',
+  keywords: [
+    'quản trị màu sắc',
+    'color management system',
+    'tạo icc profile máy in uv',
+    'cân chỉnh màu máy in công nghiệp',
+    'in ấn gia công',
+    'xưởng in ấn gia công VNPIS',
+  ],
+  alternates: {
+    canonical: '/services/color-management',
+  },
 };
 
 export default function ColorManagementPage() {

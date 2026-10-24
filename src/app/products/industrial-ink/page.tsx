@@ -4,8 +4,11 @@ import Link from 'next/link';
 import { ArrowRight, Droplets, Droplet, FlaskConical, Factory, ShieldCheck, CheckCircle2 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Mực In Công Nghiệp (Industrial Ink) | CIJ & TIJ | VNPIS',
+  title: 'Trung Tâm Mực In Công Nghiệp: Mực In Phun CIJ, TIJ & Dung Môi',
   description: 'Trung tâm vật tư mực in công nghiệp VNPIS. Cung cấp mực in phun CIJ, TIJ, dung môi, make-up tương thích hoàn hảo cho các dòng máy Videojet, Domino, Linx.',
+  alternates: {
+    canonical: '/products/industrial-ink',
+  },
 };
 
 export default function IndustrialInkPage() {

@@ -10,10 +10,16 @@ export default function Footer() {
           {/* Column 1: Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4 bg-white p-2 rounded-xl shadow-sm">
-              <img src="/images/inanvnpis-logo.png" alt="In Ấn VNPIS Logo" className="h-12 w-auto" />
+              <img
+                src="/images/inanvnpis-logo.png"
+                alt="In Ấn VNPIS - Xưởng In Ấn Gia Công Tampon, In Lụa & Bao Bì TP.HCM"
+                width={160}
+                height={48}
+                className="h-12 w-auto"
+              />
             </Link>
             <p className="mb-4 text-xs leading-relaxed text-slate-400">
-              <strong className="text-white">INANVNPIS.COM</strong> — Xưởng gia công in tampon, in lụa, in KTS dữ liệu biến đổi &amp; phân phối vật tư mực in công nghiệp hàng đầu TP.HCM. 
+              <strong className="text-white">INANVNPIS.COM</strong> — Xưởng in ấn gia công trọn gói: gia công in tampon, gia công in lụa, in bao bì hộp giấy, túi giấy, tem nhãn decal, gia công sau in &amp; phân phối vật tư in công nghiệp hàng đầu TP.HCM.
             </p>
             <div className="flex items-center space-x-2 text-xs text-emerald-400 font-bold mb-4">
               <CheckCircle2 className="w-4 h-4" />
@@ -23,23 +29,25 @@ export default function Footer() {
 
           {/* Column 2: Core Printing Services */}
           <div>
-            <h3 className="text-white text-base font-bold mb-4 text-cyan-400 uppercase tracking-wider">Dịch Vụ In Gia Công</h3>
+            <h3 className="text-white text-base font-bold mb-4 text-cyan-400 uppercase tracking-wider">Dịch Vụ In Ấn Gia Công</h3>
             <ul className="space-y-2.5 text-xs">
+              <li><Link href="/dich-vu-in-gia-cong" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Dịch Vụ In Ấn Gia Công Trọn Gói Theo Yêu Cầu</Link></li>
               <li><Link href="/in-tampon" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In Tampon (Ly Nhựa, Tô Chén, Linh Kiện)</Link></li>
-              <li><Link href="/in-lua" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In Lụa (Màng Nhựa, Túi Giấy, Chai Lọ Tròn)</Link></li>
-              <li><Link href="/in-ky-thuat-so" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In KTS &amp; QR Code Dữ Liệu Biến Đổi</Link></li>
-              <li><Link href="/services/pad-printing-service" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Báo Giá In Gia Công Theo Đơn Hàng Hàng Loạt</Link></li>
+              <li><Link href="/in-lua" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In Lụa (Túi Giấy, Hộp Giấy, Chai Lọ Tròn)</Link></li>
+              <li><Link href="/in-ky-thuat-so" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Gia Công In KTS, Tem Nhãn &amp; QR Code Biến Đổi</Link></li>
+              <li><Link href="/services" className="hover:text-cyan-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-cyan-500" /> Dịch Vụ Pha Màu Pantone, Sửa Máy &amp; Cho Thuê Máy In</Link></li>
             </ul>
           </div>
 
           {/* Column 3: Materials & Supplies */}
           <div>
-            <h3 className="text-white text-base font-bold mb-4 text-orange-400 uppercase tracking-wider">Vật Tư &amp; Mực In Gia Công</h3>
+            <h3 className="text-white text-base font-bold mb-4 text-orange-400 uppercase tracking-wider">Vật Tư &amp; Thiết Bị Ngành In</h3>
             <ul className="space-y-2.5 text-xs">
-              <li><Link href="/products/pad-printing/inks" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Mực In Tampon Afford KT1 / Marabu / UV</Link></li>
-              <li><Link href="/products/pad-printing/plates" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Bản Thép In Tampon (Cliche Phủ Sơn / Thép Dày)</Link></li>
-              <li><Link href="/products/pad-printing/pads" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Cục In Silicone Đổ Khuôn Chuẩn Độ Cứng</Link></li>
-              <li><Link href="/products/cij-ink" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Mực In CIJ / TIJ Khô Nhanh Bám Dính Cao</Link></li>
+              <li><Link href="/products/consumables" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Siêu Thị Vật Tư In Công Nghiệp (Pad Silicon, Bản Thép)</Link></li>
+              <li><Link href="/products/special-inks" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Mực In Tampon &amp; In Lụa Chuyên Dụng (PP, PE, Kim Loại)</Link></li>
+              <li><Link href="/products/pad-printers" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Máy In Tampon, Máy In Lụa &amp; Máy Ép Kim Sau In</Link></li>
+              <li><Link href="/products/cij-ink" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Mực In CIJ / TIJ Khô Nhanh &amp; Đầu In Công Nghiệp</Link></li>
+              <li><Link href="/du-an" className="hover:text-orange-400 transition-colors flex items-center"><ArrowRight className="w-3 h-3 mr-2 text-orange-500" /> Dự Án Thực Tế &amp; Hồ Sơ Năng Lực Xưởng In VNPIS</Link></li>
             </ul>
           </div>
 

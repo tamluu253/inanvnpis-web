@@ -15,9 +15,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = await getDocumentBySlug('case-studies', resolvedParams.slug);
   if (!post) return { title: 'Not Found' };
   
+  const canonicalUrl = `https://www.inanvnpis.com/case-studies/${resolvedParams.slug}`;
+  const ogImage = post.metadata.image || '/images/pad-printing-cups.jpg';
+
   return {
-    title: `${post.metadata.title} | Case Study VNPIS`,
+    title: post.metadata.title,
     description: post.metadata.description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: post.metadata.title,
+      description: post.metadata.description,
+      url: canonicalUrl,
+      type: 'article',
+      images: [{ url: ogImage, alt: post.metadata.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.metadata.title,
+      description: post.metadata.description,
+      images: [ogImage],
+    },
   };
 }
 
@@ -39,14 +58,14 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
     articleSection: metadata.industry,
     author: {
       '@type': 'Organization',
-      name: 'VNPIS',
+      name: 'Công ty TNHH VNPIS',
     },
     publisher: {
       '@type': 'Organization',
-      name: 'VNPIS - Industrial Printing Solutions',
+      name: 'Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://inanvnpis.com/images/inanvnpis-logo.png',
+        url: 'https://www.inanvnpis.com/images/inanvnpis-logo.png',
       },
     },
     datePublished: metadata.date || '2026-07-08T00:00:00.000Z',
