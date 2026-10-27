@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, CheckCircle2, Clock } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Clock, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllSlugs, getDocumentBySlug, getDocumentMetadataBySlug } from '@/lib/mdx';
@@ -27,12 +27,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!meta) return { title: 'Not Found' };
   
   const isDraft = meta.draft === true || meta.status === 'draft';
-  const canonicalUrl = meta.canonical || `https://www.inanvnpis.com/blog/${resolvedParams.slug}`;
+  const canonicalUrl = `https://www.inanvnpis.com/blog/${resolvedParams.slug}`;
   const ogImage = meta.image || '/images/pad-printing-cups.jpg';
+  const keywords = Array.isArray(meta.keywords)
+    ? meta.keywords
+    : typeof meta.keywords === 'string'
+    ? meta.keywords.split(',').map((k: string) => k.trim()).filter(Boolean)
+    : undefined;
   
   return {
     title: meta.title,
     description: meta.description,
+    ...(keywords ? { keywords } : {}),
     alternates: {
       canonical: canonicalUrl,
     },
@@ -42,6 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url: canonicalUrl,
       type: 'article',
       publishedTime: meta.date || '2026-07-08T00:00:00.000Z',
+      modifiedTime: meta.updatedAt || meta.date || '2026-07-08T00:00:00.000Z',
       images: [{ url: ogImage, alt: meta.title }],
     },
     twitter: {
@@ -82,6 +89,109 @@ export async function BlogPostContainer({
   const pageUrl = contentType === 'articles' ? `https://www.inanvnpis.com/blog/${slug}` : `https://www.inanvnpis.com/${slug}`;
   const publishedDate = metadata.date || '2026-07-08T00:00:00.000Z';
   const modifiedDate = metadata.updatedAt || metadata.date || '2026-07-08T00:00:00.000Z';
+  const faqs = metadata.faqs || [];
+
+  const graphItems: Record<string, any>[] = [
+    {
+      "@type": contentType === 'pillars' ? ["TechArticle", "Article"] : ["TechArticle", "Article"],
+      "@id": `${pageUrl}#article`,
+      "headline": metadata.title,
+      "description": metadata.description,
+      "datePublished": publishedDate,
+      "dateModified": modifiedDate,
+      "inLanguage": "vi-VN",
+      "image": metadata.image || (hasDedicatedMedia ? `https://www.inanvnpis.com/media/blog/${metadata.slug}.${metadata.mediaExt}` : 'https://www.inanvnpis.com/icon.png'),
+      "author": {
+        "@type": "Person",
+        "name": "Lưu Trọng Tâm - Kỹ Sư Trưởng In Công Nghiệp & Dữ Liệu Biến Đổi VDP tại VNPIS",
+        "jobTitle": "Kỹ Sư Trưởng In Công Nghiệp & Dữ Liệu Biến Đổi VDP",
+        "worksFor": {
+          "@id": "https://www.inanvnpis.com/#organization"
+        },
+        "url": "https://www.inanvnpis.com/about"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Mr. Giang - Chuyên Gia Kỹ Thuật In Lụa Công Nghiệp",
+        "jobTitle": "Chuyên Gia Kỹ Thuật In Lụa Công Nghiệp & Gia Công Sau In",
+        "worksFor": {
+          "@id": "https://www.inanvnpis.com/#organization"
+        }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.inanvnpis.com/#organization",
+        "name": "Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.inanvnpis.com/icon.png"
+        }
+      },
+      "about": [
+        { "@type": "Thing", "name": "Gia công in tampon (Pad Printing)" },
+        { "@type": "Thing", "name": "Gia công in lụa công nghiệp (Screen Printing)" },
+        { "@type": "Thing", "name": "In kỹ thuật số dữ liệu biến đổi VDP & QR Code chống giả" }
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": pageUrl
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${pageUrl}#breadcrumb`,
+      "itemListElement": contentType === 'articles'
+        ? [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Trang chủ",
+              "item": "https://www.inanvnpis.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Kiến thức in ấn",
+              "item": "https://www.inanvnpis.com/blog"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": metadata.title,
+              "item": pageUrl
+            }
+          ]
+        : [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Trang chủ",
+              "item": "https://www.inanvnpis.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": metadata.title,
+              "item": pageUrl
+            }
+          ]
+    }
+  ];
+
+  if (faqs.length > 0) {
+    graphItems.push({
+      "@type": "FAQPage",
+      "@id": `${pageUrl}#faq`,
+      "mainEntity": faqs.map((faq) => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    });
+  }
 
   return (
     <main className="min-h-screen pt-28 pb-16 bg-slate-50 font-sans">
@@ -109,9 +219,17 @@ export async function BlogPostContainer({
             {metadata.title}
           </h1>
           
-          <p className="text-lg md:text-xl text-slate-600 mb-10 leading-relaxed font-medium">
+          <p className="text-lg md:text-xl text-slate-600 mb-6 leading-relaxed font-medium">
             {metadata.description}
           </p>
+
+          {/* E-E-A-T Expert Verification Badge */}
+          <div className="flex flex-wrap items-center gap-2 bg-emerald-50/90 border border-emerald-200 text-emerald-950 px-4 py-3 rounded-2xl text-xs md:text-sm font-semibold mb-10 shadow-sm">
+            <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0" />
+            <span>
+              Tác giả: <strong>Kỹ Sư Lưu Trọng Tâm</strong> | Kiểm duyệt kỹ thuật: <strong>Chuyên gia Mr. Giang</strong> | Tiêu chuẩn: <strong>ISO 9001 / ASTM D3359 5B / RoHS</strong>
+            </span>
+          </div>
 
           {hasDedicatedMedia && (
             <div className="w-full aspect-video bg-slate-900 rounded-3xl overflow-hidden mb-12 shadow-xl relative flex items-center justify-center border border-slate-200">
@@ -146,10 +264,10 @@ export async function BlogPostContainer({
         <div className="mt-12 bg-blue-50/90 border border-blue-200 rounded-3xl p-8 mb-16 shadow-sm">
           <h3 className="text-2xl font-extrabold text-slate-900 mb-4 mt-0">Tại sao chọn dịch vụ gia công in ấn VNPIS?</h3>
           <ul className="space-y-3 mb-0 list-none pl-0">
-            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Gia công in Tampon, in Lụa, in KTS sắc nét, bám dính pass test 3M.</li>
-            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Cung cấp đầy đủ vật tư mực in Henkey/Dubuit, đầu silicon, bản thép cliché chính hãng.</li>
-            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Kỹ thuật hỗ trợ in mẫu thử (sample test) miễn phí tận nơi trước khi chốt đơn hàng.</li>
-            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Xưởng in tại TP.HCM công suất 50.000+ sản phẩm/ngày, đáp ứng giao hàng gấp.</li>
+            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Gia công in Tampon, in Lụa, in KTS dữ liệu biến đổi VDP sắc nét, bám dính pass test 3M 5B.</li>
+            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Cung cấp đầy đủ vật tư mực in Marabu/Afford/RUCO đạt chuẩn RoHS, đầu silicon, bản thép cliché chính hãng.</li>
+            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Kỹ thuật hỗ trợ in mẫu thử (sample test) miễn phí 24h trước khi chốt đơn hàng.</li>
+            <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Xưởng in tại TP.HCM công suất 100.000+ sản phẩm/ngày, giao hàng toàn Việt Nam, Lào &amp; Campuchia.</li>
           </ul>
         </div>
 
@@ -164,77 +282,13 @@ export async function BlogPostContainer({
         </div>
       </article>
 
-      {/* SCHEMA MARKUP: Article + BreadcrumbList */}
+      {/* SCHEMA MARKUP: TechArticle + BreadcrumbList + Dynamic FAQPage */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Article",
-                "headline": metadata.title,
-                "description": metadata.description,
-                "datePublished": publishedDate,
-                "dateModified": modifiedDate,
-                "image": metadata.image || (hasDedicatedMedia ? `https://www.inanvnpis.com/media/blog/${metadata.slug}.${metadata.mediaExt}` : 'https://www.inanvnpis.com/icon.png'),
-                "author": {
-                  "@type": "Organization",
-                  "name": "Công ty TNHH VNPIS",
-                  "url": "https://www.inanvnpis.com"
-                },
-                "publisher": {
-                  "@type": "Organization",
-                  "name": "Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions",
-                  "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://www.inanvnpis.com/icon.png"
-                  }
-                },
-                "mainEntityOfPage": {
-                  "@type": "WebPage",
-                  "@id": pageUrl
-                }
-              },
-              {
-                "@type": "BreadcrumbList",
-                "itemListElement": contentType === 'articles'
-                  ? [
-                      {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Trang chủ",
-                        "item": "https://www.inanvnpis.com"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": "Kiến thức in ấn",
-                        "item": "https://www.inanvnpis.com/blog"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 3,
-                        "name": metadata.title,
-                        "item": pageUrl
-                      }
-                    ]
-                  : [
-                      {
-                        "@type": "ListItem",
-                        "position": 1,
-                        "name": "Trang chủ",
-                        "item": "https://www.inanvnpis.com"
-                      },
-                      {
-                        "@type": "ListItem",
-                        "position": 2,
-                        "name": metadata.title,
-                        "item": pageUrl
-                      }
-                    ]
-              }
-            ]
+            "@graph": graphItems
           })
         }}
       />

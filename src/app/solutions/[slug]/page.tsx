@@ -1,8 +1,8 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import { getAllSlugs, getDocumentBySlug } from '@/lib/mdx';
+import { getDocumentBySlug } from '@/lib/mdx';
 import Link from 'next/link';
-import { ArrowLeft, Phone } from 'lucide-react';
+import { ArrowLeft, Phone, ShieldCheck } from 'lucide-react';
 
 export const dynamicParams = true;
 
@@ -29,6 +29,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: post.metadata.description,
       url: canonicalUrl,
       type: 'article',
+      publishedTime: post.metadata.date || '2026-07-08T00:00:00.000Z',
+      modifiedTime: post.metadata.updatedAt || post.metadata.date || '2026-07-08T00:00:00.000Z',
       images: [{ url: ogImage, alt: post.metadata.title }],
     },
     twitter: {
@@ -49,33 +51,102 @@ export default async function PillarPage({ params }: { params: Promise<{ slug: s
   }
 
   const { metadata, contentHtml } = post;
+  const pageUrl = `https://www.inanvnpis.com/${resolvedParams.slug}`;
+  const publishedDate = metadata.date || '2026-07-08T00:00:00.000Z';
+  const modifiedDate = metadata.updatedAt || metadata.date || '2026-07-08T00:00:00.000Z';
+  const faqs = metadata.faqs || [];
 
-  const schemaData = {
-    '@context': 'https://schema.org',
-    '@type': 'TechArticle',
-    headline: metadata.title,
-    description: metadata.description,
-    articleSection: metadata.category,
-    author: {
-      '@type': 'Organization',
-      name: 'Công ty TNHH VNPIS',
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://www.inanvnpis.com/images/inanvnpis-logo.png',
+  const graphItems: Record<string, any>[] = [
+    {
+      '@type': ['TechArticle', 'Article'],
+      '@id': `${pageUrl}#article`,
+      headline: metadata.title,
+      description: metadata.description,
+      articleSection: metadata.category,
+      inLanguage: 'vi-VN',
+      datePublished: publishedDate,
+      dateModified: modifiedDate,
+      author: {
+        '@type': 'Person',
+        name: 'Lưu Trọng Tâm - Kỹ Sư Trưởng In Công Nghiệp & Dữ Liệu Biến Đổi VDP tại VNPIS',
+        jobTitle: 'Kỹ Sư Trưởng In Công Nghiệp & Dữ Liệu Biến Đổi VDP',
+        worksFor: {
+          '@id': 'https://www.inanvnpis.com/#organization',
+        },
+        url: 'https://www.inanvnpis.com/about',
+      },
+      reviewedBy: {
+        '@type': 'Person',
+        name: 'Mr. Giang - Chuyên Gia Kỹ Thuật In Lụa Công Nghiệp',
+        jobTitle: 'Chuyên Gia Kỹ Thuật In Lụa Công Nghiệp & Gia Công Sau In',
+        worksFor: {
+          '@id': 'https://www.inanvnpis.com/#organization',
+        },
+      },
+      publisher: {
+        '@type': 'Organization',
+        '@id': 'https://www.inanvnpis.com/#organization',
+        name: 'Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS Solutions',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://www.inanvnpis.com/images/inanvnpis-logo.png',
+        },
+      },
+      about: [
+        { '@type': 'Thing', name: 'Gia công in tampon (Pad Printing)' },
+        { '@type': 'Thing', name: 'Gia công in lụa công nghiệp (Screen Printing)' },
+        { '@type': 'Thing', name: 'In kỹ thuật số dữ liệu biến đổi VDP & QR Code chống giả' },
+      ],
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': pageUrl,
       },
     },
-    datePublished: metadata.date || '2026-07-08T00:00:00.000Z',
-  };
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Trang chủ',
+          item: 'https://www.inanvnpis.com',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: metadata.title,
+          item: pageUrl,
+        },
+      ],
+    },
+  ];
+
+  if (faqs.length > 0) {
+    graphItems.push({
+      '@type': 'FAQPage',
+      '@id': `${pageUrl}#faq`,
+      mainEntity: faqs.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
+    });
+  }
 
   return (
     <main className="min-h-screen bg-slate-50 font-sans">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@graph': graphItems,
+          }),
+        }}
       />
       {/* 1. HERO SECTION */}
       <section className="relative pt-32 pb-24 lg:pt-40 lg:pb-32 overflow-hidden bg-slate-900 text-white">
@@ -87,9 +158,16 @@ export default async function PillarPage({ params }: { params: Promise<{ slug: s
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight leading-tight">
             {metadata.title}
           </h1>
-          <p className="text-xl md:text-2xl text-slate-300 mb-10 mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-slate-300 mb-8 mx-auto leading-relaxed">
             {metadata.description}
           </p>
+          {/* E-E-A-T Expert Verification Badge */}
+          <div className="inline-flex flex-wrap items-center justify-center gap-2 bg-slate-800/90 border border-emerald-500/40 text-emerald-200 px-5 py-3 rounded-2xl text-xs md:text-sm font-semibold">
+            <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0" />
+            <span>
+              Tác giả: <strong>Kỹ Sư Lưu Trọng Tâm</strong> | Kiểm duyệt kỹ thuật: <strong>Chuyên gia Mr. Giang</strong> | Tiêu chuẩn: <strong>ISO 9001 / ASTM D3359 5B / RoHS</strong>
+            </span>
+          </div>
         </div>
       </section>
 

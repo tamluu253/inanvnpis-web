@@ -1,337 +1,117 @@
 ---
-title: "Bảng Báo Giá Gia Công In Ấn B2B Theo Số Lượng 1.000 Đến 1.000.000 Sản Phẩm"
+title: Bảng Báo Giá Gia Công In Ấn B2B Theo Số Lượng 1.000 Đến 1.000.000 Sản Phẩm
+description: >-
+  Bảng Báo Giá Gia Công In Ấn B2B Theo Số Lượng 1.000 Đến 1.000.000 Sản Phẩm.
+  Xưởng in ấn gia công VNPIS chuyên in bao bì hộp giấy, túi giấy, tem nhãn
+  decal.
+canonical: 'https://www.inanvnpis.com/blog/bang-bao-gia-gia-cong-in-an-b2b-so-luong-lon'
+date: '2026-08-23'
+updatedAt: '2026-10-25'
+author: Kỹ Sư Lưu Trọng Tâm
+reviewer: Chuyên Gia Kỹ Thuật Mr. Giang
+category: 'In Bao Bì, Tem Nhãn Decal & Gia Công Sau In B2B'
 keywords:
-  - "bảng báo giá gia công in ấn b2b số lượng lớn"
-  - "báo giá gia công in tampon theo lô hàng"
-  - "báo giá gia công in lụa chai lọ theo số lượng"
-  - "chi phí in gia công oem sản phẩm công nghiệp"
-date: "2026-08-23"
-author: "Lưu Trọng Tâm - Kỹ Sư Trưởng VNPIS"
-category: "Năng Lực Xưởng, Báo Giá Gia Công & Case Studies B2B"
-canonical: "https://inanvnpis.com/blog/bang-bao-gia-gia-cong-in-an-b2b-so-luong-lon"
-schema_type: "TechnicalArticle"
-publisher_mst: "0318266611"
-status: "draft"
-draft: true
-image: "/images/services/industrial-contract-printing-workshop-vnpis.jpg"
-mediaExt: ".jpg"
-tags:
-  - "bảng báo giá gia công in ấn b2b số lượng lớn"
-  - "báo giá gia công in tampon theo lô hàng"
-  - "báo giá gia công in lụa chai lọ theo số lượng"
-  - "chi phí in gia công oem sản phẩm công nghiệp"
-  - "inanvnpis.com"
-  - "VNPIS"
-wordCount: 3456
-domain: "inanvnpis.com"
-slug: "bang-bao-gia-gia-cong-in-an-b2b-so-luong-lon"
+  - bảng báo giá gia công in ấn b2b số lượng lớn
+  - báo giá gia công in tampon theo lô hàng
+  - báo giá gia công in lụa chai lọ theo số lượng
+  - chi phí in gia công oem sản phẩm công nghiệp
+  - xưởng in ấn gia công VNPIS
+  - in bao bì hộp giấy
+  - in túi giấy
+  - in tem nhãn decal
+schema_type: TechnicalArticle
+publisher_mst: 0318266611
+status: published
+draft: false
+slug: bang-bao-gia-gia-cong-in-an-b2b-so-luong-lon
+image: /images/services/industrial-contract-printing-workshop-vnpis.jpg
+---
+> **Tóm Tắt Nhanh (Key Takeaways):** Bảng báo giá gia công in ấn B2B theo bậc số lượng từ 1.000 đến 1.000.000+ sản phẩm tại Xưởng In Ấn Gia Công VNPIS: đơn giá in tampon gia công từ 120đ – 650đ/lượt, in lụa gia công chai lọ từ 350đ – 1.400đ/sp, in mã QR biến đổi & in số nhảy VDP từ 80đ – 320đ/mã. Miễn phí 100% chi phí làm khuôn bản thép Cliché / khung lụa cho đơn hàng từ 20.000 pcs và hỗ trợ in test mẫu 3M miễn phí trong 24h.
+
+## 1. Tổng Quan Kỹ Thuật & Bài Toán Thực Tiễn Về "Bảng Báo Giá Gia Công In Ấn B2B Theo Số Lượng 1.000 Đến 1.000.000 Sản Phẩm" Trong Sản Xuất B2B
+
+Trong chuỗi cung ứng sản xuất công nghiệp hiện đại tại Việt Nam, Campuchia và Lào, **bảng báo giá gia công in ấn b2b theo số lượng 1.000 đến 1.000.000 sản phẩm** là một trong những hạng mục quyết định trực tiếp đến chất lượng ngoại quan sản phẩm, tiến độ xuất xưởng và tổng chi phí vận hành (TCO) của nhà máy. Dù doanh nghiệp của bạn đang cần [**in tampon gia công**](/in-tampon), [**in logo lên sản phẩm nhựa**](/in-tampon), [**in lụa gia công**](/in-lua), [**in lụa chai lọ mỹ phẩm**](/in-lua) hay triển khai [**in mã QR biến đổi**](/in-ky-thuat-so), [**in số nhảy**](/in-ky-thuat-so), [**in tem QR code chống giả**](/in-ky-thuat-so), việc kiểm soát đồng bộ giữa vật liệu phôi, hệ mực công nghiệp và quy trình vận hành chuẩn hóa là yếu tố sống còn.
+
+Qua hơn 10 năm trực tiếp vận hành **xưởng in ấn gia công VNPIS** tại Bình Chánh (TP.HCM) với công suất 80.000 – 120.000 sản phẩm/ngày và cung ứng thiết bị – [vật tư in công nghiệp](/products/consumables) cho hơn 300 nhà máy FDI, **Kỹ Sư Lưu Trọng Tâm** cùng **Chuyên Gia Kỹ Thuật Mr. Giang** đã đúc kết toàn bộ dữ liệu định mức, thông số kỹ thuật đo kiểm và quy trình chuẩn SOP 5 bước trong cẩm nang chuyên sâu dưới đây.
+
 ---
 
-# Bảng Báo Giá Gia Công In Ấn B2B Theo Số Lượng 1.000 Đến 1.000.000 Sản Phẩm
+## 2. Bảng Thông Số Kỹ Thuật & Định Mức Tiêu Chuẩn Tại Xưởng VNPIS
 
-![Xưởng gia công in ấn B2B VNPIS Bình Chánh công suất 100.000 sản phẩm/ngày](/images/services/industrial-contract-printing-workshop-vnpis.jpg)
-*Xưởng gia công in ấn B2B VNPIS Bình Chánh công suất 100.000 sản phẩm/ngày - Hotline hỗ trợ kỹ thuật: Mr. Giang (In Lụa): 0901 826 344 | Mr. Tâm (In Pad & In KTS): 0901 836 344*
+Dưới đây là bảng dữ liệu kỹ thuật và định mức thực tế đang được áp dụng tại hệ thống [dịch vụ in ấn gia công trọn gói](/dich-vu-in-gia-cong) của VNPIS:
 
-## 1. Đặt Vấn Đề Kỹ Thuật & Tầm Quan Trọng Của "bảng báo giá gia công in ấn b2b số lượng lớn" Trong Sản Xuất B2B
+| Hạng Mục Dịch Vụ Gia Công B2B | Đơn Hàng 1.000 – 5.000 sp | Đơn Hàng 10.000 – 50.000 sp | Đơn Hàng 100.000 – 1.000.000+ sp | Chi Phí Khuôn Bản & Đồá Gá (Jig) |
+| :--- | :--- | :--- | :--- | :--- |
+| **In Tampon Gia Công 1–2 Màu (Nhựa ABS/PS/PC)** | 450đ – 650đ / vị trí | 240đ – 380đ / vị trí | 120đ – 210đ / vị trí | Miễn phí bản thép Cliché từ 20.000 sp |
+| **In Logo Lên Sản Phẩm Nhựa Khó (PP/PE/HDPE/Silicone)** | 580đ – 850đ / vị trí | 320đ – 490đ / vị trí | 180đ – 290đ / vị trí | Đã gồm xử lý Corona/Plasma/Primer |
+| **In Lụa Gia Công Chai Lọ Mỹ Phẩm & Thủy Tinh 360°** | 950đ – 1.450đ / vòng | 550đ – 850đ / vòng | 350đ – 520đ / vòng | Miễn phí khung lụa Thụy Sĩ từ 15.000 sp |
+| **In Mã QR Biến Đổi, In Số Nhảy & Mã Vạch VDP** | 250đ – 380đ / mã | 140đ – 220đ / mã | 80đ – 130đ / mã | Tích hợp Camera Vision kiểm đọc 100% |
+| **In Bao Bì Hộp Giấy, Túi Giấy & Gia Công Sau In** | Theo quy cách giấy & kích thước | Chiết khấu 18% – 25% | Chiết khấu 30% – 40% hợp đồng năm | Hỗ trợ khuôn bế, ép kim, phủ UV định hình |
 
-Trong kỷ nguyên tự động hóa sản xuất công nghiệp hiện đại, việc tối ưu hóa quy trình liên quan đến **bảng báo giá gia công in ấn b2b số lượng lớn** đóng vai trò then chốt quyết định trực tiếp đến năng suất dây chuyền, tỷ lệ lỗi sản phẩm (Defect Rate) và tổng chi phí vận hành (TCO) của các nhà máy sản xuất, xưởng in thương mại và doanh nghiệp gia công OEM.
-Thực tế ghi nhận qua hơn 10 năm kinh nghiệm xử lý trực tiếp tại xưởng kỹ thuật và Phòng Lab VNPIS Bình Chánh, hơn 78% sự cố đình trệ sản xuất (dừng chuyền) bắt nguồn từ việc thiếu hiểu biết sâu sắc về các thông số động học, sự mất cân bằng giữa độ nhớt của mực in, áp suất khí nén, độ đàn hồi của vật liệu truyền mực (silicon pad/lưới lụa) hoặc sai lệch đồ thị sóng xung (Waveform) điều khiển buồng thạch anh Piezo. Quý khách có thể tham khảo thêm [dịch vụ súc rửa siêu âm tần số kép 28kHz/40kHz](https://cuuhodauin.com/kien-thuc/bao-gia-phuc-hoi-dau-in-cong-nghiep) để tối ưu hóa hiệu quả vận hành.
-Bài viết chuyên sâu này được biên soạn bởi **Kỹ Sư Trưởng Lưu Trọng Tâm** cùng đội ngũ kỹ thuật VNPIS nhằm cung cấp một cẩm nang kỹ thuật toàn diện, từ nguyên lý cơ bản, bảng thông số vật lý chính xác, công thức tính toán toán học, đến quy trình thao tác tiêu chuẩn (SOP 5 bước) giúp các kỹ sư cơ điện tử, quản đốc xưởng và thợ in bậc cao làm chủ hoàn toàn công nghệ **bảng báo giá gia công in ấn b2b số lượng lớn**.
-
-## 2. Phân Tích Cơ Chế Kỹ Thuật Chuyên Sâu & Các Yếu Tố Ảnh Hưởng Cốt Lõi
-
-Để kiểm soát tuyệt đối chất lượng khi triển khai **bảng báo giá gia công in ấn b2b số lượng lớn**, đội ngũ kỹ thuật cần nắm vững 4 trụ cột cơ học và hóa lý tương tác trực tiếp:
-- **Hiện tượng mao dẫn và sức căng bề mặt chất lỏng:** Sự phân bố các hạt pigment siêu mịn trong dung môi hữu cơ hoặc gốc monomer UV đòi hỏi kiểm soát năng lượng bề mặt vật liệu tiếp xúc đạt ngưỡng tiêu chuẩn (> 42 dynes/cm). Nếu năng lượng bề mặt phôi in thấp hơn sức căng bề mặt của màng mực, hiện tượng co cụm hạt mực (crawling) hoặc loang lổ sẽ lập tức xuất hiện.
-- **Động lực học chất lỏng phi Newton (Non-Newtonian Rheology):** Mực in công nghiệp cao cấp như dòng Henkey PET8000 hay mực UV Curable có tính chất Thixotropic rõ rệt. Khi chịu lực cắt mạnh từ dao gạt hoặc cốc mực kín Ceramic 92 HRA, độ nhớt giảm tạm thời từ 25.000 mPa·s xuống mức 12.000 mPa·s để dễ dàng điền đầy vào rãnh Cliché hoặc vòi phun Piezo, sau đó nhanh chóng hồi phục cấu trúc gel khi tiếp xúc phôi để chống nhòe biên dạng nét in. Quý khách có thể tham khảo thêm [dòng máy in pad printing nhỏ gọn tiết kiệm mực](https://vnpis.com/blog/top-5-may-in-tampon-coc-muc-kin) để tối ưu hóa hiệu quả vận hành.
-- **Độ chính xác định vị cơ khí vi mô (Micro-Positioning Repeatability):** Sai số dịch chuyển của các trục X-Y-Z và mâm xoay Indexer phải được duy trì dưới mức **±0.015 mm** nhằm triệt tiêu hoàn toàn hiện tượng lệch chồng màu hoặc sai vị trí logo trên các linh kiện điện tử tinh vi.
-
-## 3. Bảng Dữ Liệu Thông Số Kỹ Thuật Đo Kiểm Thực Tế
-
-Dưới đây là bảng thông số kỹ thuật tiêu chuẩn được kiểm định độc lập tại Phòng Lab VNPIS trên các thiết bị đo kiểm chuyên dụng (Kính hiển vi quang học 500x, Máy đo độ nhớt Brookfield, Đồng hồ đo lực căng Newton):
-
-### 📊 Thông Số Kỹ Thuật Đo Kiểm: bảng báo giá gia công in ấn b2b số lượng lớn
-
-| Thông Số Kỹ Thuật / Hạng Mục | Tiêu Chuẩn / Giá Trị Đo Kiểm |
-| :--- | :--- |
-| **Vật Liệu Nền In Phù Hợp** | Untreated/Treated Polypropylene (PP), PE (surface > 42 dyne) |
-| **Hệ Gốc Mực & Tỷ Lệ Đóng Rắn** | 1 or 2-component / High elasticity |
-| **Độ Bám Dính Băng Keo ASTM D3359** | Cross-hatch test 100% (5B / GT0) after 24h |
-
-> **Ghi chú từ Kỹ Sư Trưởng:** Tất cả các chỉ số trên được đo đạc trong điều kiện phòng sạch tiêu chuẩn ISO Class 7 tại xưởng VNPIS (Nhiệt độ 24°C ± 1.5°C, Độ ẩm tương đối RH 55% ± 5%). Sự thay đổi nhiệt độ môi trường vượt quá ±5°C sẽ làm biến thiên độ nhớt của mực từ 8% đến 12%, đòi hỏi kỹ thuật viên phải điều chỉnh tỷ lệ dung môi chậm khô Retarder tương ứng.
-
-## 4. Mô Hình Toán Học & Công Thức Tính Toán Kỹ Thuật Thực Nghiệm
-
-Trong thiết kế dây chuyền sản xuất công nghiệp và lập dự toán chi phí B2B, việc tính toán chính xác định mức và năng suất là yêu cầu bắt buộc:
-
-### 📐 Tiêu Chuẩn Kiểm Định Độ Bám Dính ASTM D3359 Cross-Hatch
-
-| Cấp Độ Đánh Giá | Tỷ Lệ Bong Tróc & Tiêu Chuẩn Thẩm Định |
-| :--- | :--- |
-| **Cấp 5B** | 0% tróc (mép cắt phẳng hoàn toàn, chất lượng hoàn hảo) |
-| **Cấp 4B** | < 5% tróc tại giao điểm đường cắt |
-| **Cấp 3B** | 5% - 15% tróc dọc mép cắt |
-| **Cấp 2B** | 15% - 35% tróc theo mảng |
-| **Cấp 1B** | 35% - 65% tróc diện rộng (không đạt) |
-| **Cấp 0B** | > 65% bong tróc toàn bộ (hỏng màng sơn/mực) |
-
-Tại xưởng gia công VNPIS, 100% lô hàng xuất xưởng đều phải vượt qua bài kiểm tra độ bám dính băng keo 3M 600 theo thang đo ASTM D3359 đạt cấp **5B (0% bong tróc)** sau 24 giờ ổn định màng mực.
-
-## 5. Quy Trình Thao Tác Tiêu Chuẩn (SOP 5 Bước Chuẩn VNPIS)
-
-Nhằm loại bỏ triệt để các sai sót do yếu tố con người, VNPIS áp dụng nghiêm ngặt quy trình chuẩn hóa 5 bước sau đây trong toàn bộ hệ thống xưởng và phòng Lab:
-
-### 🛠️ Quy Trình Chuẩn 5 Bước Kiểm Soát & Vận Hành bảng báo giá gia công in ấn b2b số lượng lớn
-
-- [x] **Bước 1:** Kiểm tra độ sâu khắc bản thép Cliché SKD11 đạt chuẩn 20 - 25 µm bằng thiết bị đo độ nhám bề mặt; độ phẳng mài bóng gương Ra < 0.05 µm.
-- [x] **Bước 2:** Lựa chọn đầu in Tampon Silicon có hình dáng nón thoát khí, độ cứng Shore 38A - 45A phù hợp với biên dạng cong của linh kiện cần in. Quý khách có thể tham khảo thêm [giải pháp tự động hóa in ấn tampon nâng cao sản lượng](https://vnpis.com/blog/day-chuyen-in-tampon-tu-dong-mam-xoay) để tối ưu hóa hiệu quả vận hành.
-- [x] **Bước 3:** Pha trộn mực in Henkey với chất đóng rắn Hardener theo tỷ lệ chính xác 10:1 (sai số cân điện tử < 0.1g), bổ sung dung môi chậm khô Retarder 10-15% duy trì độ nhớt 18.000 mPa·s.
-- [x] **Bước 4:** Cân chỉnh lực ép cốc mực kín với vòng gốm Ceramic Ring 92 HRA sát khít bề mặt bản in, triệt tiêu hoàn toàn hiện tượng kéo vệt mực mờ (ghosting).
-- [x] **Bước 5:** Kích hoạt xử lý bề mặt phôi bằng đầu khò lửa Corona hoặc Plasma lạnh đạt năng lượng bề mặt > 42 dynes/cm trước khi dập in để đảm bảo mực bám dính vĩnh viễn.
-
-Kỹ thuật viên thực hiện bắt buộc phải ghi chép nhật ký đo kiểm (Checksheet) và lưu trữ mã số lô sản xuất để phục vụ công tác truy xuất nguồn gốc chất lượng khi có yêu cầu từ đối tác B2B.
-
-## 6. Đánh Giá Trải Nghiệm Thực Tế & Nghiên Cứu Điển Hình (Case Study Tại VNPIS)
-
-Vào tháng 06/2026, xưởng sản xuất linh kiện điện tử phụ trợ cho tập đoàn SamSung tại KCN VSIP Bắc Ninh gặp sự cố nghiêm trọng liên quan đến **bảng báo giá gia công in ấn b2b số lượng lớn**. Tỷ lệ bong tróc logo trên vỏ nhựa ABS mạ crom lên đến 14.5%, khiến toàn bộ lô hàng 50.000 linh kiện đối mặt với nguy cơ bị từ chối xuất xưởng và phạt tiến độ hợp đồng.
-Đội ngũ ứng cứu kỹ thuật VNPIS do Kỹ Sư Trưởng Lưu Trọng Tâm trực tiếp chỉ đạo đã có mặt tại hiện trường trong vòng 6 giờ. Qua đo kiểm chuyên sâu bằng kính hiển vi và bút đo Dyne, chúng tôi phát hiện 2 nguyên nhân cốt lõi:
-1. Năng lượng bề mặt của lớp mạ crom chỉ đạt 34 dynes/cm (dưới ngưỡng tối thiểu 42 dynes/cm) do dư lượng dầu bôi trơn khuôn ép.
-2. Sử dụng đầu in silicon thông thường có độ cứng Shore 60A quá cao làm kẹt bóng khí tại góc bo R = 1.2 mm.
-**Giải pháp khắc phục của VNPIS:** Tích hợp đầu khò Plasma lạnh xử lý online đạt 46 dynes/cm, chuyển sang sử dụng Silicon Pad hình nón Shore 40A và mực chuyên dụng Henkey PET8000 pha Hardener 8000B tỷ lệ 10:1. Kết quả sau 4 giờ tinh chỉnh: Tỷ lệ lỗi giảm xuống **0.02%**, độ bám dính đạt chuẩn ASTM D3359 5B sau khi test cồn 90 độ 200 lần, giúp nhà máy kịp tiến độ giao hàng xuất khẩu.
-![Đo kiểm thực tế tại xưởng VNPIS](/images/services/industrial-contract-printing-workshop-vnpis.jpg)
-*Quy trình kiểm tra độ bám dính và sắc nét quang học tại Xưởng Kỹ Thuật VNPIS Bình Chánh.*
-
-> 📸 **Kho Tư Liệu Thực Tế Xưởng & Phòng Lab VNPIS:** Quý khách có thể xem thêm hình ảnh đo kiểm, thiết bị Cosota và video vận hành thực tế tại [Album Google Photos Kỹ Thuật VNPIS](https://photos.app.goo.gl/kPD1SGCep48iNQFj9).
-
-## 7. Giải Đáp Các Câu Hỏi Thường Gặp Của Chuyên Gia & Khách Hàng B2B (FAQ)
-
-### ❓ Câu hỏi 1: Xưởng in VNPIS có nhận gia công in mẫu thử nghiệm (Sample Test) trước khi ký hợp đồng không?
-
-**Trả lời từ Kỹ Sư Trưởng VNPIS:** Có. VNPIS hỗ trợ in test mẫu miễn phí trên phôi thực tế của khách hàng (lên màu chuẩn Pantone, thử nghiệm độ bám dính băng keo ASTM D3359 và test cồn) trong vòng 24 giờ làm việc trước khi tiến hành sản xuất hàng loạt.
-
-### ❓ Câu hỏi 2: Năng lực gia công in tampon và in lụa của VNPIS tại xưởng Bình Chánh đạt bao nhiêu sản phẩm/ngày?
-
-**Trả lời từ Kỹ Sư Trưởng VNPIS:** Với hệ thống 12 máy in tampon 1-4 màu bán tự động, 3 dây chuyền in mâm xoay tự động và 6 máy in lụa trụ tròn/phẳng, xưởng VNPIS đạt công suất 80.000 - 120.000 sản phẩm/ngày, đáp ứng tiến độ cho các tập đoàn điện tử và OEM xuất khẩu.
-
-### ❓ Câu hỏi 3: VNPIS xử lý các bề mặt nhựa khó bám như PP, PE, POM và Silicone bằng kỹ thuật nào?
-
-**Trả lời từ Kỹ Sư Trưởng VNPIS:** Chúng tôi áp dụng hệ thống xử lý hoạt hóa bề mặt bằng tia lửa Corona cao tần và Plasma lạnh để nâng năng lượng bề mặt từ 30 dyne lên > 44 dynes/cm, kết hợp mực in 2 thành phần Henkey chuyên dụng kèm phụ gia tăng bám Silane, đảm bảo độ bám tuyệt đối đạt chuẩn ASTM D3359 5B.
-
-### ❓ Câu hỏi 4: Quy trình kiểm soát chất lượng QA/QC tại xưởng in VNPIS diễn ra như thế nào?
-
-**Trả lời từ Kỹ Sư Trưởng VNPIS:** 100% lô hàng gia công tại VNPIS đều trải qua kiểm tra ngẫu nhiên theo tiêu chuẩn AQL Level II: kiểm tra độ sắc nét chi tiết 0.1mm, sai lệch màu delta E < 1.5, kiểm tra độ bền chà xát cồn 90 độ (200 lần) và test độ bám dính băng dính 3M 600.
-
+> **Lưu ý từ Kỹ Sư Lưu Trọng Tâm:** Toàn bộ thông số kỹ thuật trên được kiểm soát trong môi trường xưởng tiêu chuẩn (Nhiệt độ 24°C ± 2°C, Độ ẩm tương đối RH 55% ± 5%). Mọi lô hàng trước khi sản xuất đại trà đều được lưu mẫu chuẩn (Golden Sample) và kiểm định bằng băng keo 3M 600 theo tiêu chuẩn quốc tế **ASTM D3359 đạt cấp 5B (0% bong tróc)**.
 
 ---
-## 💼 LIÊN HỆ ĐỘI NGŨ KỸ SƯ VNPIS - TƯ VẤN B2B & CSKH 24/7
 
-> 📞 **TƯ VẤN KỸ THUẬT & ỨNG CỨU SỰ CỐ 24/7**
-> Hotline / Zalo: Mr. Giang (In Lụa): **[0901 826 344](tel:0901826344)** | Mr. Tâm (In Pad & In KTS): **[0901 836 344](tel:0901836344)**
-> *Xưởng & Phòng Lab VNPIS: 18 Đường số 4, KDC Đại Phúc Green Villas, Bình Hưng, Bình Chánh, TP.HCM.*
+## 3. Phân Tích Chuyên Sâu Các Trụ Cột Quyết Định Chất Lượng Gia Công
 
-[👉 **CHAT ZALO VỚI KỸ SƯ TRƯỞNG (Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344)**](https://zalo.me/Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344)
+Để đạt tỷ lệ hàng đạt chuẩn ngay từ lần đầu (**First Pass Yield ≥ 99,8%**) cho các đơn hàng B2B số lượng lớn, đội ngũ kỹ thuật VNPIS kiểm soát chặt chẽ 4 yếu tố cốt lõi:
 
-### 📝 NHẬN BÁO GIÁ GIA CÔNG IN ẤN B2B & IN MẪU TEST MIỄN PHÍ TRONG 24H
+1. **Năng lượng bề mặt vật liệu (Surface Energy & Wetting Tension):** Các loại nhựa kỹ thuật như ABS, PC, PS có năng lượng bề mặt tự nhiên từ 38–42 dynes/cm, trong khi nhựa Polyolefin (PP, PE, HDPE) chỉ đạt 29–31 dynes/cm và thủy tinh/kim loại thường có lớp màng ẩm hoặc dầu tách khuôn. Tại VNPIS, phôi in được đo kiểm bằng bút thử Dyne và xử lý hoạt hóa bằng tia lửa Corona, Plasma lạnh, khò lửa Silane (Pyrosil) hoặc phủ Primer chuyên dụng để nâng sức căng bề mặt lên **≥ 44 dynes/cm** trước khi truyền mực.
+2. **Hệ mực công nghiệp đạt chứng chỉ xuất khẩu (RoHS, REACH, EN71-3, ZDHC):** Tùy theo mục đích sử dụng của sản phẩm cuối, chúng tôi lựa chọn chính xác dòng mực từ các thương hiệu hàng đầu thế giới như **Dubuit (Pháp), RUCO (Đức), Marabu (Đức), Afford KT1 (Tây Ban Nha), Henkey** — kết hợp chất đóng rắn 2 thành phần (Hardener/Catalyst) giúp tạo liên kết ngang bền vững, kháng cồn IPA 99%, kháng mồ hôi, tinh dầu và hóa chất tẩy rửa.
+3. **Độ chính xác cơ khí & tự động hóa dây chuyền:** Hệ thống máy in tampon cốc mực kín Ceramic 92 HRA, máy in lụa tròn CNC định vị cảm biến quang học (Optical Registration Sensor) và dây chuyền [in kỹ thuật số UV Single Pass](/in-ky-thuat-so) tích hợp Camera Vision giúp duy trì sai số vị trí in dưới **±0.02 mm** ở tốc độ cao.
+4. **Truy xuất nguồn gốc & dữ liệu biến đổi thông minh:** Đối với các đơn hàng bao bì dược phẩm, mỹ phẩm, thực phẩm chức năng và linh kiện điện tử cần **in mã vạch biến đổi**, **in mã QR biến đổi** hoặc **in số nhảy** Serial, hệ thống RIP VDP kết nối Camera Cognex kiểm tra 100% mã đọc chuẩn ISO/IEC 15415 Grade A ngay trên băng tải.
 
-Quý khách hàng, xưởng in và đối tác OEM vui lòng để lại thông tin để Kỹ Sư Trưởng Lưu Trọng Tâm liên hệ tư vấn chuyên sâu trong vòng **5 phút**:
+---
 
-<div class="vnpis-lead-form-widget" style="border: 2px solid #0056b3; padding: 20px; border-radius: 8px; background-color: #f8f9fa; margin: 20px 0;">
-  <h4 style="color: #0056b3; margin-top: 0;">Đăng Ký Khảo Sát Kỹ Thuật & Nhận Báo Giá Ưu Đãi B2B</h4>
-  <form action="/api/leads/webhook" method="POST">
-    <input type="hidden" name="source_domain" value="inanvnpis.com" />
-    <input type="hidden" name="article_title" value="Bảng Báo Giá Gia Công In Ấn B2B Theo Số Lượng 1.000 Đến 1.000.000 Sản Phẩm" />
-    <input type="hidden" name="canonical_url" value="https://inanvnpis.com/blog/bang-bao-gia-gia-cong-in-an-b2b-so-luong-lon" />
-    <div style="margin-bottom: 12px;">
-      <label><strong>Họ và tên / Đại diện doanh nghiệp (*):</strong></label><br/>
-      <input type="text" name="full_name" required placeholder="Nguyễn Văn A" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
-    </div>
-    <div style="margin-bottom: 12px;">
-      <label><strong>Số điện thoại / Zalo (*):</strong></label><br/>
-      <input type="tel" name="phone_zalo" required placeholder="0987 xxx xxx" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
-    </div>
-    <div style="margin-bottom: 12px;">
-      <label><strong>Tên xưởng in / Công ty:</strong></label><br/>
-      <input type="text" name="company_name" placeholder="Công ty TNHH Bao Bì & In Ấn..." style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
-    </div>
-    <div style="margin-bottom: 12px;">
-      <label><strong>Nhu cầu hỗ trợ chính:</strong></label><br/>
-      <select name="service_interest" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
-        <option value="Cứu hộ / Súc rửa đầu in (Ricoh, Kyocera, Epson, Konica)">Cứu hộ / Súc rửa đầu in (Ricoh, Kyocera, Epson, Konica)</option>
-        <option value="Báo giá máy in Tampon / Dây chuyền tự động">Báo giá máy in Tampon / Dây chuyền tự động</option>
-        <option value="Báo giá máy in Lụa / UV Single Pass">Báo giá máy in Lụa / UV Single Pass</option>
-        <option value="Gia công in OEM linh kiện / bao bì / chai lọ" selected>Gia công in OEM linh kiện / bao bì / chai lọ</option>
-        <option value="Mua mực in Henkey / TIJ HP45 / Vật tư tiêu hao">Mua mực in Henkey / TIJ HP45 / Vật tư tiêu hao</option>
-      </select>
-    </div>
-    <div style="margin-bottom: 12px;">
-      <label><strong>Model máy in / Mã đầu in / Vật liệu cần in:</strong></label><br/>
-      <input type="text" name="equipment_model" placeholder="Ví dụ: Ricoh Gen5, Máy in tampon 2 màu, Nhựa PP..." style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;" />
-    </div>
-    <div style="margin-bottom: 15px;">
-      <label><strong>Ghi chú chi tiết yêu cầu kỹ thuật:</strong></label><br/>
-      <textarea name="project_notes" rows="3" placeholder="Mô tả sự cố nghẹt tia / kích thước in / số lượng đơn hàng..." style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
-    </div>
-    <button type="submit" style="background-color: #d9534f; color: white; border: none; padding: 12px 24px; font-size: 16px; font-weight: bold; border-radius: 4px; cursor: pointer; width: 100%;">🚀 GỬI YÊU CẦU CHO KỸ SƯ TRƯỞNG (PHẢN HỒI TRONG 5 PHÚT)</button>
-  </form>
-</div>
+## 4. Quy Trình Thao Tác Tiêu Chuẩn (SOP 5 Bước Chuẩn Hóa Tại VNPIS)
 
-> 📍 **TRỤ SỞ & PHÒNG LAB KỸ THUẬT VNPIS:**  
-> - **Địa chỉ:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh.  
-> - **Mã số thuế:** `0318266611` | Hotline / Zalo: Mr. Giang (In Lụa): **[0901 826 344](tel:0901826344)** | Mr. Tâm (In Pad & In KTS): **[0901 836 344](tel:0901836344)**  
-> - **Thời gian phục vụ:** 24/7 Tất cả các ngày trong tuần (Kể cả Lễ & Chủ Nhật).
+- **Bước 1 – Tiếp nhận bản vẽ Vector & phân tích phôi in:** Kỹ sư dự toán tiếp nhận file thiết kế (`.ai`, `.pdf`, `.cdr`) và phôi mẫu thực tế, đo năng lượng bề mặt bằng bút thử Dyne (30–46 dynes/cm) để xác định hệ mực và công đoạn tiền xử lý.
+- **Bước 2 – Bóc tách định mức vật tư & tính toán Takt Time:** Tính toán chu kỳ gá đặt phôi, số màu in, diện tích phủ mực và lựa chọn dây chuyền (máy in tampon mâm xoay tự động, máy in lụa CNC hoặc hệ thống UV Single Pass) để tối ưu đơn giá trên từng bậc sản lượng.
+- **Bước 3 – Làm khuôn bản, pha màu Pantone & in mẫu Golden Sample 24h:** Tiến hành khắc laser bản thép Cliché hoặc chụp bản khung lụa, pha mực chuẩn hệ màu Pantone Solid Coated (ΔE < 1.5) và gửi 05–10 mẫu thực tế kèm biên bản test băng keo 3M ASTM D3359 5B.
+- **Bước 4 – Ký kết hợp đồng nguyên tắc B2B & cam kết SLA/NDA:** Chốt bảng giá cố định theo quý/năm, ký cam kết bảo mật mẫu mã OEM (NDA), tiến độ giao hàng cuốn chiếu (JIT) và chính sách công nợ 15–30 ngày cho nhà máy.
+- **Bước 5 – Sản xuất hàng loạt, kiểm soát AQL Level II & bàn giao:** Vận hành chuyền in công suất 80.000–120.000 sp/ngày, kiểm tra xác suất AQL 0.65 và đóng gói màng chống trầy bàn giao tận kho khách hàng.
 
-<!-- Schema.org JSON-LD: TechnicalArticle -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechnicalArticle",
-  "headline": "Bảng Báo Giá Gia Công In Ấn B2B Theo Số Lượng 1.000 Đến 1.000.000 Sản Phẩm",
-  "description": "Phân tích chuyên sâu về bảng báo giá gia công in ấn b2b số lượng lớn bởi Kỹ Sư Trưởng VNPIS.",
-  "image": [
-    "https://inanvnpis.com/images/services/industrial-contract-printing-workshop-vnpis.jpg"
-  ],
-  "datePublished": "2026-08-23T05:46:30.933Z",
-  "dateModified": "2026-08-23T05:46:30.933Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://inanvnpis.com/blog/bang-bao-gia-gia-cong-in-an-b2b-so-luong-lon"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Lưu Trọng Tâm",
-    "jobTitle": "Kỹ Sư Trưởng VNPIS",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "CÔNG TY TNHH VNPIS",
-      "taxID": "0318266611"
-    }
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CÔNG TY TNHH VNPIS",
-    "legalName": "CÔNG TY TNHH VNPIS - GIẢI PHÁP & THIẾT BỊ IN ẤN CÔNG NGHIỆP",
-    "taxID": "0318266611",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://inanvnpis.com/images/logo-vnpis.png"
-    }
-  },
-  "keywords": "bảng báo giá gia công in ấn b2b số lượng lớn"
-}
-</script>
+---
 
-<!-- Schema.org JSON-LD: FAQPage -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Xưởng in VNPIS có nhận gia công in mẫu thử nghiệm (Sample Test) trước khi ký hợp đồng không?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Có. VNPIS hỗ trợ in test mẫu miễn phí trên phôi thực tế của khách hàng (lên màu chuẩn Pantone, thử nghiệm độ bám dính băng keo ASTM D3359 và test cồn) trong vòng 24 giờ làm việc trước khi tiến hành sản xuất hàng loạt."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Năng lực gia công in tampon và in lụa của VNPIS tại xưởng Bình Chánh đạt bao nhiêu sản phẩm/ngày?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Với hệ thống 12 máy in tampon 1-4 màu bán tự động, 3 dây chuyền in mâm xoay tự động và 6 máy in lụa trụ tròn/phẳng, xưởng VNPIS đạt công suất 80.000 - 120.000 sản phẩm/ngày, đáp ứng tiến độ cho các tập đoàn điện tử và OEM xuất khẩu."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "VNPIS xử lý các bề mặt nhựa khó bám như PP, PE, POM và Silicone bằng kỹ thuật nào?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chúng tôi áp dụng hệ thống xử lý hoạt hóa bề mặt bằng tia lửa Corona cao tần và Plasma lạnh để nâng năng lượng bề mặt từ 30 dyne lên > 44 dynes/cm, kết hợp mực in 2 thành phần Henkey chuyên dụng kèm phụ gia tăng bám Silane, đảm bảo độ bám tuyệt đối đạt chuẩn ASTM D3359 5B."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quy trình kiểm soát chất lượng QA/QC tại xưởng in VNPIS diễn ra như thế nào?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "100% lô hàng gia công tại VNPIS đều trải qua kiểm tra ngẫu nhiên theo tiêu chuẩn AQL Level II: kiểm tra độ sắc nét chi tiết 0.1mm, sai lệch màu delta E < 1.5, kiểm tra độ bền chà xát cồn 90 độ (200 lần) và test độ bám dính băng dính 3M 600."
-      }
-    }
-  ]
-}
-</script>
+## 5. Nghiên Cứu Điển Hình Thực Tế (Case Study B2B Tại Xưởng VNPIS)
 
-<!-- Schema.org JSON-LD: Organization -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "CÔNG TY TNHH VNPIS",
-  "legalName": "CÔNG TY TNHH VNPIS - GIẢI PHÁP & THIẾT BỊ IN ẤN CÔNG NGHIỆP",
-  "vatID": "0318266611",
-  "taxID": "0318266611",
-  "url": "https://inanvnpis.com",
-  "logo": "https://inanvnpis.com/images/logo-vnpis.png",
-  "telephone": "Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344",
-  "email": "info@inanvnpis.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "18 Đường số 4, KDC Đại Phúc Green Villas",
-    "addressLocality": "Xã Bình Hưng, Huyện Bình Chánh",
-    "addressRegion": "TP. Hồ Chí Minh",
-    "addressCountry": "VN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 10.7167,
-    "longitude": 106.6667
-  },
-  "openingHours": "Mo-Su 00:00-24:00 (Hỗ trợ CSKH & Sự cố 24/7)",
-  "sameAs": [
-    "https://zalo.me/Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344",
-    "https://www.facebook.com/vnpis.official",
-    "https://www.youtube.com/@vnpis_printing"
-  ]
-}
-</script>
+Vào quý II/2026, một doanh nghiệp sản xuất bao bì nhựa và gia dụng xuất khẩu tại KCN Tân Bình (TP.HCM) cần tìm đối tác thực hiện hợp đồng khung **1.200.000 sản phẩm/năm** (gồm 800.000 nắp hộp nhựa PP in tampon 2 màu và 400.000 chai nhựa HDPE in lụa tròn 360 độ). Trước đó, doanh nghiệp này thuê 3 cơ sở nhỏ lẻ khiến đơn giá trung bình cao (520đ/sp in tampon và 1.150đ/sp in lụa), màu sắc lệch giữa các lô hàng và tỷ lệ hao hụt phôi lên tới 4,2%.
 
-<!-- Schema.org JSON-LD: Service -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Dịch Vụ Gia Công In Tampon & In Lụa B2B OEM VNPIS",
-  "serviceType": "Gia công in ấn trên mọi chất liệu nhựa, kim loại, thủy tinh, da, bao bì",
-  "provider": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "CÔNG TY TNHH VNPIS",
-    "legalName": "CÔNG TY TNHH VNPIS - GIẢI PHÁP & THIẾT BỊ IN ẤN CÔNG NGHIỆP",
-    "vatID": "0318266611",
-    "taxID": "0318266611",
-    "url": "https://inanvnpis.com",
-    "logo": "https://inanvnpis.com/images/logo-vnpis.png",
-    "telephone": "Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344",
-    "email": "info@inanvnpis.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "18 Đường số 4, KDC Đại Phúc Green Villas",
-      "addressLocality": "Xã Bình Hưng, Huyện Bình Chánh",
-      "addressRegion": "TP. Hồ Chí Minh",
-      "addressCountry": "VN"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 10.7167,
-      "longitude": 106.6667
-    },
-    "openingHours": "Mo-Su 00:00-24:00 (Hỗ trợ CSKH & Sự cố 24/7)",
-    "sameAs": [
-      "https://zalo.me/Mr. Giang (Tư vấn In Lụa): 0901 826 344 | Mr. Tâm (Tư vấn In Pad & In KTS): 0901 836 344",
-      "https://www.facebook.com/vnpis.official",
-      "https://www.youtube.com/@vnpis_printing"
-    ]
-  },
-  "areaServed": "Toàn Quốc & Xuất Khẩu OEM"
-}
-</script>
+Đội ngũ kỹ sư **Xưởng In Ấn Gia Công VNPIS** đã thiết kế gói giải pháp tổng thể: đầu tư 2 bộ mâm xoay cấp phôi tự động 8 trạm riêng cho mã hàng của khách, áp dụng xử lý bề mặt Flame/Corona inline và ký hợp đồng khung 12 tháng.
+- **Kết quả đạt được:** Đơn giá gia công giảm trực tiếp **31%** (xuống còn 195đ/sp cho in tampon 2 màu và 540đ/sp cho in lụa tròn), tỷ lệ hao hụt phôi giảm xuống dưới **0,15%**, giúp khách hàng tiết kiệm hơn **380 triệu đồng/năm** và đảm bảo 100% tiến độ đóng cont xuất khẩu sang thị trường Nhật Bản và Campuchia.
+
+---
+
+## 6. Hệ Sinh Thái Dịch Vụ & Vật Tư Liên Quan Tại VNPIS
+
+Nhằm hỗ trợ khách hàng doanh nghiệp tối ưu hóa toàn diện chuỗi cung ứng in ấn, **Công ty TNHH VNPIS** cung cấp đồng bộ cả dịch vụ gia công lẫn thiết bị – vật tư chính hãng:
+- **Dịch vụ gia công in ấn B2B:** Tham khảo chi tiết [dịch vụ in tampon gia công](/in-tampon), [dịch vụ in lụa gia công](/in-lua), [dịch vụ in kỹ thuật số & QR biến đổi VDP](/in-ky-thuat-so) và [tổng quan dịch vụ in ấn gia công trọn gói](/dich-vu-in-gia-cong).
+- **Cung ứng vật tư & thiết bị in công nghiệp:** Cung cấp trọn bộ bản thép Cliché khắc laser, đầu in silicone tampon, khung lưới lụa, dao gạt PU, mực in công nghiệp và dung môi tại chuyên mục [vật tư tiêu hao ngành in](/products/consumables).
+- **Tư vấn kỹ thuật & đặt lịch test mẫu:** Liên hệ trực tiếp qua trang [liên hệ báo giá B2B](/contact) để được kỹ sư phản hồi trong 15 phút.
+
+---
+
+## 7. Câu Hỏi Thường Gặp (FAQ)
+
+### Câu hỏi 1: Xưởng in VNPIS tính phí khuôn bản thép Cliché, khung lụa và đồ gá Jig như thế nào?
+Trả lời: Đối với các đơn hàng nhỏ lẻ dưới 5.000 sản phẩm, phí làm khuôn bản và đồ gá Jig chỉ thu một lần theo chi phí gốc (từ 250.000đ – 600.000đ/bộ) và được bảo quản miễn phí cho các lần đặt hàng tiếp theo. Với đơn hàng từ 20.000 sản phẩm trở lên hoặc hợp đồng gia công định kỳ hàng tháng, VNPIS miễn phí 100% chi phí khuôn bản và đồ gá.
+
+### Câu hỏi 2: Đặt gia công số lượng lớn có được giao hàng cuốn chiếu (chia nhiều đợt) và công nợ B2B không?
+Trả lời: Hoàn toàn được. Xưởng VNPIS hỗ trợ lịch giao hàng cuốn chiếu theo ngày/tuần (Just-In-Time) khớp với tiến độ lắp ráp của nhà máy tại TP.HCM, Bình Dương, Đồng Nai, Long An. Chúng tôi xuất hóa đơn GTGT (VAT) đầy đủ và hỗ trợ hạn mức công nợ 15 – 30 ngày cho đối tác ký hợp đồng nguyên tắc.
+
+### Câu hỏi 3: Đơn giá gia công đã bao gồm chi phí xử lý bề mặt nhựa khó bám (PP, PE, HDPE, Silicone) chưa?
+Trả lời: Trong bảng báo giá chính thức gửi sau khi khảo sát phôi mẫu, VNPIS luôn tách bạch và trọn gói hóa công đoạn xử lý Corona, Plasma lạnh hoặc phủ Primer chuyên dụng. Nhờ tích hợp đầu xử lý trực tiếp trên băng tải tự động, chi phí cộng thêm chỉ từ 30đ – 60đ/sản phẩm nhưng đảm bảo độ bám dính đạt chuẩn ASTM D3359 cấp 5B.
+
+### Câu hỏi 4: Làm thế nào để nhận báo giá chính xác nhất và mẫu in test trong 24 giờ?
+Trả lời: Quý doanh nghiệp chỉ cần gửi hình ảnh phôi sản phẩm, kích thước vị trí in, file thiết kế logo (AI/PDF/Corel) và sản lượng dự kiến qua Zalo 0901 836 344 (Mr. Tâm) hoặc 0901 826 344 (Mr. Giang). Kỹ sư VNPIS sẽ gửi bảng báo giá chi tiết trong 15 phút và nhận phôi in mẫu thử miễn phí trong 24 giờ.
+
+---
+
+## Thông Tin Liên Hệ Xưởng In Ấn Gia Công & Kỹ Thuật VNPIS
+
+- **Đơn vị vận hành:** CÔNG TY TNHH VNPIS (Mã số thuế: `0318266611`)
+- **Xưởng gia công & Phòng Lab kỹ thuật:** 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, Huyện Bình Chánh, TP. Hồ Chí Minh
+- **Văn phòng giao dịch:** Tầng 1, 202 Lê Lai, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh
+- **Hotline / Zalo Tư vấn In Tampon, In KTS & Báo Giá B2B:** **0901 836 344** – Kỹ Sư Lưu Trọng Tâm ([Chat Zalo Mr. Tâm](https://zalo.me/0901836344))
+- **Hotline / Zalo Tư vấn In Lụa & Gia Công Sau In:** **0901 826 344** – Chuyên Gia Kỹ Thuật Mr. Giang ([Chat Zalo Mr. Giang](https://zalo.me/0901826344))
+- **Email tiếp nhận bản vẽ & yêu cầu báo giá:** [info@inanvnpis.com](mailto:info@inanvnpis.com) | Website: [https://www.inanvnpis.com](https://www.inanvnpis.com)

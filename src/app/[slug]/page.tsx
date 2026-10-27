@@ -21,12 +21,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!meta) return { title: 'Not Found' };
   
   const isDraft = meta.draft === true || meta.status === 'draft';
-  const canonicalUrl = meta.canonical || `https://www.inanvnpis.com/${resolvedParams.slug}`;
+  const canonicalUrl = `https://www.inanvnpis.com/${resolvedParams.slug}`;
   const ogImage = meta.image || '/images/pad-printing-cups.jpg';
+  const keywords = Array.isArray(meta.keywords)
+    ? meta.keywords
+    : typeof meta.keywords === 'string'
+    ? meta.keywords.split(',').map((k: string) => k.trim()).filter(Boolean)
+    : undefined;
   
   return {
     title: meta.title,
     description: meta.description,
+    ...(keywords ? { keywords } : {}),
     alternates: {
       canonical: canonicalUrl,
     },
@@ -35,6 +41,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: meta.description,
       url: canonicalUrl,
       type: 'article',
+      publishedTime: meta.date || '2026-07-08T00:00:00.000Z',
+      modifiedTime: meta.updatedAt || meta.date || '2026-07-08T00:00:00.000Z',
       images: [{ url: ogImage, alt: meta.title }],
     },
     twitter: {

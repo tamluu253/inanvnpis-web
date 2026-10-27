@@ -6,40 +6,38 @@ import {
   ArrowRight,
   CheckCircle,
   ShieldCheck,
-  Zap,
   Phone,
-  Printer,
   Package,
-  Sparkles,
   PlayCircle,
   ChevronDown,
 } from 'lucide-react';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 
 export const metadata: Metadata = {
-  title: 'Gia Công In Lụa Tròn, In Lụa Phẳng, Bao Bì Hộp Giấy & Gia Công Sau In',
+  title: 'Gia Công In Lụa Tròn 360 Độ, In Lụa Phẳng, Bao Bì Hộp Giấy & Sau In TP.HCM',
   description:
-    'Xưởng in ấn gia công VNPIS chuyên gia công in lụa tròn chai lọ mỹ phẩm, in lụa phẳng kim loại/nhựa, in bao bì hộp giấy, in túi giấy, in tem nhãn decal và gia công sau in (ép kim, ép nhũ nóng, phủ UV cục bộ) tại TP.HCM. Hotline: 0901 826 344.',
+    'Xưởng in lụa gia công VNPIS chuyên gia công in lụa TPHCM Bình Dương: in lụa chai lọ mỹ phẩm, in lụa chai thủy tinh, in lụa tròn 360 độ, in lụa trên nhựa kim loại inox, in lụa bao bì hộp giấy túi giấy & ép kim phủ UV. Hotline: 0901 826 344.',
   keywords: [
+    'in lụa gia công',
     'gia công in lụa',
-    'in ấn gia công',
-    'in bao bì hộp giấy',
-    'in túi giấy',
-    'in tem nhãn decal',
-    'gia công sau in',
-    'in lụa tròn chai lọ mỹ phẩm',
-    'in lụa phẳng công nghiệp',
+    'gia công in lụa tphcm bình dương',
+    'in lụa chai lọ mỹ phẩm',
+    'in lụa chai thủy tinh',
+    'in lụa tròn 360 độ',
+    'in lụa trên nhựa kim loại inox',
+    'in lụa bao bì hộp giấy túi giấy',
+    'industrial screen printing Vietnam Cambodia Laos',
     'phủ uv định hình',
     'ép kim ép nhũ nóng',
     'xưởng in ấn gia công VNPIS',
   ],
   alternates: {
-    canonical: '/in-lua',
+    canonical: 'https://www.inanvnpis.com/in-lua',
   },
   openGraph: {
-    title: 'Gia Công In Lụa Tròn, In Lụa Phẳng, Bao Bì Hộp Giấy & Gia Công Sau In | VNPIS',
+    title: 'Gia Công In Lụa Tròn 360 Độ, In Lụa Phẳng, Bao Bì Hộp Giấy & Gia Công Sau In | VNPIS',
     description:
-      'Chuyên nhận gia công in lụa tròn chai lọ, in lụa phẳng, in bao bì hộp giấy, túi giấy, tem nhãn decal và gia công sau in (phủ UV cục bộ, ép kim, ép nhũ nóng) chất lượng cao tại TP.HCM.',
+      'Chuyên nhận in lụa gia công tròn 360 độ chai lọ mỹ phẩm, chai thủy tinh, in lụa trên nhựa kim loại inox, bao bì hộp giấy, túi giấy và gia công sau in (phủ UV cục bộ, ép kim) tại TP.HCM & Bình Dương.',
     url: 'https://www.inanvnpis.com/in-lua',
     siteName: 'Xưởng In Ấn Gia Công VNPIS',
     images: [
@@ -55,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gia Công In Lụa Tròn, In Lụa Phẳng, Bao Bì Hộp Giấy & Gia Công Sau In',
+    title: 'Gia Công In Lụa Tròn 360 Độ, In Lụa Phẳng, Bao Bì Hộp Giấy & Gia Công Sau In',
     description:
-      'Xưởng in ấn gia công VNPIS chuyên gia công in lụa chai lọ, mặt máy CNC, in bao bì hộp giấy, túi giấy, tem nhãn decal và gia công sau in.',
+      'Xưởng in ấn gia công VNPIS chuyên in lụa chai lọ mỹ phẩm, chai thủy tinh, mặt máy CNC, bao bì hộp giấy, túi giấy, tem nhãn decal và gia công sau in.',
     images: ['/images/screen-printing-bags.jpg'],
   },
 };
@@ -66,17 +64,17 @@ const screenPrintFaqs = [
   {
     question: 'Gia công in lụa tại xưởng VNPIS có những ưu điểm gì so với các phương pháp in khác?',
     answer:
-      'Gia công in lụa (Screen Printing) tại xưởng VNPIS tạo ra lớp mực có độ dày vượt trội từ 20 đến 100 micron (gấp 5–10 lần in phun hoặc in offset), mang lại độ che phủ tuyệt đối ngay cả trên nền sản phẩm tối màu (đen, xanh đậm, thủy tinh mờ). Lớp mực dày giúp màu sắc tươi sáng, nổi khối 3D nhẹ khi chạm tay và có khả năng chống mài mòn cơ học, kháng hóa chất, kháng tia UV ngoài trời cực tốt.',
+      'Dịch vụ in lụa gia công (Screen Printing) tại xưởng VNPIS tạo ra lớp mực có độ dày vượt trội từ 20 đến 100 micron (gấp 5–10 lần in phun hoặc in offset), mang lại độ che phủ tuyệt đối ngay cả trên nền sản phẩm tối màu (đen, xanh đậm, thủy tinh mờ) với độ lệch màu ΔE < 1.5. Lớp mực dày giúp màu sắc tươi sáng, nổi khối 3D nhẹ khi chạm tay và chống mài mòn cơ học, kháng hóa chất, kháng tia UV ngoài trời cực tốt.',
   },
   {
-    question: 'Xưởng VNPIS nhận in lụa tròn trên những loại chai lọ và sản phẩm nào?',
+    question: 'Xưởng VNPIS nhận in lụa tròn 360 độ trên những loại chai lọ và sản phẩm nào?',
     answer:
-      'Với hệ thống máy in lụa tròn tự động và bán tự động tích hợp cảm biến quang học định vị điểm G (Registration Sensor), VNPIS nhận gia công in lụa xoay tròn 360 độ từ 1 đến 4 màu trên: chai lọ mỹ phẩm (lọ serum, tuýp kem mềm, hũ kem thủy tinh/acrylic), chai nước hoa, bình giữ nhiệt inox, ly nhựa trà sữa PP/PET, ly thủy tinh, thùng sơn và ống nhựa công nghiệp.',
+      'Với hệ thống máy in lụa tròn tự động và bán tự động tích hợp cảm biến quang học định vị điểm G (Registration Sensor), VNPIS nhận gia công in lụa tròn 360 độ từ 1 đến 4 màu trên: in lụa chai lọ mỹ phẩm (lọ serum, tuýp kem mềm, hũ kem acrylic), in lụa chai thủy tinh (chai nước hoa, lọ tinh dầu), bình giữ nhiệt inox, ly nhựa trà sữa PP/PET, ly thủy tinh, thùng sơn và ống nhựa công nghiệp.',
   },
   {
-    question: 'Dịch vụ in bao bì hộp giấy, in túi giấy và in tem nhãn decal tại VNPIS bao gồm những gì?',
+    question: 'Dịch vụ in lụa trên nhựa kim loại inox và in lụa bao bì hộp giấy túi giấy tại VNPIS bao gồm những gì?',
     answer:
-      'Bên cạnh in trực tiếp lên vật thể, xưởng in ấn gia công VNPIS cung cấp giải pháp trọn gói cho ngành bao bì: in bao bì hộp giấy (hộp mỹ phẩm, hộp thuốc, hộp rượu cao cấp, hộp cứng bồi carton), in túi giấy (túi giấy Kraft, Couche, Ivory cho shop và sự kiện doanh nghiệp), và in tem nhãn decal (tem nhãn decal nhựa PVC, decal trong, decal xi bạc máy móc, decal vỡ bảo hành) với độ sắc nét và đồng đều màu chuẩn Pantone.',
+      'Xưởng in ấn gia công VNPIS chuyên nhận in lụa trên nhựa kim loại inox (mặt máy CNC, vỏ tủ điện sơn tĩnh điện, tấm nhôm anodized, kính cường lực, bảng mica) bằng hệ mực 2 thành phần kháng dung môi; đồng thời cung cấp trọn gói dịch vụ in lụa bao bì hộp giấy túi giấy (hộp mỹ phẩm, hộp rượu cao cấp, giấy mỹ thuật đen, túi giấy Kraft/Couche/Ivory) và in tem nhãn decal cuộn/tờ.',
   },
   {
     question: 'Gia công sau in (Phủ UV cục bộ, Ép kim, Ép nhũ nóng) được thực hiện như thế nào?',
@@ -84,9 +82,9 @@ const screenPrintFaqs = [
       'Gia công sau in (Post-press Finishing) tại VNPIS sử dụng máy kéo lụa UV tự động và máy ép nhũ nhiệt cao tần để tạo hiệu ứng sang trọng cho bao bì hộp giấy, túi giấy, tem nhãn decal và chai lọ: Phủ UV định hình (Spot UV bóng gương, UV cát nhám, UV nổi 3D), ép kim logo (vàng, bạc, đồng, hologram), ép nhũ nóng (Hot Stamping) lên viền nắp mỹ phẩm/hộp rượu, và in nhũ cào bảo mật (Scratch-off) cho thẻ cào/tem chống giả.',
   },
   {
-    question: 'Thời gian làm khuôn lụa, test mẫu và giao hàng đơn gia công in lụa là bao lâu?',
+    question: 'Thời gian làm khuôn lụa, test mẫu và giao hàng tại TPHCM, Bình Dương, Lào & Campuchia là bao lâu?',
     answer:
-      'Xưởng VNPIS trang bị phòng chụp bản lụa натяг căng lưới tiêu chuẩn (từ 120T đến 420T) ngay tại xưởng, giúp hoàn thành khuôn lụa và in mẫu test miễn phí chỉ trong vòng 24h. Thời gian sản xuất hàng loạt từ 2 – 5 ngày làm việc với công suất đạt 30.000 – 50.000 sản phẩm/ngày.',
+      'Xưởng VNPIS trang bị phòng chụp bản lụa căng lưới tiêu chuẩn Thụy Sĩ (từ 120T đến 420T) ngay tại xưởng, giúp hoàn thành khuôn lụa và in mẫu test miễn phí chỉ trong 24h. Thời gian sản xuất hàng loạt từ 2 – 5 ngày làm việc (công suất 30.000 – 50.000 sp/ngày), giao tận nơi tại TP.HCM, Bình Dương, Đồng Nai và hỗ trợ xuất khẩu sang Phnom Penh, Bavet (Campuchia), Vientiane, Savannakhet (Lào).',
   },
 ];
 
@@ -94,10 +92,11 @@ export default function InLuaPage() {
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: 'Dịch Vụ Gia Công In Lụa Tròn, In Lụa Phẳng, In Bao Bì Hộp Giấy & Gia Công Sau In',
-    serviceType: 'Gia Công In Lụa & Gia Công Sau In Bao Bì',
+    name: 'Dịch Vụ Gia Công In Lụa Tròn 360 Độ, In Lụa Phẳng, In Bao Bì Hộp Giấy & Gia Công Sau In',
+    serviceType: 'Gia Công In Lụa & Gia Công Sau In Bao Bì (Industrial Screen Printing)',
     provider: {
       '@type': 'LocalBusiness',
+      '@id': 'https://www.inanvnpis.com/#organization',
       name: 'Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS',
       url: 'https://www.inanvnpis.com',
       telephone: '+84901826344',
@@ -108,12 +107,13 @@ export default function InLuaPage() {
         addressCountry: 'VN',
       },
     },
-    areaServed: {
-      '@type': 'Country',
-      name: 'Việt Nam',
-    },
+    areaServed: [
+      { '@type': 'Country', name: 'Vietnam' },
+      { '@type': 'Country', name: 'Cambodia' },
+      { '@type': 'Country', name: 'Laos' },
+    ],
     description:
-      'Chuyên nhận gia công in lụa tròn chai lọ mỹ phẩm, in lụa phẳng mặt máy CNC, in bao bì hộp giấy, in túi giấy, in tem nhãn decal và gia công sau in (phủ UV định hình, ép kim, ép nhũ nóng) tại TP.HCM.',
+      'Chuyên nhận in lụa gia công TPHCM Bình Dương: in lụa tròn 360 độ chai lọ mỹ phẩm, in lụa chai thủy tinh, in lụa trên nhựa kim loại inox, in lụa bao bì hộp giấy túi giấy và gia công sau in (phủ UV định hình, ép kim, ép nhũ nóng).',
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'VND',
@@ -182,15 +182,15 @@ export default function InLuaPage() {
         </nav>
 
         {/* 1. HEADER / HERO */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-10">
           <span className="inline-block py-2 px-4 rounded-full bg-teal-100/80 text-teal-700 text-xs font-bold uppercase tracking-wider mb-4 border border-teal-200">
-            Xưởng In Ấn Gia Công VNPIS — Công Nghệ Screen Printing &amp; Post-Press
+            Gia Công In Lụa TPHCM &amp; Bình Dương — Industrial Screen Printing Vietnam Cambodia Laos
           </span>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-slate-900 mb-6 leading-tight">
-            Gia Công In Lụa Đa Chất Liệu, Bao Bì Hộp Giấy &amp; Gia Công Sau In
+            Gia Công In Lụa Tròn 360°, In Lụa Phẳng &amp; Bao Bì Sau In
           </h1>
           <p className="text-base sm:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
-            Chuyên nhận <strong>gia công in lụa tròn</strong> (chai lọ mỹ phẩm, bình giữ nhiệt, ly nhựa/thủy tinh), <strong>in lụa phẳng</strong> (mặt máy CNC, tấm nhựa, kim loại), kết hợp sản xuất <strong>in bao bì hộp giấy, in túi giấy, in tem nhãn decal</strong> và <strong>gia công sau in</strong> (phủ UV cục bộ, ép kim, ép nhũ nóng Hot Stamping) sắc nét, bền màu vượt trội tại TP.HCM.
+            Xưởng <strong>in lụa gia công</strong> VNPIS chuyên nhận <strong>in lụa tròn 360 độ</strong> (<strong>in lụa chai lọ mỹ phẩm</strong>, <strong>in lụa chai thủy tinh</strong>, bình giữ nhiệt, ly nhựa), <strong>in lụa trên nhựa kim loại inox</strong> (mặt máy CNC, vỏ thiết bị), kết hợp <strong>in lụa bao bì hộp giấy túi giấy</strong>, tem nhãn decal và <strong>gia công sau in</strong> (phủ UV cục bộ, ép kim, ép nhũ nóng Hot Stamping) tại TP.HCM, Bình Dương và toàn Đông Dương.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -206,6 +206,20 @@ export default function InLuaPage() {
             >
               <Phone className="w-4 h-4 mr-2" /> Mr. Tâm (In Tampon): 0901 836 344
             </a>
+          </div>
+        </div>
+
+        {/* DIRECT ANSWER (TL;DR) CALLOUT BOX FOR AI SEARCH & B2B ENGINEERS */}
+        <div className="bg-teal-50/90 border-2 border-teal-200 rounded-3xl p-6 md:p-8 mb-12 shadow-sm">
+          <div className="flex items-center gap-2 text-teal-900 font-extrabold text-sm uppercase tracking-wider mb-3">
+            <ShieldCheck className="w-5 h-5 text-teal-600 shrink-0" />
+            <span>Tóm Tắt Kỹ Thuật Nhanh (Direct Answer — Gia Công In Lụa VNPIS)</span>
+          </div>
+          <p className="text-slate-700 text-sm sm:text-base leading-relaxed mb-3">
+            <strong>Dịch vụ in lụa gia công (Screen Printing) tại Xưởng VNPIS</strong> vận hành dây chuyền máy in lụa tròn xoay 360° định vị cảm biến quang học và máy in lụa phẳng kết hợp băng tải sấy UV LED, tạo màng mực dày <strong>20 – 100 µm</strong> che phủ 100% nền tối màu với độ chuẩn màu <strong>ΔE &lt; 1.5</strong>. Chuyên nhận: <strong>in lụa chai lọ mỹ phẩm</strong>, <strong>in lụa chai thủy tinh</strong>, <strong>in lụa tròn 360 độ</strong> (Ø10–250mm), <strong>in lụa trên nhựa kim loại inox</strong>, và <strong>in lụa bao bì hộp giấy túi giấy</strong> kèm ép kim, phủ UV định hình. Đơn giá từ <strong>200đ – 800đ/sp</strong>, miễn phí test mẫu 24h.
+          </p>
+          <div className="text-xs font-bold text-slate-500">
+            Tiêu chuẩn kiểm định: Chuyên gia Mr. Giang &amp; Kỹ Sư Lưu Trọng Tâm | ISO 9001 • ASTM D3359 5B • Lưới Thụy Sĩ 120T–420T
           </div>
         </div>
 
@@ -235,10 +249,10 @@ export default function InLuaPage() {
                 01
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">
-                Gia Công In Lụa Tròn (Xoay 360°)
+                In Lụa Tròn 360 Độ (Chai Lọ Mỹ Phẩm &amp; Thủy Tinh)
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed flex-grow">
-                In trực tiếp lên các sản phẩm hình trụ tròn, hình côn (loại nhỏ đến lớn): chai lọ mỹ phẩm, hũ kem thủy tinh, tuýp sữa rửa mặt, chai nước hoa, bình giữ nhiệt inox, ly nhựa PP/PET và xô/thùng sơn công nghiệp. Định vị chồng nhiều màu chính xác bằng cảm biến quang.
+                Chuyên <strong>in lụa tròn 360 độ</strong> trực tiếp lên các sản phẩm hình trụ tròn, hình côn: <strong>in lụa chai lọ mỹ phẩm</strong>, <strong>in lụa chai thủy tinh</strong>, hũ kem, tuýp sữa rửa mặt, chai nước hoa, bình giữ nhiệt inox, ly nhựa PP/PET và thùng sơn công nghiệp. Định vị chồng nhiều màu chính xác bằng cảm biến quang.
               </p>
             </div>
 
@@ -247,10 +261,10 @@ export default function InLuaPage() {
                 02
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">
-                Gia Công In Lụa Phẳng Công Nghiệp
+                In Lụa Trên Nhựa Kim Loại Inox Phẳng
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed flex-grow">
-                In thông số kỹ thuật, sơ đồ mạch, logo thương hiệu lên các bề mặt phẳng độ khó cao: mặt máy CNC kim loại, vỏ tủ điện sơn tĩnh điện, tấm nhựa Acrylic/Mica, kính cường lực mặt bếp từ, phím màng (Membrane Switch), vải không dệt và màng nhựa PE/PP.
+                Nhận <strong>in lụa trên nhựa kim loại inox</strong> với độ bám dính 5B: in thông số kỹ thuật, sơ đồ mạch, logo thương hiệu lên mặt máy CNC kim loại, vỏ tủ điện sơn tĩnh điện, tấm nhựa Acrylic/Mica, kính cường lực mặt bếp từ, phím màng (Membrane Switch), vải không dệt và màng nhựa PE/PP.
               </p>
             </div>
 
@@ -259,10 +273,10 @@ export default function InLuaPage() {
                 03
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">
-                In Bao Bì Hộp Giấy, Túi Giấy, Tem Nhãn &amp; Gia Công Sau In
+                In Lụa Bao Bì Hộp Giấy Túi Giấy &amp; Gia Công Sau In
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed flex-grow">
-                Nhận <strong>in bao bì hộp giấy</strong>, <strong>in túi giấy</strong>, <strong>in tem nhãn decal</strong> và thực hiện các công đoạn <strong>gia công sau in</strong> cao cấp: kéo lụa <strong>phủ UV định hình (Spot UV)</strong>, UV cát, UV nổi, <strong>ép kim</strong>, <strong>ép nhũ nóng (Hot Stamping)</strong> và kéo nhũ cào thẻ cào bảo mật.
+                Nhận <strong>in lụa bao bì hộp giấy túi giấy</strong>, <strong>in tem nhãn decal</strong> và thực hiện các công đoạn <strong>gia công sau in</strong> cao cấp: kéo lụa <strong>phủ UV định hình (Spot UV)</strong>, UV cát, UV nổi, <strong>ép kim</strong>, <strong>ép nhũ nóng (Hot Stamping)</strong> và kéo nhũ cào thẻ cào bảo mật.
               </p>
             </div>
           </div>
@@ -375,7 +389,7 @@ export default function InLuaPage() {
             Thông Số Kỹ Thuật Gia Công In Lụa &amp; Gia Công Sau In Tại VNPIS
           </h2>
           <p className="text-slate-600 text-sm mb-6 leading-relaxed">
-            Bảng tiêu chuẩn kỹ thuật áp dụng tại xưởng in lụa và hoàn thiện sau in của VNPIS:
+            Bảng tiêu chuẩn kỹ thuật áp dụng tại xưởng in lụa TPHCM &amp; Bình Dương của VNPIS:
           </p>
 
           <div className="overflow-x-auto">
@@ -389,14 +403,14 @@ export default function InLuaPage() {
               </thead>
               <tbody className="divide-y divide-slate-200 text-slate-700">
                 <tr className="hover:bg-slate-50">
-                  <td className="p-4 font-bold text-slate-900">Đường kính sản phẩm in lụa tròn</td>
+                  <td className="p-4 font-bold text-slate-900">Đường kính sản phẩm in lụa tròn 360 độ</td>
                   <td className="p-4">Ø10 mm – Ø250 mm (Góc xoay 360°)</td>
-                  <td className="p-4">Ống son, lọ serum, chai mỹ phẩm, bình giữ nhiệt, thùng sơn</td>
+                  <td className="p-4">In lụa chai lọ mỹ phẩm, in lụa chai thủy tinh, bình giữ nhiệt, thùng sơn</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">Khổ in lụa phẳng tối đa</td>
                   <td className="p-4">600 x 900 mm / 800 x 1200 mm</td>
-                  <td className="p-4">Tấm kim loại CNC, mặt kính, bảng mica, bao bì hộp giấy</td>
+                  <td className="p-4">In lụa trên nhựa kim loại inox, mặt kính, bảng mica, bao bì hộp giấy</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">Mật độ mắt lưới (Mesh Count)</td>
@@ -405,7 +419,7 @@ export default function InLuaPage() {
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">Độ dày màng mực (Ink Film Thickness)</td>
-                  <td className="p-4 font-semibold text-teal-700">20 µm – 100 µm</td>
+                  <td className="p-4 font-semibold text-teal-700">20 µm – 100 µm (ΔE &lt; 1.5)</td>
                   <td className="p-4">Độ che phủ 100%, tạo hiệu ứng chữ nổi 3D cao cấp</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
@@ -416,7 +430,7 @@ export default function InLuaPage() {
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">Công nghệ Gia Công Sau In</td>
                   <td className="p-4">Phủ UV định hình, UV cát, Ép kim, Ép nhũ nóng, Nhũ cào</td>
-                  <td className="p-4">Bao bì hộp giấy, túi giấy, tem nhãn decal, nắp mỹ phẩm</td>
+                  <td className="p-4">In lụa bao bì hộp giấy túi giấy, tem nhãn decal, nắp mỹ phẩm</td>
                 </tr>
               </tbody>
             </table>
@@ -444,7 +458,7 @@ export default function InLuaPage() {
             Bảng Giá Gia Công In Lụa, In Bao Bì &amp; Gia Công Sau In Tham Khảo
           </h2>
           <p className="text-slate-600 text-sm mb-6 leading-relaxed">
-            Tham khảo khung đơn giá gốc tận xưởng VNPIS tại TP.HCM (áp dụng năm 2026):
+            Tham khảo khung đơn giá gốc tận xưởng VNPIS tại TP.HCM &amp; Bình Dương (áp dụng năm 2026):
           </p>
 
           <div className="overflow-x-auto">
@@ -461,7 +475,7 @@ export default function InLuaPage() {
               <tbody className="divide-y divide-slate-200 text-slate-700">
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">
-                    In Lụa Tròn Chai Lọ Mỹ Phẩm / Ly Nhựa (1 màu)
+                    In Lụa Tròn 360 Độ Chai Lọ Mỹ Phẩm / Thủy Tinh / Ly Nhựa (1 màu)
                   </td>
                   <td className="p-4 font-semibold">450đ – 800đ / sp</td>
                   <td className="p-4 font-semibold">300đ – 500đ / sp</td>
@@ -470,7 +484,7 @@ export default function InLuaPage() {
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">
-                    In Lụa Phẳng Mặt Máy / Nhựa / Kim Loại
+                    In Lụa Trên Nhựa Kim Loại Inox / Mặt Máy CNC Phẳng
                   </td>
                   <td className="p-4 font-semibold">600đ – 1.500đ / sp</td>
                   <td className="p-4 font-semibold">400đ – 900đ / sp</td>
@@ -479,7 +493,7 @@ export default function InLuaPage() {
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">
-                    In Túi Giấy / Bao Bì Hộp Giấy / Túi Nilon
+                    In Lụa Bao Bì Hộp Giấy Túi Giấy / Túi Nilon
                   </td>
                   <td className="p-4 font-semibold">500đ – 1.800đ / sp</td>
                   <td className="p-4 font-semibold">350đ – 1.100đ / sp</td>
@@ -507,7 +521,7 @@ export default function InLuaPage() {
               Câu Hỏi Thường Gặp Về Gia Công In Lụa, Bao Bì &amp; Gia Công Sau In
             </h2>
             <p className="text-slate-600 text-sm">
-              Giải đáp chi tiết về kỹ thuật in lụa tròn, in lụa phẳng, in bao bì hộp giấy và phủ UV/ép kim tại VNPIS.
+              Giải đáp chi tiết về kỹ thuật in lụa tròn 360 độ, in lụa phẳng, in bao bì hộp giấy và phủ UV/ép kim tại VNPIS.
             </p>
           </div>
           <div className="space-y-4">
@@ -536,7 +550,7 @@ export default function InLuaPage() {
             Bạn Cần Báo Giá Gia Công In Lụa, In Bao Bì Hoặc Gia Công Sau In?
           </h2>
           <p className="text-teal-100 text-base mb-8 max-w-2xl mx-auto">
-            Liên hệ ngay xưởng VNPIS để được tư vấn kỹ thuật, làm mẫu thử miễn phí và nhận báo giá chi tiết tận xưởng với chiết khấu cao cho đơn hàng lớn.
+            Liên hệ ngay xưởng VNPIS để được tư vấn kỹ thuật, làm mẫu thử miễn phí và nhận báo giá chi tiết tận xưởng với chiết khấu cao cho đơn hàng lớn tại Việt Nam, Lào &amp; Campuchia.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

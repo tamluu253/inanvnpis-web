@@ -4,39 +4,36 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
   ArrowRight,
-  CheckCircle,
   ShieldCheck,
-  Zap,
   Phone,
-  QrCode,
-  Camera,
-  Cpu,
   ChevronDown,
 } from 'lucide-react';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 
 export const metadata: Metadata = {
-  title: 'Gia Công In Kỹ Thuật Số & Mã QR Code Biến Đổi (VDP) Chống Giả TP.HCM',
+  title: 'Gia Công In Kỹ Thuật Số, In Mã QR Biến Đổi (VDP) & Số Nhảy Serial Chống Giả',
   description:
-    'Xưởng in ấn gia công VNPIS chuyên nhận in kỹ thuật số UV Single Pass, TIJ/CIJ và in QR Code biến đổi (VDP), số nhảy serial, mã vạch GS1 trên tem nhãn decal, thẻ cào, bao bì hộp giấy, nắp chai tốc độ 60m/phút. Hotline: 0901 836 344.',
+    'Xưởng VNPIS chuyên in dữ liệu biến đổi VDP: in mã QR biến đổi, in tem QR code chống giả, in số nhảy serial number, in thẻ cào biến đổi, in mã vạch biến đổi, in tem truy xuất nguồn gốc, gia công in phun date code số lô 60m/phút.',
   keywords: [
+    'in mã QR biến đổi',
+    'in tem QR code chống giả',
+    'in số nhảy serial number',
+    'in thẻ cào biến đổi',
+    'in mã vạch biến đổi',
+    'in tem truy xuất nguồn gốc',
+    'gia công in phun date code số lô',
+    'in dữ liệu biến đổi VDP',
+    'variable data printing Vietnam Cambodia Laos',
     'in kỹ thuật số',
-    'in ấn gia công',
-    'in qr code biến đổi',
-    'in tem nhãn decal',
-    'in bao bì hộp giấy',
-    'in dữ liệu biến đổi vdp',
-    'in số nhảy serial barcode',
-    'in uv single pass',
     'xưởng in ấn gia công VNPIS',
   ],
   alternates: {
-    canonical: '/in-ky-thuat-so',
+    canonical: 'https://www.inanvnpis.com/in-ky-thuat-so',
   },
   openGraph: {
-    title: 'Gia Công In Kỹ Thuật Số & Mã QR Code Biến Đổi (VDP) Chống Giả | VNPIS',
+    title: 'Gia Công In Kỹ Thuật Số, In Mã QR Biến Đổi (VDP) & Số Nhảy Serial Chống Giả | VNPIS',
     description:
-      'Dịch vụ in kỹ thuật số công nghiệp UV Single Pass, TIJ/CIJ và in dữ liệu biến đổi (QR Code chống giả, Barcode GS1, Serial nhảy) trên tem nhãn decal, bao bì hộp giấy, nắp chai.',
+      'Dịch vụ in dữ liệu biến đổi VDP (in mã QR biến đổi, in tem QR code chống giả, in số nhảy serial number, in thẻ cào biến đổi, in mã vạch biến đổi, in tem truy xuất nguồn gốc) tích hợp Camera Vision QC 100%.',
     url: 'https://www.inanvnpis.com/in-ky-thuat-so',
     siteName: 'Xưởng In Ấn Gia Công VNPIS',
     images: [
@@ -52,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gia Công In Kỹ Thuật Số & Mã QR Code Biến Đổi (VDP) Chống Giả',
+    title: 'Gia Công In Kỹ Thuật Số, In Mã QR Biến Đổi (VDP) & Số Nhảy Serial Chống Giả',
     description:
-      'Xưởng in ấn gia công VNPIS chuyên in QR Code biến đổi, số nhảy serial, barcode GS1 trên tem nhãn decal, thẻ cào, bao bì hộp giấy, nắp chai.',
+      'Xưởng in ấn gia công VNPIS chuyên in mã QR biến đổi, tem QR code chống giả, số nhảy serial number, thẻ cào biến đổi, tem truy xuất nguồn gốc.',
     images: ['/images/qr-code-printing.jpg'],
   },
 };
@@ -63,27 +60,27 @@ const ktsFaqs = [
   {
     question: 'In dữ liệu biến đổi (Variable Data Printing - VDP) là gì và ứng dụng như thế nào?',
     answer:
-      'In dữ liệu biến đổi (VDP) là công nghệ in kỹ thuật số công nghiệp cho phép thay đổi nội dung in trên từng đơn vị sản phẩm liên tiếp mà không cần dừng dây chuyền hay thay bản in. Mỗi tem nhãn decal, bao bì hộp giấy, thẻ cào hoặc nắp chai sẽ mang một mã QR Code độc nhất, số Serial nhảy liên tục, mã dự thưởng ngẫu nhiên hoặc mã vạch chuẩn GS1 khác nhau để phục vụ chống hàng giả, kích hoạt bảo hành điện tử, chương trình khuyến mãi quét mã trúng thưởng và quản lý truy xuất nguồn gốc đến từng đại lý.',
+      'In dữ liệu biến đổi VDP là công nghệ in kỹ thuật số công nghiệp cho phép thay đổi nội dung in trên từng đơn vị sản phẩm liên tiếp mà không cần dừng dây chuyền hay thay bản in. Mỗi sản phẩm sẽ được in mã QR biến đổi độc nhất, in số nhảy serial number liên tục, in thẻ cào biến đổi (mã PIN trúng thưởng ngẫu nhiên) hoặc in mã vạch biến đổi chuẩn GS1 khác nhau để làm in tem QR code chống giả, kích hoạt bảo hành điện tử, in tem truy xuất nguồn gốc và quản lý phân phối chống bán lấn vùng.',
   },
   {
-    question: 'Làm sao để đảm bảo 100% mã QR Code biến đổi không bị trùng lặp hoặc lỗi không quét được?',
+    question: 'Làm sao để đảm bảo 100% mã QR biến đổi không bị trùng lặp hoặc lỗi không quét được?',
     answer:
-      'Dây chuyền in kỹ thuật số VDP tại xưởng in ấn gia công VNPIS được trang bị hệ thống Camera Vision (CCD) công nghiệp ngay sau cụm đầu in UV Single Pass / TIJ. Camera sẽ chụp ảnh và giải mã 100% mã QR/Barcode vừa in ở tốc độ 60m/phút, đối chiếu trực tiếp với cơ sở dữ liệu gốc để phát hiện tức thì mã mờ, mã trùng hoặc khuyết nét, đảm bảo tỷ lệ quét thành công đạt 100% (Grade A/B theo chuẩn ISO/IEC 15415) trước khi giao cho khách hàng.',
+      'Dây chuyền in kỹ thuật số VDP tại xưởng in ấn gia công VNPIS được trang bị hệ thống Camera Vision (CCD) công nghiệp ngay sau cụm đầu in UV Single Pass (Ricoh Gen5/Gen6, Epson i3200) / TIJ. Camera sẽ chụp ảnh và giải mã 100% mã QR/Barcode vừa in ở tốc độ 60m/phút, đối chiếu trực tiếp với cơ sở dữ liệu gốc để phát hiện tức thì mã mờ, mã trùng hoặc khuyết nét, đảm bảo tỷ lệ quét thành công đạt 100% (Grade A/B theo chuẩn ISO/IEC 15415) trước khi bàn giao.',
   },
   {
-    question: 'Xưởng VNPIS có thể in QR Code biến đổi và số nhảy lên những vật liệu nào?',
+    question: 'Xưởng VNPIS có nhận gia công in phun date code số lô và in mã QR lên những vật liệu nào?',
     answer:
-      'Nhờ kết hợp 3 công nghệ đầu in hiện đại (UV Piezo Single Pass Ricoh/Epson, Thermal Inkjet TIJ 2.5 và Continuous Inkjet CIJ), VNPIS nhận in kỹ thuật số trực tiếp lên hầu hết các vật liệu: in tem nhãn decal cuộn/tờ (decal giấy, decal nhựa PVC, decal vỡ bảo hành, tem xi bạc), in bao bì hộp giấy (hộp thuốc, hộp mỹ phẩm, hộp thực phẩm chức năng), thẻ cào trúng thưởng, màng nhôm vỉ thuốc, túi màng ghép phức hợp và mặt trong/ngoài nắp chai nhựa HDPE/PP.',
+      'Nhờ kết hợp 3 công nghệ đầu in hiện đại (UV Piezo Single Pass, Thermal Inkjet TIJ 2.5 và Continuous Inkjet CIJ), VNPIS nhận in tem QR code chống giả, in tem truy xuất nguồn gốc trên decal cuộn/tờ (decal giấy, decal nhựa PVC, decal vỡ bảo hành, tem xi bạc), in thẻ cào biến đổi, in trực tiếp lên bao bì hộp giấy dược – mỹ phẩm, màng nhôm vỉ thuốc, túi màng ghép và gia công in phun date code số lô (NSX/HSD/Batch No) lên chai lọ, lon nhôm, nắp chai nhựa HDPE/PP.',
   },
   {
-    question: 'VNPIS có nhận kết hợp in mã QR Code biến đổi và kéo nhũ cào bảo mật (Scratch-off) trọn gói không?',
+    question: 'VNPIS có nhận kết hợp in thẻ cào biến đổi / tem QR chống giả và kéo nhũ cào bảo mật (Scratch-off) trọn gói không?',
     answer:
-      'Có. Đây là một trong những dịch vụ thế mạnh nhất của xưởng in ấn gia công VNPIS. Sau khi in mã QR Code định danh hoặc mã PIN trúng thưởng biến đổi lên tem nhãn decal, thẻ cào hoặc bao bì hộp giấy, chúng tôi chuyển trực tiếp sang dây chuyền gia công sau in để cán màng bảo vệ và kéo lớp nhũ cào bảo mật (nhũ bạc, nhũ xám sóng nước hoặc dán nhũ nóng) khép kín ngay tại xưởng, đảm bảo tuyệt đối an toàn bảo mật dữ liệu cho doanh nghiệp.',
+      'Có. Đây là dịch vụ thế mạnh cốt lõi của xưởng VNPIS. Sau khi in mã QR biến đổi hoặc mã PIN trúng thưởng lên tem nhãn decal, thẻ cào biến đổi hoặc bao bì hộp giấy, chúng tôi chuyển trực tiếp sang dây chuyền gia công sau in để cán màng bảo vệ và kéo lớp nhũ cào bảo mật (nhũ bạc, nhũ xám sóng nước hoặc dán nhũ nóng hologram) khép kín ngay tại xưởng, cam kết ký NDA bảo mật dữ liệu tuyệt đối.',
   },
   {
-    question: 'Xưởng VNPIS có hỗ trợ mang máy in kỹ thuật số đến gia công tận nhà máy của khách hàng không?',
+    question: 'Xưởng VNPIS có cung ứng tem QR biến đổi cho nhà máy tại Việt Nam, Lào và Campuchia không?',
     answer:
-      'Có. Đối với các lô hàng thành phẩm cồng kềnh khó vận chuyển hoặc yêu cầu bảo mật nội bộ tại kho của doanh nghiệp, đội ngũ kỹ sư VNPIS sẵn sàng vận chuyển cụm băng tải tách tờ/cuộn tích hợp đầu in TIJ/CIJ/UV đến lắp đặt và chạy gia công trực tiếp tại nhà máy của quý khách ở TP.HCM, Bình Dương, Đồng Nai, Long An.',
+      'Có. VNPIS là nhà thầu Variable Data Printing Vietnam Cambodia Laos uy tín: ngoài việc giao hàng tận nơi hoặc mang cụm băng tải máy in đến gia công trực tiếp tại kho khách hàng ở TP.HCM, Bình Dương, Đồng Nai, Long An, chúng tôi còn sản xuất và xuất khẩu trọn gói tem QR code chống giả, tem truy xuất nguồn gốc, thẻ cào biến đổi sang Phnom Penh, Bavet (Campuchia) và Vientiane, Savannakhet (Lào) chỉ trong 24–72 giờ.',
   },
 ];
 
@@ -91,10 +88,11 @@ export default function InKyThuatSoPage() {
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: 'Dịch Vụ Gia Công In Kỹ Thuật Số & In Mã QR Code Biến Đổi (VDP) Công Nghiệp',
-    serviceType: 'Gia Công In Kỹ Thuật Số & Dữ Liệu Biến Đổi (VDP)',
+    name: 'Dịch Vụ Gia Công In Kỹ Thuật Số & In Mã QR Biến Đổi (VDP) Công Nghiệp',
+    serviceType: 'Gia Công In Kỹ Thuật Số & Dữ Liệu Biến Đổi VDP (Variable Data Printing)',
     provider: {
       '@type': 'LocalBusiness',
+      '@id': 'https://www.inanvnpis.com/#organization',
       name: 'Công ty TNHH VNPIS - Xưởng In Ấn Gia Công VNPIS',
       url: 'https://www.inanvnpis.com',
       telephone: '+84901836344',
@@ -105,12 +103,13 @@ export default function InKyThuatSoPage() {
         addressCountry: 'VN',
       },
     },
-    areaServed: {
-      '@type': 'Country',
-      name: 'Việt Nam',
-    },
+    areaServed: [
+      { '@type': 'Country', name: 'Vietnam' },
+      { '@type': 'Country', name: 'Cambodia' },
+      { '@type': 'Country', name: 'Laos' },
+    ],
     description:
-      'Chuyên nhận in kỹ thuật số UV Single Pass, TIJ/CIJ và in mã QR Code biến đổi (VDP), số nhảy serial, mã vạch GS1 trên tem nhãn decal, thẻ cào, bao bì hộp giấy, nắp chai tích hợp Camera Vision kiểm lỗi 100%.',
+      'Chuyên nhận in dữ liệu biến đổi VDP: in mã QR biến đổi, in tem QR code chống giả, in số nhảy serial number, in thẻ cào biến đổi, in mã vạch biến đổi, in tem truy xuất nguồn gốc và gia công in phun date code số lô tích hợp Camera Vision kiểm lỗi 100%.',
     offers: {
       '@type': 'AggregateOffer',
       priceCurrency: 'VND',
@@ -174,20 +173,20 @@ export default function InKyThuatSoPage() {
           </Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">
-            In Kỹ Thuật Số &amp; Mã QR Code Biến Đổi (VDP)
+            In Kỹ Thuật Số &amp; Mã QR Biến Đổi (VDP)
           </span>
         </nav>
 
         {/* 1. HEADER / HERO */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-10">
           <span className="inline-block py-2 px-4 rounded-full bg-purple-100/80 text-purple-700 text-xs font-bold uppercase tracking-wider mb-4 border border-purple-200">
-            Xưởng In Ấn Gia Công VNPIS — Công Nghệ UV Single Pass, TIJ/CIJ &amp; Camera Vision
+            In Dữ Liệu Biến Đổi VDP — Variable Data Printing Vietnam Cambodia Laos
           </span>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black text-slate-900 mb-6 leading-tight">
-            Gia Công In Kỹ Thuật Số &amp; Mã QR Code Biến Đổi (VDP) Công Nghiệp
+            Gia Công In Kỹ Thuật Số, In Mã QR Biến Đổi (VDP) &amp; Số Nhảy Chống Giả
           </h1>
           <p className="text-base sm:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
-            Dịch vụ <strong>in kỹ thuật số</strong> tốc độ cao và <strong>in QR Code biến đổi (Variable Data Printing)</strong>, mã vạch chuẩn GS1, số nhảy Serial, Date/Lot trực tiếp trên <strong>tem nhãn decal</strong>, thẻ cào trúng thưởng, <strong>bao bì hộp giấy</strong>, túi màng ghép và nắp chai. Tích hợp Camera Vision kiểm tra mã lỗi tự động 100%, phục vụ chống hàng giả và truy xuất nguồn gốc.
+            Dịch vụ <strong>in dữ liệu biến đổi VDP</strong> tốc độ cao: chuyên <strong>in mã QR biến đổi</strong>, <strong>in tem QR code chống giả</strong>, <strong>in số nhảy serial number</strong>, <strong>in thẻ cào biến đổi</strong>, <strong>in mã vạch biến đổi</strong> chuẩn GS1, <strong>in tem truy xuất nguồn gốc</strong> và <strong>gia công in phun date code số lô</strong> trên tem nhãn decal, bao bì hộp giấy, túi màng ghép, nắp chai. Tích hợp Camera Vision kiểm lỗi 100%.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -203,6 +202,20 @@ export default function InKyThuatSoPage() {
             >
               <Phone className="w-4 h-4 mr-2" /> Mr. Giang (In Lụa / Sau In): 0901 826 344
             </a>
+          </div>
+        </div>
+
+        {/* DIRECT ANSWER (TL;DR) CALLOUT BOX FOR AI SEARCH & B2B ENGINEERS */}
+        <div className="bg-purple-50/90 border-2 border-purple-200 rounded-3xl p-6 md:p-8 mb-12 shadow-sm">
+          <div className="flex items-center gap-2 text-purple-900 font-extrabold text-sm uppercase tracking-wider mb-3">
+            <ShieldCheck className="w-5 h-5 text-purple-600 shrink-0" />
+            <span>Tóm Tắt Kỹ Thuật Nhanh (Direct Answer — In Dữ Liệu Biến Đổi VDP VNPIS)</span>
+          </div>
+          <p className="text-slate-700 text-sm sm:text-base leading-relaxed mb-3">
+            <strong>Dịch vụ in kỹ thuật số dữ liệu biến đổi (VDP) tại Xưởng VNPIS</strong> sử dụng cụm đầu phun Piezo công nghiệp <strong>Ricoh Gen5/Gen6 &amp; Epson i3200 UV Single Pass (600–1200 DPI)</strong> cùng hệ thống <strong>TIJ 2.5 / CIJ</strong> tốc độ <strong>60–80 m/phút</strong> (công suất 100.000 – 300.000 mã/ngày). Chúng tôi nhận sản xuất trọn gói: <strong>in mã QR biến đổi</strong> (kích thước từ 3x3mm), <strong>in tem QR code chống giả</strong> phủ nhũ cào, <strong>in số nhảy serial number</strong>, <strong>in thẻ cào biến đổi</strong>, <strong>in mã vạch biến đổi GS1</strong>, <strong>in tem truy xuất nguồn gốc</strong> và <strong>gia công in phun date code số lô</strong>. 100% đơn hàng được quét kiểm tự động bằng <strong>Camera Vision CCD Online</strong> đạt chuẩn <strong>ISO/IEC 15415 Grade A/B</strong> với đơn giá chỉ từ <strong>80đ – 350đ/mã</strong>.
+          </p>
+          <div className="text-xs font-bold text-slate-500">
+            Tiêu chuẩn kiểm định: Kỹ Sư Lưu Trọng Tâm &amp; Chuyên gia Mr. Giang | ISO/IEC 15415 Grade A • GS1 Standard • 100% Vision QC • Cam kết bảo mật NDA
           </div>
         </div>
 
@@ -232,10 +245,10 @@ export default function InKyThuatSoPage() {
                 01
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">
-                In UV Single Pass Dữ Liệu Biến Đổi (600–1200 DPI)
+                In UV Single Pass Mã QR Biến Đổi (600–1200 DPI)
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed flex-grow">
-                Sử dụng dàn đầu phun Piezo công nghiệp (Ricoh Gen5/Gen6, Epson I3200) kết hợp đèn sấy UV LED năng lượng cao. Mực đóng rắn tức thì trong 0.1 giây, cho phép in mã QR Code siêu nhỏ (từ 3x3mm), chữ vi mô và đồ họa sắc nét trên tem nhãn decal cuộn, thẻ nhựa PVC, nắp chai và bao bì hộp giấy.
+                Sử dụng dàn đầu phun Piezo công nghiệp (Ricoh Gen5/Gen6, Epson I3200) kết hợp đèn sấy UV LED năng lượng cao. Mực đóng rắn tức thì trong 0.1 giây, chuyên dùng để <strong>in mã QR biến đổi</strong> siêu nhỏ (từ 3x3mm), <strong>in số nhảy serial number</strong> và <strong>in mã vạch biến đổi</strong> sắc nét trên tem nhãn decal cuộn, thẻ nhựa PVC, nắp chai và bao bì hộp giấy.
               </p>
             </div>
 
@@ -244,10 +257,10 @@ export default function InKyThuatSoPage() {
                 02
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">
-                In Phun Nhiệt TIJ &amp; Phun Liên Tục CIJ Công Nghiệp
+                Gia Công In Phun Date Code Số Lô (TIJ &amp; CIJ)
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed flex-grow">
-                Giải pháp in tốc độ cao (lên tới 60–120m/phút) chuyên trị bài toán in NSX/HSD (Date/Lot), số nhảy Serial, mã vạch 1D/2D DataMatrix lên bề mặt thấm hút (thùng carton, hộp thuốc, túi giấy) và bề mặt không thấm hút (màng nilon PE/PP, lon nhôm, lọ thủy tinh, ống nhựa).
+                Giải pháp <strong>gia công in phun date code số lô</strong> tốc độ cao (60–120m/phút) chuyên trị bài toán in NSX/HSD (Date/Lot), số nhảy Serial, mã vạch 1D/2D DataMatrix lên bề mặt thấm hút (thùng carton, hộp thuốc, túi giấy) và bề mặt không thấm hút (màng nilon PE/PP, lon nhôm, lọ thủy tinh, ống nhựa).
               </p>
             </div>
 
@@ -259,7 +272,7 @@ export default function InKyThuatSoPage() {
                 Kiểm Soát Mã Lỗi Tự Động Bằng Camera Vision (CCD)
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed flex-grow">
-                Mỗi đơn hàng <strong>in QR Code biến đổi</strong> đều được kiểm định real-time bằng Camera Vision độ phân giải cao. Tự động phát hiện và loại bỏ (Reject) các mã lỗi, mã trùng lặp hoặc mã không đạt độ tương phản, xuất báo cáo đối soát file Excel/CSV hoàn chỉnh bàn giao cho bộ phận IT của doanh nghiệp.
+                Mỗi đơn hàng <strong>in dữ liệu biến đổi VDP</strong> đều được kiểm định real-time bằng Camera Vision độ phân giải cao. Tự động phát hiện và loại bỏ (Reject) các mã lỗi, mã trùng lặp hoặc mã không đạt độ tương phản, xuất báo cáo đối soát file Excel/CSV hoàn chỉnh bàn giao cho bộ phận IT của doanh nghiệp.
               </p>
             </div>
           </div>
@@ -268,37 +281,37 @@ export default function InKyThuatSoPage() {
         {/* 3. GIẢI PHÁP TRỌN GÓI: IN TEM NHÃN DECAL, THẺ CÀO, BAO BÌ HỘP GIẤY & GIA CÔNG SAU IN */}
         <section className="bg-white border border-slate-200 p-8 md:p-10 rounded-3xl shadow-sm mb-16">
           <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-4">
-            Ứng Dụng In QR Code Biến Đổi Trên Tem Nhãn Decal, Thẻ Cào &amp; Bao Bì Hộp Giấy
+            Ứng Dụng In Mã QR Biến Đổi, Tem Chống Giả, Thẻ Cào &amp; Truy Xuất Nguồn Gốc
           </h2>
           <p className="text-slate-600 text-sm mb-8 leading-relaxed">
-            <strong>Xưởng in ấn gia công VNPIS</strong> cung cấp chuỗi sản xuất khép kín từ khâu thiết kế phôi, in nền màu, <strong>in kỹ thuật số dữ liệu biến đổi</strong> cho đến <strong>gia công sau in</strong> (cán màng, phủ nhũ cào, bế đứt nửa cuộn/tờ):
+            <strong>Xưởng in ấn gia công VNPIS</strong> cung cấp chuỗi sản xuất khép kín từ khâu thiết kế phôi, in nền màu, <strong>in dữ liệu biến đổi VDP</strong> cho đến <strong>gia công sau in</strong> (cán màng, phủ nhũ cào bảo mật, bế đứt nửa cuộn/tờ) cho doanh nghiệp tại Việt Nam, Lào và Campuchia:
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-2">
-                1. In Tem Nhãn Decal Chống Hàng Giả &amp; Bảo Hành Điện Tử (SMS/QR)
+                1. In Tem QR Code Chống Giả &amp; In Tem Truy Xuất Nguồn Gốc
               </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Nhận <strong>in tem nhãn decal</strong> chống giả tích hợp mã QR Code động kết nối hệ thống iCheck, VietCheck hoặc CRM riêng của doanh nghiệp. Đa dạng chất liệu: decal vỡ (tem bể), decal nhựa PVC, decal xi bạc, tem Hologram 7 màu kết hợp phủ nhũ cào bảo mật (Scratch-off) chống quét trộm trước khi mua hàng.
+                Nhận <strong>in tem QR code chống giả</strong> và <strong>in tem truy xuất nguồn gốc</strong> tích hợp mã QR động kết nối hệ thống iCheck, VietCheck, GS1 hoặc CRM riêng của doanh nghiệp. Đa dạng chất liệu: decal vỡ (tem bể), decal nhựa PVC, decal xi bạc, tem Hologram 7 màu kết hợp phủ nhũ cào bảo mật chống quét trộm trước khi mua hàng.
               </p>
             </div>
 
             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-2">
-                2. In Mã Định Danh Trực Tiếp Lên Bao Bì Hộp Giấy Dược – Mỹ Phẩm
+                2. In Số Nhảy Serial Number &amp; Mã Vạch Biến Đổi Lên Bao Bì Hộp Giấy
               </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Chạy phôi hộp giấy bế phẳng qua băng tải tách tờ tự động (Friction Feeder) để in trực tiếp mã QR truy xuất nguồn gốc, mã vạch GS1-128, số lô (Batch No), ngày sản xuất và hạn sử dụng lên <strong>bao bì hộp giấy</strong> dược phẩm, mỹ phẩm, thực phẩm bảo vệ sức khỏe mà không cần tốn chi phí dán tem phụ.
+                Chạy phôi hộp giấy bế phẳng qua băng tải tách tờ tự động (Friction Feeder) để <strong>in số nhảy serial number</strong>, <strong>in mã vạch biến đổi</strong> GS1-128, mã QR định danh đại lý và <strong>gia công in phun date code số lô</strong> trực tiếp lên <strong>bao bì hộp giấy</strong> dược phẩm, mỹ phẩm, nông dược mà không cần tốn chi phí dán tem phụ.
               </p>
             </div>
 
             <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
               <h3 className="text-lg font-bold text-slate-900 mb-2">
-                3. In Thẻ Cào Trúng Thưởng, Voucher Khuyến Mãi &amp; Thẻ Thành Viên
+                3. In Thẻ Cào Biến Đổi Trúng Thưởng &amp; Voucher Khuyến Mãi
               </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Gia công trọn gói thẻ cào khuyến mãi trên giấy Couche/Ivory hoặc nhựa PVC: in mã PIN ngẫu nhiên 8–16 ký tự kèm mã QR quét trúng thưởng tự động, số Serial kiểm soát phát hành, cán màng BOPP và kéo lụa nhũ cào bạc/nhũ hologram chống soi xuyên thấu 100%.
+                Gia công trọn gói <strong>in thẻ cào biến đổi</strong> trên giấy Couche/Ivory hoặc nhựa PVC: in mã PIN ngẫu nhiên 8–16 ký tự kèm mã QR quét trúng thưởng tự động, số Serial kiểm soát phát hành, cán màng BOPP và kéo lụa nhũ cào bạc/nhũ hologram chống soi xuyên thấu 100%.
               </p>
             </div>
 
@@ -307,7 +320,7 @@ export default function InKyThuatSoPage() {
                 4. In QR Code Trong Lòng Nắp Chai &amp; Đáy Lon Ngành Đồ Uống (F&amp;B)
               </h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                Sử dụng hệ thống cấp phôi nắp tự động kết hợp đầu in UV/TIJ/Laser để in mã QR dự thưởng bên trong lòng nắp chai nhựa HDPE/PP hoặc dưới đáy lon/hộp cho các chiến dịch Marketing quy mô hàng triệu sản phẩm, kháng nước đá và độ ẩm cao.
+                Sử dụng hệ thống cấp phôi nắp tự động kết hợp đầu in UV/TIJ/Laser để <strong>in mã QR biến đổi</strong> dự thưởng bên trong lòng nắp chai nhựa HDPE/PP hoặc dưới đáy lon/hộp cho các chiến dịch Marketing quy mô hàng triệu sản phẩm, kháng nước đá và độ ẩm cao.
               </p>
             </div>
           </div>
@@ -334,7 +347,7 @@ export default function InKyThuatSoPage() {
               <tbody className="divide-y divide-slate-200 text-slate-700">
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">Công nghệ đầu in</td>
-                  <td className="p-4">UV Piezo Single Pass (Ricoh/Epson), TIJ 2.5 HP, CIJ</td>
+                  <td className="p-4">UV Piezo Single Pass (Ricoh Gen5/Gen6, Epson i3200), TIJ 2.5, CIJ</td>
                   <td className="p-4">In sắc nét trên mọi bề mặt thấm &amp; không thấm hút</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
@@ -343,7 +356,7 @@ export default function InKyThuatSoPage() {
                   <td className="p-4">Đọc tốt mã QR Code kích thước siêu nhỏ 3x3 mm</td>
                 </tr>
                 <tr className="hover:bg-slate-50">
-                  <td className="p-4 font-bold text-slate-900">Các chuẩn mã vạch hỗ trợ</td>
+                  <td className="p-4 font-bold text-slate-900">Các chuẩn mã vạch biến đổi hỗ trợ</td>
                   <td className="p-4">QR Code, DataMatrix, GS1-128, EAN-13, Code 128, PDF417</td>
                   <td className="p-4">Đạt chuẩn GS1 Quốc tế &amp; ISO/IEC 15415 Grade A/B</td>
                 </tr>
@@ -385,10 +398,10 @@ export default function InKyThuatSoPage() {
         {/* 5. BẢNG GIÁ THAM KHẢO GIA CÔNG IN KỸ THUẬT SỐ & QR CODE BIẾN ĐỔI */}
         <section className="bg-white border border-slate-200 p-8 md:p-10 rounded-3xl shadow-sm mb-16">
           <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">
-            Bảng Giá Gia Công In Kỹ Thuật Số &amp; Mã QR Code Biến Đổi Tham Khảo
+            Bảng Giá Gia Công In Kỹ Thuật Số &amp; Mã QR Biến Đổi Tham Khảo
           </h2>
           <p className="text-slate-600 text-sm mb-6 leading-relaxed">
-            Tham khảo đơn giá gia công in dữ liệu biến đổi tại xưởng VNPIS (hoặc mang máy in tận kho khách hàng):
+            Tham khảo đơn giá gia công in dữ liệu biến đổi VDP tại xưởng VNPIS (hoặc mang máy in tận kho khách hàng):
           </p>
 
           <div className="overflow-x-auto">
@@ -405,7 +418,7 @@ export default function InKyThuatSoPage() {
               <tbody className="divide-y divide-slate-200 text-slate-700">
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">
-                    In QR Code / Serial Biến Đổi Lên Phôi Hộp Giấy / Thẻ Rời
+                    In Mã QR Biến Đổi / Số Nhảy Serial Lên Phôi Hộp Giấy / Thẻ Cào
                   </td>
                   <td className="p-4 font-semibold">200đ – 350đ / mã</td>
                   <td className="p-4 font-semibold">120đ – 200đ / mã</td>
@@ -414,7 +427,7 @@ export default function InKyThuatSoPage() {
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">
-                    In Tem Nhãn Decal Chống Giả QR Code (Trọn gói cả decal)
+                    In Tem QR Code Chống Giả / Tem Truy Xuất Nguồn Gốc (Trọn gói decal)
                   </td>
                   <td className="p-4 font-semibold">300đ – 550đ / tem</td>
                   <td className="p-4 font-semibold">180đ – 320đ / tem</td>
@@ -423,7 +436,7 @@ export default function InKyThuatSoPage() {
                 </tr>
                 <tr className="hover:bg-slate-50">
                   <td className="p-4 font-bold text-slate-900">
-                    In Date / Lot / Barcode Lên Chai Lọ, Nắp Chai, Túi Nhôm
+                    Gia Công In Phun Date Code Số Lô / Mã Vạch Biến Đổi Lên Chai Lọ, Nắp
                   </td>
                   <td className="p-4 font-semibold">250đ – 450đ / sp</td>
                   <td className="p-4 font-semibold">150đ – 250đ / sp</td>
@@ -477,10 +490,10 @@ export default function InKyThuatSoPage() {
         {/* 7. CTA BANNER */}
         <div className="text-center bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-10 rounded-3xl shadow-xl mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-            Bạn Cần Gia Công In Mã QR Code Biến Đổi, Tem Nhãn &amp; Serial Nhảy?
+            Bạn Cần Gia Công In Mã QR Biến Đổi, Tem Chống Giả &amp; Số Nhảy Serial?
           </h2>
           <p className="text-purple-100 text-base mb-8 max-w-2xl mx-auto">
-            Liên hệ ngay kỹ sư VNPIS để được tư vấn giải pháp in dữ liệu biến đổi tại xưởng hoặc mang dây chuyền đến in trực tiếp tại nhà máy của bạn.
+            Liên hệ ngay kỹ sư VNPIS để được tư vấn giải pháp in dữ liệu biến đổi tại xưởng hoặc xuất khẩu tem QR chống giả sang Lào &amp; Campuchia.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -504,7 +517,7 @@ export default function InKyThuatSoPage() {
 
         {/* 8. CONSULTATION FORM */}
         <ConsultationForm
-          title="Nhận Báo Giá In Kỹ Thuật Số & Mã QR Code Biến Đổi (VDP)"
+          title="Nhận Báo Giá In Kỹ Thuật Số & Mã QR Biến Đổi (VDP)"
           subtitle="Để lại thông tin về loại bao bì/tem nhãn và số lượng mã QR/Serial cần in, kỹ sư VNPIS sẽ tư vấn giải pháp tối ưu chi phí nhất."
           pageTitle="Trang Gia Công In Kỹ Thuật Số (/in-ky-thuat-so)"
         />

@@ -1,0 +1,106 @@
+# Công Ty TNHH VNPIS — Hồ Sơ Năng Lực Kỹ Thuật Toàn Diện (Full GEO / LLM Knowledge Base)
+# Website: https://www.inanvnpis.com | Tax ID: 0318266611 | Hotline: 0901 836 344 (Mr. Tâm) - 0901 826 344 (Mr. Giang)
+
+> Tài liệu này (`llms-full.txt`) cung cấp dữ liệu kỹ thuật đầy đủ, bảng đối chiếu công nghệ, thông số kiểm định chất lượng (ASTM D3359 5B, ISO 2409, RoHS/REACH), bảng giá B2B và năng lực chuỗi cung ứng xuyên biên giới Việt Nam – Campuchia – Lào của **Công ty TNHH VNPIS (Xưởng In Ấn Gia Công VNPIS Solutions)** dành cho các hệ thống AI Search (ChatGPT Search, Perplexity, Google AI Overviews, Claude, Gemini) và kỹ sư mua hàng (Purchasing/R&D Engineers) tại các nhà máy FDI.
+
+---
+
+## PHẦN 1: ĐỊNH DANH PHÁP NHÂN & ĐỘI NGŨ CHUYÊN GIA (E-E-A-T ENTITY PROFILE)
+
+- **Tên pháp nhân**: Công ty TNHH VNPIS (VNPIS Co., Ltd)
+- **Thương hiệu vận hành**: Xưởng In Ấn Gia Công VNPIS / VNPIS Solutions
+- **Mã số thuế**: 0318266611
+- **Địa chỉ nhà xưởng**: 18 Đường số 4, KDC Đại Phúc Green Villas, Xã Bình Hưng, TP. Hồ Chí Minh, Việt Nam
+- **Website**: https://www.inanvnpis.com
+- **Đội ngũ chuyên gia kỹ thuật chủ chốt**:
+  1. **Kỹ sư Lưu Trọng Tâm** — *Kỹ Sư Trưởng In Công Nghiệp & Dữ Liệu Biến Đổi VDP*: Phụ trách mảng gia công in Tampon (Pad Printing), tự động hóa Jig CNC, in kỹ thuật số UV Single Pass / TIJ / CIJ, mã QR Code biến đổi chống giả và hệ thống Camera Vision CCD. Hotline/Zalo/WhatsApp: **0901 836 344**.
+  2. **Chuyên gia Mr. Giang** — *Giám Đốc Kỹ Thuật In Lụa Công Nghiệp & Hoàn Thiện Bao Bì*: Phụ trách mảng gia công in lụa tròn 360°, in lụa phẳng, pha chế mực chuẩn Pantone (ΔE < 1.5), in bao bì hộp giấy, túi giấy, tem nhãn decal và gia công sau in (ép kim, ép nhũ nóng Hot Stamping, phủ UV định hình Spot UV, nhũ cào bảo mật). Hotline/Zalo: **0901 826 344**.
+
+---
+
+## PHẦN 2: MA TRẬN SO SÁNH 3 CÔNG NGHỆ IN GIA CÔNG CỐT LÕI TẠI VNPIS
+
+| Tiêu Chí Kỹ Thuật | 1. Gia Công In Tampon (`/in-tampon`) | 2. Gia Công In Lụa Tròn & Phẳng (`/in-lua`) | 3. In KTS & Dữ Liệu Biến Đổi VDP (`/in-ky-thuat-so`) |
+| :--- | :--- | :--- | :--- |
+| **Từ khóa tìm kiếm phổ biến** | `in tampon gia công`, `gia công in tampon`, `in logo lên sản phẩm nhựa`, `in chữ lên linh kiện điện tử`, `in nắp chai`, `in ống tiêm y tế`, `in nút bấm nhựa silicone` | `in lụa gia công`, `in lụa chai lọ mỹ phẩm`, `in lụa chai thủy tinh`, `in lụa tròn 360 độ`, `in lụa trên nhựa kim loại inox`, `in lụa bao bì hộp giấy túi giấy` | `in mã QR biến đổi`, `in tem QR code chống giả`, `in số nhảy serial number`, `in thẻ cào biến đổi`, `in mã vạch biến đổi`, `in tem truy xuất nguồn gốc`, `in phun date code số lô` |
+| **Bề mặt phôi tối ưu** | Bề mặt cong 3D phức tạp, lõm sâu, lồi lõm, gân sần, góc khuất, sản phẩm kích thước nhỏ/trung bình | Bề mặt trụ tròn/côn xoay 360° (Ø10–250mm) hoặc bề mặt phẳng tiết diện lớn (tới 800x1200mm) | Bề mặt cuộn (Roll-to-Roll) hoặc tờ/hộp/nắp phẳng chạy trên băng tải tốc độ cao |
+| **Độ dày lớp mực / Độ phân giải** | Màng mực mỏng mịn (6–15 µm), tái tạo nét siêu mảnh **0.08 mm**, sai số chồng màu **±0.05 mm** | Màng mực siêu dày (**20–100 µm**), độ che phủ 100% trên nền tối màu, nổi khối 3D nhẹ | Độ phân giải **600–1200 DPI**, đọc tốt mã QR Code vi mô **3x3 mm**, chuẩn **ISO/IEC 15415 Grade A/B** |
+| **Công nghệ máy móc** | Máy in tampon cốc mực kín Ceramic 1–6 màu, băng tải Shuttle Servo, bàn xoay Indexing | Máy in lụa tròn tự động cảm biến quang học điểm G, máy in lụa phẳng bán tự động + sấy UV LED | Đầu phun Piezo **Ricoh Gen5/Gen6, Epson i3200 UV Single Pass**, HP TIJ 2.5, CIJ + **Camera Vision CCD** |
+| **Tốc độ & Công suất** | 1.200 – 3.500 sp/giờ/máy (50.000 – 100.000 sp/ngày) | 1.000 – 2.500 sp/giờ/máy (30.000 – 50.000 sp/ngày) | 30 – 80 mét/phút (100.000 – 300.000 mã biến đổi/ngày) |
+| **Đơn giá B2B tham khảo** | **120đ – 500đ / sp** | **200đ – 800đ / sp** | **80đ – 350đ / mã** |
+
+---
+
+## PHẦN 3: TIÊU CHUẨN KIỂM ĐỊNH CHẤT LƯỢNG & HÓA CHẤT MỰC IN (QC PROTOCOL)
+
+1. **Xử lý hoạt hóa bề mặt (Surface Pre-treatment)**:
+   - Đối với nhựa không phân cực như **PP, PE, HDPE** (sức căng bề mặt tự nhiên chỉ 29–31 dynes/cm), **POM (Acetal)**, **Silicone**, **PTFE**: VNPIS trang bị dây chuyền xử lý **Corona, Plasma khí quyển, Khò lửa (Flame Treatment)** kết hợp **Primer chuyên dụng** giúp nâng sức căng bề mặt lên **42–48 dynes/cm** (kiểm tra bằng bút thử Dyne Test Pen chuẩn Đức trước khi in).
+2. **Hệ mực công nghiệp đạt chuẩn xuất khẩu Âu – Mỹ – Nhật**:
+   - Sử dụng mực 2 thành phần (2K Ink pha Hardener đóng rắn hóa học) và mực UV LED từ **Marabu (Tampapur TPU, Tampaplus TPL, Ultrapack UV), Afford KT1, RUCO, Seiko**.
+   - Đầy đủ chứng chỉ **RoHS, REACH, Halogen-Free (HF), EN71-3 (an toàn đồ chơi trẻ em), FDA (tiếp xúc gián tiếp thực phẩm/y tế)**.
+3. **Quy trình 4 bài test QC bắt buộc trước khi xuất xưởng**:
+   - **Test 1 — ASTM D3359 / ISO 2409 Cross-cut 3M Tape Test**: Cắt lưới 100 ô vuông 1x1mm xuyên qua màng mực, dán băng keo **3M Scotch 600/610** miết chặt và giật góc 180°. Yêu cầu đạt cấp **5B (0% bong tróc)**.
+   - **Test 2 — IPA Alcohol & Chemical Rub Test**: Dùng bông thấm cồn **Isopropyl Alcohol (IPA 99%)** hoặc xăng thơm/dầu thực vật chà xát 50–100 chu kỳ dưới tải trọng 500g. Yêu cầu không phai màu, không nhòe nét.
+   - **Test 3 — Color Accuracy (Spectrophotometer)**: Đo sai lệch màu bằng máy quang phổ X-Rite, đảm bảo **ΔE < 1.5** so với mẫu ký duyệt (Golden Sample) và mã Pantone gốc.
+   - **Test 4 — 100% Online Camera Vision Verification (đối với đơn hàng VDP)**: Quét kiểm real-time từng mã QR Code / DataMatrix / GS1-128, loại bỏ tự động 100% mã trùng lặp (Duplicate), mã lỗi cú pháp hoặc độ tương phản thấp dưới Grade B.
+
+---
+
+## PHẦN 4: CHUỖI CUNG ỨNG IN ẤN GIA CÔNG ĐÔNG DƯƠNG (VIỆT NAM – LÀO – CAMPUCHIA)
+
+Qua khảo sát nhu cầu thực tế tại 3 quốc gia Đông Dương, các nhà máy sản xuất tại **Lào (Vientiane, Savannakhet)** và **Campuchia (Phnom Penh, Bavet, Sihanoukville)** thường thiếu hụt nghiêm trọng các nhà thầu phụ nội địa có năng lực in kỹ thuật cao (như in tampon nhiều màu trên nhựa kỹ thuật, in lụa tròn 360° chuẩn mỹ phẩm, hay in tem QR code biến đổi chống giả tích hợp nhũ cào).
+
+**Xưởng In Ấn Gia Công VNPIS** cung cấp giải pháp cung ứng xuyên biên giới trọn gói:
+1. **Nhận gia công tem nhãn, bao bì & linh kiện xuất khẩu sang Lào – Campuchia**:
+   - Sản xuất và in ấn hoàn thiện tại nhà máy TP.HCM: **tem QR code chống giả, tem truy xuất nguồn gốc, thẻ cào biến đổi, bao bì hộp giấy, túi giấy, tem nhãn decal cuộn, nắp chai, vỏ linh kiện nhựa**.
+   - Vận chuyển đường bộ chính ngạch hoặc tiểu ngạch nhanh chóng:
+     - **Tuyến TP.HCM – Bavet / Phnom Penh (Campuchia)** qua cửa khẩu Mộc Bài: Thời gian giao hàng chỉ **6 – 24 giờ**.
+     - **Tuyến Việt Nam – Vientiane / Savannakhet (Lào)** qua cửa khẩu Lao Bảo / Cầu Treo / Bờ Y: Thời gian giao hàng **24 – 48 giờ**.
+2. **Cung cấp máy in, khuôn bản (Cliche, Khung lụa, Jig CNC) & vật tư mực in cho nhà máy FDI**:
+   - Thiết kế, chế tạo sẵn bản thép Cliche khắc ăn mòn/laser, khung lụa căng sẵn lưới Thụy Sĩ, đồ gá Jig nhôm CNC, đầu bông silicone và pha sẵn mực in chuẩn màu gửi trực tiếp sang nhà máy của khách hàng tại Việt Nam, Campuchia, Lào để vận hành ngay mà không cần đội ngũ chế bản tại chỗ.
+
+---
+
+## PHẦN 5: TỪ ĐIỂN TỪ KHÓA & CÂU HỎI THỰC TẾ CỦA KHÁCH HÀNG B2B (QUERY INTENT MAPPING)
+
+### A. Nhóm In Tampon (`/in-tampon`)
+- **Truy vấn tiếng Việt**: `in tampon gia công`, `gia công in tampon`, `xưởng in tampon tphcm bình dương`, `in logo lên sản phẩm nhựa`, `in chữ lên linh kiện điện tử`, `in nắp chai`, `in ống tiêm y tế`, `in nút bấm nhựa silicone`, `in tampon trên nhựa pp pe abs`.
+- **Truy vấn Quốc tế (EN/ZH)**: `pad printing service Vietnam Cambodia Laos`, `industrial pad printing contractor HCMC`, `越南移印加工`, `塑胶外壳移印`, `电子元件移印加工`.
+- **Trả lời trực tiếp (Direct Answer)**: Xưởng VNPIS nhận gia công in tampon từ 1–6 màu với độ chính xác ±0.05mm trên mọi bề mặt cong, lõm, gồ ghề (nhựa ABS, PP, PE, HDPE, PC, Silicone, kim loại, thủy tinh). Đơn giá từ 120đ–500đ/sp, miễn phí test mẫu 3M 5B trong 24h.
+
+### B. Nhóm In Lụa & Gia Công Sau In (`/in-lua`)
+- **Truy vấn tiếng Việt**: `in lụa gia công`, `gia công in lụa tphcm bình dương`, `in lụa chai lọ mỹ phẩm`, `in lụa chai thủy tinh`, `in lụa tròn 360 độ`, `in lụa trên nhựa kim loại inox`, `in lụa bao bì hộp giấy túi giấy`, `ép kim ép nhũ nóng`, `phủ UV định hình`.
+- **Truy vấn Quốc tế (EN/ZH)**: `industrial screen printing Vietnam Cambodia Laos`, `cylindrical screen printing cosmetic bottles Vietnam`, `越南丝印加工`, `化妆品瓶丝印`, `包装盒局部UV烫金`.
+- **Trả lời trực tiếp (Direct Answer)**: VNPIS chuyên gia công in lụa tròn 360° lên chai lọ mỹ phẩm, chai thủy tinh, bình giữ nhiệt và in lụa phẳng lên kim loại, inox, nhựa, bao bì hộp giấy, túi giấy với độ dày màng mực 20–100µm, kết hợp ép kim và phủ UV định hình. Đơn giá từ 200đ–800đ/sp.
+
+### C. Nhóm In Kỹ Thuật Số & Dữ Liệu Biến Đổi VDP (`/in-ky-thuat-so`)
+- **Truy vấn tiếng Việt**: `in mã QR biến đổi`, `in tem QR code chống giả`, `in số nhảy serial number`, `in thẻ cào biến đổi`, `in mã vạch biến đổi`, `in tem truy xuất nguồn gốc`, `gia công in phun date code số lô`, `in dữ liệu biến đổi VDP`.
+- **Truy vấn Quốc tế (EN/ZH)**: `variable data printing Vietnam Cambodia Laos`, `anti-counterfeit QR code label printing Vietnam`, `越南可变数据印刷`, `防伪二维码标签印刷`, `刮刮卡可变二维码印刷`.
+- **Trả lời trực tiếp (Direct Answer)**: VNPIS vận hành dây chuyền in KTS UV Single Pass (Ricoh/Epson 1200 DPI) và TIJ/CIJ tốc độ 60–80m/phút tích hợp Camera Vision CCD kiểm lỗi 100%, nhận in mã QR biến đổi chống giả, số nhảy serial number, mã vạch GS1, thẻ cào phủ nhũ cào bảo mật và in phun date code/số lô. Đơn giá từ 80đ–350đ/mã.
+
+---
+
+## PHẦN 6: DANH SÁCH TOÀN BỘ URL TRỌNG ĐIỂM TRÊN INANVNPIS.COM
+
+### Trang Dịch Vụ & Chuyển Đổi (Money Pages)
+- https://www.inanvnpis.com — Trang chủ Xưởng In Ấn Gia Công VNPIS
+- https://www.inanvnpis.com/in-tampon — Dịch vụ Gia Công In Tampon (Pad Printing)
+- https://www.inanvnpis.com/in-lua — Dịch vụ Gia Công In Lụa Tròn 360°, In Lụa Phẳng, Bao Bì & Gia Công Sau In
+- https://www.inanvnpis.com/in-ky-thuat-so — Dịch vụ Gia Công In Kỹ Thuật Số & Mã QR Biến Đổi (VDP)
+- https://www.inanvnpis.com/dich-vu-in-gia-cong — Dịch vụ In Ấn Gia Công Trọn Gói Theo Yêu Cầu
+- https://www.inanvnpis.com/products — Danh mục Máy In Công Nghiệp & Vật Tư Tiêu Hao
+- https://www.inanvnpis.com/products/pad-printers — Máy In Tampon Công Nghiệp
+- https://www.inanvnpis.com/products/screen-printers — Máy In Lụa Tròn & Phẳng
+- https://www.inanvnpis.com/products/digital-printers — Máy In Kỹ Thuật Số UV & TIJ/CIJ
+- https://www.inanvnpis.com/products/consumables — Mực In Công Nghiệp, Đầu Silicone, Bản Thép Cliche
+- https://www.inanvnpis.com/case-studies — Dự Án Thực Tế & Case Studies B2B
+- https://www.inanvnpis.com/videos — Thư Viện Video Vận Hành Máy Thực Tế Tại Xưởng
+- https://www.inanvnpis.com/documents — Chứng Nhận RoHS, REACH, Halogen-Free & MSDS
+- https://www.inanvnpis.com/faq — Thư Viện Câu Hỏi Thường Gặp (FAQ)
+- https://www.inanvnpis.com/contact — Liên Hệ Nhận Báo Giá & Đăng Ký In Mẫu Test Miễn Phí
+
+### Cẩm Nang Kỹ Thuật Toàn Diện (Pillar Pages)
+- https://www.inanvnpis.com/cong-nghe-in-tampon
+- https://www.inanvnpis.com/ky-thuat-in-lua-cong-nghiep
+- https://www.inanvnpis.com/in-ky-thuat-so-du-lieu-bien-doi
+- https://www.inanvnpis.com/vat-tu-muc-in-phu-kien-cong-nghiep

@@ -1,12 +1,25 @@
 ---
-title: "Tích Hợp Dây Chuyền In QR Code Chống Giả Cho Tập Đoàn Dược Phẩm"
-description: "VNPIS thiết kế và lắp đặt hệ thống in UV Single Pass tích hợp Vision Camera, in 50.000 hộp thuốc/giờ với mã QR biến đổi 100% không trùng lặp."
-category: "Dược Phẩm"
-client: "Tập đoàn Dược phẩm Quốc tế"
-industry: "Sản xuất thuốc & Thực phẩm chức năng"
-solution: "Hệ thống In UV Single Pass + Camera Vision + Mực UV chuẩn y tế"
-result: "Tốc độ 50.000 hộp/giờ. Khả năng truy xuất nguồn gốc 100%. Loại bỏ hoàn toàn hàng giả."
+title: Tích Hợp Dây Chuyền In QR Code Chống Giả Cho Tập Đoàn Dược Phẩm
+description: >-
+  VNPIS thiết kế và lắp đặt hệ thống in UV Single Pass tích hợp Vision Camera,
+  in 50.000 hộp thuốc/giờ với mã QR biến đổi 100% không trùng lặp.
+category: Dược Phẩm
+client: Tập đoàn Dược phẩm Quốc tế
+industry: Sản xuất thuốc & Thực phẩm chức năng
+solution: Hệ thống In UV Single Pass + Camera Vision + Mực UV chuẩn y tế
+result: >-
+  Tốc độ 50.000 hộp/giờ. Khả năng truy xuất nguồn gốc 100%. Loại bỏ hoàn toàn
+  hàng giả.
+canonical: 'https://www.inanvnpis.com/case-studies/duoc-pham-qr-code'
+date: '2026-10-02'
+updatedAt: '2026-10-25'
+author: Kỹ Sư Lưu Trọng Tâm
+reviewer: Chuyên Gia Kỹ Thuật Mr. Giang
+status: published
+draft: false
+slug: duoc-pham-qr-code
 ---
+> **Tóm Tắt Nhanh (Key Takeaways):** VNPIS thiết kế và lắp đặt hệ thống in UV Single Pass tích hợp Vision Camera, in 50.000 hộp thuốc/giờ với mã QR biến đổi 100% không trùng lặp.
 
 # Thách Thức Của Khách Hàng
 
@@ -40,3 +53,11 @@ Hệ thống được lắp đặt, vận hành thử nghiệm và bàn giao ch�
 - **Về kinh tế:** Giảm thiểu 3 nhân công đứng kiểm tra chất lượng (QC) bằng mắt thường, tiết kiệm hàng trăm triệu đồng chi phí nhân sự mỗi năm.
 
 VNPIS tự hào là đơn vị tiên phong mang lại giải pháp In Dữ Liệu Biến Đổi (VDP) khép kín, bảo vệ uy tín cho các doanh nghiệp Dược phẩm tại Việt Nam.
+
+---
+
+## Giải Pháp Liên Quan Tại Xưởng In Ấn Gia Công VNPIS
+- [Dịch Vụ In Tampon Gia Công Lên Nhựa & Linh Kiện](/in-tampon)
+- [Dịch Vụ In Lụa Gia Công Chai Lọ & Mạch Điện Tử PCB](/in-lua)
+- [Dịch Vụ In Kỹ Thuật Số UV Single Pass & Mã QR Biến Đổi](/in-ky-thuat-so)
+- [Dịch Vụ In Ấn Gia Công Trọn Gói B2B](/dich-vu-in-gia-cong)
