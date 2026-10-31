@@ -1,8 +1,8 @@
 import React from 'react';
-import { ArrowLeft, CheckCircle2, Clock, ShieldCheck } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, Clock, ShieldCheck, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAllSlugs, getDocumentBySlug, getDocumentMetadataBySlug } from '@/lib/mdx';
+import { getAllSlugs, getAllDocumentsMeta, getDocumentBySlug, getDocumentMetadataBySlug } from '@/lib/mdx';
 import ConsultationForm from '@/components/ui/ConsultationForm';
 import ArticleContactCTA from '@/components/ArticleContactCTA';
 
@@ -85,6 +85,18 @@ export async function BlogPostContainer({
 
   const { metadata, contentHtml } = post;
   const hasDedicatedMedia = Boolean(metadata.mediaExt || metadata.image);
+
+  const allArticles = getAllDocumentsMeta('articles');
+  const relatedArticles = allArticles
+    .filter((a: any) => a.slug !== slug && !a.draft)
+    .sort((a: any, b: any) => {
+      let scoreA = 0;
+      let scoreB = 0;
+      if (a.category && a.category === metadata.category) scoreA += 5;
+      if (b.category && b.category === metadata.category) scoreB += 5;
+      return scoreB - scoreA;
+    })
+    .slice(0, 4);
   
   const pageUrl = contentType === 'articles' ? `https://www.inanvnpis.com/blog/${slug}` : `https://www.inanvnpis.com/${slug}`;
   const publishedDate = metadata.date || '2026-07-08T00:00:00.000Z';
@@ -270,6 +282,54 @@ export async function BlogPostContainer({
             <li className="flex items-center text-slate-700 text-sm md:text-base font-semibold"><CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 shrink-0" /> Xưởng in tại TP.HCM công suất 100.000+ sản phẩm/ngày, giao hàng toàn Việt Nam, Lào &amp; Campuchia.</li>
           </ul>
         </div>
+
+        {/* RELATED ARTICLES - TOPIC CLUSTER INTERNAL LINKING */}
+        {relatedArticles.length > 0 && (
+          <div className="mb-16">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 pb-3 border-b border-slate-200 gap-2">
+              <div>
+                <span className="text-xs font-extrabold uppercase tracking-wider text-blue-600 block mb-1">
+                  Kiến Thức Cùng Chuyên Đề
+                </span>
+                <h3 className="text-2xl font-black text-slate-900 m-0">
+                  Bài Viết Kỹ Thuật Liên Quan
+                </h3>
+              </div>
+              <Link
+                href="/blog"
+                className="text-xs font-bold text-blue-600 hover:text-blue-800 flex items-center gap-1 shrink-0"
+              >
+                Xem tất cả 300+ bài viết <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {relatedArticles.map((rel: any) => (
+                <Link
+                  key={rel.slug}
+                  href={`/blog/${rel.slug}`}
+                  className="group bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
+                >
+                  <div>
+                    <span className="inline-block text-[11px] font-extrabold px-3 py-1 rounded-lg bg-blue-50 text-blue-700 mb-3 uppercase tracking-wider">
+                      {rel.category || 'KIẾN THỨC IN ẤN'}
+                    </span>
+                    <h4 className="text-base font-bold text-slate-900 group-hover:text-blue-600 transition-colors line-clamp-2 leading-snug mb-2 m-0">
+                      {rel.title}
+                    </h4>
+                    <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed m-0">
+                      {rel.description}
+                    </p>
+                  </div>
+                  <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-blue-600">
+                    <span>Đọc chi tiết giải pháp</span>
+                    <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         <hr className="border-slate-200 mb-16" />
         

@@ -29,7 +29,7 @@ code: KT1
 
 ## 1. Phân Tích Chuyên Sâu: Hướng Dẫn Pha Mực In Vải Afford KT1 Chuẩn Nhất Cho Máy Tampon
 
-Để phát huy tối đa công năng của dòng [**mực in Tagless**](/products/consumables/inks) cao cấp **Afford KT1**, kỹ thuật pha mực (Mix ratio) đóng vai trò quyết định. Dưới đây là hướng dẫn từ chuyên gia VNPIS.
+Để phát huy tối đa công năng của dòng [**mực in Tagless**](/products/pad-printing/inks) cao cấp **Afford KT1**, kỹ thuật pha mực (Mix ratio) đóng vai trò quyết định. Dưới đây là hướng dẫn từ chuyên gia VNPIS.
 
 ## Tỷ lệ pha chuẩn
 Mực Afford KT1 là mực 2 thành phần (2K). Tỷ lệ khuyến nghị:

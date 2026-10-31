@@ -34,7 +34,7 @@ Các thương hiệu thời trang toàn cầu (Nike, Adidas, H&M...) đang siế
 ## Afford KT1 - Tấm thẻ xanh cho doanh nghiệp xuất khẩu
 - **Không xả thải hóa chất độc hại**: Afford KT1 được kiểm định độc lập và chứng minh không chứa bất kỳ chất nào trong danh sách MRSL của ZDHC.
 - **Thân thiện với công nhân**: Giảm thiểu mùi dung môi, bảo vệ sức khỏe cho người trực tiếp vận hành [**máy in Tampon**](/products/pad-printers).
-- **Dễ dàng truy xuất nguồn gốc**: Mọi lô [**mực Afford**](/products/consumables/inks) KT1 đều có MSDS, TDS và chứng thư rõ ràng, hỗ trợ đắc lực cho xưởng in khi vượt qua các đợt Audit của nhãn hàng.
+- **Dễ dàng truy xuất nguồn gốc**: Mọi lô [**mực Afford**](/products/pad-printing/inks) KT1 đều có MSDS, TDS và chứng thư rõ ràng, hỗ trợ đắc lực cho xưởng in khi vượt qua các đợt Audit của nhãn hàng.
 
 ---
 

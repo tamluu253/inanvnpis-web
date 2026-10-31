@@ -235,7 +235,7 @@ export default function InKyThuatSoPage() {
               3 Công Nghệ In Kỹ Thuật Số &amp; Mã Hóa Dữ Liệu Biến Đổi Cốt Lõi
             </h2>
             <p className="text-slate-600 text-sm sm:text-base max-w-3xl mx-auto">
-              Làm chủ cả phần cứng <Link href="/products/digital-printers" className="text-purple-600 font-semibold hover:underline">máy in kỹ thuật số công nghiệp</Link> lẫn phần mềm xử lý cơ sở dữ liệu lớn (Big Data RIP), xưởng in ấn gia công VNPIS triển khai 3 giải pháp chuyên biệt:
+              Làm chủ cả phần cứng <Link href="/products/uv-printers" className="text-purple-600 font-semibold hover:underline">máy in kỹ thuật số công nghiệp</Link> lẫn phần mềm xử lý cơ sở dữ liệu lớn (Big Data RIP), xưởng in ấn gia công VNPIS triển khai 3 giải pháp chuyên biệt:
             </p>
           </div>
 
@@ -381,7 +381,7 @@ export default function InKyThuatSoPage() {
 
           <div className="mt-6 flex flex-wrap gap-4 text-xs font-bold">
             <Link
-              href="/products/digital-printers"
+              href="/products/uv-printers"
               className="text-purple-600 hover:text-purple-800 inline-flex items-center"
             >
               Xem các dòng Máy In Kỹ Thuật Số UV &amp; TIJ/CIJ của VNPIS <ArrowRight className="w-3.5 h-3.5 ml-1" />
